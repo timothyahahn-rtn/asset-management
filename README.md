@@ -6,6 +6,12 @@ h2. Workflow
 
 The current system requires a very specific workflow due to the way in which asset data is integrated into the system. Here are a few key points:
 
+NOTE:  As per Ticket #9466, when files of the form 
+	._* 	or 
+	._*.csv 
+are included in requests to update this repository,  these "hidden" files are to be ignored. 
+
+
 h3. Bulk Load - Asset Records
 
 * When loading asset records (*-AssetRecord.csv)
