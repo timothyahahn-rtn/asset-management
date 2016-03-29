@@ -4266,3 +4266,6 @@ OL000006,MOPAK - 3-Axis Motion Pack,1,MicroStrain,3DM-GX3-25,GA01SUMO-00002-MOPA
 OL000007,Hydrogen Sensor,1,RKI,M2A transmitters,GA01SUMO-00001-HYDGN1,,,,,,,,,,,,,,,,,,,
 OL000008,Hydrogen Sensor,1,RKI,M2A transmitters,GA01SUMO-00001-HYDGN2,,,,,,,,,,,,,,,,,,,
 OL000023,SIO Controller,1,,,13285,,,,SIO,SIO,,,,,,,,,,,,9/4/2015,DOI,
+OL000024,SIO Controller,1,,,13284,,,,,,,,,,,,,,,,,,,
+OL000025,SIO Controller,1,,,14874,,,,,,,,,,,,,,,,,,,
+OL000026,SIO Controller,1,,,14876,,,,,,,,,,,,,,,,,,,
