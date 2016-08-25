@@ -41,19 +41,19 @@ In general, asset management updates are applied in one of two ways:
 
 Clean refresh requires stopping the production server. This can have undesirable effects (no access to data, backlog of streaming data). However, this is the only way to make updates without duplicating asset records. 
 
-1 Stop EDEX - edex stop
-1 Reset Database - resetdb
-1 Stop UI
-1 Reset UI Database
-1 Start EDEX
-1 Ingest bulk load - cp bulk_load/*csv .../asset_spreadsheets/.
-1 Ingest Integration Events - cp integration/* .../asset_spreadsheets/.
-1 Ingest Deployment Events - deployment/* .../asset_spreadsheets/.
+1. Stop EDEX - edex stop
+1. Reset Database - resetdb
+1. Stop UI
+1. Reset UI Database
+1. Start EDEX
+1. Ingest bulk load - cp bulk_load/*csv .../asset_spreadsheets/.
+1. Ingest Integration Events - cp integration/* .../asset_spreadsheets/.
+1. Ingest Deployment Events - deployment/* .../asset_spreadsheets/.
 
 ### Manual Update
 
 Manual updates through the UI will be lost unless they are committed to the spreadsheets manually:
-1 User applies update in the UI.
-1 User applies update to corresponding ingest sheet.
-1 User submits change to gerrit.
-1 SCM approves and merges the change. (Ready for the next clean refresh)
+1. User applies update in the UI.
+1. User applies update to corresponding ingest sheet.
+1. User submits change to gerrit.
+1. SCM approves and merges the change. (Ready for the next clean refresh)
