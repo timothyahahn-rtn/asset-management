@@ -91,7 +91,7 @@ for (klass, uid, launch), rows in cals.iteritems():
                 data = json.loads(value)
                 sheet_fname = fname.replace('.csv', '__%s.ext' % name)
                 with open(sheet_fname, 'w') as sheet_fh:
-                    sheet_writer = csv.writer(sheet_fh)
+                    sheet_writer = csv.writer(sheet_fh, lineterminator='\n')
                     sheet_writer.writerows(data)
                 writer.writerow((serial, name, 'SheetRef:%s' % name, notes))
             else:

@@ -143,6 +143,7 @@ def main():
                 deployed_by = None
                 recovered_by = None
                 recover_cruise = None
+                depth = None
 
                 this = [cruise, deployed_by, recover_cruise, recovered_by, refdes, deployment, version, launch,
                         recover, mooring_uid, node_uid, sensor_uid, lat, lon, orbit, depth]
@@ -165,7 +166,7 @@ def main():
                     os.makedirs(deploy_dir)
 
                 with open(os.path.join(deploy_dir, fname), 'w') as fh:
-                    writer = csv.writer(fh)
+                    writer = csv.writer(fh, lineterminator='\n')
                     writer.writerow(header)
                     writer.writerows(out)
 

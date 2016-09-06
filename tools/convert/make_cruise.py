@@ -121,8 +121,8 @@ def main():
 
             out.append((group, ship, tbin, _bin[-1].launch, '\n'.join(deploys)))
 
-    with open('pete_cruises.csv', 'w') as fh:
-        writer = csv.writer(fh)
+    with open('CruiseInformation.csv', 'w') as fh:
+        writer = csv.writer(fh, lineterminator='\n')
         writer.writerow(('CUID', 'ShipName', 'cruiseStartDateTime', 'cruiseStopDateTime', 'notes'))
         writer.writerows(out)
 
