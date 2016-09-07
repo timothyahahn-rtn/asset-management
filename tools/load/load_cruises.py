@@ -34,7 +34,7 @@ for f in os.listdir(source_dir):
 
     df['cruiseStartDateTime'] = starts
     df['cruiseStopDateTime'] = stops
-    df['CUID'] = df['CruiseIdentifier']
+    df['CruiseIdentifier'] = df['CUID']
 
     df = df.fillna('UNKNOWN')
 
