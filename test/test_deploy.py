@@ -21,7 +21,6 @@ required_ids = {
     'sensor.uid',
     'lat',
     'lon',
-    'depth'
 }
 
 optional_ids = {
@@ -32,7 +31,8 @@ optional_ids = {
     'versionNumber',
     'stopDateTime',
     'node.uid',  # only required for profilers
-    'orbit'
+    'orbit',
+    'depth'
 }
 
 time_format_example = '2014-04-17T20:53:00'
@@ -148,9 +148,9 @@ class AssetManagementTest(unittest.TestCase):
                 if not valid_float(lon):
                     errors.append('Invalid format for longitude - "%r" - row %d' % (lon, index))
 
-                depth = record['depth']
-                if not valid_float(depth):
-                    errors.append('Invalid format for depth - "%r" - row %d' % (depth, index))
+                # depth = record['depth']
+                # if not valid_float(depth):
+                #     errors.append('Invalid format for depth - "%r" - row %d' % (depth, index))
 
             except AttributeError as e:
                 errors.append('Deployment file is missing required fields: %s - row %d' % (e, index))
