@@ -7,6 +7,7 @@ import logging
 import unittest
 
 from dateutil import parser
+from nose.plugins.attrib import attr
 
 logging.basicConfig()
 log = logging.getLogger()
@@ -20,6 +21,7 @@ CAL_ROOT = os.path.join(AM_ROOT, 'calibration')
 BULK_FILE = os.path.join(BULK_ROOT, 'bulk_load-AssetRecord.csv')
 
 
+@attr('UNIT')
 class AssetManagementTest(unittest.TestCase):
     def setUp(self):
         """

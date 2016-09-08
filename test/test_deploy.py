@@ -9,6 +9,8 @@ import pandas
 from dateutil import parser
 from numbers import Number
 
+from nose.plugins.attrib import attr
+
 logging.basicConfig()
 log = logging.getLogger()
 log.setLevel(logging.INFO)
@@ -35,12 +37,12 @@ optional_ids = {
     'depth'
 }
 
-time_format_example = '2014-04-17T20:53:00'
-time_format = 'YYYY-MM-DDThh:mm:ss'
 
-
-def isnan(value):
-    return isinstance(value, float) and numpy.isnan(value)
+TEST_ROOT = os.path.dirname(__file__)
+AM_ROOT = os.path.abspath(os.path.join(TEST_ROOT, '..'))
+BULK_ROOT = os.path.join(AM_ROOT, 'bulk')
+DEP_ROOT = os.path.join(AM_ROOT, 'deployment')
+BULK_FILE = os.path.join(BULK_ROOT, 'bulk_load-AssetRecord.csv')
 
 
 def valid_float(value):
@@ -48,22 +50,16 @@ def valid_float(value):
 
 
 def valid_time_format(timestamp):
-    if timestamp == parser.parse(timestamp).isoformat():
-        return True
-    return False
+    return timestamp == parser.parse(timestamp).isoformat()
 
 
-def value_set(value):
-    return numpy.isnan(value)
-
-
+@attr('UNIT')
 class AssetManagementTest(unittest.TestCase):
     def setUp(self):
         """
         Read bulk load asset management data and save UID and serial numbers
         """
-        fn = '../bulk/bulk_load-AssetRecord.csv'
-        self.data = pandas.read_csv(fn).fillna('')
+        self.data = pandas.read_csv(BULK_FILE).fillna('')
         self.ids = {}  # dictionary of all the UIDs and corresponding serial numbers
         for _, record in self.data.iterrows():
             uid = str(record.ASSET_UID)
@@ -122,7 +118,8 @@ class AssetManagementTest(unittest.TestCase):
                 set_fields = {name for name in record.index if getattr(record, name)}
                 missing = required_ids - set_fields
                 if missing:
-                    errors.append('Missing value(s) for required fields: %s on row %d - %r' % (missing, index, record))
+                    errors.append('Missing value(s) for required fields: %s on row %d - %r' %
+                                  (missing, index, record.values))
                     return errors
 
                 # check asset types for matching UID records
@@ -163,11 +160,9 @@ class AssetManagementTest(unittest.TestCase):
         Cycle through all available deployment files and check
         """
         error_count = 0
-        deploy_root = '../deployment'
-        for root, dirs, files in os.walk(deploy_root, topdown=False):
+        for root, dirs, files in os.walk(DEP_ROOT, topdown=False):
             for name in fnmatch.filter(files, '*.csv'):
                 filename = os.path.join(root, name)
-                log.debug('Parsing %s', filename)
                 errors = self.check_deploy_file(filename)
                 if errors:
                     log.error('%s: %d error%s processing deployment file:', filename, len(errors),
@@ -175,7 +170,5 @@ class AssetManagementTest(unittest.TestCase):
                     for error in errors:
                         log.error('    %s', error)
                     error_count += len(errors)
-                else:
-                    log.debug('%s: success', filename)
-        self.assertEqual(error_count, 0, '%s errors encountered processing deployment files' % error_count)
 
+        self.assertEqual(error_count, 0, '%s errors encountered processing deployment files' % error_count)
