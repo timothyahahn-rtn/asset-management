@@ -49,6 +49,7 @@ class DeploymentFilesUnitTest(AssetManagementUnitTest):
         super(DeploymentFilesUnitTest, self).setUp()
         # dictionary of all the UIDs and corresponding serial numbers
         self.ids = {str(record.uid): str(record.assetType) for _, record in self.bulk_data.iterrows()}
+        self.cruise_ids = set(self.cruise_data.CUID.values)
 
     def check_type_match(self, record, asset_key):
         """
@@ -102,6 +103,15 @@ class DeploymentFilesUnitTest(AssetManagementUnitTest):
                     errors.append('Missing value(s) for required fields: %s on row %d - %r' %
                                   (missing, index, record.values))
                     return errors
+
+                # make sure the cruise ID exists if supplied
+                deploy_cuid = record.CUID_Deploy
+                if deploy_cuid and deploy_cuid not in self.cruise_ids:
+                    errors.append('Invalid cruise ID - "%r" - row %d' % (deploy_cuid, index))
+
+                recover_cuid = record.CUID_Recover
+                if recover_cuid and recover_cuid not in self.cruise_ids:
+                    errors.append('Invalid cruise ID - "%r" - row %d' % (recover_cuid, index))
 
                 # check asset types for matching UID records
                 for asset_type in self.asset_map.keys():

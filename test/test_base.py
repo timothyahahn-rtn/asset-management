@@ -25,8 +25,10 @@ class AssetManagementUnitTest(unittest.TestCase):
     AM_ROOT = os.path.abspath(os.path.join(TEST_ROOT, '..'))
     BULK_ROOT = os.path.join(AM_ROOT, 'bulk')
     CAL_ROOT = os.path.join(AM_ROOT, 'calibration')
+    CRUISE_ROOT = os.path.join(AM_ROOT, 'cruise')
     DEP_ROOT = os.path.join(AM_ROOT, 'deployment')
     BULK_FILE = os.path.join(BULK_ROOT, 'bulk_load-AssetRecord.csv')
+    CRUISE_FILE = os.path.join(CRUISE_ROOT, 'CruiseInformation.csv')
 
     BULK_COLS = [
         'uid',
@@ -50,6 +52,7 @@ class AssetManagementUnitTest(unittest.TestCase):
         """
         cls.bulk_data = pd.read_csv(cls.BULK_FILE, names=cls.BULK_COLS,
                                         skiprows=1, na_values='', keep_default_na=False)
+        cls.cruise_data = pd.read_csv(cls.CRUISE_FILE)
 
     @staticmethod
     def valid_float(value):
