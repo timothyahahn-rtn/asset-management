@@ -8,6 +8,10 @@ Contains the legacy asset management spreadsheets.
 These are not to be updated and exist only as a reference.
 Once migration to the new asset management is complete, this ARCHIVE should be removed.
 
+### IN_WORK
+This folder is for any incomplete files which are not ready for ingestion. Once the file is complete it should be
+moved to the appropriate folder based on file type.
+
 ### bulk
 This folder contains the bulk CSV file(s).
 The bulk file defines each asset in the system.
@@ -86,7 +90,7 @@ The cruise CSV file contains data specific to OOI cruises. The columns in the cr
 * cruiseStopDateTime
 * notes
 
-The notes are free-form and currently contain all deployments associated with that cruise.
+The notes are free-form.
 
 ### deployment
 
