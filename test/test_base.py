@@ -92,6 +92,13 @@ class AssetManagementUnitTest(unittest.TestCase):
     @staticmethod
     def parse_dep_file(filepath):
         df = pd.read_csv(filepath)
+
+        # TODO: remove this once uframe has been updated
+        # Drop water_depth and rename deployment_depth to depth until
+        # the parser in uframe is updated to reflect these changes
+        df.rename(columns={'deployment_depth': 'depth'}, inplace=True)
+        df.drop('water_depth', 1, inplace=True)
+
         df = df.fillna({'orbit': 0.0, 'depth': 0.0})
         df['startDateTime'] = map(AssetManagementUnitTest.date_to_millis, df.startDateTime.values)
         df['stopDateTime'] = map(AssetManagementUnitTest.date_to_millis, df.stopDateTime.values)

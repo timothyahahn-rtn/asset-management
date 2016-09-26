@@ -83,6 +83,13 @@ class DeploymentFilesUnitTest(AssetManagementUnitTest):
         """
         errors = []
         deployment = pandas.read_csv(fn).fillna('')
+        print deployment.head()
+
+        # TODO: remove this once uframe has been updated
+        # Drop water_depth and rename deployment_depth to depth until
+        # the parser in uframe is updated to reflect these changes
+        deployment.rename(columns={'deployment_depth': 'depth'}, inplace=True)
+        deployment.drop('water_depth', 1, inplace=True)
 
         # make sure all fields are present
         missing = self.required_ids.union(self.optional_ids) - set(deployment.columns)
