@@ -59,6 +59,7 @@ class AssetManagementIntegrationTest(AssetManagementUnitTest):
 
     @staticmethod
     def build_cal_value(data):
+        return data['value']
         card = data['cardinality']
         dimensions = data['dimensions']
         values = data['values']

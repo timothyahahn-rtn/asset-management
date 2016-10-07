@@ -52,6 +52,7 @@ class AssetManagementUnitTest(unittest.TestCase):
         """
         cls.bulk_data = pd.read_csv(cls.BULK_FILE, names=cls.BULK_COLS,
                                         skiprows=1, na_values='', keep_default_na=False)
+        cls.bulk_data.dropna(how='all', inplace=True)
         cls.cruise_data = pd.read_csv(cls.CRUISE_FILE)
 
     @staticmethod
