@@ -83,7 +83,6 @@ class DeploymentFilesUnitTest(AssetManagementUnitTest):
         """
         errors = []
         deployment = pandas.read_csv(fn).fillna('')
-        print deployment.head()
 
         # TODO: remove this once uframe has been updated
         # Drop water_depth and rename deployment_depth to depth until
