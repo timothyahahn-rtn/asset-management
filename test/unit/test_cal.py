@@ -1,7 +1,7 @@
-import fnmatch
 import json
 import os
 
+import numpy as np
 import pandas
 import logging
 
@@ -13,6 +13,10 @@ from ..test_base import AssetManagementUnitTest, FileNameException
 logging.basicConfig()
 log = logging.getLogger()
 log.setLevel(logging.INFO)
+
+
+class NotFound(Exception):
+    pass
 
 
 @attr('UNIT')
@@ -28,6 +32,23 @@ class CalibrationFilesUnitTest(AssetManagementUnitTest):
             uid = str(record.uid)
             sn = str(record.serialNumber)
             self.ids[uid] = sn
+
+    @staticmethod
+    def get_sheetref(filepath, value):
+        name = value.replace('SheetRef:', '')
+        sheetref_name = filepath.replace('.csv', '__%s.ext' % name)
+        if not os.path.exists(sheetref_name):
+            raise NotFound
+
+        return pandas.read_csv(sheetref_name, header=None).as_matrix()
+
+    def get_cal_values(self, filepath):
+        df = self.parse_cal_file(filepath)
+        for row in df.itertuples(index=False):
+            if 'Sheet' in row.value:
+                yield row.name, self.get_sheetref(filepath, row.name)
+            else:
+                yield row.name, np.array(json.loads(row.value))
 
     def check_filename(self, filename):
         errors = []
@@ -73,13 +94,11 @@ class CalibrationFilesUnitTest(AssetManagementUnitTest):
 
     @staticmethod
     def check_sheetref(filename, value):
-        name = value.replace('SheetRef:', '')
-        sheetref_name = filename.replace('.csv', '__%s.ext' % name)
-        if not os.path.exists(sheetref_name):
+        try:
+            CalibrationFilesUnitTest.get_sheetref(filename, value)
+            return []
+        except NotFound:
             return ['Cannot find sheetref (%s) (%s)' % (filename, value)]
-
-        pandas.read_csv(sheetref_name, header=None).as_matrix()
-        return []
 
     def check_values(self, filename):
         errors = []
@@ -168,4 +187,20 @@ class CalibrationFilesUnitTest(AssetManagementUnitTest):
                         errors.append('Inconsistent set of parameters for instrument class %s %s %s' %
                                       (klass, diff, filepath))
 
+        self.assert_errors(errors)
+
+    def test_optaa_shapes(self):
+        # Because OPTAA cal data is so large it's easy to miss a mismatch
+        # in data shapes. Test for this
+        errors = []
+        optaa_files = (filepath for filepath in self.walk_cal_files() if 'OPTAA' in filepath)
+        for filepath in optaa_files:
+            data = {k: v for k, v in self.get_cal_values(filepath)}
+            if any((data['CC_acwo'].shape != data['CC_ccwo'].shape,
+                    data['CC_acwo'].shape != data['CC_ccwo'].shape,
+                    data['CC_acwo'].shape != data['CC_awlngth'].shape,
+                    data['CC_acwo'].shape != data['CC_cwlngth'].shape,
+                    data['CC_acwo'].shape + data['CC_tbins'].shape != data['CC_tcarray'].shape,
+                    data['CC_acwo'].shape + data['CC_tbins'].shape != data['CC_taarray'].shape)):
+                errors.append('Inconsistent shapes for %s %r' % (filepath, { k: data[k].shape for k in data}))
         self.assert_errors(errors)
