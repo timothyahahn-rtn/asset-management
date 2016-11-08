@@ -1,4 +1,5 @@
 import fnmatch
+import glob
 import logging
 import os
 import unittest
@@ -27,7 +28,7 @@ class AssetManagementUnitTest(unittest.TestCase):
     CAL_ROOT = os.path.join(AM_ROOT, 'calibration')
     CRUISE_ROOT = os.path.join(AM_ROOT, 'cruise')
     DEP_ROOT = os.path.join(AM_ROOT, 'deployment')
-    BULK_FILE = os.path.join(BULK_ROOT, 'bulk_load-AssetRecord.csv')
+    BULK_FILES_GLOB = os.path.join(BULK_ROOT, '*bulk_load-AssetRecord.csv')
     CRUISE_FILE = os.path.join(CRUISE_ROOT, 'CruiseInformation.csv')
 
     BULK_COLS = [
@@ -50,8 +51,13 @@ class AssetManagementUnitTest(unittest.TestCase):
         Read bulk load asset management data and save UID and serial numbers
         :return:
         """
-        cls.bulk_data = pd.read_csv(cls.BULK_FILE, names=cls.BULK_COLS,
-                                        skiprows=1, na_values='', keep_default_na=False)
+        bulk_dataframes = []
+        for filename in glob.glob(cls.BULK_FILES_GLOB):
+            df = pd.read_csv(filename, names=cls.BULK_COLS, skiprows=1, na_values='', keep_default_na=False)
+            df.dropna(how='all', inplace=True)
+            bulk_dataframes.append(df)
+
+        cls.bulk_data = pd.concat(bulk_dataframes)
         cls.bulk_data.dropna(how='all', inplace=True)
         cls.cruise_data = pd.read_csv(cls.CRUISE_FILE)
 
