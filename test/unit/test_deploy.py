@@ -48,7 +48,7 @@ class DeploymentFilesUnitTest(AssetManagementUnitTest):
         """
         super(DeploymentFilesUnitTest, self).setUp()
         # dictionary of all the UIDs and corresponding serial numbers
-        self.ids = {str(record.uid): str(record.assetType) for _, record in self.bulk_data.iterrows()}
+        self.ids = {str(record.uid): str(record.asset_type) for _, record in self.bulk_data.iterrows()}
         self.cruise_ids = set(self.cruise_data.CUID.values)
 
     def check_type_match(self, record, asset_key):
