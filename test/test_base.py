@@ -31,19 +31,18 @@ class AssetManagementUnitTest(unittest.TestCase):
     BULK_FILES_GLOB = os.path.join(BULK_ROOT, '*bulk_load-AssetRecord.csv')
     CRUISE_FILE = os.path.join(CRUISE_ROOT, 'CruiseInformation.csv')
 
-    BULK_COLS = [
-        'uid',
-        'assetType',
-        'mobile',
-        'description',
-        'manufacturer',
-        'modelNumber',
-        'serialNumber',
-        'firmwareVersion',
-        'purchaseDate',
-        'purchasePrice',
-        'notes'
-    ]
+    BULK_COLS_RENAME = {
+        'ASSET_UID': 'uid',
+        'TYPE': 'asset_type',
+        'Mobile': 'mobile',
+        'DESCRIPTION OF EQUIPMENT': 'description',
+        'Manufacturer': 'manufacturer',
+        'Model': 'model_number',
+        "Manufacturer's Serial No./Other Identifier": 'serial_number',
+        'Firmware Version': 'firmware_version',
+        'ACQUISITION DATE': 'purchase_date',
+        'ORIGINAL COST': 'purchase_price',
+    }
 
     @classmethod
     def setUpClass(cls):
@@ -53,12 +52,14 @@ class AssetManagementUnitTest(unittest.TestCase):
         """
         bulk_dataframes = []
         for filename in glob.glob(cls.BULK_FILES_GLOB):
-            df = pd.read_csv(filename, names=cls.BULK_COLS, skiprows=1, na_values='', keep_default_na=False)
+            df = pd.read_csv(filename, na_values='', keep_default_na=False)
             df.dropna(how='all', inplace=True)
             bulk_dataframes.append(df)
 
         cls.bulk_data = pd.concat(bulk_dataframes)
+        cls.bulk_data.rename(columns=cls.BULK_COLS_RENAME, inplace=True)
         cls.bulk_data.dropna(how='all', inplace=True)
+
         cls.cruise_data = pd.read_csv(cls.CRUISE_FILE)
 
     @staticmethod

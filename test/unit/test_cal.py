@@ -30,7 +30,7 @@ class CalibrationFilesUnitTest(AssetManagementUnitTest):
         self.ids = {}  # dictionary of all the UIDs and corresponding serial numbers
         for _, record in self.bulk_data.iterrows():
             uid = str(record.uid)
-            sn = str(record.serialNumber)
+            sn = str(record.serial_number)
             self.ids[uid] = sn
 
     @staticmethod
