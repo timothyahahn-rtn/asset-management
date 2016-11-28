@@ -22,7 +22,7 @@ from model import Base, IngestRoute, Deployment, Calibration, Bulk
 
 dbfile = 'convert.db'
 url = 'sqlite:///%s' % dbfile
-bulk_path = '../../bulk/bulk_load-AssetRecord.csv'
+bulk_path = '../../bulk'
 
 
 if os.path.exists(dbfile):
@@ -130,17 +130,21 @@ def in_bulk(uid, session):
 def get_bulk():
     print 'Getting BULK records'
     session = Session()
-    with open(bulk_path) as fh:
-        reader = csv.reader(fh)
-        next(reader)
-        for row in reader:
-            uid, asset_type, mobile, desc, manu, model, serial, firmware, date, cost, comments = row
-            if mobile == '':
-                mobile = False
-            bulk = Bulk(uid=uid, asset_type=asset_type, mobile=mobile, desc=desc, manu=manu,
-                        model=model, serial=serial, firmware=firmware, date=date,
-                        cost=cost, comments=comments)
-            session.add(bulk)
+    for f in os.listdir(bulk_path):
+        if not f.endswith('.csv'):
+            continue
+        f = os.path.join(bulk_path, f)
+        with open(f) as fh:
+            reader = csv.reader(fh)
+            next(reader)
+            for row in reader:
+                uid, _, asset_type, mobile, desc, _, manu, model, serial, firmware, date, cost, comments = row
+                if mobile == '':
+                    mobile = False
+                bulk = Bulk(uid=uid, asset_type=asset_type, mobile=mobile, desc=desc, manu=manu,
+                            model=model, serial=serial, firmware=firmware, date=date,
+                            cost=cost, comments=comments)
+                session.add(bulk)
     session.commit()
 
 
