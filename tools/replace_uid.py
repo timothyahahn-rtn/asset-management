@@ -29,13 +29,23 @@ for root, dirs, files in os.walk(cal_dir):
 # Iterate through each calibration sheet name
 for csv in calibrations:
     basename = os.path.basename(csv)
-    strings = basename.replace('.csv', '').split('__')
+    ext = os.path.splitext(csv)
+    if ext[1] == '.csv':
+        strings = basename.replace('.csv', '').split('__')
+        # Try to build the filename. If it can't be built, then it's incorrectly labeled. So skip it for now.
+        try:
+            filename = sensors[strings[0]] + '__' + strings[1] + '.csv'
+        except KeyError:
+            continue
+    elif ext[1] == '.ext':
+        strings = basename.replace('.ext', '').split('__')
+        # Try to build the filename. If it can't be built, then it's incorrectly labeled. So skip it for now.
+        try:
+            filename = sensors[strings[0]] + '__' + strings[1] + '__' + strings[2] + '.ext'
+        except KeyError:
+            continue
 
-    # Try to build the filename. If it can't be built, then it's incorrectly labeled. So skip it for now.
-    try:
-        filename = sensors[strings[0]] + '__' + strings[1] + '.csv'
-    except KeyError:
-        continue
+
     if not filename == basename:
         shutil.move(csv, os.path.join(os.path.dirname(csv), filename))
 
