@@ -50,6 +50,7 @@ class CalibrationFilesUnitTest(AssetManagementUnitTest):
             else:
                 yield row.name, np.array(json.loads(row.value))
 
+
     def check_filename(self, filename):
         errors = []
 
@@ -126,6 +127,18 @@ class CalibrationFilesUnitTest(AssetManagementUnitTest):
         for error in errors:
             log.error(error)
         self.assertEqual(errors, [])
+
+    def test_cal_columns(self):
+        errors = []
+        required = {'notes', 'value', 'name', 'serial'}
+
+        for filepath in self.walk_cal_files():
+            diff = required.difference(self.parse_cal_file(filepath).columns)
+
+            if diff:
+                errors.append('Cal: {} does not contain required column(s) {}.'.format(filepath, diff))
+
+        self.assert_errors(errors)
 
     def test_filename(self):
         errors = []
