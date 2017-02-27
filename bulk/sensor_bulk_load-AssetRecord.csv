@@ -2131,7 +2131,7 @@ CGINS-NUTNRM-00660,OL000176,Sensor,1,Nitrate for Glider: NUTNR Series M,NUTNR fo
 CGINS-PARADM-50201,OL000177,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Glider 566,Biospherical Instruments,QSP-2155,50201,,,,
 CGINS-FLORTM-04039,OL000178,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORTM for Glider 566,WET Labs,ECO Puck FLBBCD-SLK,4039,,20130916,16392,
 CGINS-FLORTO-01333,OL000179,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,FLORTO for Glider 566,WET Labs,ECO Puck BB3,1333,,20130916,16392,
-CGCON-MCPM03-15001,OL000181,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,1,,,,"CE01ISSM-0000(1,2)-CPM3 added 15000 to sn UID to distinguish between Pioneer and Endurance assets"
+CGCON-MCPM03-00001,OL000181,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,1,,,,"CE01ISSM-0000(1,2)-CPM3"
 CGCON-NDCL16-00001,OL000183,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,1,,,,CE01ISSM-00001-DCL16
 CGCON-MDCL35-00002,OL000184,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2,,,,CE01ISSM-00001-DCL35
 CGCON-MDCL37-00001,OL000185,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,1,,,,CE01ISSM-00001-DCL37 CE01ISSM-00002-DCL37
@@ -2145,20 +2145,18 @@ CGCON-MDCL37-00011,OL000197,Sensor,0,Multi-Function Node Data Concentrator Logge
 OL000198,OL000198,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00003-MOPAK,,,,
 OL000199,OL000199,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00002-MOPAK,,,,
 OL000200,OL000200,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00001-MOPAK,,,,
-CGCON-ECPM01-00002,OL000201,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2,,,,"CE01ISSM-0000(1,2,4)-CPM1"
-OL000202,OL000202,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,,,,,CE01ISSM-MFC31ENG
-CGCON-EDCL17-00002,OL000203,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2,,,,CE01ISSM-00002-DCL17 CE01ISSM-00001-DCL17 CE01ISSM-00004-SBD17
+CGCON-ECPM01-00002,OL000201,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2,,,,"CE06ISSM-00001-CPM1 CE01ISSM-0000(1,2,4)-CPM1"
+CGCON-EDCL17-00002,OL000203,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2,,,," CE06ISSM-00003-DCL17 CE01ISSM-0000(1,2,4)-DCL17 "
 OL000207,OL000207,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00004-MOPAK,,,,
-OL000208,OL000208,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,CE06ISSM-00002-CPM1,,,,
+CGCON-ECPM01-00015,OL000208,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,15,,,,CE06ISSM-00004 CE06ISSM-00002-CPM1
 OL000209,OL000209,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,CE06ISSM-00002-CPM3,,,,
-OL000210,OL000210,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,16,,,,CE06ISSM-00002-DCL17
+CGCON-EDCL17-00015,OL000210,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,15,,,,"CE06ISSM-0000(2,4)-DCL17"
 CGCON-NDCL16-00016,OL000211,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,16,,,,CE06ISSM-00002-DCL16
 CGCON-MDCL37-00010,OL000213,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,10,,,,CE07SHSM-00004-DCL37 CE06ISSM-00002-DCL37
 OL000214,OL000214,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE06ISSM-00002-MOPAK,,,,
 OL000215,OL000215,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE06ISSM-00003-MOPAK,,,,
-OL000216,OL000216,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,CE06ISSM-00003-CPM1,,,,
+CGCON-ECPM01-50002,OL000216,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2,,,,CE06ISSM-00001-CPM1  added 50000 to sn UID  to distinguish the duplicated unit beteween with CE01ISSM-00002
 OL000217,OL000217,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,CE06ISSM-00003-CPM3,,,,
-OL000218,OL000218,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,ISSM-0002,,,,CE06ISSM-00003-DCL17
 OL000219,OL000219,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,CE06ISSM-00003-DCL16,,,,CE06ISSM-00003-DCL16
 OL000223,OL000223,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP01CNSM-00005-MOPAK,,,,
 OL000224,OL000224,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00005-HYDGN1,,,,
@@ -2309,8 +2307,6 @@ CGCON-NCPM02-00007,OL000394,Sensor,0,Near Surface Instrument Frame Communication
 OL000395,OL000395,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00274-0007,,,,CE04OSSM-RID27-00-DCLENG000 - 2
 OL000396,OL000396,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00272-0025,,,,CE04OSSM-00002-RID26
 OL000398,OL000398,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE06ISSM-00004-MOPAK,,,,
-CGCON-BCPM01-00015,OL000399,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3605-20018-0015,,,,CE06ISSM-00004
-CGCON-BDCL17-00015,OL000400,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3605-20018-0015,,,,CE06ISSM-00004
 OL000402,,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00275-0004,,,,CE06ISSM-00004
 CGCON-MDCL37-00004,OL000403,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00275-0004,,,,CE06ISSM-00004
 CGCON-MDCL35-00010,OL000404,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00292-0010,,,,CE06ISSM-00004
@@ -2392,7 +2388,7 @@ OL000481,OL000481,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instrument
 OL000482,OL000482,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00001-HYDGN SBD12,,,,CP01CNSM-00001
 CGCON-BCPM01-00001,OL000483,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,1,,,,CP01CNSM-00001-CPM1
 CGCON-NCPM02-00001,OL000484,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,1,,,,CP01CNSM-00001-CPM2
-CGCON-MCPM03-00001,OL000485,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,1,,,,CP01CNSM-00001-CPM3
+CGCON-MCPM03-00002,OL000485,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2,,,,CP01CNSM-00001-CPM3
 CGCON-BDCL11-00001,OL000486,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,1,,,,CP01CNSM-00001-DCL11
 CGCON-BDCL12-00001,OL000487,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,1,,,,CP01CNSM-00001-DCL12
 CGCON-NDCL26-00004,OL000488,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,4,,,,CP01CNSM-00001-DCL26
@@ -2499,11 +2495,10 @@ CGINS-SPKIRJ-00252,OL000614,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR S
 CGINS-FLORTO-01239,OL000616,Sensor,0,3-Wavelength Fluorometer for Glider: FLORT Series O,FLORTO for Glider 515,WET Labs,ECO Puck BB3,1239,,,,
 R00007,R00007,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,,,,,
 R00002,R00003,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,CE06ISSM-00001-CPM3,,,,CE06ISSM-00001-CPM1
-R00003,R00003,Sensor,0,Surface Buoy Data Concentrator Logger,Communications and Power Manager,WHOI,DCL,CE06ISSM-00001-DCL17,,,,CE06ISSM-00001-CPM3
+CGCON-EDCL17-50002,R00003,Sensor,0,Surface Buoy Data Concentrator Logger,Communications and Power Manager,WHOI,DCL,2,,,,CE06ISSM-00001-DCL17 added 50000 to sn UID  to distinguish the duplicated unit beteween with CE01ISSM-00002
 R00004,R00004,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,CE06ISSM-00001-DCL16,,,,CE06ISSM-00001-DCL17
 R00005,R00005,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,CE06ISSM-00001-DCL35,,,,CE06ISSM-00001-DCL16
 R00006,R00006,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,CE06ISSM-00001-DCL37,,,,CE06ISSM-00001-DCL35
-R00001,R00001,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,CE06ISSM-00001-CPM1,,,,CE06ISSM-00001-DCL37
 R00008,R00008,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUO-00002-MOPAK,,,,
 CGCON-BSTC01-00005,R00009,Sensor,0,Sensor and Telemetry Platform Controller,Sensor and Telemetry Controller,WHOI,STC,SWE 0005-G,,,,
 CGINS-MOPAK0-37378,R00010,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,37378,,,,
