@@ -206,7 +206,7 @@ class AssetManagementIntegrationTest(AssetManagementUnitTest):
             np.testing.assert_almost_equal(lat, row_dict['lat'])
             np.testing.assert_almost_equal(lon, row_dict['lon'])
             self.assertEqual(orbit, row_dict['orbit'])
-            self.assertEqual(depth, row_dict['depth'])
+            self.assertEqual(depth, row_dict['deployment_depth'])
             self.assertEqual(water_depth, row_dict['water_depth'])
         except AssertionError:
             log.error(pformat(row_dict))
