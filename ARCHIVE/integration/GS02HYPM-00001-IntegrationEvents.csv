@@ -1,0 +1,9 @@
+OOIBARCODE,Int_Asset,DESCRIPTION,Type,serial_number,Date,comments
+N00257,GS02HYPM-00001,,Mooring,GS02HYPM-00001,2/19/2015,
+,,Acoustic Release 1 S/N Mid-Water,,,,
+,,Acoustic Release 2 S/N Strong Back,,,,
+,,Acoustic Release 3 S/N Strong Back,,,,
+A00938,,CTDMO,Sensor,37-12402,,
+A01110,,CWFP,Profiler,ML13104-05,,
+A01083,,CWFP,Profiler,ML13104-07,,
+OL000027,,Controller,,GS02HYPM-RIM01-00001,,
