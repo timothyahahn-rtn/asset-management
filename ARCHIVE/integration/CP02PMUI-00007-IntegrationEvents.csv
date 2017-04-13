@@ -1,0 +1,11 @@
+OOIBARCODE,Int_Asset,DESCRIPTION,Type,serial_number,Date,comments
+OL000243,CP02PMUI-00007,,Mooring,CP02PMUI-00007,10/16/2015,
+,,ISU SIM #,,,,
+,,RTE S/N,,,,
+,,Stretch Hose S/N,,,,
+,,AcousticRelease S/N,,,,
+,,AcousticRelease S/N (line Pack),,,,
+OL000244,,MOPAK S/N,,CP02PMUI-00007-MOPAK,,
+A00847,,CWFP,Profiler,13103-02,,
+A00492,,ADCP S/N,Sensor,20499,,
+OL000245,,Controller,,SWE 0007 Rev G,,
