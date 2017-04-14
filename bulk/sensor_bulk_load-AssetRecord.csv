@@ -2753,3 +2753,10 @@ CGINS-DOSTAM-00604,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA 
 CGINS-FLORTM-04198,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Glider,WET Labs,ECO Puck FLBBCD-SLK,4198,,,,
 CGINS-DOSTAM-00605,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Glider,Aanderaa,Optode 4831,605,,,,
 CGINS-ADCPAM-50867,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP from TWR Glider Pool,Teledyne RDI,Explorer DVL 600 kHz,650867,,,,From Teledyne Webb Research's OOI glider instrument pool
+CGINS-CTDGVM-09286,,Sensor,1,CTD for Glider: CTDGV Series M,,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9286,,,,
+CGINS-DOSTAM-00432,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,,Aanderaa,Optode 4831,432,,,,
+CGINS-FLORTM-03814,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,,WET Labs,ECO Puck FLBBCD-SLK,3814,,,,
+CGINS-FLORTO-01331,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,,WET Labs,ECO Puck BB3,1331,,,,
+CGINS-NUTNRM-00657,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,657,,,,
+CGINS-PARADM-50199,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,,Biospherical Instruments,QSP-2155,50199,,,,
+CGCON-GLDRGP-00564,,Sensor,1,Mobile Asset Controller for Global Profiling Glider,,Teledyne Webb,G2 Slocum Gliders,564,,,,
