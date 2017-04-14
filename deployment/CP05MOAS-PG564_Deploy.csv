@@ -1,0 +1,8 @@
+CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes
+P7b,,,,CP05MOAS-PG564-00-ENG000000,2,1,2017-04-20T00:00:00,,CGVCP-05MOAS-00000,CGVEH-GLDRGP-00564,CGCON-GLDRGP-00564,40,-70,,,,need to update deploy date and lat/long
+P7b,,,,CP05MOAS-PG564-01-CTDGVM000,2,1,2017-04-20T00:00:00,,CGVCP-05MOAS-00000,CGVEH-GLDRGP-00564,CGINS-CTDGVM-09286,40,-70,,,,need to update deploy date and lat/long
+P7b,,,,CP05MOAS-PG564-02-DOSTAM000,2,1,2017-04-20T00:00:00,,CGVCP-05MOAS-00000,CGVEH-GLDRGP-00564,CGINS-DOSTAM-00432,40,-70,,,,need to update deploy date and lat/long
+P7b,,,,CP05MOAS-PG564-03-FLORTM000,2,1,2017-04-20T00:00:00,,CGVCP-05MOAS-00000,CGVEH-GLDRGP-00564,CGINS-FLORTM-03814,40,-70,,,,need to update deploy date and lat/long
+P7b,,,,CP05MOAS-PG564-04-FLORTO000,2,1,2017-04-20T00:00:00,,CGVCP-05MOAS-00000,CGVEH-GLDRGP-00564,CGINS-FLORTO-01331,40,-70,,,,need to update deploy date and lat/long
+P7b,,,,CP05MOAS-PG564-05-NUTNRM000,2,1,2017-04-20T00:00:00,,CGVCP-05MOAS-00000,CGVEH-GLDRGP-00564,CGINS-NUTNRM-00657,40,-70,,,,need to update deploy date and lat/long
+P7b,,,,CP05MOAS-PG564-06-PARADM000,2,1,2017-04-20T00:00:00,,CGVCP-05MOAS-00000,CGVEH-GLDRGP-00564,CGINS-PARADM-50199,40,-70,,,,need to update deploy date and lat/long
