@@ -1929,7 +1929,7 @@ CGINS-DOSTAM-00323,N00665,Sensor,1,Dissolved Oxygen Stable Response for Glider: 
 CGINS-CTDGVM-09174,N00666,Sensor,1,CTD for Glider: CTDGV Series M,CTDGVM for Glider 486,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9174,,20140825,,
 CGINS-PCO2WB-C0126,N00667,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SERIES B (SAMI CO2),Sunburst Sensors,SAMI-pCO2,C0126,,20150810,28732,
 CGINS-OPTAAD-00259,N00673,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D,WET Labs,AC-S,ACS-259,,,40133.75,
-CGINS-PRESFB-01391,N00674,Sensor,0,Seafloor Pressure: PRESF Series B,PRESF SERIES B (26PLUS),Sea-Bird Electronics,SBE 26plus,26P-1391,,,14300,
+CGINS-PRESFA-01391,N00674,Sensor,0,Seafloor Pressure: PRESF Series A,PRESF SERIES A (26PLUS),Sea-Bird Electronics,SBE 26plus,26P-1391,,,14300,
 CGINS-ZPLSCC-55097,N00675,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSG SERIES A,ASL Environmental,AZFP,55097,,,92685,
 CGINS-OPTAAD-00260,N00678,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D,WET Labs,AC-S,ACS-260,,,40133.74,
 CGINS-CAMDSA-00111,N00679,Sensor,0,Underwater Digital Still Camera: CAMDS Series A,CAMDS,Kongsberg Underwater Technology Inc,Custom,0484-6102-0111,,,,
