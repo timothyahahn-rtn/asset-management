@@ -115,6 +115,7 @@ CE04OSBP-LV01C-06-CAMDSB106,Coastal Endurance,Oregon Offshore Cabled Benthic Exp
 CE04OSPD,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,,,,,175,500
 CE04OSPD-PD01B,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Profiler Docking Station (PD01B),,,,175,500
 CE04OSPD-DP01B,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Wire-Following Profiler (DP01B),,,,175,500
+CE04OSPD-DP01B-00-ENG000000,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Wire-Following Profiler (DP01B),,,,175,500
 CE04OSPD-DP01B-01-CTDPFL105,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Wire-Following Profiler (DP01B),CTD,Sea-Bird,SBE 52MP,175,500
 CE04OSPD-DP01B-02-VEL3DA105,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Wire-Following Profiler (DP01B),3-D Single Point Velocity Meter,Falmouth Scientific,ACM-3D-MP,175,500
 CE04OSPD-DP01B-03-FLCDRA103,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Wire-Following Profiler (DP01B),CDOM Fluorometer,WET Labs,FLCDRTD (CDOM),175,500
@@ -1264,6 +1265,7 @@ GS05MOAS-GL486-02-DOSTAM000,Global Southern Ocean,Mobile Assets,Open Ocean Glide
 GS05MOAS-GL486-04-CTDGVM000,Global Southern Ocean,Mobile Assets,Open Ocean Glider 486,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,1000
 RS01SBPD,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,,,,,200,2905
 RS01SBPD-DP01A,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),,,,200,2905
+RS01SBPD-DP01A-00-ENG000000,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),,,,200,2905
 RS01SBPD-DP01A-01-CTDPFL104,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),CTD,Sea-Bird,SBE 52MP,200,2905
 RS01SBPD-DP01A-02-VEL3DA103,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),3-D Single Point Velocity Meter,Falmouth Scientific,ACM-3D-MP,200,2905
 RS01SBPD-DP01A-03-FLCDRA102,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),CDOM Fluorometer,WET Labs,FLCDRTD (CDOM),200,2905
@@ -1352,6 +1354,7 @@ RS03AXBS-MJ03A-12-VEL3DB301,Cabled Axial Seamount,Axial Base Seafloor,Medium-Pow
 RS03AXBS-PN03A,Cabled Axial Seamount,Axial Base Seafloor,Primary Node (PN03A),,,,2609,2609
 RS03AXPD,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,,,,,150,2604
 RS03AXPD-DP03A,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),,,,150,2465
+RS03AXPD-DP03A-00-ENG000000,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),,,,150,2465
 RS03AXPD-DP03A-01-CTDPFL304,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),CTD,Sea-Bird,SBE 52MP,150,2465
 RS03AXPD-DP03A-02-VEL3DA303,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),3-D Single Point Velocity Meter,Falmouth Scientific,ACM-3D-MP,150,2465
 RS03AXPD-DP03A-03-FLCDRA302,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),CDOM Fluorometer,WET Labs,FLCDRTD (CDOM),150,2465
