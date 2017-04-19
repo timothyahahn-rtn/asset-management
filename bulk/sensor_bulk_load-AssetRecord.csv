@@ -2241,8 +2241,8 @@ CGCON-NCPM02-00010,,Sensor,0,Near Surface Instrument Frame Communications and Po
 OL000312,OL000312,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,,,,,CE02SHSM-00002-DCL11,
 OL000313,OL000313,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,,,,,CE02SHSM-00002-DCL12,
 CGCON-NDCL26-00025,OL000314,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,25,,,,CE02SHSM-00002-DCL26,
-CGCON-NDCL27-00010,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,10,,,,CE04OSSM-00004-DCL27
-CGCON-NDCL27-00014,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,14,,,,CE04OSSM-00002-DCL27
+CGCON-NDCL27-00010,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,10,,,,CE04OSSM-00004-DCL27,
+CGCON-NDCL27-00014,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,14,,,,CE04OSSM-00002-DCL27,
 CGINS-HYDGN0-42315,OL000317,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A542315,,,,,
 CGINS-HYDGN0-42325,OL000318,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A542325,,,,,
 CGINS-METLGR-00029,OL000319,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK,Star Engineering,ASIMET,LGR029,,,,,
