@@ -117,7 +117,7 @@ CE04OSPD-PD01B,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Pr
 CE04OSPD-DP01B,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Wire-Following Profiler (DP01B),,,,175,500
 CE04OSPD-DP01B-01-CTDPFL105,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Wire-Following Profiler (DP01B),CTD,Sea-Bird,SBE 52MP,175,500
 CE04OSPD-DP01B-02-VEL3DA105,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Wire-Following Profiler (DP01B),3-D Single Point Velocity Meter,Falmouth Scientific,ACM-3D-MP,175,500
-CE04OSPD-DP01B-04-FLCDRA103,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Wire-Following Profiler (DP01B),CDOM Fluorometer,WET Labs,FLCDRTD (CDOM),175,500
+CE04OSPD-DP01B-03-FLCDRA103,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Wire-Following Profiler (DP01B),CDOM Fluorometer,WET Labs,FLCDRTD (CDOM),175,500
 CE04OSPD-DP01B-04-FLNTUA103,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Wire-Following Profiler (DP01B),2-Wavelength Fluorometer,WET Labs,FLNTURTD (chlorophyll and backscatter),175,500
 CE04OSPD-DP01B-06-DOSTAD105,Coastal Endurance,Oregon Offshore Cabled Deep Profiler Mooring,Wire-Following Profiler (DP01B),Dissolved Oxygen,Aanderaa,Optode 4831,175,500
 CE04OSPI,Coastal Endurance,Oregon Offshore Cabled Primary Infrastructure,,,,,580,580
@@ -127,7 +127,7 @@ CE04OSPS-PC01B-05-ZPLSCB102,Coastal Endurance,Oregon Offshore Cabled Shallow Pro
 CE04OSPS-PC01B-4A-CTDPFA109,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,200m Platform (PC01B),CTD,Sea-Bird,SBE 16plusV2,200,200
 CE04OSPS-PC01B-4A-DOSTAD109,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,200m Platform (PC01B),Dissolved Oxygen,Aanderaa,Optode 4831,200,200
 CE04OSPS-PC01B-4B-PHSENA106,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,200m Platform (PC01B),Seawater pH,Sunburst,SAMI-pH,200,200
-CE04OSPS-PC01B-4C-PCO2WA105,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,200m Platform (PC01B),pCO2 Water,Sunburst,SAMI-pCO2,200,200
+CE04OSPS-PC01B-4D-PCO2WA105,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,200m Platform (PC01B),pCO2 Water,Sunburst,SAMI-pCO2,200,200
 CE04OSPS-SC01B,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Winch Controller (SC01B),,,,,
 CE04OSPS-SF01B,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),,,,20,200
 CE04OSPS-SF01B-2A-CTDPFA107,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),CTD,Sea-Bird,SBE 16plusV2,20,200
@@ -1266,8 +1266,8 @@ RS01SBPD,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,,,,,2
 RS01SBPD-DP01A,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),,,,200,2905
 RS01SBPD-DP01A-01-CTDPFL104,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),CTD,Sea-Bird,SBE 52MP,200,2905
 RS01SBPD-DP01A-02-VEL3DA103,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),3-D Single Point Velocity Meter,Falmouth Scientific,ACM-3D-MP,200,2905
-RS01SBPD-DP01A-03-FLCDRA104,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),CDOM Fluorometer,WET Labs,FLCDRTD (CDOM),200,2905
-RS01SBPD-DP01A-03-FLNTUA104,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),2-Wavelength Fluorometer,WET Labs,FLNTURTD (chlorophyll and backscatter),200,2905
+RS01SBPD-DP01A-03-FLCDRA102,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),CDOM Fluorometer,WET Labs,FLCDRTD (CDOM),200,2905
+RS01SBPD-DP01A-04-FLNTUA102,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),2-Wavelength Fluorometer,WET Labs,FLNTURTD (chlorophyll and backscatter),200,2905
 RS01SBPD-DP01A-05-OPTAAC102,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),Spectrophotometer,WET Labs,AC-S Deep,200,2905
 RS01SBPD-DP01A-06-DOSTAD104,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Wire-Following Profiler (DP01A),Dissolved Oxygen,Aanderaa,Optode 4831,200,2905
 RS01SBPD-PD01A,Cabled Continental Margin,Oregon Slope Base Deep Profiler Mooring,Profiler Docking Station (PD01A),,,,2905,2905
