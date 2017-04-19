@@ -2242,6 +2242,7 @@ OL000312,OL000312,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrat
 OL000313,OL000313,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,,,,,CE02SHSM-00002-DCL12,
 CGCON-NDCL26-00025,OL000314,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,25,,,,CE02SHSM-00002-DCL26,
 CGCON-NDCL27-00010,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,10,,,,CE04OSSM-00004-DCL27
+CGCON-NDCL27-00014,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,14,,,,CE04OSSM-00002-DCL27
 CGINS-HYDGN0-42315,OL000317,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A542315,,,,,
 CGINS-HYDGN0-42325,OL000318,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A542325,,,,,
 CGINS-METLGR-00029,OL000319,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK,Star Engineering,ASIMET,LGR029,,,,,
@@ -2356,6 +2357,7 @@ OL000426,OL000426,Sensor,0,Near Surface Instrument Frame Data Concentrator Logge
 OL000427,OL000427,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,15,,,,CE07SHSM-00002-DCL35,
 OL000428,OL000428,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,16,,,,CE07SHSM-00002-DCL37,
 CGINS-HYDGN0-49800,OL000430,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A49800,,,,CE07SHSM-00003,
+CGINS-HYDGN0-49840,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A49840,,,,CE02SHSM-00005,
 CGINS-HYDGN0-49846,OL000431,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A49846,,,,CE07SHSM-00003,
 CGINS-MOPAK0-11854,OL000432,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,6223-4220-11854,,,,3DM-GX3-25,
 CGINS-PHSEND-P0168,OL000433,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D,Sunburst Sensors,SAMI-pH,P0168,,,,SAMI PH,
