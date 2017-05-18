@@ -487,7 +487,7 @@ CGINS-DOSTAD-00291,A00802,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Serie
 CGINS-DOSTAD-00292,A00803,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,292,,20140130,5258.25,,
 CGINS-DOSTAD-00313,A00805,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,313,,20140130,5258.25,,
 CGINS-DOSTAD-00314,A00806,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,314,,20140130,5258.25,,
-CGINS-DOSTAD-00315,A00807,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,315,,20140130,5258.25,,
+CGINS-DOSTAD-00315,A00807,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,315,,20140130,5258.25,,
 CGINS-PRESFB-01386,A00813,Sensor,0,Seafloor Pressure: PRESF Series B,PRESF SERIES B (26PLUS),Sea-Bird Electronics,SBE 26plus,26P76848-1386,7.2,20150604,13850,,
 CGINS-ADCPSJ-21496,A00816,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series J,ADCP SERIES J (WHLS75-1500),Teledyne RDI,WHLS75-1500,21496,50.4,20150604,50688,,
 A00835,A00835,Sensor,0,SENSOR CTD,SENSOR CTD,Sea-Bird Electronics,SBE 52-MP,138,,20140128,9966,,
@@ -1542,7 +1542,7 @@ ATOSU-70570-00002,ATOSU-70570-00002,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SE
 ATOSU-70571-00001,ATOSU-70571-00001,Sensor,0,Seawater pH: PHSEN Series D,PHSEN-D,Sunburst Sensors,SAMI-pH,P0116,,,,,
 ATOSU-70571-00002,ATOSU-70571-00002,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0117,,20140121,17479.95,,
 CGINS-CTDPFK-00093,N00001,Sensor,0,CTD Profiler: CTDPF Series K,CTD for WFP Coastal ML12714-01,Sea-Bird Electronics,SBE 52-MP,93,,20110617,,,
-CGINS-DOFSTK-00209,N00002,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML12714-01,Sea-Bird Electronics,SBE 43F,43-0209,,20110617,,,
+CGINS-DOFSTK-00209,N00002,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12714-01,Sea-Bird Electronics,SBE 43F,43-0209,,20110617,,,
 CGINS-FLORTK-00830,N00003,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,FLOR for WFP Coastal ML12714-01,WET Labs,ECO Triplet,830,,20110617,,,
 CGINS-MOPAK0-35978,N00004,Sensor,0,3-Axis Motion Pack: MOPAK,MOTION,MicroStrain,3DM-GX3-25,35978,,20110617,,,
 CGINS-PARADK-20436,N00005,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,PAR for WFP Coastal ML12714-01,Biospherical Instruments,QSP-2200,20436,,20110617,,,
@@ -1640,6 +1640,8 @@ CGCON-CSPPCE-00003,N00123.1,Sensor,0,Coastal Surface Piercing Profiler Controlle
 CGCON-CSPPCP-00004,N00124.1,Sensor,0,Coastal Surface Piercing Profiler Controller,"Profiler, Coastal Surface Piercing",WET Labs,AMP,WLP-004,,20140801,310000,Coastal Profiler,
 CGCON-CSPPCP-00005,N00125.1,Sensor,0,Coastal Surface Piercing Profiler Controller,"Profiler, Coastal Surface Piercing",WET Labs,AMP,WLP-005,,20140801,310000,Coastal Profiler,
 CGCON-CSPPCE-00006,N00126.1,Sensor,0,Coastal Surface Piercing Profiler Controller,Cabled Profiler Sensor Pod w/Instrument,WET Labs,AMP,WLP-006,,20140929,273349,FAS-540601,
+CGCON-CSPPCE-00007,N00123.1,Sensor,0,Coastal Surface Piercing Profiler Controller,"Profiler, Coastal Surface Piercing",WET Labs,AMP,WLP-007,,20161230,,FAS-540601,
+CGCON-CSPPCE-00008,N00123.1,Sensor,0,Coastal Surface Piercing Profiler Controller,"Profiler, Coastal Surface Piercing",WET Labs,AMP,WLP-008,,20161230,,FAS-540601,
 CGINS-CTDPFL-00135,N00127,Sensor,0,CTD Profiler: CTDPF Series L,CTD for WFP Coastal ML13104-04,Sea-Bird Electronics,SBE 52-MP,135,,20140925,,,
 CGINS-DOSTAL-01473,N00128,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Coastal ML13104-04,Aanderaa,Optode 4330,1473,,20140925,,,
 CGINS-FLORDL-03279,N00129,Sensor,0,2-Wavelength Fluorometer: FLORD Series L,FLOR for WFP Coastal ML13104-04,WET Labs,FLBBRTD,3279,,20140925,,,
@@ -1833,39 +1835,54 @@ CGINS-SPKIRJ-00263,N00568,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR for
 CGINS-FLORTJ-01208,N00569,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-004,WET Labs,ECO Triplet-w,BBFL2W-1208,,20140801,13013.52,,
 CGINS-CTDPFJ-00348,N00570,Sensor,0,CTD Profiler: CTDPF Series J,CTDPF for WLP-004,Sea-Bird Electronics,SBE 49 Fast CAT,49-0348,,20140801,7000,,
 CGINS-PARADJ-00407,N00571,Sensor,0,Photosynthetically Available Radiation: PARAD Series J,PARAD for WLP-004,WET Labs,ECO PARS,407,,20140801,,,
-CGINS-DOSTAJ-00353,N00572,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-003,Aanderaa,Optode 4831,353,,20140616,5258.25,,
-CGINS-OPTAAJ-00138,N00573,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-003,WET Labs,AC-S,ACS-138,,20140616,38969.75,,
-CGINS-VELPTJ-11900,N00574,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-003,Nortek,Aquadopp,AQD 11900,,20140616,9240,,
-CGINS-NUTNRJ-00426,N00575,Sensor,0,Nitrate: NUTNR Series J,NUTNR for WLP-003,Satlantic,SUNA V2,426,,20140616,38790.36,,
-CGINS-SPKIRJ-00266,N00576,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR for WLP-003,Satlantic,OCR507 ICSW w/ Bioshutter II (Midrange),266,,20140616,13316.36,,
-CGINS-FLORTJ-01207,N00577,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-003,WET Labs,ECO Triplet-w,1207,,20140616,13013.52,,
-CGINS-CTDPFJ-00346,N00578,Sensor,0,CTD Profiler: CTDPF Series J,CTDPF for WLP-003,Sea-Bird Electronics,SBE 49 Fast CAT,49-0346,,20140616,7000,,
-CGINS-PARADJ-00411,N00579,Sensor,0,Photosynthetically Available Radiation: PARAD Series J,PARAD for WLP-003,WET Labs,ECO PARS,411,,20140616,,,
-CGINS-DOSTAJ-00352,N00580,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-002,Aanderaa,Optode 4831,352,,20140630,5258.25,,
-CGINS-OPTAAJ-00139,N00581,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-002,WET Labs,AC-S,ACS-139,,20140630,38969.75,,
-CGINS-VELPTJ-11912,N00582,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-002,Nortek,Aquadopp,AQD 11912,,20140630,9240,,
-CGINS-NUTNRJ-00425,N00583,Sensor,0,Nitrate: NUTNR Series J,NUTNR for WLP-002,Satlantic,SUNA V2,425,,20140630,38790.36,,
-CGINS-SPKIRJ-00264,N00584,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR for WLP-002,Satlantic,OCR507 ICSW w/ Bioshutter II (Midrange),264,,20140630,13316.36,,
-CGINS-FLORTJ-01206,N00585,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-002,WET Labs,ECO Triplet-w,BBFL2W-1206,,20140630,13013.52,,
-CGINS-CTDPFJ-00349,N00586,Sensor,0,CTD Profiler: CTDPF Series J,CTDPF for WLP-002,Sea-Bird Electronics,SBE 49 Fast CAT,49-349,,20140630,7000,,
-CGINS-PARADJ-00434,N00587,Sensor,0,Photosynthetically Available Radiation: PARAD Series J,PARAD for WLP-002,WET Labs,ECO PARS,434,,20140630,,,
-CGINS-DOSTAJ-00209,N00588,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-001,Aanderaa,Optode 4831,209,,20130630,5258.25,,
-CGINS-OPTAAJ-00137,N00589,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-001,WET Labs,AC-S,ACS-137,,20130630,38969.75,,
-CGINS-VELPTJ-11259,N00590,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-001,Nortek,Aquadopp,AQD 11259,,20130630,9240,,
-CGINS-NUTNRJ-00337,N00591,Sensor,0,Nitrate: NUTNR Series J,NUTNR for WLP-001,Satlantic,SUNA V2,337,,20130630,38790.36,,
-CGINS-SPKIRJ-00237,N00592,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR for WLP-001,Satlantic,OCR507 ICSW w/ Bioshutter II (Midrange),237,,20130630,13316.36,,
-CGINS-FLORTJ-01084,N00593,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-001,WET Labs,ECO Triplet-w,BBFL2W-1084,,20130630,13013.52,,
-CGINS-CTDPFJ-00308,N00594,Sensor,0,CTD Profiler: CTDPF Series J,CTDPF for WLP-001,Sea-Bird Electronics,SBE 49 Fast CAT,4974683-0308,,20130630,7000,,
-CGINS-PARADJ-00365,N00595,Sensor,0,Photosynthetically Available Radiation: PARAD Series J,PARAD for WLP-001,WET Labs,ECO PARS,365,,20130630,,,
-N00596,N00596,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-006,Aanderaa,Optode 4831,,,20140929,5258.25,,
-N00597,N00597,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-006,WET Labs,AC-S,,,20140929,38969.75,,
-N00598,N00598,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-006,Nortek,Aquadopp,,,20140929,9240,,
-N00599,N00599,Sensor,0,Nitrate: NUTNR Series J,NUTNR for WLP-006,Satlantic,SUNA V2,,,20140929,38790.36,,
-N00600,N00600,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR for WLP-006,Satlantic,OCR507 ICSW w/ Bioshutter II (Midrange),,,20140929,13316.36,,
-N00601,N00601,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-006,WET Labs,ECO Triplet-w,,,20140929,13013.52,,
-N00602,N00602,Sensor,0,CTD Profiler: CTDPF Series J,CTDPF for WLP-006,Sea-Bird Electronics,SBE 49 Fast CAT,,,20140929,7000,,
-N00603,N00603,Sensor,0,Photosynthetically Available Radiation: PARAD Series J,PARAD for WLP-006,WET Labs,ECO PARS,,,20140929,,,
-CGINS-DOSTAJ-00672,,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-008,Aanderaa,Optode 4831,672,,20161230,,,
+CGINS-DOSTAJ-00353,N00572,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-003,Aanderaa,Optode 4831,353,,20140616,5258.25,,Oregon State University
+CGINS-OPTAAJ-00138,N00573,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-003,WET Labs,AC-S,ACS-138,,20140616,38969.75,,Oregon State University
+CGINS-VELPTJ-11900,N00574,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-003,Nortek,Aquadopp,AQD 11900,,20140616,9240,,Oregon State University
+CGINS-NUTNRJ-00426,N00575,Sensor,0,Nitrate: NUTNR Series J,NUTNR for WLP-003,Satlantic,SUNA V2,426,,20140616,38790.36,,Oregon State University
+CGINS-SPKIRJ-00266,N00576,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR for WLP-003,Satlantic,OCR507 ICSW w/ Bioshutter II (Midrange),266,,20140616,13316.36,,Oregon State University
+CGINS-FLORTJ-01207,N00577,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-003,WET Labs,ECO Triplet-w,BBFL2W-1207,,20140616,13013.52,,Oregon State University
+CGINS-CTDPFJ-00346,N00578,Sensor,0,CTD Profiler: CTDPF Series J,CTDPF for WLP-003,Sea-Bird Electronics,SBE 49 Fast CAT,49-0346,,20140616,7000,,Oregon State University
+CGINS-PARADJ-00411,N00579,Sensor,0,Photosynthetically Available Radiation: PARAD Series J,PARAD for WLP-003,WET Labs,ECO PARS,411,,20140616,,,Oregon State University
+CGINS-DOSTAJ-00352,N00580,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-002,Aanderaa,Optode 4831,352,,20140630,5258.25,,Oregon State University
+CGINS-OPTAAJ-00139,N00581,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-002,WET Labs,AC-S,ACS-139,,20140630,38969.75,,Oregon State University
+CGINS-VELPTJ-11912,N00582,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-002,Nortek,Aquadopp,AQD 11912,,20140630,9240,,Oregon State University
+CGINS-NUTNRJ-00425,N00583,Sensor,0,Nitrate: NUTNR Series J,NUTNR for WLP-002,Satlantic,SUNA V2,425,,20140630,38790.36,,Oregon State University
+CGINS-SPKIRJ-00264,N00584,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR for WLP-002,Satlantic,OCR507 ICSW w/ Bioshutter II (Midrange),264,,20140630,13316.36,,Oregon State University
+CGINS-FLORTJ-01206,N00585,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-002,WET Labs,ECO Triplet-w,BBFL2W-1206,,20140630,13013.52,,Oregon State University
+CGINS-CTDPFJ-00349,N00586,Sensor,0,CTD Profiler: CTDPF Series J,CTDPF for WLP-002,Sea-Bird Electronics,SBE 49 Fast CAT,49-0349,,20140630,7000,,Oregon State University
+CGINS-PARADJ-00434,N00587,Sensor,0,Photosynthetically Available Radiation: PARAD Series J,PARAD for WLP-002,WET Labs,ECO PARS,434,,20140630,,,Oregon State University
+CGINS-DOSTAJ-00209,N00588,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-001,Aanderaa,Optode 4831,209,,20130630,5258.25,,Oregon State University
+CGINS-OPTAAJ-00137,N00589,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-001,WET Labs,AC-S,ACS-137,,20130630,38969.75,,Oregon State University
+CGINS-VELPTJ-11259,N00590,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-001,Nortek,Aquadopp,AQD 11259,,20130630,9240,,Oregon State University
+CGINS-NUTNRJ-00337,N00591,Sensor,0,Nitrate: NUTNR Series J,NUTNR for WLP-001,Satlantic,SUNA V2,337,,20130630,38790.36,,Oregon State University
+CGINS-SPKIRJ-00237,N00592,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR for WLP-001,Satlantic,OCR507 ICSW w/ Bioshutter II (Midrange),237,,20130630,13316.36,,Oregon State University
+CGINS-FLORTJ-01084,N00593,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-001,WET Labs,ECO Triplet-w,BBFL2W-1084,,20130630,13013.52,,Oregon State University
+CGINS-CTDPFJ-00308,N00594,Sensor,0,CTD Profiler: CTDPF Series J,CTDPF for WLP-001,Sea-Bird Electronics,SBE 49 Fast CAT,49-0308,,20130630,7000,,Oregon State University
+CGINS-PARADJ-00365,N00595,Sensor,0,Photosynthetically Available Radiation: PARAD Series J,PARAD for WLP-001,WET Labs,ECO PARS,365,,20130630,,,Oregon State University
+CGINS-DOSTAJ-00308,N00596,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-006,Aanderaa,Optode 4831,308,,20140929,5258.25,,Oregon State University
+CGINS-OPTAAJ-00168,N00597,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-006,WET Labs,AC-S,ACS-168,,20140929,38969.75,,Oregon State University
+CGINS-VELPTJ-11779,N00598,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-006,Nortek,Aquadopp,AQD 11779,,20140929,9240,,Oregon State University
+CGINS-NUTNRJ-00400,N00599,Sensor,0,Nitrate: NUTNR Series J,NUTNR for WLP-006,Satlantic,SUNA V2,400,,20140929,38790.36,,Oregon State University
+CGINS-SPKIRJ-00252,OL000614,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR for WLP-006,Satlantic,OCR507 ICSW w/ Bioshutter II (Midrange),252,,20140929,13316.36,also N00600,Oregon State University
+CGINS-FLORTJ-01156,OL000612,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-006,WET Labs,ECO Triplet-w,BBFL2W-1156,,20140929,13013.52,also N00601,Oregon State University
+CGINS-CTDPFJ-00336,N00602,Sensor,0,CTD Profiler: CTDPF Series J,CTDPF for WLP-006,Sea-Bird Electronics,SBE 49 Fast CAT,49-0336,,20140929,7000,,Oregon State University
+CGINS-PARADJ-00412,OL000613,Sensor,0,Photosynthetically Available Radiation: PARAD Series J,PARAD for WLP-006,WET Labs,ECO PARS,412,,20140929,,also N00603,Oregon State University
+CGINS-DOSTAJ-00646,,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-007,Aanderaa,Optode 4831,646,,20161230,,,Oregon State University
+CGINS-OPTAAJ-00283,,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-007,WET Labs,AC-S,ACS-283,,20161230,,,Oregon State University
+CGINS-VELPTJ-12876,,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-007,Nortek,Aquadopp,AQD 12876,,20161230,,,Oregon State University
+CGINS-NUTNRJ-00870,,Sensor,0,Nitrate: NUTNR Series J,NUTNR for WLP-007,Satlantic,SUNA V2,870,,20161230,,,Oregon State University
+CGINS-SPKIRJ-00281,,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR for WLP-007,Satlantic,OCR507 ICSW w/ Bioshutter II (Midrange),281,,20161230,,,Oregon State University
+CGINS-FLORTJ-01518,,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-007,WET Labs,ECO Triplet-w,BBFL2W-1518,,20161230,,,Oregon State University
+CGINS-CTDPFJ-00405,,Sensor,0,CTD Profiler: CTDPF Series J,CTDPF for WLP-007,Sea-Bird Electronics,SBE 49 Fast CAT,49-0405,,20161230,,,Oregon State University
+CGINS-PARADJ-00504,,Sensor,0,Photosynthetically Available Radiation: PARAD Series J,PARAD for WLP-007,WET Labs,ECO PARS,504,,20161230,,,Oregon State University
+CGINS-DOSTAJ-00672,,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-008,Aanderaa,Optode 4831,672,,20161230,,,Oregon State University
+CGINS-OPTAAJ-00284,,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-008,WET Labs,AC-S,ACS-284,,20161230,,,Oregon State University
+CGINS-VELPTJ-12886,,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-008,Nortek,Aquadopp,AQD 12886,,20161230,,,Oregon State University
+CGINS-NUTNRJ-00871,,Sensor,0,Nitrate: NUTNR Series J,NUTNR for WLP-008,Satlantic,SUNA V2,871,,20161230,,,Oregon State University
+CGINS-SPKIRJ-00282,,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR for WLP-008,Satlantic,OCR507 ICSW w/ Bioshutter II (Midrange),282,,20161230,,,Oregon State University
+CGINS-FLORTJ-01519,,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-008,WET Labs,ECO Triplet-w,BBFL2W-1519,,20161230,,,Oregon State University
+CGINS-CTDPFJ-00406,,Sensor,0,CTD Profiler: CTDPF Series J,CTDPF for WLP-008,Sea-Bird Electronics,SBE 49 Fast CAT,49-0406,,20161230,,,Oregon State University
+CGINS-PARADJ-00505,,Sensor,0,Photosynthetically Available Radiation: PARAD Series J,PARAD for WLP-008,WET Labs,ECO PARS,505,,20161230,,,Oregon State University
 CGINS-FLORDL-02736,N00604,Sensor,0,2-Wavelength Fluorometer: FLORD Series L,FLORD for ML12936-02,WET Labs,FLBBRTD,2736,,20130320,,,
 CGINS-DOSTAL-01086,N00605,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for ML12936-02,Aanderaa,Optode 4330,1086,,20130320,,,
 CGINS-CTDPFL-00107,N00606,Sensor,0,CTD Profiler: CTDPF Series L,CTDPF for ML12936-02,Sea-Bird Electronics,SBE 52-MP,107,,20130320,,,
@@ -2259,7 +2276,6 @@ CGCON-NDCL27-00002,OL000327,Sensor,0,Near Surface Instrument Frame Data Concentr
 CGCON-NDCL27-00003,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00274-0003,,,,CE02SHSM-00005-DCL27,
 CGCON-NDCL26-00017,OL000328,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00272-0017,,,,CE02SHSM-00003-DCL26,
 CGCON-NDCL26-00010,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00272-0010,,,,CE02SHSM-00005-DCL26,
-CGINS-VELPTA-11779,OL000330,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11779,,,,,
 OL000331,OL000331,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,PMUI-00001-MOPAK,,,,,
 OL000332,OL000332,Sensor,0,Sensor and Telemetry Platform Controller,SIO Controller,WHOI,STC,PMUI-00001-STC,,,,,
 CGINS-MOPAK0-24436,OL000333,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,24436,,,,,
@@ -2514,9 +2530,6 @@ CGINS-FLORDM-04027,OL000607,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD 
 CGINS-CTDGVM-09268,OL000608,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9268,,,,,
 CGINS-DOSTAM-00436,OL000609,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,436,,,,,
 CGCON-GLDROO-00559,OL000610,Sensor,1,Mobile Asset Controller for Open Ocean Glider,GL559 Controller,Teledyne Webb,G2 Slocum Gliders,559,,,,,
-CGINS-FLORTJ-01156,OL000612,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT SERIES D (ECO TRIPLET-W),WET Labs,ECO Triplet-w,BBFL2W-1156,,,,,
-CGINS-PARADJ-00412,OL000613,Sensor,0,Photosynthetically Available Radiation: PARAD Series J,PARAD,WET Labs,ECO PARS,412,,,,,
-CGINS-SPKIRJ-00252,OL000614,Sensor,0,Spectral Irradiance: SPKIR Series J,SPKIR SERIES B (OCR507-ICSW),Satlantic,OCR507 ICSW w/ Bioshutter II (Midrange),252,,,,,
 CGINS-FLORTO-01239,OL000616,Sensor,0,3-Wavelength Fluorometer for Glider: FLORT Series O,FLORTO for Glider 515,WET Labs,ECO Puck BB3,1239,,,,,
 R00007,R00007,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,,,,,,
 R00002,R00003,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,CE06ISSM-00001-CPM3,,,,CE06ISSM-00001-CPM1,
@@ -2599,7 +2612,6 @@ R00078,R00078,Sensor,0,CE04OSPD-DP01B-00001-ENG,CE04OSPD-DP01B-00001-ENG,,,CE04O
 R00079,R00079,Sensor,0,CE04OSPD-DP01B-00002-ENG,CE04OSPD-DP01B-00002-ENG,,,CE04OSPD-DP01B-00002-ENG,,20150724,,,
 R00297,R00297,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,,,,,,
 CGINS-PARADK-20447,RS00001,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,PAR for WFP Coastal ML12991-02,Biospherical Instruments,QSP-2200,20447,,,,,
-CGINS-OPTAAD-00168,,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D (AC-S),WET Labs,AC-S,ACS-168,,,,,
 CGINS-METLGR-00006,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR006,,,,,
 CGINS-MOPAK0-43260,,Sensor,0,3-Axis Motion Pack: MOPAK,R00009,MicroStrain,3DM-GX3-25,6223-4220-43260,,,,,
 CGINS-MOPAK0-11918,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11918,,,,,
