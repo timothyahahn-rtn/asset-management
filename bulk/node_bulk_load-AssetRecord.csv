@@ -82,6 +82,8 @@ CGVEH-CSPPCE-00003,N00123,Node,0,Coastal Surface Piercing Profiler Controller,"P
 CGVEH-CSPPCP-00004,N00124,Node,0,Coastal Surface Piercing Profiler Controller,"Profiler, Coastal Surface Piercing",WET Labs,AMP-FAS-540601,WLP-004,,20140801,310000,,Woods Hole Oceanographic Institution
 CGVEH-CSPPCP-00005,N00125,Node,0,Coastal Surface Piercing Profiler Controller,"Profiler, Coastal Surface Piercing",WET Labs,AMP-FAS-540601,WLP-005,,20140801,310000,,Woods Hole Oceanographic Institution
 CGVEH-CSPPCE-00006,N00126,Node,0,Coastal Surface Piercing Profiler Controller,Cabled Profiler Sensor Pod w/Instrument,WET Labs,AMP-FAS-540601,WLP-006,,20140929,273349,,Oregon State University
+CGVEH-CSPPCE-00007,,Node,0,Coastal Surface Piercing Profiler Controller,Cabled Profiler Sensor Pod w/Instrument,WET Labs,AMP-FAS-540601,WLP-007,,20161230,,,Oregon State University
+CGVEH-CSPPCE-00008,,Node,0,Coastal Surface Piercing Profiler Controller,Cabled Profiler Sensor Pod w/Instrument,WET Labs,AMP-FAS-540601,WLP-008,,20161230,,,Oregon State University
 CGVEH-GWFPGX-45201,OL000046,Node,0,Global Wire-Following Profiler,WFP GLOBAL,McLane,MMP-210-3512,ML13452-01,,,,,Woods Hole Oceanographic Institution
 CGVEH-GWFPGX-45202,OL000047,Node,0,Global Wire-Following Profiler,WFP GLOBAL,McLane,MMP-210-3512,ML13452-02,,,,,Woods Hole Oceanographic Institution
 CGVEH-GWFPGX-45203,OL000057,Node,0,Global Wire-Following Profiler,WFP GLOBAL,McLane,MMP-210-3512,ML13452-03,,,,,Woods Hole Oceanographic Institution
