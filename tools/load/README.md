@@ -41,6 +41,13 @@ until we have completed reloading this data.
 
 #### Drop data
 
+Open the asset management database using a SQL editor. For example:
+```
+$ source activate pgcli
+$ pgcli metadata awips
+```
+
+Then execute the following commands to drop the asset management tables:
 ```
 truncate table xacquisition cascade;
 truncate table xarray cascade;
