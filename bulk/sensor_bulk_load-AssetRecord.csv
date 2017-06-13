@@ -2849,3 +2849,7 @@ CGCON-BCPM01-70001,,Sensor,0,Surface Buoy Communications and Power Manager,Commu
 CGCON-BDCL11-70001,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2017-0001,,,,CP04OSSM-00006-DCL11,
 CGCON-BDCL12-70001,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2017-0001,,,,CP04OSSM-00006-DCL12,
 CGINS-METLGR-00038,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR038,,,,,
+CGINS-ADCPAM-72777,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,672777,,,,,
+CGINS-FLORTM-04473,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4473,,,,,
+CGINS-CTDGVM-09341,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9341,,,,,
+CGINS-PARADM-50195,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50195,,,,,
