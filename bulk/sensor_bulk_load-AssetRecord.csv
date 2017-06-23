@@ -2872,3 +2872,4 @@ CGCON-GLDRGP-00578,,Sensor,1,Mobile Asset Controller for Profiling Glider,,Teled
 CGINS-CTDGVM-09297,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9297,,,,,Woods Hole Oceanographic Institution
 CGINS-DOSTAM-00494,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,494,,,,,Woods Hole Oceanographic Institution
 CGCON-GLDRGP-00580,,Sensor,1,Mobile Asset Controller for Profiling Glider,,Teledyne Webb,G2 Slocum Gliders,580,,,,,Woods Hole Oceanographic Institution
+CGCON-GLDROO-00470,,Sensor,1,Mobile Asset Controller for Open Ocean Glider,GL470 Controller,Teledyne Webb,G2 Slocum Gliders,470,,,,,
