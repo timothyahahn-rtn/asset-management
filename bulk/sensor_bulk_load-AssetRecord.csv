@@ -2874,3 +2874,13 @@ CGINS-DOSTAM-00494,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA 
 CGCON-GLDRGP-00580,,Sensor,1,Mobile Asset Controller for Profiling Glider,,Teledyne Webb,G2 Slocum Gliders,580,,,,,Woods Hole Oceanographic Institution
 CGCON-GLDROO-00470,,Sensor,1,Mobile Asset Controller for Open Ocean Glider,GL470 Controller,Teledyne Webb,G2 Slocum Gliders,470,,,,,
 CGINS-NUTNRM-00710,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,710,,,,,Woods Hole Oceanographic Institution
+CGCON-NDCL16-00033,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,33,,,,,
+CGINS-CTDBPP-50198,,Sensor,0,CTD Pumped: CTDBP Series P,CTDBP SERIES P,Sea-Bird Electronics,SBE 16plus-IM V2,16-50198,,,,,
+CGINS-DOSTAD-00519,,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,519,,,,,Woods Hole Oceanographic Institution
+CGCON-BCPM01-17009,,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2017-009,,,,,
+CGCON-BDCL11-17009,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2017-009,,,,,
+CGINS-MOPAK0-11351,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11351,,,,,
+CGINS-HYDGN0-42324,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A542324,,,,,
+CGCON-BDCL12-17009,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2017-009,,,,,
+CGINS-HYDGN0-42509,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A542509,,,,,
+CGINS-FDCHPA-64402,R00060,Sensor,0,Direct Covariance Flux: FDCHP Series A,Direct Covariance Flux,WHOI,DCFS,164402,,,,,
