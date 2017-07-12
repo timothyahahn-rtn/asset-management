@@ -2874,3 +2874,25 @@ CGINS-DOSTAM-00494,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA 
 CGCON-GLDRGP-00580,,Sensor,1,Mobile Asset Controller for Profiling Glider,,Teledyne Webb,G2 Slocum Gliders,580,,,,,Woods Hole Oceanographic Institution
 CGCON-GLDROO-00470,,Sensor,1,Mobile Asset Controller for Open Ocean Glider,GL470 Controller,Teledyne Webb,G2 Slocum Gliders,470,,,,,
 CGINS-NUTNRM-00710,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,710,,,,,Woods Hole Oceanographic Institution
+CGCON-NDCL16-00033,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,33,,,,,
+CGINS-CTDBPP-50198,,Sensor,0,CTD Pumped: CTDBP Series P,CTDBP SERIES P,Sea-Bird Electronics,SBE 16plus-IM V2,16-50198,,,,,
+CGINS-DOSTAD-00519,,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,519,,,,,Woods Hole Oceanographic Institution
+CGCON-BCPM01-17009,,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2017-009,,,,,
+CGCON-BDCL11-17009,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2017-009,,,,,
+CGINS-MOPAK0-11351,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11351,,,,,
+CGINS-HYDGN0-42324,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A542324,,,,,
+CGCON-BDCL12-17009,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2017-009,,,,,
+CGINS-HYDGN0-42509,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A542509,,,,,
+CGINS-FDCHPA-64402,R00060,Sensor,0,Direct Covariance Flux: FDCHP Series A,Direct Covariance Flux,WHOI,DCFS,164402,,,,,
+CGINS-ADCPSL-24661,,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP,Teledyne RDI,WHLS75-1500-I,24661,,20170705,,,Woods Hole Oceanographic Institution
+CGINS-ADCPSL-24664,,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP,Teledyne RDI,WHLS75-1500-I,24664,,20170705,,,Woods Hole Oceanographic Institution
+CGINS-VEL3DK-00468,,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series K,,Nortek,Aquadopp,100468,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-VEL3DK-00470,,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series K,,Nortek,Aquadopp,100470,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-FLORTK-01537,,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,,WET Labs,ECO Triplet,1537,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-FLORTK-01538,,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,,WET Labs,ECO Triplet,1538,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-PARADK-20541,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20541,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-PARADK-20542,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20542,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-03506,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,,Sea-Bird Electronics,SBE 43F,43-3506,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-03523,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,,Sea-Bird Electronics,SBE 43F,43-3523,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-CTDPFK-00184,,Sensor,0,CTD Profiler: CTDPF Series K,,Sea-Bird Electronics,SBE 52-MP,184,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-CTDPFK-00185,,Sensor,0,CTD Profiler: CTDPF Series K,,Sea-Bird Electronics,SBE 52-MP,185,,20170627,,,Woods Hole Oceanographic Institution

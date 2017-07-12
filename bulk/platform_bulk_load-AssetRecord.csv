@@ -236,3 +236,7 @@ CGMCP-04OSSM-00006,,Platform,0,Coastal Pioneer Offshore Surface Mooring,MOORING 
 CGMGP-03FLMB-00005,,Platform,0,Global Station Papa Flanking Subsurface Mooring B,MOORING MESCALE FLANKING B SP,WHOI,GP03FLMB,GP03FLMB-00005,,,,,Woods Hole Oceanographic Institution
 CGMGP-03FLMA-00005,,Platform,0,Global Station Papa Flanking Subsurface Mooring A,MOORING MESCALE FLANKING A SP,WHOI,GP03FLMA,GP03FLMA-00005,,,,,Woods Hole Oceanographic Institution
 CGMGP-02HYPM-00005,,Platform,0,Global Station Papa Apex Profiler Mooring,HYBRID PROFILER STATION PAPA,WHOI,GP02HYPM,GP02HYPM-00005,,,,,Woods Hole Oceanographic Institution
+CGMGI-01SUMO-00004,,Platform,0,Global Irminger Sea Apex Surface Mooring,MOORING Irminger OS,WHOI,GI01SUMO,GI01SUMO-00004,,,,,Woods Hole Oceanographic Institution
+CGMGI-02HYPM-00004,,Platform,0,Global Irminger Sea Apex Profiler Mooring,MOORING Irminger OS,WHOI,GI02HYPM,GI02HYPM-00004,,,,,Woods Hole Oceanographic Institution
+CGMGI-03FLMA-00004,,Platform,0,Global Irminger Sea Flanking Subsurface Mooring A,MOORING MESCALE FLANKING A SP,WHOI,GI03FLMA,GI03FLMA-00004,,,,,Woods Hole Oceanographic Institution
+CGMGI-03FLMB-00004,,Platform,0,Global Irminger Sea Flanking Subsurface Mooring B,MOORING MESCALE FLANKING B SP,WHOI,GI03FLMB,GI03FLMB-00004,,,,,Woods Hole Oceanographic Institution
