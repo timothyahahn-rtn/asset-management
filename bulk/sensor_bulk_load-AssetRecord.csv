@@ -1213,7 +1213,7 @@ ATAPL-58316-00001,ATAPL-58316-00001,Sensor,0,Bottom Pressure and Tilt: BOTPT Ser
 ATAPL-58316-00002,ATAPL-58316-00002,Sensor,0,Bottom Pressure and Tilt: BOTPT Series A,BPR Pressure Housing (BOTPT),NOAA-PMEL,Custom,4,,20130122,18000,,University of Washington
 ATAPL-58316-00003,ATAPL-58316-00003,Sensor,0,Bottom Pressure and Tilt: BOTPT Series A,BPR Pressure Housing (BOTPT),NOAA-PMEL,Custom,5,,20130122,18000,,University of Washington
 ATAPL-58316-00004,ATAPL-58316-00004,Sensor,0,Bottom Pressure and Tilt: BOTPT Series A,BPR Pressure Housing (BOTPT),NOAA-PMEL,Custom,7,,20130122,18000,,University of Washington
-ATAPL-58316-00005,ATAPL-58316-00005,Sensor,0,Bottom Pressure and Tilt: BOTPT Series A,BPR Pressure Housing (BOTPT),NOAA-PMEL,Custom,8,,20130301,18000,,University of Washington
+ATAPL-58316-00005,ATAPL-58316-00005,Sensor,0,Bottom Pressure and Tilt: BOTPT Series A,BPR Pressure Housing (BOTPT),NOAA-PMEL,Custom,8,1.1,20130301,18000,,University of Washington
 ATAPL-58317-00001,ATAPL-58317-00001,Sensor,0,Underwater Digital Still Camera: CAMDS Series C,Underwater Digital Still Camera (CAMDS),Kongsberg Underwater Technology Inc,Custom,101,,20130619,25000,,University of Washington
 ATAPL-58317-00002,ATAPL-58317-00002,Sensor,0,Underwater Digital Still Camera: CAMDS Series B,Underwater Digital Still Camera (CAMDS),Kongsberg Underwater Technology Inc,Custom,102,,20130619,25000,,University of Washington
 ATAPL-58317-00003,ATAPL-58317-00003,Sensor,0,Underwater Digital Still Camera: CAMDS Series C,Underwater Digital Still Camera (CAMDS),Kongsberg Underwater Technology Inc,Custom,103,,20130619,25000,,University of Washington
@@ -1478,6 +1478,7 @@ ATAPL-70168-00003,ATAPL-70168-00003,Sensor,0,HD Digital Video Camera with Strobe
 ATAPL-70248-00002,ATAPL-70248-00002,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,Seafloor High Definition Video Camera,APL,Custom,SUBC12096,,20130114,32177,,University of Washington
 ATOSU-58317-00007,ATOSU-58317-00007,Sensor,0,Underwater Digital Still Camera: CAMDS Series C,CAMDS-C,Kongsberg Underwater Technology Inc,Custom,100,,,,,
 ATOSU-58317-00012,ATOSU-58317-00012,Sensor,0,Underwater Digital Still Camera: CAMDS Series B,Underwater Digital Still Camera (CAMDS),Kongsberg Underwater Technology Inc,Custom,117,,,,,
+ATOSU-58317-00013,ATOSU-58317-00013,Sensor,0,Underwater Digital Still Camera: CAMDS Series C,CAMDS-C,Kongsberg Underwater Technology Inc,Custom,118,,,,,
 ATOSU-58320-00007,ATOSU-58320-00007,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,215,,,,,
 ATOSU-58320-00008,ATOSU-58320-00008,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,137,,20130124,5258.25,,
 ATOSU-58320-00017,ATOSU-58320-00017,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,4831 Oxygen Optode Sensor w/ (2) 0-5 VDC Analog Channels (DOSTA),Aanderaa,Optode 4831,316,,,8000,,
@@ -1527,6 +1528,7 @@ ATOSU-69827-00001,CGINS-CTDBPN-03230,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP S
 ATOSU-69827-00002,ATOSU-69827-00002,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-50114,,20150514,19135,,
 ATOSU-69827-00003,ATOSU-69827-00003,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7248,,20130115,17550,,
 ATOSU-69828-00001,ATOSU-69828-00001,Sensor,0,CTD Pumped: CTDBP Series O,CTDBP SERIES O (O-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7231,,20121203,18250,,
+ATOSU-69828-00002,ATOSU-69828-00002,Sensor,0,CTD Pumped: CTDBP Series O,CTDBP SERIES O (O-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7249,,,,,
 ATOSU-69828-00003,CGINS-CTDBPO-50117,Sensor,0,CTD Pumped: CTDBP Series O,CTDBP SERIES O (O-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-50117,,20150514,19885,Former CGINS instrument,
 ATOSU-69829-00001,ATOSU-69829-00001,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series C,VEL3D,Nortek,VECTOR,5157,,,,,
 ATOSU-69829-00002,ATOSU-69829-00002,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series C,VEL3D,Nortek,VECTOR,5156,,,,,
@@ -1541,6 +1543,7 @@ ATOSU-70570-00001,ATOSU-70570-00001,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W-B,
 ATOSU-70570-00002,ATOSU-70570-00002,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SERIES B (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0080,,20140127,20208.3,,
 ATOSU-70571-00001,ATOSU-70571-00001,Sensor,0,Seawater pH: PHSEN Series D,PHSEN-D,Sunburst Sensors,SAMI-pH,P0116,,,,,
 ATOSU-70571-00002,ATOSU-70571-00002,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0117,,20140121,17479.95,,
+ATOSU-70571-00003,ATOSU-70571-00003,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0132,,,,,
 CGINS-CTDPFK-00093,N00001,Sensor,0,CTD Profiler: CTDPF Series K,CTD for WFP Coastal ML12714-01,Sea-Bird Electronics,SBE 52-MP,93,,20110617,,,
 CGINS-DOFSTK-00209,N00002,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12714-01,Sea-Bird Electronics,SBE 43F,43-0209,,20110617,,,
 CGINS-FLORTK-00830,N00003,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,FLOR for WFP Coastal ML12714-01,WET Labs,ECO Triplet,830,,20110617,,,
@@ -1999,7 +2002,7 @@ N00754,N00754,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP0
 CGINS-METLGR-00013,N00755,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,MTBK for CP031SSM-00001,Star Engineering,ASIMET,LGR013,,,,,
 N00756,N00756,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP03ISSM-00002-METBK,Star Engineering,ASIMET,CP03ISSM-00002-METBK,,,,,
 CGINS-METLGR-00023,N00757,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for CP031SSM-00003,Star Engineering,ASIMET,LGR023,,,,,
-N00760,N00760,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,1,,20140523,174000,,
+ATOSU-63295-00004,N00760,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,1,,20140523,174000,,
 CGCON-SIOCON-98925,OL000001,Sensor,0,Subsurface Mooring Platform Controller,SIO Controller,SIO,Subsurface Mooring Controller,13989 / 25,,,,,
 CGCON-SIOCON-99520,OL000002,Sensor,0,Subsurface Mooring Platform Controller,SIO Controller,SIO,Subsurface Mooring Controller,13995 / 20,,,,,
 CGCON-SIOCON-99826,OL000003,Sensor,0,Subsurface Mooring Platform Controller,SIO Controller,SIO,Subsurface Mooring Controller,13998 / 26,,,,,
@@ -2703,7 +2706,6 @@ CGCON-BCPM01-00007,,Sensor,0,Surface Buoy Communications and Power Manager,,WHOI
 CGCON-MCPM03-00007,,Sensor,0,Multi-Function Node Communications and Power Manager,,WHOI,CPM,7,,,,,
 CGCON-BDCL11-00007,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,7,,,,,
 CGCON-BDCL12-00007,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,7,,,,,
-ATOSU-63295-00004,,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,,Kongsberg Underwater Technology Inc,EK-60,1,,,,,
 ATOSU-70570-00003,ATOSU-70570-00003,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SERIES B (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0090,,20140414,20208.3,Price copied from C0080 as units are similar. Double check and update when more information comes available. Check date acquisition,
 ATOSU-70570-00004,ATOSU-70570-00004,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SERIES B (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0118,,20140715,20208.3,Price copied from C0080 as units are similar. Double check and update when more information comes available. Check date acquisition,
 CGINS-FLORTM-04466,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4466,,,,,
@@ -2808,12 +2810,12 @@ CGCON-GLDRGP-00575,,Sensor,1,Mobile Asset Controller for Profiling Glider,,Teled
 CGINS-CTDGVM-09295,,Sensor,1,CTD for Glider: CTDGV Series M,,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9295,,,,,Woods Hole Oceanographic Institution
 CGINS-DOSTAM-00499,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,,Aanderaa,Optode 4831,499,,,,,Woods Hole Oceanographic Institution
 CGINS-NUTNRM-00711,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,711,,,,,Woods Hole Oceanographic Institution
-CGINS-PARADM-50202,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,,Biospherical Instruments,QSP-2155,50202,,,,,Woods Hole Oceanographic Institution
+CGINS-PARADM-50202,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50202,,,,,Woods Hole Oceanographic Institution
 CGINS-FLORTM-04089,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,,WET Labs,ECO Puck FLBBCD-SLK,4089,,,,,Woods Hole Oceanographic Institution
 CGINS-FLORTO-01347,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,,WET Labs,ECO Puck BB3,1347,,,,,Woods Hole Oceanographic Institution
 CGCON-GLDRGP-00576,,Sensor,1,Mobile Asset Controller for Profiling Glider,,Teledyne Webb,G2 Slocum Gliders,576,,,,,Woods Hole Oceanographic Institution
 CGINS-CTDGVM-09222,,Sensor,1,CTD for Glider: CTDGV Series M,,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9222,,,,,Woods Hole Oceanographic Institution
-CGINS-PARADM-50208,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,,Biospherical Instruments,QSP-2155,50208,,,,,Woods Hole Oceanographic Institution
+CGINS-PARADM-50208,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50208,,,,,Woods Hole Oceanographic Institution
 CGINS-FLORTM-04090,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,,WET Labs,ECO Puck FLBBCD-SLK,4090,,,,,Woods Hole Oceanographic Institution
 CGINS-FLORTO-01346,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,,WET Labs,ECO Puck BB3,1346,,,,,Woods Hole Oceanographic Institution
 CGINS-PARADM-50207,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50207,,,,,
@@ -2849,3 +2851,64 @@ CGCON-BCPM01-70001,,Sensor,0,Surface Buoy Communications and Power Manager,Commu
 CGCON-BDCL11-70001,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2017-0001,,,,CP04OSSM-00006-DCL11,
 CGCON-BDCL12-70001,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2017-0001,,,,CP04OSSM-00006-DCL12,
 CGINS-METLGR-00038,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR038,,,,,
+CGINS-ADCPAM-72777,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,672777,,,,,
+CGINS-FLORTM-04473,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4473,,,,,
+CGINS-CTDGVM-09341,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9341,,,,,
+CGINS-PARADM-50195,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50195,,,,,
+CGINS-ZPLSGA-55110,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55110,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55104,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55104,,,,,Woods Hole Oceanographic Institution
+CGINS-FLORDM-03536,,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3536,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAM-00340,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,340,,,,,Woods Hole Oceanographic Institution
+CGINS-CTDGVM-09150,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9150,,,,,Woods Hole Oceanographic Institution
+CGINS-FLORTO-01344,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,,WET Labs,ECO Puck BB3,1344,,,,,Woods Hole Oceanographic Institution
+CGINS-FLORTM-04091,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,,WET Labs,ECO Puck FLBBCD-SLK,4091,,,,,Woods Hole Oceanographic Institution
+CGINS-PARADM-50210,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50210,,,,,Woods Hole Oceanographic Institution
+CGINS-PARADM-50216,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50216,,,,,Woods Hole Oceanographic Institution
+CGINS-CTDGVM-09302,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9302,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAM-00543,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,543,,,,,Woods Hole Oceanographic Institution
+CGINS-FLORTM-04092,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,,WET Labs,ECO Puck FLBBCD-SLK,4092,,,,,Woods Hole Oceanographic Institution
+CGINS-FLORTO-01343,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,,WET Labs,ECO Puck BB3,1343,,,,,Woods Hole Oceanographic Institution
+CGINS-NUTNRM-00729,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,729,,,,,Woods Hole Oceanographic Institution
+CGCON-GLDRGP-00470,,Sensor,1,Mobile Asset Controller for Profiling Glider,,Teledyne Webb,G2 Slocum Gliders,470,,,,,Woods Hole Oceanographic Institution
+CGCON-GLDRGP-00578,,Sensor,1,Mobile Asset Controller for Profiling Glider,,Teledyne Webb,G2 Slocum Gliders,578,,,,,Woods Hole Oceanographic Institution
+CGINS-CTDGVM-09297,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9297,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAM-00494,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,494,,,,,Woods Hole Oceanographic Institution
+CGCON-GLDRGP-00580,,Sensor,1,Mobile Asset Controller for Profiling Glider,,Teledyne Webb,G2 Slocum Gliders,580,,,,,Woods Hole Oceanographic Institution
+CGCON-GLDROO-00470,,Sensor,1,Mobile Asset Controller for Open Ocean Glider,GL470 Controller,Teledyne Webb,G2 Slocum Gliders,470,,,,,
+CGINS-NUTNRM-00710,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,710,,,,,Woods Hole Oceanographic Institution
+CGCON-NDCL16-00033,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,33,,,,,
+CGINS-CTDBPP-50198,,Sensor,0,CTD Pumped: CTDBP Series P,CTDBP SERIES P,Sea-Bird Electronics,SBE 16plus-IM V2,16-50198,,,,,
+CGINS-DOSTAD-00519,,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,519,,,,,Woods Hole Oceanographic Institution
+CGCON-BCPM01-17009,,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2017-009,,,,,
+CGCON-BDCL11-17009,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2017-009,,,,,
+CGINS-MOPAK0-11351,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11351,,,,,
+CGINS-HYDGN0-42324,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A542324,,,,,
+CGCON-BDCL12-17009,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2017-009,,,,,
+CGINS-HYDGN0-42509,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A542509,,,,,
+CGINS-FDCHPA-64402,R00060,Sensor,0,Direct Covariance Flux: FDCHP Series A,Direct Covariance Flux,WHOI,DCFS,164402,,,,,
+CGINS-ADCPSL-24661,,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP,Teledyne RDI,WHLS75-1500-I,24661,,20170705,,,Woods Hole Oceanographic Institution
+CGINS-ADCPSL-24664,,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP,Teledyne RDI,WHLS75-1500-I,24664,,20170705,,,Woods Hole Oceanographic Institution
+CGINS-VEL3DK-00468,,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series K,,Nortek,Aquadopp,100468,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-VEL3DK-00470,,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series K,,Nortek,Aquadopp,100470,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-FLORTK-01537,,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,,WET Labs,ECO Triplet,1537,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-FLORTK-01538,,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,,WET Labs,ECO Triplet,1538,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-PARADK-20541,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20541,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-PARADK-20542,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20542,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-03506,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,,Sea-Bird Electronics,SBE 43F,43-3506,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-03523,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,,Sea-Bird Electronics,SBE 43F,43-3523,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-CTDPFK-00184,,Sensor,0,CTD Profiler: CTDPF Series K,,Sea-Bird Electronics,SBE 52-MP,184,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-CTDPFK-00185,,Sensor,0,CTD Profiler: CTDPF Series K,,Sea-Bird Electronics,SBE 52-MP,185,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55109,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55109,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55111,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55111,,,,,Woods Hole Oceanographic Institution
+CGINS-FLORDM-03534,,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3534,,,,,
+CGCON-GLDRGP-00581,,Sensor,1,Mobile Asset Controller for Profiling Glider,,Teledyne Webb,G2 Slocum Gliders,581,,,,,Woods Hole Oceanographic Institution
+CGINS-CTDGVM-09306,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9306,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAM-00538,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,538,,,,,
+CGINS-FLORTM-04100,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4100,,,,,
+CGINS-FLORTO-01348,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,,WET Labs,ECO Puck BB3,1348,,,,,Woods Hole Oceanographic Institution
+CGINS-NUTNRM-00662,,Sensor,1,Nitrate for Glider: NUTNR Series M,NUTNR for Global Profiling Glider ,Satlantic,SUNA,662,,,,,
+CGINS-PARADM-50215,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50215,,,,,Woods Hole Oceanographic Institution
+CGINS-PARADM-50245,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50245,1.2,,,,Woods Hole Oceanographic Institution
+CGINS-METLWR-00313,,Sensor,0,Bulk Meteorology Instrument Package: METBK LWR Module,METBK LWR MODULE,Star Engineering,ABS104-LWR,LWR313,,,,,
+ATCWK-67627-00006,,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 3500m,Sea-Bird Electronics,SBE 16plus V2,16-50209,3.1.8,20170401,16060,PI,University of Washington
+CGCON-SIOCON-13992,,Sensor,0,Subsurface Mooring Platform Controller,,SIO,Subsurface Mooring Controller,13992,,,,,

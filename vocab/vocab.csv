@@ -362,6 +362,7 @@ CE07SHSP-SP001-09-PARADJ000,Coastal Endurance,Washington Shelf Surface Piercing 
 CE09OSPM,Coastal Endurance,Washington Offshore Profiler Mooring,,,,,0,544
 CE09OSPM-SBS01,Coastal Endurance,Washington Offshore Profiler Mooring,Surface Buoy,,,,0,0
 CE09OSPM-SBS01-00-STCENG000,Coastal Endurance,Washington Offshore Profiler Mooring,Surface Buoy,Platform Controller,WHOI,Sensor and Telemetry Controller,0,0
+CE09OSPM-SBS01-01-MOPAK0000,Coastal Endurance,Washington Offshore Profiler Mooring,Surface Buoy,3-Axis Motion Pack,MicroStrain,3DM-GX3-25,0,0
 CE09OSPM-WFP01,Coastal Endurance,Washington Offshore Profiler Mooring,Wire-Following Profiler,,,,15,540
 CE09OSPM-WFP01-00-WFPENG000,Coastal Endurance,Washington Offshore Profiler Mooring,Wire-Following Profiler,Profiler Controller,McLane,MMP,15,540
 CE09OSPM-WFP01-01-VEL3DK000,Coastal Endurance,Washington Offshore Profiler Mooring,Wire-Following Profiler,3-D Single Point Velocity Meter,Nortek,Aquadopp II,15,540
@@ -414,6 +415,19 @@ CE09OSSM-SBD12-00-DCLENG000,Coastal Endurance,Washington Offshore Surface Moorin
 CE09OSSM-SBD12-03-HYDGN0000,Coastal Endurance,Washington Offshore Surface Mooring,Surface Buoy,Hydrogen Sensor,RKI Instruments,M2A transmitters,0,0
 CE09OSSM-SBD12-04-PCO2AA000,Coastal Endurance,Washington Offshore Surface Mooring,Surface Buoy,pCO2 Air-Sea,Pro-Oceanus,pCO2-pro,0,0
 CE09OSSM-SBD12-05-WAVSSA000,Coastal Endurance,Washington Offshore Surface Mooring,Surface Buoy,Surface Wave Spectra,Axys Technologies,TRIAXYS,0,0
+CP01CNPM,Coastal Pioneer,Central Profiler Mooring,,,,,0,70
+CP01CNPM-SBS01,Coastal Pioneer,Central Profiler Mooring,Surface Buoy,,,,0,0
+CP01CNPM-SBS01-00-STCENG000,Coastal Pioneer,Central Profiler Mooring,Surface Buoy,Platform Controller,WHOI,Sensor and Telemetry Controller,0,0
+CP01CNPM-SBS01-01-MOPAK0000,Coastal Pioneer,Central Profiler Mooring,Surface Buoy,3-Axis Motion Pack,MicroStrain,3DM-GX3-25,0,0
+CP01CNPM-RII01,Coastal Pioneer,Central Profiler Mooring,Mooring Riser,,,,70,70
+CP01CNPM-RII01-02-ADCPTG010,Coastal Pioneer,Central Profiler Mooring,Mooring Riser,Velocity Profiler (150kHz),Teledyne RDI,WorkHorse Sentinel150khz - inductive,70,70
+CP01CNPM-WFP01,Coastal Pioneer,Central Profiler Mooring,Wire-Following Profiler,,,,15,70
+CP01CNPM-WFP01-00-WFPENG000,Coastal Pioneer,Central Profiler Mooring,Wire-Following Profiler,Profiler Controller,McLane,MMP,15,70
+CP01CNPM-WFP01-01-VEL3DK000,Coastal Pioneer,Central Profiler Mooring,Wire-Following Profiler,3-D Single Point Velocity Meter,Nortek,Aquadopp II,15,70
+CP01CNPM-WFP01-02-DOFSTK000,Coastal Pioneer,Central Profiler Mooring,Wire-Following Profiler,Dissolved Oxygen,Sea-Bird,SBE 43F,15,70
+CP01CNPM-WFP01-03-CTDPFK000,Coastal Pioneer,Central Profiler Mooring,Wire-Following Profiler,CTD,Sea-Bird,SBE 52MP,15,70
+CP01CNPM-WFP01-04-FLORTK000,Coastal Pioneer,Central Profiler Mooring,Wire-Following Profiler,3-Wavelength Fluorometer,WET Labs,ECO Triplet,15,70
+CP01CNPM-WFP01-05-PARADK000,Coastal Pioneer,Central Profiler Mooring,Wire-Following Profiler,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2200,15,70
 CP01CNSM,Coastal Pioneer,Central Surface Mooring,,,,,0,133
 CP01CNSM-MFD35,Coastal Pioneer,Central Surface Mooring,Seafloor Multi-Function Node (MFN),,,,133,133
 CP01CNSM-MFD35-00-DCLENG000,Coastal Pioneer,Central Surface Mooring,Seafloor Multi-Function Node (MFN),Data Concentrator Logger (DCL),WHOI,Data Concentrator Logger,133,133
@@ -521,6 +535,19 @@ CP02PMUO-WFP01-02-DOFSTK000,Coastal Pioneer,Upstream Offshore Profiler Mooring,W
 CP02PMUO-WFP01-03-CTDPFK000,Coastal Pioneer,Upstream Offshore Profiler Mooring,Wire-Following Profiler,CTD,Sea-Bird,SBE 52MP,20,425
 CP02PMUO-WFP01-04-FLORTK000,Coastal Pioneer,Upstream Offshore Profiler Mooring,Wire-Following Profiler,3-Wavelength Fluorometer,WET Labs,ECO Triplet,20,425
 CP02PMUO-WFP01-05-PARADK000,Coastal Pioneer,Upstream Offshore Profiler Mooring,Wire-Following Profiler,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2200,20,425
+CP03ISPM,Coastal Pioneer,Inshore Profiler Mooring,,,,,0,70
+CP03ISPM-RII01,Coastal Pioneer,Inshore Profiler Mooring,Mooring Riser,,,,70,70
+CP03ISPM-RII01-02-ADCPTG010,Coastal Pioneer,Inshore Profiler Mooring,Mooring Riser,Velocity Profiler (150kHz),Teledyne RDI,WorkHorse Sentinel150khz - inductive,70,70
+CP03ISPM-SBS01,Coastal Pioneer,Inshore Profiler Mooring,Surface Buoy,,,,0,0
+CP03ISPM-SBS01-00-STCENG000,Coastal Pioneer,Inshore Profiler Mooring,Surface Buoy,Platform Controller,WHOI,Sensor and Telemetry Controller,0,0
+CP03ISPM-SBS01-01-MOPAK0000,Coastal Pioneer,Inshore Profiler Mooring,Surface Buoy,3-Axis Motion Pack,MicroStrain,3DM-GX3-25,0,0
+CP03ISPM-WFP01,Coastal Pioneer,Inshore Profiler Mooring,Wire-Following Profiler,,,,70,70
+CP03ISPM-WFP01-00-WFPENG000,Coastal Pioneer,Inshore Profiler Mooring,Wire-Following Profiler,Profiler Controller,McLane,MMP,70,70
+CP03ISPM-WFP01-01-VEL3DK000,Coastal Pioneer,Inshore Profiler Mooring,Wire-Following Profiler,3-D Single Point Velocity Meter,Nortek,Aquadopp II,70,70
+CP03ISPM-WFP01-02-DOFSTK000,Coastal Pioneer,Inshore Profiler Mooring,Wire-Following Profiler,Dissolved Oxygen,Sea-Bird,SBE 43F,70,70
+CP03ISPM-WFP01-03-CTDPFK000,Coastal Pioneer,Inshore Profiler Mooring,Wire-Following Profiler,CTD,Sea-Bird,SBE 52MP,70,70
+CP03ISPM-WFP01-04-FLORTK000,Coastal Pioneer,Inshore Profiler Mooring,Wire-Following Profiler,3-Wavelength Fluorometer,WET Labs,ECO Triplet,70,70
+CP03ISPM-WFP01-05-PARADK000,Coastal Pioneer,Inshore Profiler Mooring,Wire-Following Profiler,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2200,70,70
 CP03ISSM,Coastal Pioneer,Inshore Surface Mooring,,,,,0,92
 CP03ISSM-MFC31,Coastal Pioneer,Inshore Surface Mooring,Seafloor Multi-Function Node (MFN),,,,91.5,91.5
 CP03ISSM-MFC31-00-CPMENG000,Coastal Pioneer,Inshore Surface Mooring,Seafloor Multi-Function Node (MFN),Platform Controller,WHOI,Communications and Power Manager,91.5,91.5
@@ -1143,7 +1170,6 @@ GP05MOAS-PG514-00-ENG000000,Global Station Papa,Mobile Assets,Profiling Glider 5
 GP05MOAS-PG514-02-DOSTAM000,Global Station Papa,Mobile Assets,Profiling Glider 514,Dissolved Oxygen,Aanderaa,Optode 4831,0,200
 GP05MOAS-PG514-01-CTDGVM000,Global Station Papa,Mobile Assets,Profiling Glider 514,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,200
 GP05MOAS-PG514-03-FLORTM000,Global Station Papa,Mobile Assets,Profiling Glider 514,3-Wavelength Fluorometer,WET Labs,ECO Puck FLBBCD-SLK,0,200
-GP05MOAS-PG514-03-NUTNRM000,Global Station Papa,Mobile Assets,Profiling Glider 514,Nitrate,Satlantic,SUNA V2,0,200
 GP05MOAS-PG514-04-FLORTO000,Global Station Papa,Mobile Assets,Profiling Glider 514,3-Wavelength Fluorometer,WET Labs,ECO BB3,0,200
 GP05MOAS-PG514-05-NUTNRM000,Global Station Papa,Mobile Assets,Profiling Glider 514,Nitrate,Satlantic,SUNA V2,0,200
 GP05MOAS-PG514-06-PARADM000,Global Station Papa,Mobile Assets,Profiling Glider 514,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,200
@@ -1151,12 +1177,9 @@ GP05MOAS-PG515,Global Station Papa,Mobile Assets,Profiling Glider 515,,,,0,200
 GP05MOAS-PG515-00-ENG000000,Global Station Papa,Mobile Assets,Profiling Glider 515,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,0,200
 GP05MOAS-PG515-01-CTDGVM000,Global Station Papa,Mobile Assets,Profiling Glider 515,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,200
 GP05MOAS-PG515-06-PARADM000,Global Station Papa,Mobile Assets,Profiling Glider 515,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,200
-GP05MOAS-PG515-04-PARADM000,Global Station Papa,Mobile Assets,Profiling Glider 515,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,200
 GP05MOAS-PG515-02-DOSTAM000,Global Station Papa,Mobile Assets,Profiling Glider 515,Dissolved Oxygen,Aanderaa,Optode 4831,0,200
 GP05MOAS-PG515-03-FLORTM000,Global Station Papa,Mobile Assets,Profiling Glider 515,3-Wavelength Fluorometer,WET Labs,ECO Puck FLBBCD-SLK,0,200
 GP05MOAS-PG515-04-FLORTO000,Global Station Papa,Mobile Assets,Profiling Glider 515,3-Wavelength Fluorometer,WET Labs,ECO BB3,0,200
-GP05MOAS-PG515-02-FLORTM000,Global Station Papa,Mobile Assets,Profiling Glider 515,3-Wavelength Fluorometer,WET Labs,ECO Puck FLBBCD-SLK,0,200
-GP05MOAS-PG515-03-FLORTO000,Global Station Papa,Mobile Assets,Profiling Glider 515,3-Wavelength Fluorometer,WET Labs,ECO BB3,0,200
 GP05MOAS-PG515-05-NUTNRM000,Global Station Papa,Mobile Assets,Profiling Glider 515,Nitrate,Satlantic,SUNA V2,0,200
 GS01SUMO,Global Southern Ocean,Apex Surface Mooring,,,,,0,4800
 GS01SUMO-RID16,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,,,,12,12
@@ -1356,8 +1379,10 @@ RS03ASHS-MJ03B-00-OSMOIA301,Cabled Axial Seamount,ASHES Vent Field,Medium-Power 
 RS03ASHS-MJ03B-05-OBSSPA302,Cabled Axial Seamount,ASHES Vent Field,Medium-Power JBox (MJ03B),Short-Period Ocean Bottom Seismometer,Guralp,CMG-6TF,1552,1552
 RS03ASHS-MJ03B-06-OBSSPA301,Cabled Axial Seamount,ASHES Vent Field,Medium-Power JBox (MJ03B),Short-Period Ocean Bottom Seismometer,Guralp,CMG-6TF,1552,1552
 RS03ASHS-MJ03B-07-TMPSFA301,Cabled Axial Seamount,ASHES Vent Field,Medium-Power JBox (MJ03B),Diffuse Vent Fluid 3-D Temperature Array,RBR Global,XR-420,1552,1552
+RS03ASHS-MJ03B-09-BOTPTA304,Cabled Axial Seamount,ASHES Vent Field,Medium-Power JBox (MJ03B),Bottom Pressure and Tilt,PMEL/Chadwick,PMELcabled BPR/Tilt,1552,1552
+RS03ASHS-MJ03B-10-CTDPFB304,Cabled Axial Seamount,ASHES Vent Field,Medium-Power JBox (MJ03B),CTD,Sea-Bird,SBE 16plusV2,1552,1552
 RS03ASHS-PN03B,Cabled Axial Seamount,ASHES Vent Field,Primary Node (PN03B),,,,1552,1552
-RS03ASHS-PN03B-H6-CAMHDA301,Cabled Axial Seamount,ASHES Vent Field,Primary Node (PN03B),HD Digital Video Camera,SubC,1Cam,1552,1552
+RS03ASHS-PN03B-06-CAMHDA301,Cabled Axial Seamount,ASHES Vent Field,Primary Node (PN03B),HD Digital Video Camera,SubC,1Cam,1552,1552
 RS03AXBS,Cabled Axial Seamount,Axial Base Seafloor,,,,,2522,2639
 RS03AXBS-LJ03A,Cabled Axial Seamount,Axial Base Seafloor,Low-Power JBox (LJ03A),,,,2594,2594
 RS03AXBS-LJ03A-05-HPIESA301,Cabled Axial Seamount,Axial Base Seafloor,Low-Power JBox (LJ03A),"Horizontal Electric Field, Pressure and Inverted Echo Sounder","Sanford, UW",cabled HPIES,2639,2639
@@ -1604,3 +1629,21 @@ GP05MOAS-PG576-03-FLORTM000,Global Station Papa,Mobile Assets,Profiling Glider 5
 GP05MOAS-PG576-04-FLORTO000,Global Station Papa,Mobile Assets,Profiling Glider 576,3-Wavelength Fluorometer,WET Labs,ECO BB3,0,200
 GP05MOAS-PG576-05-NUTNRM000,Global Station Papa,Mobile Assets,Profiling Glider 576,Nitrate,Satlantic,SUNA V2,0,200
 GP05MOAS-PG576-06-PARADM000,Global Station Papa,Mobile Assets,Profiling Glider 576,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,200
+GI05MOAS-GL493,Global Irminger Sea,Mobile Assets,Open Ocean Glider 493,,,,0,1000
+GI05MOAS-GL493-00-ENG000000,Global Irminger Sea,Mobile Assets,Open Ocean Glider 493,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,0,1000
+GI05MOAS-GL493-01-FLORDM000,Global Irminger Sea,Mobile Assets,Open Ocean Glider 493,2-Wavelength Fluorometer,WET Labs,ECO Puck FLBB-SLC,0,1000
+GI05MOAS-GL493-02-DOSTAM000,Global Irminger Sea,Mobile Assets,Open Ocean Glider 493,Dissolved Oxygen,Aanderaa,Optode 4831,0,1000
+GI05MOAS-GL493-04-CTDGVM000,Global Irminger Sea,Mobile Assets,Open Ocean Glider 493,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,1000
+GI05MOAS-GL486,Global Irminger Sea,Mobile Assets,Open Ocean Glider 486,,,,0,1000
+GI05MOAS-GL486-00-ENG000000,Global Irminger Sea,Mobile Assets,Open Ocean Glider 486,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,0,1000
+GI05MOAS-GL486-01-FLORDM000,Global Irminger Sea,Mobile Assets,Open Ocean Glider 486,2-Wavelength Fluorometer,WET Labs,ECO Puck FLBB-SLC,0,1000
+GI05MOAS-GL486-02-DOSTAM000,Global Irminger Sea,Mobile Assets,Open Ocean Glider 486,Dissolved Oxygen,Aanderaa,Optode 4831,0,1000
+GI05MOAS-GL486-04-CTDGVM000,Global Irminger Sea,Mobile Assets,Open Ocean Glider 486,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,1000
+GI05MOAS-PG581,Global Irminger Sea,Mobile Assets,Profiling Glider 581,,,,0,200
+GI05MOAS-PG581-00-ENG000000,Global Irminger Sea,Mobile Assets,Profiling Glider 581,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,0,200
+GI05MOAS-PG581-01-CTDGVM000,Global Irminger Sea,Mobile Assets,Profiling Glider 581,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,200
+GI05MOAS-PG581-02-DOSTAM000,Global Irminger Sea,Mobile Assets,Profiling Glider 581,Dissolved Oxygen,Aanderaa,Optode 4831,0,200
+GI05MOAS-PG581-03-FLORTM000,Global Irminger Sea,Mobile Assets,Profiling Glider 581,3-Wavelength Fluorometer,WET Labs,ECO Puck FLBBCD-SLK,0,200
+GI05MOAS-PG581-04-FLORTO000,Global Irminger Sea,Mobile Assets,Profiling Glider 581,3-Wavelength Fluorometer,WET Labs,ECO BB3,0,200
+GI05MOAS-PG581-05-NUTNRM000,Global Irminger Sea,Mobile Assets,Profiling Glider 581,Nitrate,Satlantic,SUNA V2,0,200
+GI05MOAS-PG581-06-PARADM000,Global Irminger Sea,Mobile Assets,Profiling Glider 581,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,200
