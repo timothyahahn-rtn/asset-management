@@ -17,6 +17,7 @@ EK-1508,R/V Elakha,2015-08-21T00:00:00,2015-08-22T23:59:59,Endurance CE06ISSP CE
 EK-1608,R/V Elakha,2016-08-23T00:00:00,2016-08-23T23:59:59,Endurance CE02SHSP
 EK-1701,R/V Elakha,2017-01-31T18:30:00,2017-01-31T22:40:00,Endurance GL info
 EK-1704,R/V Elakha,2017-04-26T12:00:00,2017-04-26T23:59:59,CE02SHSP_00006 recovery
+EK-1708A,R/V Elakha,2017-08-25T15:46:00,2017-08-25T20:59:00,CE02SHSP_00007 deployment
 JR-1607,R/V Jack Robertson,2016-07-20T00:00:00,2016-07-20T23:59:59,Endurance CE06ISSP
 KN-214,R/V Knorr,2013-11-20T00:00:00,2013-11-26T23:59:59,Pioneer 1 (rvdata)
 KN-217,R/V Knorr,2014-04-7T00:00:00,2014-04-19T23:59:59,Pioneer 2 (rvdata)
@@ -80,3 +81,5 @@ AT39-03,R/V Atlantis,2017-11-27T00:00:00,2017-12-14T00:00:00,Argentine Basin 4
 F/V Tenacious,F/V Tenacious,2017-07-02T00:00:00,2017-07-02T23:59:59,unplanned cruise - recovered by local fisherman Eric Hesse
 RR1713,R/V Roger Revelle,2017-07-27T10:28:00,2017-08-07T13:00:00,Cabled (rvdata) Visions 17 Leg 1
 RR1714,R/V Roger Revelle,2017-08-09T17:30:00,2017-08-19T12:00:00,Cabled (rvdata) Visions 17 Leg 2
+RR1715,R/V Roger Revelle,2017-08-20T17:30:00,2017-08-27T17:00:00,Cabled (rvdata) Visions 17 Leg 3
+P8a,M/V Warren Jr.,2017-08-15T00:00:00,2017-08-18T23:59:59,Pioneer 8a glider deployment/recovery
