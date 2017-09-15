@@ -1224,13 +1224,13 @@ ATAPL-58317-00009,ATAPL-58317-00009,Sensor,0,Underwater Digital Still Camera: CA
 ATAPL-58317-00010,ATAPL-58317-00010,Sensor,0,Underwater Digital Still Camera: CAMDS Series B,CAMDS-B,Kongsberg Underwater Technology Inc,Custom,115,,,,,University of Washington
 ATAPL-58317-00011,ATAPL-58317-00011,Sensor,0,Underwater Digital Still Camera: CAMDS Series B,CAMDS-B,Kongsberg Underwater Technology Inc,Custom,116,,,,,University of Washington
 ATAPL-58319-00001,ATAPL-58319-00001,Sensor,0,Subsea CTD + Dissolved Oxygen Sensor,Subsea CTD + Dissolved Oxygen Sensor,Sea-Bird Electronics,52MP,5259243-0075,,20100709,13000,,University of Washington
-ATAPL-58320-00001,ATAPL-58320-00001,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,458,,,,,University of Washington
+ATAPL-58320-00001,ATAPL-58320-00001,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,125,,,,,University of Washington
 ATAPL-58320-00002,ATAPL-58320-00002,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,344,,,5092.2,,University of Washington
 ATAPL-58320-00003,ATAPL-58320-00003,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,273,,,,,University of Washington
 ATAPL-58320-00004,ATAPL-58320-00004,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,274,,,5092.2,,University of Washington
 ATAPL-58320-00005,ATAPL-58320-00005,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,275,,,5092.2,,University of Washington
 ATAPL-58320-00006,ATAPL-58320-00006,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,276,,,,,University of Washington
-ATAPL-58320-00009,ATAPL-58320-00009,Sensor,0,DOSTA for RSN,DOSTA for RSN,Aanderaa,4831,125,,,5092.2,,University of Washington
+ATAPL-58320-00009,ATAPL-58320-00009,Sensor,0,DOSTA for RSN,DOSTA for RSN,Aanderaa,Optode 4831,458,,,5092.2,,University of Washington
 ATAPL-58320-00010,ATAPL-58320-00010,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,459,,,5092.2,,University of Washington
 ATAPL-58320-00011,ATAPL-58320-00011,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,472,,,5092.2,,University of Washington
 ATAPL-58320-00012,ATAPL-58320-00012,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,473,,,5092.2,,University of Washington
@@ -1544,6 +1544,7 @@ ATOSU-70570-00002,ATOSU-70570-00002,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SE
 ATOSU-70571-00001,ATOSU-70571-00001,Sensor,0,Seawater pH: PHSEN Series D,PHSEN-D,Sunburst Sensors,SAMI-pH,P0116,,,,,
 ATOSU-70571-00002,ATOSU-70571-00002,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0117,,20140121,17479.95,,
 ATOSU-70571-00003,ATOSU-70571-00003,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0132,,,,,
+ATOSU-70571-00004,ATOSU-70571-00004,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0159,,,,,
 CGINS-CTDPFK-00093,N00001,Sensor,0,CTD Profiler: CTDPF Series K,CTD for WFP Coastal ML12714-01,Sea-Bird Electronics,SBE 52-MP,93,,20110617,,,
 CGINS-DOFSTK-00209,N00002,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12714-01,Sea-Bird Electronics,SBE 43F,43-0209,,20110617,,,
 CGINS-FLORTK-00830,N00003,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,FLOR for WFP Coastal ML12714-01,WET Labs,ECO Triplet,830,,20110617,,,
