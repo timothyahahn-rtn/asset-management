@@ -2917,3 +2917,12 @@ CGINS-PARADM-50252,,Sensor,1,Photosynthetically Available Radiation for Glider: 
 CGCON-GLDRCP-00564,,Sensor,1,Mobile Asset Controller for Coastal Glider,GL564 Controller,Teledyne Webb,G2 Slocum Gliders,564,,,,,
 CGCON-CWFPCP-30001,,Sensor,0,Coastal Wire-Following Profiler Controller,,McLane,MMP-7,ML14300-01,,20170627,0,,Woods Hole Oceanographic Institution
 CGCON-CWFPCP-30002,,Sensor,0,Coastal Wire-Following Profiler Controller,,McLane,MMP-7,ML14300-02,,20170627,0,,Woods Hole Oceanographic Institution
+CGCON-MDCL35-00040,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,40,,,,CP01CNSM-00008-DCL35,
+CGCON-NCPM02-00013,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,13,,,,CP01CNSM-00008-CPM21,
+CGCON-NDCL26-00034,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,34,,,,CP01CNSM-00008-DCL26,
+CGCON-MDCL35-00041,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,41,,,,CP03ISSM-00007-DCL35,
+CGCON-NDCL26-00039,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,39,,,,CP03ISSM-00007-DCL26,
+CGINS-HYDGN0-42316,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A542316,,,,,
+CGCON-MDCL35-00023,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,23,,,,CP04OISSM-00007-DCL35,
+CGINS-HYDGN0-49886,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A49886,,,,,
+CGINS-METLGR-00037,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR037,,,,,
