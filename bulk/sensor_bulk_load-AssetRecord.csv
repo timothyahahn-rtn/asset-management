@@ -2921,3 +2921,5 @@ CGINS-NUTNRB-01059,,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES B (SUNA),Sea-B
 CGINS-NUTNRB-01060,,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES B (SUNA),Sea-Bird Scientific (Satlantic),SUNA V2,1060,,20170922,,,Oregon State University
 CGINS-NUTNRB-01061,,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES B (SUNA),Sea-Bird Scientific (Satlantic),SUNA V2,1061,,20170922,,,Oregon State University
 CGCON-GLDRCP-00564,,Sensor,1,Mobile Asset Controller for Coastal Glider,GL564 Controller,Teledyne Webb,G2 Slocum Gliders,564,,,,,
+CGCON-CWFPCP-30001,,Sensor,0,Coastal Wire-Following Profiler Controller,,McLane,MMP-7,ML14300-01,,20170627,0,,Woods Hole Oceanographic Institution
+CGCON-CWFPCP-30002,,Sensor,0,Coastal Wire-Following Profiler Controller,,McLane,MMP-7,ML14300-02,,20170627,0,,Woods Hole Oceanographic Institution
