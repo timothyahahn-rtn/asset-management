@@ -2935,3 +2935,8 @@ CGINS-HYDGN0-42316,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instrume
 CGCON-MDCL35-00023,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,23,,,,CP04OISSM-00007-DCL35,
 CGINS-HYDGN0-49886,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A49886,,,,,
 CGINS-METLGR-00037,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR037,,,,,
+CGCON-BSTC01-00017,,Sensor,0,Sensor and Telemetry Platform Controller,Sensor and Telemetry Controller,WHOI,STC,SWE 0017,,,,,
+CGCON-BSTC01-00016,,Sensor,0,Sensor and Telemetry Platform Controller,Sensor and Telemetry Controller,WHOI,STC,SWE 0016,,,,,
+CGCON-BSTC01-00018,,Sensor,0,Sensor and Telemetry Platform Controller,Sensor and Telemetry Controller,WHOI,STC,SWE 0018,,,,,
+CGINS-MOPAK0-58478,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-58478,,,,,
+CGINS-MOPAK0-58481,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-58481,,,,,
