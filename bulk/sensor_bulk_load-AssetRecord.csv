@@ -1639,6 +1639,12 @@ CGINS-VEL3DL-01109,N00116,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series
 CGINS-ADCPAM-48877,N00117,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648877,,20130701,186935,,
 CGINS-FLORTM-02819,N00118,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,2819,,20130701,186935,,
 CGINS-CTDGVM-09083,N00119,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9083,,20130701,186935,,
+CGCON-CWFPCE-37801,,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML14378-01,,20170907,,,Oregon State University
+CGINS-CTDPFK-00189,,Sensor,0,CTD Profiler: CTDPF Series K,CTD for WFP Coastal ML14378-01,Sea-Bird Electronics,SBE 52-MP,189,,20170907,,,Oregon State University
+CGINS-DOFSTK-03535,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML14378-01,Sea-Bird Electronics,SBE 43F,43-3535,,20170907,,,Oregon State University
+CGINS-FLORTK-01602,,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,FLOR for WFP Coastal ML14378-01,WET Labs,ECO Triplet,1602,,20170907,,,Oregon State University
+CGINS-PARADK-20555,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,PAR for WFP Coastal ML14378-01,Biospherical Instruments,QSP-2200,20555,,20170907,,,Oregon State University
+CGINS-VEL3DK-00475,,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series K,VEL3D for WFP Coastal ML14378-01,Nortek,Aquadopp,100475,,20170907,,,Oregon State University
 CGCON-CSPPCE-00002,N00122.1,Sensor,0,Coastal Surface Piercing Profiler Controller,"Profiler, Coastal Surface Piercing",WET Labs,AMP,WLP-002,,20140630,310000,FAS-540601,
 CGCON-CSPPCE-00003,N00123.1,Sensor,0,Coastal Surface Piercing Profiler Controller,"Profiler, Coastal Surface Piercing",WET Labs,AMP,WLP-003,,20140616,310000,FAS-540601,
 CGCON-CSPPCP-00004,N00124.1,Sensor,0,Coastal Surface Piercing Profiler Controller,"Profiler, Coastal Surface Piercing",WET Labs,AMP,WLP-004,,20140801,310000,Coastal Profiler,
