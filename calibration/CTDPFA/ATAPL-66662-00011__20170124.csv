@@ -24,7 +24,7 @@ serial,name,value,notes
 16-50123,CC_ptempa1,4.63E+01,
 16-50123,CC_ptempa2,2.05E-01,
 16-50123,CC_residual_temperature_correction_factor_a,-3.6653E-003
-16-50123,CC_residual_temperature_correction_factor_b,1.88E-04
-16-50123,CC_residual_temperature_correction_factor_c,-2.70E-06
+16-50123,CC_residual_temperature_correction_factor_b,2.1247E-004
+16-50123,CC_residual_temperature_correction_factor_c,-3.2534E-006
 16-50123,CC_residual_temperature_correction_factor_e,0.036
 16-50123,CC_offset,0,
