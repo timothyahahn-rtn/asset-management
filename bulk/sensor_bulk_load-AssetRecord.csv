@@ -490,7 +490,6 @@ CGINS-DOSTAD-00315,A00807,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Serie
 CGINS-PRESFB-01386,A00813,Sensor,0,Seafloor Pressure: PRESF Series B,PRESF SERIES B (26PLUS),Sea-Bird Electronics,SBE 26plus,26P76848-1386,7.2,20150604,13850,,
 CGINS-ADCPSJ-21496,A00816,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series J,ADCP SERIES J (WHLS75-1500),Teledyne RDI,WHLS75-1500,21496,50.4,20150604,50688,,
 A00835,A00835,Sensor,0,SENSOR CTD,SENSOR CTD,Sea-Bird Electronics,SBE 52-MP,138,,20140128,9966,,
-ATOSU-70110-00007,A00837,Sensor,0,FLUOROMETER,FLUOROMETER,WET Labs,FLNTURTD,3398,,20140128,6665,UW Claims they have asset,
 A00838,A00838,Sensor,0,FLUOROMETER,FLUOROMETER,WET Labs,FLCDRTD (CDOM),3400,,20140128,6665,UW Claims they have asset,
 CGCON-CWFPCP-10301,A00846.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML13103-01,,20140128,0,,Woods Hole Oceanographic Institution
 CGCON-CWFPCP-10302,A00847.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML13103-02,,20140128,0,,Woods Hole Oceanographic Institution
