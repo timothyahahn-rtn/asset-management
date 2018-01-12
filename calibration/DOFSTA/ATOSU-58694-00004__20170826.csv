@@ -5,4 +5,4 @@ serial,name,value,notes
 43-2853,CC_residual_temperature_correction_factor_c,-2.1638e-006,
 43-2853,CC_residual_temperature_correction_factor_e,3.6000e-002,
 43-2853,CC_voltage_offset,-0.5280,
-43-2463,CC_frequency_offset,-0.5280 ,<offset> - deprecated by voltage_offset
+43-2853,CC_frequency_offset,-0.5280 ,<offset> - deprecated by voltage_offset
