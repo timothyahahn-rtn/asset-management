@@ -6,6 +6,6 @@ serial,name,value,notes
 1130,CC_depolarization_ratio,0.039,
 1130,CC_measurement_wavelength,700,
 1130,CC_scale_factor_cdom,0.0626,ppb/count
-1130,CC_scale_factor_chlorophyll_a,0.0649,ug/l/count
-1130,CC_scale_factor_volume_scatter,2.25E-06,(m^-1*sr^-1)/counts
+1130,CC_scale_factor_chlorophyll_a,0.0114,ug/l/count
+1130,CC_scale_factor_volume_scatter,2.252E-06,(m^-1*sr^-1)/counts
 1130,CC_scattering_angle,124,

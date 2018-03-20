@@ -1376,7 +1376,7 @@ ATAPL-66662-00012,ATAPL-66662-00012,Sensor,0,CTD Profiler: CTDPF Series A,Shallo
 ATAPL-67596-00002,ATAPL-67596-00002,Sensor,0,Particulate DNA Sampler: PPSDN Series A,Phytoplankton Sampler,NOAA-PMEL,PPS,12881-03,,20121107,27340,,University of Washington
 ATAPL-67596-00003,ATAPL-67596-00003,Sensor,0,Particulate DNA Sampler: PPSDN Series A,Phytoplankton Sampler  (O&M),NOAA-PMEL,PPS,13003-01,,20130402,28910,,University of Washington
 ATAPL-67596-0001A,ATAPL-67596-0001A,Sensor,0,McLane Controler WTS-6-24 Phytoplankton Sampler,McLane Controler WTS-6-24 Phytoplankton Sampler,McLane,WTS-6-24-47FH,12881-03,,20130613,27340,,University of Washington
-ATAPL-67627-00001,ATAPL-67627-00001,Sensor,0,Seabird 16+V2 CTD 3500m (ATAPL-69939-00001),Seabird 16+V2 CTD 3500m (ATAPL-69939-00001),Sea-Bird Electronics,16plusV2 (7000m),16P66805-6943,,20111230,13070,,University of Washington
+ATAPL-67627-00001,ATAPL-67627-00001,Sensor,0,Seabird 16+V2 CTD 3500m (ATAPL-69939-00001),Seabird 16+V2 CTD 3500m (ATAPL-69939-00001),Sea-Bird Electronics,16plusV2 (7000m),16-6943,,20111230,13070,,University of Washington
 ATAPL-67627-00002,ATAPL-67627-00002,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 3500m (ATAPL-69939-00002),Sea-Bird Electronics,SBE 16plus V2,16P71179-7234,,20121210,13070,,University of Washington
 ATAPL-67627-00003,ATAPL-67627-00003,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 3500m (O&M),Sea-Bird Electronics,SBE 16plus V2,16P71179-50031,,20140512,14310,,University of Washington
 ATAPL-67627-00004,ATAPL-67627-00004,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 3500m,Sea-Bird Electronics,SBE 16plus V2,16-50119,,20150511,16060,,University of Washington
@@ -3000,3 +3000,12 @@ CGINS-DOSTAM-01407,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA 
 CGINS-ADCPAM-00541,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,541,,,,,
 CGINS-ADCPAM-00553,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,553,,,,,
 CGINS-ADCPAM-00549,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,549,,,,,
+CGINS-HYDGN0-11407,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A511407,,,,,
+CGCON-MDCL35-00045,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,45,,,,,
+CGCON-NCPM02-00017,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,17,,,,,
+CGCON-NDCL27-00017,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,17,,,,,
+CGCON-MDCL35-00050,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,50,,,,,
+CGCON-BCPM01-50002,,Sensor,0,Surface Buoy Communications and Power Manager,,WHOI,CPM,2015-0002,,,,,
+CGCON-BDCL11-50002,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2015-0002,,,,,
+CGCON-BDCL12-50002,,Sensor,0,Surface Buoy Data Concentrator Logger,Communications and Power Manager,WHOI,DCL,2015-0002,,,,,
+CGINS-VELPTB-11986,,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11986,,,,,
