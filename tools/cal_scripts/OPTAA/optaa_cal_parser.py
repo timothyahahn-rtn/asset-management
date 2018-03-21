@@ -12,7 +12,7 @@ import string
 import datetime
 
 
-class OptaaCalibration:
+class OPTAACalibration:
     def __init__(self, serial):
         self.asset_tracking_number = None
         self.cwlngth = []
@@ -90,11 +90,11 @@ def main():
         for row in reader:
             lookup[row['serial']] = row['uid']
 
-    os.chdir('manufacturer_cal_files')
+    os.chdir('manufacturer')
     for sheet in os.listdir(os.getcwd()):
         sheet_name = os.path.basename(sheet).partition('.')[0].upper()
         sheet_name = sheet_name[:3] + '-' + sheet_name[3:]
-        cal = OptaaCalibration(sheet_name)
+        cal = OPTAACalibration(sheet_name)
         cal.read_cal(sheet)
         cal.asset_tracking_number = lookup[cal.serial]
         if cal.asset_tracking_number.find('58332') != -1:
@@ -102,7 +102,7 @@ def main():
         elif cal.asset_tracking_number.find('69943') != -1:
             os.chdir("../cal_sheets/OPTAAC")
         cal.write_cal_info()
-        os.chdir("../../manufacturer_cal_files")
+        os.chdir("../../manufacturer")
     os.chdir('..')
 
 if __name__ == '__main__':

@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-# CTD calibration parser
+# DOFSTA calibration parser
 #
-# Create the necessary CI calibration ingest information from an CTD calibration file
+# Create the necessary CI calibration ingest information from a DOFSTA calibration file
 
 import csv
 import os
@@ -76,14 +76,14 @@ def main():
             lookup[row['serial']] = row['uid']
 
     #Begin writing files
-    os.chdir('manufacturer_cal_files')
+    os.chdir('manufacturer')
     for sheet in os.listdir(os.getcwd()):
         cal = SBE43Calibration()
         cal.read_cal(sheet)
         cal.asset_tracking_number = lookup[cal.serial]
         os.chdir("../cal_sheets")
         cal.write_cal_info()
-        os.chdir("../manufacturer_cal_files")
+        os.chdir("../manufacturer")
 
     os.chdir("..")
 

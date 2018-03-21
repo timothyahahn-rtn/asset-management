@@ -43,12 +43,26 @@ Run the script by calling the corresponding parser.
 ./spkir_cal_parser.py
 ```
 
-The parsers will go through each file and add the completed files into the "Cal Sheets" folder in the respective instruments.
+These can also be run by calling the Python command and having the script be an argument to it.
+
+```
+python ctd_cal_parser.py
+python dofsta_cal_parser.py
+python flntua_cal_parser.py
+python flor_cal_parser.py
+python nutnr_cal_parser.py
+python optaa_cal_parser.py
+python spkir_cal_parser.py
+```
+
+The parsers will go through each file and add the completed files into the "Cal Sheets" folder in the respective instruments. If the number of files is equal
 
 To run all scripts, call the script run_all_parsers.py.
 
 ```
 ./run_all_parsers.py
+or
+python run_all_parsers.py
 ```
 
 ## Authors

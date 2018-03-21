@@ -13,7 +13,7 @@ import re
 from dateutil.parser import parse
 
 constants = {'CC_angular_resolution':1.076, 'CC_depolarization_ratio':0.039, 'CC_measurement_wavelength':700, 'CC_scattering_angle':124}
-class FlorCalibration:
+class FLORCalibration:
     def __init__(self):
         self.cdom = None
         self.chl= None
@@ -65,14 +65,14 @@ def main():
         for row in reader:
             lookup[row['serial']] = row['uid']
 
-    os.chdir('manufacturer_cal_files')
+    os.chdir('manufacturer')
     for sheet in os.listdir(os.getcwd()):
-        cal = FlorCalibration()
+        cal = FLORCalibration()
         cal.read_cal(sheet)
         cal.asset_tracking_number = lookup[cal.serial]
         os.chdir("../cal_sheets")
         cal.write_cal_info()
-        os.chdir("../manufacturer_cal_files")
+        os.chdir("../manufacturer")
     os.chdir('..')
 
 if __name__ == '__main__':

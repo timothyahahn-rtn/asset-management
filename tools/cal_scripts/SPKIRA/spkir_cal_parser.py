@@ -13,7 +13,7 @@ import datetime
 import re
 from dateutil.parser import parse
 
-class SpkirCalibration:
+class SPKIRCalibration:
     def __init__(self):
         self.offset = []
         self.scale = []
@@ -65,14 +65,14 @@ def main():
         for row in reader:
             lookup[row['serial']] = row['uid']
 
-    os.chdir('manufacturer_cal_files')
+    os.chdir('manufacturer')
     for sheet in os.listdir(os.getcwd()):
-        cal = SpkirCalibration()
+        cal = SPKIRCalibration()
         cal.read_cal(sheet)
         cal.asset_tracking_number = lookup[cal.serial]
         os.chdir("../cal_sheets")
         cal.write_cal_info()
-        os.chdir("../manufacturer_cal_files")
+        os.chdir("../manufacturer")
     os.chdir('..')
 
 if __name__ == '__main__':

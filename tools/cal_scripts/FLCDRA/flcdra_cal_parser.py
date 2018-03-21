@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 
-# SPKIR calibration parser
+# FLCDRA calibration parser
 #
-# Create the necessary CI calibration ingest information from an SPKIR calibration file
+# Create the necessary CI calibration ingest information from an FLCDRA calibration file
 
 import csv
 import os
 import datetime
 from dateutil.parser import parse
 
-class FlntuaCalibration:
+class FLCDRACalibration:
     def __init__(self):
         self.dark = 0
         self.scale = 0.0
@@ -47,14 +47,14 @@ def main():
         for row in reader:
             lookup[row['serial']] = row['uid']
 
-    os.chdir('manufacturer_cal_files')
+    os.chdir('manufacturer')
     for sheet in os.listdir(os.getcwd()):
-        cal = FlntuaCalibration()
+        cal = FLCDRACalibration()
         cal.read_cal(sheet)
         cal.asset_tracking_number = lookup[cal.serial]
         os.chdir("../cal_sheets")
         cal.write_cal_info()
-        os.chdir("../manufacturer_cal_files")
+        os.chdir("../manufacturer")
     os.chdir('..')
 
 if __name__ == '__main__':

@@ -8,8 +8,8 @@ def main():
             os.chdir(sub)
             # Checks if there are any cal files in Manufacturer Cal Files and do not
             # redo sheets that have already been made.
-            if len(os.listdir('Manufacturer Cal Files')) != 0 and\
-             len(os.listdir('Manufacturer Cal Files')) != len(os.listdir('Cal Sheets')):
+            if len(os.listdir('manufacturer_cal_files')) != 0 and\
+             len(os.listdir('manufacturer_cal_files')) != len(os.listdir('cal_sheets')):
                 for file in glob.glob('*.py'):
                     command = ['python2.7', file]
                     p = subprocess.Popen(command)

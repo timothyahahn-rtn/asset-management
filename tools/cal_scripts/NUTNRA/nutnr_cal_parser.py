@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-# OPTAA calibration parser
+# NUTNR calibration parser
 #
-# Create the necessary CI calibration ingest information from an OPTAA calibration file
+# Create the necessary CI calibration ingest information from an NUTNR calibration file
 
 import csv
 import json
@@ -11,7 +11,7 @@ import sys
 import datetime
 
 
-class NutnrCalibration:
+class NUTNRCalibration:
     def __init__(self, asset_tracking_number, lower=217, upper=240):
         self.cal_temp = None
         self.wavelengths = []
@@ -72,14 +72,14 @@ def main():
         for row in reader:
             lookup[row['serial']] = row['uid']
 
-    os.chdir('manufacturer_cal_files')
+    os.chdir('manufacturer')
     for sheet in os.listdir(os.getcwd()):
-        cal = NutnrCalibration("")
+        cal = NUTNRCalibration("")
         cal.read_cal(sheet)
         cal.asset_tracking_number = lookup[cal.serial]
         os.chdir("../cal_sheets")
         cal.write_cal_info()
-        os.chdir("../manufacturer_cal_files")
+        os.chdir("../manufacturer")
     os.chdir('..')
 
 if __name__ == '__main__':
