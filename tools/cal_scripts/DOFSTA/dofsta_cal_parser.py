@@ -76,14 +76,14 @@ def main():
             lookup[row['serial']] = row['uid']
 
     #Begin writing files
-    os.chdir('Manufacturer Cal Files')
+    os.chdir('manufacturer_cal_files')
     for sheet in os.listdir(os.getcwd()):
         cal = SBE43Calibration()
         cal.read_cal(sheet)
         cal.asset_tracking_number = lookup[cal.serial]
-        os.chdir('../Cal Sheets')
+        os.chdir("../cal_sheets")
         cal.write_cal_info()
-        os.chdir('../Manufacturer Cal Files')
+        os.chdir("../manufacturer_cal_files")
 
     os.chdir("..")
 

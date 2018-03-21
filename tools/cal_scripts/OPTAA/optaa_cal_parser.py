@@ -90,7 +90,7 @@ def main():
         for row in reader:
             lookup[row['serial']] = row['uid']
 
-    os.chdir('Manufacturer Cal Files')
+    os.chdir('manufacturer_cal_files')
     for sheet in os.listdir(os.getcwd()):
         sheet_name = os.path.basename(sheet).partition('.')[0].upper()
         sheet_name = sheet_name[:3] + '-' + sheet_name[3:]
@@ -98,11 +98,11 @@ def main():
         cal.read_cal(sheet)
         cal.asset_tracking_number = lookup[cal.serial]
         if cal.asset_tracking_number.find('58332') != -1:
-            os.chdir("../Cal Sheets/OPTAAD")
+            os.chdir("../cal_sheets/OPTAAD")
         elif cal.asset_tracking_number.find('69943') != -1:
-            os.chdir("../Cal Sheets/OPTAAC")
+            os.chdir("../cal_sheets/OPTAAC")
         cal.write_cal_info()
-        os.chdir("../../Manufacturer Cal Files")
+        os.chdir("../../manufacturer_cal_files")
     os.chdir('..')
 
 if __name__ == '__main__':

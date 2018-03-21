@@ -77,7 +77,7 @@ class CtdCalibration:
                 if name is None:
                     continue
 
-                self.coefficients[name] = value 
+                self.coefficients[name] = value
 
     def write_cal_info(self):
         with open(self.asset_tracking_number + '__' + self.date + '.csv', 'w') as info:
@@ -93,23 +93,23 @@ def main():
         for row in reader:
             lookup[row['serial']] = row['uid']
 
-    os.chdir('Manufacturer Cal Files')
+    os.chdir('manufacturer_cal_files')
     for sheet in os.listdir(os.getcwd()):
         cal = CtdCalibration()
         cal.read_cal(sheet)
         cal.asset_tracking_number = lookup[cal.serial]
         if cal.asset_tracking_number.find('66662') != -1:
-            os.chdir("../Cal Sheets/CTDPFA")
+            os.chdir("../cal_sheets/CTDPFA")
         elif cal.asset_tracking_number.find('67627') != -1:
-            os.chdir("../Cal Sheets/CTDPFB")
+            os.chdir("../cal_sheets/CTDPFB")
         elif cal.asset_tracking_number.find('67977') != -1:
-            os.chdir("../Cal Sheets/CTDPFL")
+            os.chdir("../cal_sheets/CTDPFL")
         elif cal.asset_tracking_number.find('69827') != -1:
-            os.chdir("../Cal Sheets/CTDBPN")
+            os.chdir("../cal_sheets/CTDBPN")
         elif cal.asset_tracking_number.find('69828') != -1:
-            os.chdir("../Cal Sheets/CTDBPO")
+            os.chdir("../cal_sheets/CTDBPO")
         cal.write_cal_info()
-        os.chdir("../../Manufacturer Cal Files")
+        os.chdir("../../manufacturer_cal_files")
     os.chdir('..')
 
 if __name__ == '__main__':

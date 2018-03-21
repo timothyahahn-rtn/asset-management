@@ -65,14 +65,14 @@ def main():
         for row in reader:
             lookup[row['serial']] = row['uid']
 
-    os.chdir('Manufacturer Cal Files')
+    os.chdir('manufacturer_cal_files')
     for sheet in os.listdir(os.getcwd()):
         cal = SpkirCalibration()
         cal.read_cal(sheet)
         cal.asset_tracking_number = lookup[cal.serial]
-        os.chdir("../Cal Sheets")
+        os.chdir("../cal_sheets")
         cal.write_cal_info()
-        os.chdir("../Manufacturer Cal Files")
+        os.chdir("../manufacturer_cal_files")
     os.chdir('..')
 
 if __name__ == '__main__':
