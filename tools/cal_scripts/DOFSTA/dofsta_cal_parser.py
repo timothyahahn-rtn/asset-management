@@ -55,8 +55,8 @@ class SBE43Calibration:
                     self.serial = "43-" + str(value)
 
     def write_cal_info(self):
-        file_name = self.asset_tracking_number + "__" + self.date + ".csv"
-        with open(file_name, 'w') as info:
+        file_name = self.asset_tracking_number + "__" + self.date
+        with open('%s.csv' % file_name, 'w') as info:
             field_names = ['serial','name', 'value', 'notes']
             writer = csv.writer(info)
             writer.writerow(field_names)
@@ -76,16 +76,14 @@ def main():
             lookup[row['serial']] = row['uid']
 
     #Begin writing files
-    os.chdir('manufacturer')
-    for sheet in os.listdir(os.getcwd()):
-        cal = SBE43Calibration()
-        cal.read_cal(sheet)
-        cal.asset_tracking_number = lookup[cal.serial]
-        os.chdir("../cal_sheets")
-        cal.write_cal_info()
-        os.chdir("../manufacturer")
-
-    os.chdir("..")
+    for path, directories, files in os.walk('manufacturer'):
+        for file in files:
+            cal = SBE43Calibration()
+            cal.read_cal(os.path.join(path, file))
+            cal.asset_tracking_number = lookup[cal.serial]
+            os.chdir("cal_sheets")
+            cal.write_cal_info()
+            os.chdir("..")
 
 if __name__ == '__main__':
     main()

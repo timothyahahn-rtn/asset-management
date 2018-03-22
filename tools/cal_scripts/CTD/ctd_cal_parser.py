@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 
-# CTD calibration parser
-#
+##
+# CTD Calibration Parser
 # Create the necessary CI calibration ingest information from an CTD calibration file
 
-import csv
-import os
-import sys
-import datetime
 
-class CtdCalibration:
+import csv, datetime, os
+
+class CTDCalibration:
+    ## Class that stores calibration values for CTDs.
+    # \param self
     def __init__(self):
         self.coefficient_name_map = {
             'TA0': 'CC_a0',
@@ -54,6 +54,7 @@ class CtdCalibration:
         self.date = None
 
     def read_cal(self, filename):
+        ## Reads the calibration files and extracts out the necessary calibration values needed for CI.
         with open(filename) as fh:
             for line in fh:
                 parts = line.split('=')
@@ -80,7 +81,10 @@ class CtdCalibration:
                 self.coefficients[name] = value
 
     def write_cal_info(self):
-        with open(self.asset_tracking_number + '__' + self.date + '.csv', 'w') as info:
+        ## Writes the calibration information to a comma-separated value file
+
+        file_name = self.asset_tracking_number + '__' + self.date
+        with open('%s.csv' % file_name, 'w') as info:
             writer = csv.writer(info)
             writer.writerow(['serial','name', 'value', 'notes'])
             for each in sorted(self.coefficients.items()):
@@ -93,24 +97,23 @@ def main():
         for row in reader:
             lookup[row['serial']] = row['uid']
 
-    os.chdir('manufacturer_cal_files')
-    for sheet in os.listdir(os.getcwd()):
-        cal = CtdCalibration()
-        cal.read_cal(sheet)
-        cal.asset_tracking_number = lookup[cal.serial]
-        if cal.asset_tracking_number.find('66662') != -1:
-            os.chdir("../cal_sheets/CTDPFA")
-        elif cal.asset_tracking_number.find('67627') != -1:
-            os.chdir("../cal_sheets/CTDPFB")
-        elif cal.asset_tracking_number.find('67977') != -1:
-            os.chdir("../cal_sheets/CTDPFL")
-        elif cal.asset_tracking_number.find('69827') != -1:
-            os.chdir("../cal_sheets/CTDBPN")
-        elif cal.asset_tracking_number.find('69828') != -1:
-            os.chdir("../cal_sheets/CTDBPO")
-        cal.write_cal_info()
-        os.chdir("../../manufacturer_cal_files")
-    os.chdir('..')
+    for path, directories, files in os.walk('manufacturer'):
+        for file in files:
+            cal = CTDCalibration()
+            cal.read_cal(os.path.join(path, file))
+            cal.asset_tracking_number = lookup[cal.serial]
+            if cal.asset_tracking_number.find('66662') != -1:
+                os.chdir("cal_sheets/CTDPFA")
+            elif cal.asset_tracking_number.find('67627') != -1:
+                os.chdir("cal_sheets/CTDPFB")
+            elif cal.asset_tracking_number.find('67977') != -1:
+                os.chdir("cal_sheets/CTDPFL")
+            elif cal.asset_tracking_number.find('69827') != -1:
+                os.chdir("cal_sheets/CTDBPN")
+            elif cal.asset_tracking_number.find('69828') != -1:
+                os.chdir("cal_sheets/CTDBPO")
+            cal.write_cal_info()
+            os.chdir("../..")
 
 if __name__ == '__main__':
     main()

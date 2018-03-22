@@ -25,11 +25,12 @@ On MacOS, if you have Homebrew, call this command
 ```
 brew install python2.7
 ```
-On Windows, install Cygwin or preferred terminal emulator. Then install Python.
+On Windows, install Cygwin or preferred terminal emulator. Make sure to select python as part of the installation process.
+Another method is to use the Linux Subsystem available on Windows 10.
 
 ## Running the code
 
-Navigate to the repository and in whatever terminal. There are a series of folders which contain the parsers and folders. Put the calibration files in the "Manufacturer Cal Files".
+Navigate to the repository and in whatever terminal. There are a series of folders which contain the parsers and subdirectories containing . Put the calibration files in the "manufacturer" directory.
 
 Run the script by calling the corresponding parser.
 

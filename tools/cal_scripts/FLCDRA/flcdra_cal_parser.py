@@ -4,10 +4,7 @@
 #
 # Create the necessary CI calibration ingest information from an FLCDRA calibration file
 
-import csv
-import os
-import datetime
-from dateutil.parser import parse
+import csv, datetime, os
 
 class FLCDRACalibration:
     def __init__(self):
@@ -47,15 +44,14 @@ def main():
         for row in reader:
             lookup[row['serial']] = row['uid']
 
-    os.chdir('manufacturer')
-    for sheet in os.listdir(os.getcwd()):
-        cal = FLCDRACalibration()
-        cal.read_cal(sheet)
-        cal.asset_tracking_number = lookup[cal.serial]
-        os.chdir("../cal_sheets")
-        cal.write_cal_info()
-        os.chdir("../manufacturer")
-    os.chdir('..')
+    for path, directories, files in os.walk('manufacturer'):
+        for file in files:
+            cal = FLCDRACalibration()
+            cal.read_cal(os.path.join(path, file))
+            cal.asset_tracking_number = lookup[cal.serial]
+            os.chdir("cal_sheets")
+            cal.write_cal_info()
+            os.chdir("..")
 
 if __name__ == '__main__':
     main()

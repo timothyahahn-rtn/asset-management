@@ -4,13 +4,10 @@
 #
 # Create the necessary CI calibration ingest information from an OPTAA calibration file
 
-import csv
+import csv, datetime, os
 import json
-import os
 import sys
 import string
-import datetime
-
 
 class OPTAACalibration:
     def __init__(self, serial):
@@ -26,6 +23,7 @@ class OPTAACalibration:
         self.nbins = None  # number of temperature bins
         self.serial = serial
         self.date = None
+        self.coefficients = {}
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -90,20 +88,19 @@ def main():
         for row in reader:
             lookup[row['serial']] = row['uid']
 
-    os.chdir('manufacturer')
-    for sheet in os.listdir(os.getcwd()):
-        sheet_name = os.path.basename(sheet).partition('.')[0].upper()
-        sheet_name = sheet_name[:3] + '-' + sheet_name[3:]
-        cal = OPTAACalibration(sheet_name)
-        cal.read_cal(sheet)
-        cal.asset_tracking_number = lookup[cal.serial]
-        if cal.asset_tracking_number.find('58332') != -1:
-            os.chdir("../cal_sheets/OPTAAD")
-        elif cal.asset_tracking_number.find('69943') != -1:
-            os.chdir("../cal_sheets/OPTAAC")
-        cal.write_cal_info()
-        os.chdir("../../manufacturer")
-    os.chdir('..')
+    for path, directories, files in os.walk('manufacturer'):
+        for file in files:
+            sheet_name = os.path.basename(file).partition('.')[0].upper()
+            sheet_name = sheet_name[:3] + '-' + sheet_name[3:]
+            cal = OPTAACalibration(sheet_name)
+            cal.read_cal(os.path.join(path, file))
+            cal.asset_tracking_number = lookup[cal.serial]
+            if cal.asset_tracking_number.find('58332') != -1:
+                os.chdir("cal_sheets/OPTAAD")
+            elif cal.asset_tracking_number.find('69943') != -1:
+                os.chdir("cal_sheets/OPTAAC")
+            cal.write_cal_info()
+            os.chdir("../..")
 
 if __name__ == '__main__':
     main()
