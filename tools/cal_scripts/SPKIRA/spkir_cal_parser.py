@@ -18,6 +18,7 @@ class SPKIRCalibration:
         self.asset_tracking_number = None
         self.serial = None
         self.date = None
+        self.coefficients = {}
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -44,16 +45,20 @@ class SPKIRCalibration:
                         self.offset.append(float(offset))
                         self.scale.append(float(scale))
                         self.immersion_factor.append(float(factor))
+                        self.coefficients['CC_offset'] = json.dumps(self.offset)
+                        self.coefficients['CC_scale'] = json.dumps(self.scale)
+                        self.coefficients['CC_immersion_factor'] = self.immersion_factor
                         read_record = False
 
     def write_cal_info(self):
         file_name = self.asset_tracking_number + '__' + self.date
+        os.chdir("cal_sheets")
         with open('%s.csv' % file_name, 'w') as info:
             writer = csv.writer(info)
-            writer.writerow(['serial','name','value','notes'])
-            writer.writerow([self.serial,'CC_immersion_factor', self.immersion_factor])
-            writer.writerow([self.serial,'CC_offset', json.dumps(self.offset)])
-            writer.writerow([self.serial,'CC_scale', json.dumps(self.scale)])
+            writer.writerow(['serial','name', 'value', 'notes'])
+            for each in sorted(self.coefficients.items()):
+                writer.writerow([self.serial] + list(each))
+        os.chdir("..")
 
 def main():
     lookup = {}
@@ -67,9 +72,7 @@ def main():
             cal = SPKIRCalibration()
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
-            os.chdir("cal_sheets")
             cal.write_cal_info()
-            os.chdir("..")
 
 if __name__ == '__main__':
     main()

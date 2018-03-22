@@ -80,6 +80,16 @@ class CTDCalibration:
                 self.coefficients[name] = value
 
     def write_cal_info(self):
+        if self.asset_tracking_number.find('66662') != -1:
+            os.chdir("cal_sheets/CTDPFA")
+        elif self.asset_tracking_number.find('67627') != -1:
+            os.chdir("cal_sheets/CTDPFB")
+        elif self.asset_tracking_number.find('67977') != -1:
+            os.chdir("cal_sheets/CTDPFL")
+        elif self.asset_tracking_number.find('69827') != -1:
+            os.chdir("cal_sheets/CTDBPN")
+        elif self.asset_tracking_number.find('69828') != -1:
+            os.chdir("cal_sheets/CTDBPO")
         ## Writes the calibration information to a comma-separated value file
         file_name = self.asset_tracking_number + '__' + self.date
         with open('%s.csv' % file_name, 'w') as info:
@@ -87,6 +97,7 @@ class CTDCalibration:
             writer.writerow(['serial','name', 'value', 'notes'])
             for each in sorted(self.coefficients.items()):
                 writer.writerow([self.serial] + list(each))
+        os.chdir("../..")
 
 def main():
     lookup = {}
@@ -100,18 +111,7 @@ def main():
             cal = CTDCalibration()
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
-            if cal.asset_tracking_number.find('66662') != -1:
-                os.chdir("cal_sheets/CTDPFA")
-            elif cal.asset_tracking_number.find('67627') != -1:
-                os.chdir("cal_sheets/CTDPFB")
-            elif cal.asset_tracking_number.find('67977') != -1:
-                os.chdir("cal_sheets/CTDPFL")
-            elif cal.asset_tracking_number.find('69827') != -1:
-                os.chdir("cal_sheets/CTDBPN")
-            elif cal.asset_tracking_number.find('69828') != -1:
-                os.chdir("cal_sheets/CTDBPO")
             cal.write_cal_info()
-            os.chdir("../..")
 
 if __name__ == '__main__':
     main()

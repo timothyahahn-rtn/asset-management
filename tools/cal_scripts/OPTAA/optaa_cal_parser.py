@@ -23,7 +23,7 @@ class OPTAACalibration:
         self.nbins = None  # number of temperature bins
         self.serial = serial
         self.date = None
-        self.coefficients = {}
+        self.coefficients = {'CC_taarray' : 'SheetRef:CC_taarray', 'CC_tcarray' : 'SheetRef:CC_tcarray'}
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -33,6 +33,7 @@ class OPTAACalibration:
                     parts = line.split()
                     if parts[0] == '"tcal:':
                         self.tcal = parts[1]
+                        self.coefficients['CC_tcal'] = self.tcal
                         cal_date = parts[-1:][0].strip(string.punctuation)
                         self.date = datetime.datetime.strptime(cal_date, "%m/%d/%y").strftime("%Y%m%d")
                     continue
@@ -41,6 +42,7 @@ class OPTAACalibration:
                 if comment.startswith(' temperature bins'):
                     self.tbins = data.split()
                     self.tbins = [float(x) for x in self.tbins]
+                    self.coefficients['CC_tbins'] = json.dumps(self.tbins)
 
                 elif comment.startswith(' number of temperature bins'):
                     self.nbins = int(data)
@@ -58,20 +60,22 @@ class OPTAACalibration:
                     tarow = [float(x) for x in parts[self.nbins+5:2*self.nbins+5]]
                     self.tcarray.append(tcrow)
                     self.taarray.append(tarow)
+                    self.coefficients['CC_cwlngth'] = json.dumps(self.cwlngth)
+                    self.coefficients['CC_awlngth'] = json.dumps(self.awlngth)
+                    self.coefficients['CC_ccwo'] = json.dumps(self.ccwo)
+                    self.coefficients['CC_acwo'] = json.dumps(self.acwo)
 
     def write_cal_info(self):
+        if self.asset_tracking_number.find('58332') != -1:
+            os.chdir("cal_sheets/OPTAAD")
+        elif self.asset_tracking_number.find('69943') != -1:
+            os.chdir("cal_sheets/OPTAAC")
         file_name = self.asset_tracking_number + '__' + self.date
         with open('%s.csv' % file_name, 'w') as info:
             writer = csv.writer(info)
-            writer.writerow(['serial','name','value','notes'])
-            writer.writerow([self.serial,'CC_acwo', json.dumps(self.acwo)])
-            writer.writerow([self.serial,'CC_awlngth', json.dumps(self.awlngth)])
-            writer.writerow([self.serial,'CC_ccwo', json.dumps(self.ccwo)])
-            writer.writerow([self.serial,'CC_cwlngth', json.dumps(self.cwlngth)])
-            writer.writerow([self.serial,'CC_taarray', 'SheetRef:CC_taarray'])
-            writer.writerow([self.serial,'CC_tbins', json.dumps(self.tbins)])
-            writer.writerow([self.serial,'CC_tcal', self.tcal])
-            writer.writerow([self.serial,'CC_tcarray', 'SheetRef:CC_tcarray'])
+            writer.writerow(['serial','name', 'value', 'notes'])
+            for each in sorted(self.coefficients.items()):
+                writer.writerow([self.serial] + list(each))
 
         def write_array(filename, cal_array):
             with open(filename, 'w') as out:
@@ -80,6 +84,7 @@ class OPTAACalibration:
 
         write_array('%s__CC_tcarray.ext' % file_name, self.tcarray)
         write_array('%s__CC_taarray.ext' % file_name, self.taarray)
+        os.chdir("../..")
 
 def main():
     lookup = {}
@@ -95,12 +100,7 @@ def main():
             cal = OPTAACalibration(sheet_name)
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
-            if cal.asset_tracking_number.find('58332') != -1:
-                os.chdir("cal_sheets/OPTAAD")
-            elif cal.asset_tracking_number.find('69943') != -1:
-                os.chdir("cal_sheets/OPTAAC")
             cal.write_cal_info()
-            os.chdir("../..")
 
 if __name__ == '__main__':
     main()

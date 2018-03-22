@@ -13,6 +13,7 @@ class FLCDRACalibration:
         self.asset_tracking_number = None
         self.serial = None
         self.date = None
+        self.coefficients = {}
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -28,14 +29,18 @@ class FLCDRACalibration:
                 if deconstruct[0] == 'CDOM':
                     self.dark = parts[-1]
                     self.scale = parts[1]
+                    self.coefficients['CC_dark_counts_cdom'] = parts[-1]
+                    self.coefficients['CC_scale_factor_cdom'] = parts[1]
 
     def write_cal_info(self):
+        os.chdir("cal_sheets")
         file_name = self.asset_tracking_number + '__' + self.date
         with open('%s.csv' % file_name, 'w') as info:
             writer = csv.writer(info)
-            writer.writerow(['serial','name','value','notes'])
-            writer.writerow([self.serial,'CC_dark_counts_cdom', self.dark, ''])
-            writer.writerow([self.serial,'CC_scale_factor_cdom', self.scale, ''])
+            writer.writerow(['serial','name', 'value', 'notes'])
+            for each in sorted(self.coefficients.items()):
+                writer.writerow([self.serial] + list(each))
+        os.chdir("..")
 
 def main():
     lookup = {}
@@ -49,9 +54,8 @@ def main():
             cal = FLCDRACalibration()
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
-            os.chdir("cal_sheets")
             cal.write_cal_info()
-            os.chdir("..")
+
 
 if __name__ == '__main__':
     main()

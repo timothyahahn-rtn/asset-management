@@ -19,6 +19,8 @@ class NUTNRCalibration:
         self.asset_tracking_number = None
         self.date = None
         self.serial = None
+        self.coefficients = {'CC_lower_wavelength_limit_for_spectra_fit' : self.lower_limit,
+'CC_upper_wavelength_limit_for_spectra_fit' : self.upper_limit}
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -34,6 +36,7 @@ class NUTNRCalibration:
                         name, value = key_value
                         if name == 'T_CAL':
                             self.cal_temp = float(value)
+                            self.coefficients['CC_cal_temp'] = self.cal_temp
                     elif "creation" in key_value:
                         cal_date = key_value[-2]
                         cal_date = datetime.datetime.strptime(cal_date, "%d-%b-%Y").strftime("%Y%m%d")
@@ -47,19 +50,20 @@ class NUTNRCalibration:
                     self.eno3.append(float(eno3))
                     self.eswa.append(float(eswa))
                     self.di.append(float(di))
+                    self.coefficients['CC_wl'] = json.dumps(self.wavelengths)
+                    self.coefficients['CC_eno3'] = json.dumps(self.eno3)
+                    self.coefficients['CC_eswa'] = json.dumps(self.eswa)
+                    self.coefficients['CC_di'] = json.dumps(self.di)
 
     def write_cal_info(self):
+        os.chdir("cal_sheets")
         file_name = self.asset_tracking_number + '__' + self.date
         with open('%s.csv' % file_name, 'w') as info:
             writer = csv.writer(info)
             writer.writerow(['serial','name', 'value', 'notes'])
-            writer.writerow([self.serial,'CC_cal_temp', self.cal_temp])
-            writer.writerow([self.serial,'CC_wl', json.dumps(self.wavelengths)])
-            writer.writerow([self.serial,'CC_eno3', json.dumps(self.eno3)])
-            writer.writerow([self.serial,'CC_eswa', json.dumps(self.eswa)])
-            writer.writerow([self.serial,'CC_di', json.dumps(self.di)])
-            writer.writerow([self.serial,'CC_lower_wavelength_limit_for_spectra_fit', self.lower_limit])
-            writer.writerow([self.serial,'CC_upper_wavelength_limit_for_spectra_fit', self.upper_limit])
+            for each in sorted(self.coefficients.items()):
+                writer.writerow([self.serial] + list(each))
+        os.chdir("..")
 
 def main():
     lookup = {}
@@ -73,9 +77,8 @@ def main():
             cal = NUTNRCalibration()
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
-            os.chdir("cal_sheets")
             cal.write_cal_info()
-            os.chdir("..")
+
 
 if __name__ == '__main__':
     main()

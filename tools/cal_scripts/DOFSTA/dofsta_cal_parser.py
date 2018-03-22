@@ -43,8 +43,9 @@ class SBE43Calibration:
 
                 if self.coefficient_name_map.has_key(key):
                     name = self.coefficient_name_map.get(key)
-
                     self.coefficients[name] = value
+                    if name == 'CC_voltage_offset':
+                        self.coefficients['CC_frequency_offset'] = value
 
                 if key == "OCALDATE":
                     cal_date = value
@@ -55,6 +56,7 @@ class SBE43Calibration:
                     self.serial = "43-" + str(value)
 
     def write_cal_info(self):
+        os.chdir("cal_sheets")
         file_name = self.asset_tracking_number + "__" + self.date
         with open('%s.csv' % file_name, 'w') as info:
             field_names = ['serial','name', 'value', 'notes']
@@ -62,9 +64,7 @@ class SBE43Calibration:
             writer.writerow(field_names)
             for each in sorted(self.coefficients.items()):
                 writer.writerow([self.serial] + list(each))
-                if each[0] == 'CC_voltage_offset':
-                    put_in = [self.serial, 'CC_frequency_offset', each[-1]]
-                    writer.writerow(put_in)
+        os.chdir("..")
 
 def main():
     # Starts in the directory with
@@ -81,9 +81,8 @@ def main():
             cal = SBE43Calibration()
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
-            os.chdir("cal_sheets")
             cal.write_cal_info()
-            os.chdir("..")
+
 
 if __name__ == '__main__':
     main()
