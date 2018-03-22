@@ -1,6 +1,6 @@
 # OOI Instrument Parsers
 
- The following scripts extract calibration information from various instrument on the OOI Cabled Array.
+ The following scripts extract calibration information from various manufacturer calibration sheets. These calibration sheets define the values that various instruments use to calibrate themselves for data acquisition.
  They allow for the automated creation of calibration files in the format requested by ooi-integration.
  Serial numbers and asset tracking numbers can be found in the [asset-management](
  https://github.com/ooi-integration/asset-management) repository.
