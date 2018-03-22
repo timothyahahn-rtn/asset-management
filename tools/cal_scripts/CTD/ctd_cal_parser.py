@@ -46,7 +46,6 @@ class CTDCalibration:
             'T4': 'CC_T4',
             'T5': 'CC_T5',
         }
-
         # dictionary with calibration coefficient names and values
         self.coefficients = {}
         self.asset_tracking_number = None
@@ -82,7 +81,6 @@ class CTDCalibration:
 
     def write_cal_info(self):
         ## Writes the calibration information to a comma-separated value file
-
         file_name = self.asset_tracking_number + '__' + self.date
         with open('%s.csv' % file_name, 'w') as info:
             writer = csv.writer(info)
