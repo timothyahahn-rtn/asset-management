@@ -8,9 +8,13 @@ import csv
 import os
 import sys
 import datetime
+import time
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from cal_parser_template import Calibration, get_uid_serial_mapping
 
-class SBE43Calibration:
+class SBE43Calibration(Calibration):
     def __init__(self):
+        super(SBE43Calibration, self).__init__()
         self.coefficient_name_map = {
             'E': 'CC_residual_temperature_correction_factor_e',
             'C': 'CC_residual_temperature_correction_factor_c',
@@ -19,12 +23,6 @@ class SBE43Calibration:
             'A': 'CC_residual_temperature_correction_factor_a',
             'B': 'CC_residual_temperature_correction_factor_b',
         }
-        # dictionary with calibration coefficient names and values
-        self.coefficients = {}
-        self.asset_tracking_number = None
-        self.serial = None
-        self.lookup_dict = None
-        self.date = None
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -55,26 +53,10 @@ class SBE43Calibration:
                 if key == "SERIALNO":
                     self.serial = "43-" + str(value)
 
-    def write_cal_info(self):
-        os.chdir("cal_sheets")
-        file_name = self.asset_tracking_number + "__" + self.date
-        with open('%s.csv' % file_name, 'w') as info:
-            field_names = ['serial','name', 'value', 'notes']
-            writer = csv.writer(info)
-            writer.writerow(field_names)
-            for each in sorted(self.coefficients.items()):
-                writer.writerow([self.serial] + list(each))
-        os.chdir("..")
-
 def main():
     # Starts in the directory with
     # Get corresponding mapping between serial number and uid
-    lookup = {}
-    with open('dofsta_lookup.csv', 'rb') as csvfile:
-        reader = csv.DictReader(csvfile, delimiter=",")
-        for row in reader:
-            lookup[row['serial']] = row['uid']
-
+    lookup = get_uid_serial_mapping('dofsta_lookup.csv')
     #Begin writing files
     for path, directories, files in os.walk('manufacturer'):
         for file in files:
@@ -85,4 +67,6 @@ def main():
 
 
 if __name__ == '__main__':
+    start_time = time.time()
     main()
+    print("DOFSTA: %s seconds" % (time.time() - start_time))

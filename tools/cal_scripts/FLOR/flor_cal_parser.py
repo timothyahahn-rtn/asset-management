@@ -4,11 +4,12 @@
 #
 # Create the necessary CI calibration ingest information from an SPKIR calibration file
 
-import csv, datetime, os
-import re
+import csv, datetime, os, sys
+import time
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from cal_parser_template import Calibration, get_uid_serial_mapping
 
-constants = {'CC_angular_resolution':1.076, 'CC_depolarization_ratio':0.039, 'CC_measurement_wavelength':700, 'CC_scattering_angle':124}
-class FLORCalibration:
+class FLORCalibration(Calibration):
     def __init__(self):
         self.cdom = None
         self.chl= None
@@ -16,7 +17,8 @@ class FLORCalibration:
         self.asset_tracking_number = None
         self.serial = None
         self.date = None
-        self.coefficients = {'CC_angular_resolution':1.076, 'CC_depolarization_ratio':0.039, 'CC_measurement_wavelength':700, 'CC_scattering_angle':124}
+        self.coefficients = {'CC_angular_resolution':1.076, 'CC_depolarization_ratio':0.039,\
+                                'CC_measurement_wavelength':700, 'CC_scattering_angle':124}
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -44,23 +46,8 @@ class FLORCalibration:
                     self.coefficients['CC_dark_counts_cdom'] = parts[2]
                     break
 
-    def write_cal_info(self):
-        os.chdir("cal_sheets")
-        file_name = self.asset_tracking_number + '__' + self.date
-        with open('%s.csv' % file_name, 'w') as info:
-            writer = csv.writer(info)
-            writer.writerow(['serial','name', 'value', 'notes'])
-            for each in sorted(self.coefficients.items()):
-                writer.writerow([self.serial] + list(each))
-        os.chdir("..")
-
 def main():
-    lookup = {}
-    with open('flor_lookup.csv', 'rb') as csvfile:
-        reader = csv.DictReader(csvfile, delimiter=",")
-        for row in reader:
-            lookup[row['serial']] = row['uid']
-
+    lookup = get_uid_serial_mapping('flor_lookup.csv')
     for path, directories, files in os.walk('manufacturer'):
         for file in files:
             cal = FLORCalibration()
@@ -69,4 +56,6 @@ def main():
             cal.write_cal_info()
 
 if __name__ == '__main__':
+    start_time = time.time()
     main()
+    print("FLOR: %s seconds" % (time.time() - start_time))

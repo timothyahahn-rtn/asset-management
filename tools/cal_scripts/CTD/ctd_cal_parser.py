@@ -5,9 +5,12 @@
 # Create the necessary CI calibration ingest information from an CTD calibration file
 
 
-import csv, datetime, os
+import csv, datetime, os, sys
+import time
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from cal_parser_template import Calibration, get_uid_serial_mapping
 
-class CTDCalibration:
+class CTDCalibration(Calibration):
     ## Class that stores calibration values for CTDs.
     # \param self
     def __init__(self):
@@ -52,6 +55,9 @@ class CTDCalibration:
         self.serial = '52-'
         self.date = None
 
+    def read_xml(self, filename):
+        print(filename)
+
     def read_cal(self, filename):
         ## Reads the calibration files and extracts out the necessary calibration values needed for CI.
         with open(filename) as fh:
@@ -80,32 +86,28 @@ class CTDCalibration:
                 self.coefficients[name] = value
 
     def write_cal_info(self):
+        inst_type = None
         if self.asset_tracking_number.find('66662') != -1:
-            os.chdir("cal_sheets/CTDPFA")
+            inst_type = 'CTDPFA'
         elif self.asset_tracking_number.find('67627') != -1:
-            os.chdir("cal_sheets/CTDPFB")
+            inst_type = 'CTDPFB'
         elif self.asset_tracking_number.find('67977') != -1:
-            os.chdir("cal_sheets/CTDPFL")
+            inst_type = 'CTDPFL'
         elif self.asset_tracking_number.find('69827') != -1:
-            os.chdir("cal_sheets/CTDBPN")
+            inst_type = 'CTDBPN'
         elif self.asset_tracking_number.find('69828') != -1:
-            os.chdir("cal_sheets/CTDBPO")
+            inst_type = 'CTDBPO'
         ## Writes the calibration information to a comma-separated value file
+        complete_path = os.path.join('cal_sheets', inst_type)
         file_name = self.asset_tracking_number + '__' + self.date
-        with open('%s.csv' % file_name, 'w') as info:
+        with open(os.path.join(complete_path, '%s.csv' % file_name), 'w') as info:
             writer = csv.writer(info)
             writer.writerow(['serial','name', 'value', 'notes'])
             for each in sorted(self.coefficients.items()):
                 writer.writerow([self.serial] + list(each))
-        os.chdir("../..")
 
 def main():
-    lookup = {}
-    with open('ctd_lookup.csv', 'rb') as csvfile:
-        reader = csv.DictReader(csvfile, delimiter=",")
-        for row in reader:
-            lookup[row['serial']] = row['uid']
-
+    lookup = get_uid_serial_mapping('ctd_lookup.csv')
     for path, directories, files in os.walk('manufacturer'):
         for file in files:
             cal = CTDCalibration()
@@ -114,4 +116,6 @@ def main():
             cal.write_cal_info()
 
 if __name__ == '__main__':
+    start_time = time.time()
     main()
+    print("CTD: %s seconds" % (time.time() - start_time))

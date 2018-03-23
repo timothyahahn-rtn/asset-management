@@ -5,20 +5,19 @@
 # Create the necessary CI calibration ingest information from an SPKIR calibration file
 # These scripts are based on ones available
 
-import csv, datetime, os
+import csv, datetime, os, sys
 import json
-import re
 from dateutil.parser import parse
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from cal_parser_template import Calibration, get_uid_serial_mapping
+import time 
 
-class SPKIRCalibration:
+class SPKIRCalibration(Calibration):
     def __init__(self):
+        super(SPKIRCalibration, self).__init__()
         self.offset = []
         self.scale = []
         self.immersion_factor = []
-        self.asset_tracking_number = None
-        self.serial = None
-        self.date = None
-        self.coefficients = {}
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -50,23 +49,9 @@ class SPKIRCalibration:
                         self.coefficients['CC_immersion_factor'] = self.immersion_factor
                         read_record = False
 
-    def write_cal_info(self):
-        file_name = self.asset_tracking_number + '__' + self.date
-        os.chdir("cal_sheets")
-        with open('%s.csv' % file_name, 'w') as info:
-            writer = csv.writer(info)
-            writer.writerow(['serial','name', 'value', 'notes'])
-            for each in sorted(self.coefficients.items()):
-                writer.writerow([self.serial] + list(each))
-        os.chdir("..")
 
 def main():
-    lookup = {}
-    with open('spkir_lookup.csv', 'rb') as csvfile:
-        reader = csv.DictReader(csvfile, delimiter=",")
-        for row in reader:
-            lookup[row['serial']] = row['uid']
-
+    lookup = get_uid_serial_mapping('spkir_lookup.csv')
     for path, directories, files in os.walk('manufacturer'):
         for file in files:
             cal = SPKIRCalibration()
@@ -75,4 +60,6 @@ def main():
             cal.write_cal_info()
 
 if __name__ == '__main__':
+    start_time = time.time()
     main()
+    print("SPKIR: %s seconds" % (time.time() - start_time))

@@ -8,8 +8,10 @@ import csv, datetime, os
 import json
 import sys
 import string
+import time
+from cal_parser_template import Calibration, get_uid_serial_mapping
 
-class OPTAACalibration:
+class OPTAACalibration(Calibration):
     def __init__(self, serial):
         self.asset_tracking_number = None
         self.cwlngth = []
@@ -23,7 +25,8 @@ class OPTAACalibration:
         self.nbins = None  # number of temperature bins
         self.serial = serial
         self.date = None
-        self.coefficients = {'CC_taarray' : 'SheetRef:CC_taarray', 'CC_tcarray' : 'SheetRef:CC_tcarray'}
+        self.coefficients = {'CC_taarray' : 'SheetRef:CC_taarray',
+                            'CC_tcarray' : 'SheetRef:CC_tcarray'}
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -66,12 +69,14 @@ class OPTAACalibration:
                     self.coefficients['CC_acwo'] = json.dumps(self.acwo)
 
     def write_cal_info(self):
+        inst_type = None
         if self.asset_tracking_number.find('58332') != -1:
-            os.chdir("cal_sheets/OPTAAD")
+            inst_type = 'OPTAAD'
         elif self.asset_tracking_number.find('69943') != -1:
-            os.chdir("cal_sheets/OPTAAC")
+            inst_type = 'OPTAAC'
+        complete_path = os.path.join('cal_sheets', inst_type)
         file_name = self.asset_tracking_number + '__' + self.date
-        with open('%s.csv' % file_name, 'w') as info:
+        with open(os.path.join(complete_path, '%s.csv' % file_name), 'w') as info:
             writer = csv.writer(info)
             writer.writerow(['serial','name', 'value', 'notes'])
             for each in sorted(self.coefficients.items()):
@@ -82,17 +87,11 @@ class OPTAACalibration:
                 array_writer = csv.writer(out)
                 array_writer.writerows(cal_array)
 
-        write_array('%s__CC_tcarray.ext' % file_name, self.tcarray)
-        write_array('%s__CC_taarray.ext' % file_name, self.taarray)
-        os.chdir("../..")
+        write_array(os.path.join(complete_path, '%s__CC_tcarray.ext' % file_name), self.tcarray)
+        write_array(os.path.join(complete_path, '%s__CC_taarray.ext' % file_name), self.taarray)
 
 def main():
-    lookup = {}
-    with open('optaa_lookup.csv', 'rb') as csvfile:
-        reader = csv.DictReader(csvfile, delimiter=",")
-        for row in reader:
-            lookup[row['serial']] = row['uid']
-
+    lookup = get_uid_serial_mapping('optaa_lookup.csv')
     for path, directories, files in os.walk('manufacturer'):
         for file in files:
             sheet_name = os.path.basename(file).partition('.')[0].upper()
@@ -103,4 +102,6 @@ def main():
             cal.write_cal_info()
 
 if __name__ == '__main__':
+    start_time = time.time()
     main()
+    print("OPTAA: %s seconds" % (time.time() - start_time))

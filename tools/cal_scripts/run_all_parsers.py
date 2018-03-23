@@ -8,8 +8,8 @@ def main():
     for sub in os.listdir(os.getcwd()):
         if os.path.isdir(sub):
             os.chdir(sub)
-            # Checks if there are any cal files in Manufacturer Cal Files and do not
-            # redo sheets that have already been made.
+            # Checks if there are any cal files in Manufacturer Cal Files
+            # TODO: Find way of not running script on duplicate
             if len(os.listdir('manufacturer')) != 0:
                 for file in glob.glob('*.py'):
                     command = ['python2.7', file]

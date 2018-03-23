@@ -4,23 +4,22 @@
 #
 # Create the necessary CI calibration ingest information from an SPKIR calibration file
 
-import csv
+import csv, os, sys, time
 import json
-import os
-import sys
 import datetime
 import re
-import copy
-from dateutil.parser import parse
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from cal_parser_template import Calibration, get_uid_serial_mapping
 
-class FLNTUACalibration:
+class FLNTUACalibration(Calibration):
     def __init__(self):
         self.chl= None
         self.vol = None
         self.asset_tracking_number = None
         self.serial = None
         self.date = None
-        self.coefficients = {'CC_angular_resolution':1.096, 'CC_depolarization_ratio':0.039, 'CC_measurement_wavelength':700, 'CC_scattering_angle':140}
+        self.coefficients = {'CC_angular_resolution':1.096, 'CC_depolarization_ratio':0.039,
+                            'CC_measurement_wavelength':700, 'CC_scattering_angle':140}
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -42,23 +41,8 @@ class FLNTUACalibration:
                     self.coefficients['CC_scale_factor_chlorophyll_a'] = parts[1]
                     self.coefficients['CC_dark_counts_chlorophyll_a'] = parts[2]
 
-    def write_cal_info(self):
-        file_name = self.asset_tracking_number + '__' + self.date
-        os.chdir("cal_sheets")
-        with open('%s.csv' % file_name, 'w') as info:
-            writer = csv.writer(info)
-            writer.writerow(['serial','name', 'value', 'notes'])
-            for each in sorted(self.coefficients.items()):
-                writer.writerow([self.serial] + list(each))
-        os.chdir("..")
-
 def main():
-    lookup = {}
-    with open('flntua_lookup.csv', 'rb') as csvfile:
-        reader = csv.DictReader(csvfile, delimiter=",")
-        for row in reader:
-            lookup[row['serial']] = row['uid']
-
+    lookup = get_uid_serial_mapping('flntua_lookup.csv')
     for path, directories, files in os.walk('manufacturer'):
         for file in files:
             cal = FLNTUACalibration()
@@ -67,4 +51,6 @@ def main():
             cal.write_cal_info()
 
 if __name__ == '__main__':
+    start_time = time.time()
     main()
+    print("FLNTUA: %s seconds" % (time.time() - start_time))
