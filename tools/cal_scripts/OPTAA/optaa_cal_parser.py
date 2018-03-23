@@ -9,6 +9,7 @@ import json
 import sys
 import string
 import time
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from cal_parser_template import Calibration, get_uid_serial_mapping
 
 class OPTAACalibration(Calibration):
