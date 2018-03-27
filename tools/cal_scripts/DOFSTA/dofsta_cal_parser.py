@@ -4,13 +4,9 @@
 #
 # Create the necessary CI calibration ingest information from a DOFSTA calibration file
 
-import csv
-import os
-import sys
-import datetime
-import time
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from cal_parser_template import Calibration, get_uid_serial_mapping
+import csv, datetime, os, sys, time
+sys.path.append('..')
+from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class SBE43Calibration(Calibration):
     def __init__(self):

@@ -7,8 +7,8 @@
 
 import csv, datetime, os, sys
 import time
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from cal_parser_template import Calibration, get_uid_serial_mapping
+sys.path.append('..')
+from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class CTDCalibration(Calibration):
     ## Class that stores calibration values for CTDs.

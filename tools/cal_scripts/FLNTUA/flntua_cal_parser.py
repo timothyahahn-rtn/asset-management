@@ -7,9 +7,8 @@
 import csv, os, sys, time
 import json
 import datetime
-import re
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from cal_parser_template import Calibration, get_uid_serial_mapping
+sys.path.append('..')
+from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class FLNTUACalibration(Calibration):
     def __init__(self):

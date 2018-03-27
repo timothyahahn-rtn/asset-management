@@ -4,11 +4,10 @@
 #
 # Create the necessary CI calibration ingest information from an NUTNR calibration file
 
-import csv, datetime, os, sys
+import csv, datetime, os, sys, time
 import json
-import time
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from cal_parser_template import Calibration, get_uid_serial_mapping
+sys.path.append('..')
+from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class NUTNRCalibration(Calibration):
     def __init__(self, lower=217, upper=240):

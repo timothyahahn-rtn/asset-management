@@ -4,10 +4,9 @@
 #
 # Create the necessary CI calibration ingest information from an FLCDRA calibration file
 
-import csv, datetime, os, sys
-import time
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from cal_parser_template import Calibration, get_uid_serial_mapping
+import csv, datetime, os, sys, time
+sys.path.append('..')
+from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class FLCDRACalibration(Calibration):
     def __init__(self):
