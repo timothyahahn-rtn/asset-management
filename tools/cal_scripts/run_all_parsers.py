@@ -6,7 +6,7 @@ base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 
 def main():
     for sub in os.listdir(os.getcwd()):
-        if os.path.isdir(sub):
+        if os.path.isdir(sub) and sub != 'common_code':
             os.chdir(sub)
             # Checks if there are any cal files in Manufacturer Cal Files
             # TODO: Find way of not running script on duplicate

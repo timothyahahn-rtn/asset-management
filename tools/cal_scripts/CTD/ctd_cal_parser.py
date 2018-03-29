@@ -6,8 +6,9 @@
 
 
 import csv, datetime, os, sys
-import time
+import time, re
 sys.path.append('..')
+import xml.etree.ElementTree as ET
 from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class CTDCalibration(Calibration):
@@ -25,6 +26,10 @@ class CTDCalibration(Calibration):
             'CH': 'CC_h',
             'CI': 'CC_i',
             'CJ': 'CC_j',
+            'G': 'CC_g',
+            'H': 'CC_h',
+            'I': 'CC_i',
+            'J': 'CC_j',
             'PA0': 'CC_pa0',
             'PA1': 'CC_pa1',
             'PA2': 'CC_pa2',
@@ -56,7 +61,35 @@ class CTDCalibration(Calibration):
         self.date = None
 
     def read_xml(self, filename):
-        print(filename)
+        # TODO: Finish up xml reading
+        with open(filename) as fh:
+            tree = ET.parse(filename)
+            root = tree.getroot()
+            t_flag = False
+            for child in tree.iter():
+                key = child.tag.upper()
+                if key == '':
+                    continue
+
+                if child.tag == "TemperatureSensor":
+                    t_flag = True
+
+                if t_flag and child.tag == 'Sensor':
+                    t_flag = False
+
+                elif t_flag:
+                    key = 'T' + child.tag
+
+                if child.tag == "SerialNumber" and child.text != None:
+                    self.serial = '16-' + child.text
+
+                if child.tag == "CalibrationDate" and child.text != None and self.date == None:
+                    self.date = datetime.datetime.strptime(child.text, "%d-%b-%y").strftime("%Y%m%d")
+
+                name = self.coefficient_name_map.get(key)
+                if name is None:
+                    continue
+                self.coefficients[name] = child.text
 
     def read_cal(self, filename):
         ## Reads the calibration files and extracts out the necessary calibration values needed for CI.
@@ -105,15 +138,22 @@ class CTDCalibration(Calibration):
             writer.writerow(['serial','name', 'value', 'notes'])
             for each in sorted(self.coefficients.items()):
                 writer.writerow([self.serial] + list(each))
+            if inst_type.startswith("CTDPF"):
+                writer.writerow([self.serial, "CC_offset", 0])
 
 def main():
     lookup = get_uid_serial_mapping('ctd_lookup.csv')
     for path, directories, files in os.walk('manufacturer'):
         for file in files:
             cal = CTDCalibration()
-            cal.read_cal(os.path.join(path, file))
-            cal.asset_tracking_number = lookup[cal.serial]
-            cal.write_cal_info()
+            with open(os.path.join(path, file)) as unknown_file:
+                c = unknown_file.read(1)
+                if c == '<':
+                    cal.read_xml(os.path.join(path, file))
+                else:
+                    cal.read_cal(os.path.join(path, file))
+                cal.asset_tracking_number = lookup[cal.serial]
+                cal.write_cal_info()
 
 if __name__ == '__main__':
     start_time = time.time()
