@@ -5,7 +5,11 @@
 # Create the necessary CI calibration ingest information from an SPKIR calibration file
 # These scripts are based on ones available
 
-import csv, datetime, os, sys, time
+import csv
+import datetime
+import os
+import sys
+import time
 import json
 from dateutil.parser import parse
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

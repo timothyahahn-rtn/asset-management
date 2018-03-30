@@ -4,7 +4,9 @@
 #
 # Create the necessary CI calibration ingest information from an OPTAA calibration file
 
-import csv, datetime, os
+import csv
+import datetime
+import os
 import json
 import sys
 import string

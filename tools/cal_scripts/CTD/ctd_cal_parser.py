@@ -4,12 +4,15 @@
 # CTD Calibration Parser
 # Create the necessary CI calibration ingest information from an CTD calibration file
 
-
-import csv, datetime, os, sys
-import time, re
-sys.path.append('..')
-import xml.etree.ElementTree as ET
-from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
+from __future__ import absolute_import
+import csv
+import datetime
+import os
+import sys
+import time
+import xml.etree.ElementTree as et
+print(sys.path)
+from tools.cal_scripts.common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class CTDCalibration(Calibration):
     ## Class that stores calibration values for CTDs.
@@ -63,7 +66,7 @@ class CTDCalibration(Calibration):
     def read_xml(self, filename):
         # TODO: Finish up xml reading
         with open(filename) as fh:
-            tree = ET.parse(filename)
+            tree = et.parse(filename)
             root = tree.getroot()
             t_flag = False
             for child in tree.iter():
@@ -113,7 +116,7 @@ class CTDCalibration(Calibration):
                     self.date = datetime.datetime.strptime(value, "%d-%b-%y").strftime("%Y%m%d")
 
                 name = self.coefficient_name_map.get(key)
-                if name is None:
+                if not Name:
                     continue
 
                 self.coefficients[name] = value

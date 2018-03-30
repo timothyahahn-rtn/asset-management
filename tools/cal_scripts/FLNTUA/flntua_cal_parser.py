@@ -4,9 +4,12 @@
 #
 # Create the necessary CI calibration ingest information from an SPKIR calibration file
 
-import csv, os, sys, time
-import json
+import csv
 import datetime
+import os
+import sys
+import time
+import json
 sys.path.append('..')
 from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 

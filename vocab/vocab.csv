@@ -1481,22 +1481,22 @@ CE05MOAS-GL247-04-DOSTAM000,Coastal Endurance,Mobile Assets,Coastal Glider 247,D
 CE05MOAS-GL247-05-CTDGVM000,Coastal Endurance,Mobile Assets,Coastal Glider 247,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,200
 CE05MOAS-GL326-03-ADCPAM000,Coastal Endurance,Mobile Assets,Coastal Glider 326,Velocity Profiler (600kHz),Teledyne RDI,Explorer DVL 600 kHz,TBD,TBD
 CE05MOAS-GL386-03-ADCPAM000,Coastal Endurance,Mobile Assets,Coastal Glider 386,Velocity Profiler (600kHz),Teledyne RDI,Explorer DVL 600 kHz,TBD,TBD
-CP05MOAS-A6263,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,,,,TBD,TBD
-CP05MOAS-A6263-00-ENG000000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,TBD,TBD
-CP05MOAS-A6263-01-FLORTN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,3-Wavelength Fluorometer,WET Labs,ECO Triplet,TBD,TBD
-CP05MOAS-A6263-02-DOSTAN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,Dissolved Oxygen,Aanderaa,Optode 4330,TBD,TBD
-CP05MOAS-A6263-03-CTDAVN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),TBD,TBD
-CP05MOAS-A6263-04-NUTNRN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,Nitrate,Satlantic,Deep SUNA,TBD,TBD
-CP05MOAS-A6263-05-ADCPAN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,Velocity Profiler (600kHz),Teledyne RDI,Workhorse Navigator 600 kHz dual,TBD,TBD
-CP05MOAS-A6263-06-PARADN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2150,TBD,TBD
-CP05MOAS-A6264,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,,,,TBD,TBD
-CP05MOAS-A6264-00-ENG000000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,TBD,TBD
-CP05MOAS-A6264-01-FLORTN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,3-Wavelength Fluorometer,WET Labs,ECO Triplet,TBD,TBD
-CP05MOAS-A6264-02-DOSTAN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,Dissolved Oxygen,Aanderaa,Optode 4330,TBD,TBD
-CP05MOAS-A6264-03-CTDAVN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),TBD,TBD
-CP05MOAS-A6264-04-NUTNRN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,Nitrate,Satlantic,Deep SUNA,TBD,TBD
-CP05MOAS-A6264-05-ADCPAN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,Velocity Profiler (600kHz),Teledyne RDI,Workhorse Navigator 600 kHz dual,TBD,TBD
-CP05MOAS-A6264-06-PARADN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2150,TBD,TBD
+CP05MOAS-A6263,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,,,,0,600
+CP05MOAS-A6263-00-ENG000000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,Mobile Asset Controller,Hydroid,AUV,0,600
+CP05MOAS-A6263-01-FLORTN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,3-Wavelength Fluorometer,WET Labs,BBFL2HYD,0,600
+CP05MOAS-A6263-02-DOSTAN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,Dissolved Oxygen,Aanderaa,Optode 4330,0,600
+CP05MOAS-A6263-03-CTDAVN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,CTD,Sea-Bird,SBE AUV Payload CTD,0,600
+CP05MOAS-A6263-04-NUTNRN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,Nitrate,Satlantic,SUNA,0,600
+CP05MOAS-A6263-05-ADCPAN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,Velocity Profiler (600kHz),Teledyne RDI,Explorer DVL 600 kHz,0,600
+CP05MOAS-A6263-06-PARADN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,600
+CP05MOAS-A6264,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,,,,0,600
+CP05MOAS-A6264-00-ENG000000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,Mobile Asset Controller,Hydroid,AUV,0,600
+CP05MOAS-A6264-01-FLORTN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,3-Wavelength Fluorometer,WET Labs,BBFL2HYD,0,600
+CP05MOAS-A6264-02-DOSTAN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,Dissolved Oxygen,Aanderaa,Optode 4330,0,600
+CP05MOAS-A6264-03-CTDAVN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,CTD,Sea-Bird,SBE AUV Payload CTD,0,600
+CP05MOAS-A6264-04-NUTNRN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,Nitrate,Satlantic,SUNA,0,600
+CP05MOAS-A6264-05-ADCPAN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,Velocity Profiler (600kHz),Teledyne RDI,Explorer DVL 600 kHz,0,600
+CP05MOAS-A6264-06-PARADN000,Coastal Pioneer,Mobile Assets,Coastal AUV 6264,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,600
 CP05MOAS-GL375,Coastal Pioneer,Mobile Assets,Coastal Glider 375,,,,TBD,TBD
 CP05MOAS-GL375-00-ENG000000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,TBD,TBD
 CP05MOAS-GL375-01-ADCPAM000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,Velocity Profiler (600kHz),Teledyne RDI,Explorer DVL 600 kHz,TBD,TBD
