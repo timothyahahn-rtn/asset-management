@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# SPKIR calibration parser
+# FLNTUA calibration parser
 #
 # Create the necessary CI calibration ingest information from a FLNTUA calibration file
 

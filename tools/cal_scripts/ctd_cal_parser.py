@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-##
 # CTD Calibration Parser
 # Create the necessary CI calibration ingest information from an CTD calibration file
 

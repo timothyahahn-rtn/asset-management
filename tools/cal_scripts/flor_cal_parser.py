@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# SPKIR calibration parser
+# FLOR calibration parser
 #
 # Create the necessary CI calibration ingest information from a FLOR calibration file
 
