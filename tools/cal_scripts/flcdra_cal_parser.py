@@ -9,7 +9,6 @@ import datetime
 import os
 import sys
 import time
-sys.path.append('..')
 from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class FLCDRACalibration(Calibration):
@@ -17,6 +16,7 @@ class FLCDRACalibration(Calibration):
         super(FLCDRACalibration, self).__init__()
         self.dark = 0
         self.scale = 0.0
+        self.type = "FLCDRA"
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -36,8 +36,8 @@ class FLCDRACalibration(Calibration):
                     self.coefficients['CC_scale_factor_cdom'] = self.scale
 
 def main():
-    lookup = get_uid_serial_mapping('flcdra_lookup.csv')
-    for path, directories, files in os.walk('manufacturer'):
+    lookup = get_uid_serial_mapping('FLCDRA/flcdra_lookup.csv')
+    for path, directories, files in os.walk('FLCDRA/manufacturer'):
         for file in files:
             cal = FLCDRACalibration()
             cal.read_cal(os.path.join(path, file))

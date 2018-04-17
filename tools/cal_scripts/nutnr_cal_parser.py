@@ -10,7 +10,6 @@ import os
 import sys
 import time
 import json
-sys.path.append('..')
 from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class NUTNRCalibration(Calibration):
@@ -25,6 +24,7 @@ class NUTNRCalibration(Calibration):
         self.asset_tracking_number = None
         self.date = None
         self.serial = None
+        self.type = 'NUTNRA'
         self.coefficients = {'CC_lower_wavelength_limit_for_spectra_fit' : self.lower_limit,
                             'CC_upper_wavelength_limit_for_spectra_fit' : self.upper_limit}
 
@@ -62,8 +62,8 @@ class NUTNRCalibration(Calibration):
                     self.coefficients['CC_di'] = json.dumps(self.di)
 
 def main():
-    lookup = get_uid_serial_mapping('nutnr_lookup.csv')
-    for path, directories, files in os.walk('manufacturer'):
+    lookup = get_uid_serial_mapping('NUTNRA/nutnr_lookup.csv')
+    for path, directories, files in os.walk('NUTNRA/manufacturer'):
         for file in files:
             cal = NUTNRCalibration()
             cal.read_cal(os.path.join(path, file))

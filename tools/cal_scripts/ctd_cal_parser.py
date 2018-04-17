@@ -11,8 +11,7 @@ import os
 import sys
 import time
 import xml.etree.ElementTree as et
-print(sys.path)
-from tools.cal_scripts.common_code.cal_parser_template import Calibration, get_uid_serial_mapping
+from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class CTDCalibration(Calibration):
     ## Class that stores calibration values for CTDs.
@@ -62,6 +61,7 @@ class CTDCalibration(Calibration):
         self.asset_tracking_number = None
         self.serial = '52-'
         self.date = None
+        self.type = 'CTD'
 
     def read_xml(self, filename):
         # TODO: Finish up xml reading
@@ -134,7 +134,7 @@ class CTDCalibration(Calibration):
         elif self.asset_tracking_number.find('69828') != -1:
             inst_type = 'CTDBPO'
         ## Writes the calibration information to a comma-separated value file
-        complete_path = os.path.join('cal_sheets', inst_type)
+        complete_path = os.path.join(self.type, 'cal_sheets', inst_type)
         file_name = self.asset_tracking_number + '__' + self.date
         with open(os.path.join(complete_path, '%s.csv' % file_name), 'w') as info:
             writer = csv.writer(info)
@@ -145,8 +145,8 @@ class CTDCalibration(Calibration):
                 writer.writerow([self.serial, "CC_offset", 0])
 
 def main():
-    lookup = get_uid_serial_mapping('ctd_lookup.csv')
-    for path, directories, files in os.walk('manufacturer'):
+    lookup = get_uid_serial_mapping('CTD/ctd_lookup.csv')
+    for path, directories, files in os.walk('CTD/manufacturer'):
         for file in files:
             cal = CTDCalibration()
             with open(os.path.join(path, file)) as unknown_file:

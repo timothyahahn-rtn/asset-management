@@ -9,12 +9,12 @@ import datetime
 import os
 import sys
 import time
-sys.path.append('..')
 from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class SBE43Calibration(Calibration):
     def __init__(self):
         super(SBE43Calibration, self).__init__()
+        self.type = 'DOFSTA'
         self.coefficient_name_map = {
             'E': 'CC_residual_temperature_correction_factor_e',
             'C': 'CC_residual_temperature_correction_factor_c',
@@ -56,9 +56,9 @@ class SBE43Calibration(Calibration):
 def main():
     # Starts in the directory with
     # Get corresponding mapping between serial number and uid
-    lookup = get_uid_serial_mapping('dofsta_lookup.csv')
+    lookup = get_uid_serial_mapping('DOFSTA/dofsta_lookup.csv')
     #Begin writing files
-    for path, directories, files in os.walk('manufacturer'):
+    for path, directories, files in os.walk('DOFSTA/manufacturer'):
         for file in files:
             cal = SBE43Calibration()
             cal.read_cal(os.path.join(path, file))

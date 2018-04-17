@@ -5,9 +5,9 @@ defines some default fields and functions. Also includes a function to parse thr
 the link between serial numbers and UIDs.
 '''
 import csv
+import datetime
 import os
 import sys
-import datetime
 import time
 
 class Calibration(object):
@@ -16,10 +16,11 @@ class Calibration(object):
         self.serial = None
         self.date = None
         self.coefficients = {}
+        self.type = None
 
     def write_cal_info(self, directory = 'cal_sheets'):
         file_name = self.asset_tracking_number + '__' + self.date
-        with open(os.path.join('cal_sheets', '%s.csv' % file_name), 'w') as info:
+        with open(os.path.join(self.type, directory, '%s.csv' % file_name), 'w') as info:
             writer = csv.writer(info)
             writer.writerow(['serial','name', 'value', 'notes'])
             for each in sorted(self.coefficients.items()):

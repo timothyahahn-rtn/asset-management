@@ -12,8 +12,7 @@ import sys
 import time
 import json
 from dateutil.parser import parse
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from cal_parser_template import Calibration, get_uid_serial_mapping
+from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class SPKIRCalibration(Calibration):
     def __init__(self):
@@ -21,6 +20,7 @@ class SPKIRCalibration(Calibration):
         self.offset = []
         self.scale = []
         self.immersion_factor = []
+        self.type = 'SPKIRA'
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -54,8 +54,8 @@ class SPKIRCalibration(Calibration):
 
 
 def main():
-    lookup = get_uid_serial_mapping('spkir_lookup.csv')
-    for path, directories, files in os.walk('manufacturer'):
+    lookup = get_uid_serial_mapping('SPKIRA/spkir_lookup.csv')
+    for path, directories, files in os.walk('SPKIRA/manufacturer'):
         for file in files:
             cal = SPKIRCalibration()
             cal.read_cal(os.path.join(path, file))

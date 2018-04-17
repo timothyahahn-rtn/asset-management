@@ -11,7 +11,6 @@ import json
 import sys
 import string
 import time
-sys.path.append('..')
 from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class OPTAACalibration(Calibration):
@@ -30,6 +29,7 @@ class OPTAACalibration(Calibration):
         self.date = None
         self.coefficients = {'CC_taarray' : 'SheetRef:CC_taarray',
                             'CC_tcarray' : 'SheetRef:CC_tcarray'}
+        self.type = 'OPTAA'
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -77,7 +77,7 @@ class OPTAACalibration(Calibration):
             inst_type = 'OPTAAD'
         elif self.asset_tracking_number.find('69943') != -1:
             inst_type = 'OPTAAC'
-        complete_path = os.path.join('cal_sheets', inst_type)
+        complete_path = os.path.join(self.type, 'cal_sheets', inst_type)
         file_name = self.asset_tracking_number + '__' + self.date
         with open(os.path.join(complete_path, '%s.csv' % file_name), 'w') as info:
             writer = csv.writer(info)
@@ -94,8 +94,8 @@ class OPTAACalibration(Calibration):
         write_array(os.path.join(complete_path, '%s__CC_taarray.ext' % file_name), self.taarray)
 
 def main():
-    lookup = get_uid_serial_mapping('optaa_lookup.csv')
-    for path, directories, files in os.walk('manufacturer'):
+    lookup = get_uid_serial_mapping('OPTAA/optaa_lookup.csv')
+    for path, directories, files in os.walk('OPTAA/manufacturer'):
         for file in files:
             sheet_name = os.path.basename(file).partition('.')[0].upper()
             sheet_name = sheet_name[:3] + '-' + sheet_name[3:]
