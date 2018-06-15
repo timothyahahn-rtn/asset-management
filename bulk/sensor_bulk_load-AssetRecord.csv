@@ -1,6 +1,6 @@
 ASSET_UID,LEGACY_ASSET_UID,TYPE,Mobile,DESCRIPTION OF EQUIPMENT,MIO_Inventory_Description,Manufacturer,Model,Manufacturer's Serial No./Other Identifier,Firmware Version,ACQUISITION DATE,ORIGINAL COST,comments,MIO
 CGINS-CTDMOQ-08523,A00023,Sensor,0,CTD Mooring (Inductive): CTDMO Series Q,CTDMO SERIES Q (37IM),Sea-Bird Electronics,SBE 37-IM,37IM64183-8523,3.1,20110527,6200,,Woods Hole Oceanographic Institution
-CGCON-CWFPCP-71401,A00025.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL REFURBISHED Electronics #1,McLane,MMP-7,ML12714-01,,20110617,0,,Woods Hole Oceanographic Institution
+CGCON-CWFPCP-71401,A00025.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL REFURBISHED Electronics
 CGINS-VELPTB-09952,A00048,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M,Nortek,Aquadopp,AQD 9952,,20150604,11150,,
 CGINS-VELPTB-09984,A00049,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M,Nortek,Aquadopp,AQD 9984,3.37,20150604,11150,,
 CGINS-PCO2AA-31124,A00050,Sensor,0,pCO2 Air-Sea: PCO2A Series A,PCO2A SERIES A (PCO2/ATM-50A),Pro-Oceanus,pCO2-pro,31-124-50A,,20120228,28732,,
@@ -171,13 +171,13 @@ CGINS-PHSEND-P0085,A00262,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (S
 CGINS-PHSEND-P0088,A00263,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0088,,20130312,17419.25,,
 CGINS-PHSEND-P0087,A00264,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0087,54,20130314,17419.25,,
 CGINS-PHSEND-P0086,A00266,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0086,,20130314,17419.25,,
-CGCON-GWFPGX-93602,A00267.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics #1,McLane,MMP 210-3512,ML12936-02,,20130314,0,,Woods Hole Oceanographic Institution
-CGCON-GWFPGX-99701,A00268.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics #1,McLane,MMP 210-3512,ML12997-01,,20130320,0,,Woods Hole Oceanographic Institution
-CGCON-CWFPCE-99103,A00285.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML12991-03,,20130426,0,,Oregon State University
-CGCON-CWFPCP-99102,A00286.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML12991-02,,20130604,0,,Woods Hole Oceanographic Institution
-CGCON-CWFPCP-99101,A00287.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML12991-01,,20150713,0,,Woods Hole Oceanographic Institution
+CGCON-GWFPGX-93602,A00267.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics
+CGCON-GWFPGX-99701,A00268.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics
+CGCON-CWFPCE-99103,A00285.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics
+CGCON-CWFPCP-99102,A00286.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics
+CGCON-CWFPCP-99101,A00287.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics
 CGINS-OPTAAD-00135,A00288,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D (AC-S),WET Labs,AC-S,ACS-135,,20130429,37830,,
-CGCON-CWFPCE-99104,A00303.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML12991-04,,20130510,0,,Oregon State University
+CGCON-CWFPCE-99104,A00303.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics
 CGINS-METSWR-00246,A00306,Sensor,0,Bulk Meteorology Instrument Package: METBK SWR Module,METBK SWR MODULE,Star Engineering,ABS105-SWR,SWR246,,20130520,11200,,
 CGINS-METSWR-00247,A00307,Sensor,0,Bulk Meteorology Instrument Package: METBK SWR Module,METBK SWR MODULE,Star Engineering,ABS105-SWR,SWR247,,20130520,11200,,
 CGINS-METSWR-00248,A00308,Sensor,0,Bulk Meteorology Instrument Package: METBK SWR Module,METBK SWR MODULE,Star Engineering,ABS105-SWR,SWR248,,20130520,11200,,
@@ -204,7 +204,7 @@ CGINS-PCO2WB-C0070,A00387,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SERIES B (SA
 CGINS-PHSEND-P0095,A00388,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0095,54,20150604,17535.13,,
 CGINS-PHSEND-P0096,A00389,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0096,54,20130820,17535.13,,
 CGINS-PHSEND-P0097,A00390,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0097,54,20150604,17535.13,,
-CGCON-CWFPCP-93601,A00391.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL (1ST ARTICLE) Electronics #1,McLane,MMP-7,ML12936-01,54,20130122,0,,Woods Hole Oceanographic Institution
+CGCON-CWFPCP-93601,A00391.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL (1ST ARTICLE) Electronics
 CGINS-PHSEND-P0100,A00392,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0100,54,20130823,17535.13,,
 CGINS-DOSTAD-00213,A00395,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,213,4.5.7,20130826,5258.25,,
 CGINS-DOSTAD-00212,A00396,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,212,4.5.7,20130826,5258.25,,
@@ -360,9 +360,9 @@ CGINS-FLORTD-01155,A00617,Sensor,0,3-Wavelength Fluorometer: FLORT Series D,FLOR
 CGINS-FLORTD-01487,,Sensor,0,3-Wavelength Fluorometer: FLORT Series D,FLORT SERIES D (ECO TRIPLET-W),WET Labs,ECO Triplet-w,1487,,20160812,,,
 CGINS-FLORTD-01488,,Sensor,0,3-Wavelength Fluorometer: FLORT Series D,FLORT SERIES D (ECO TRIPLET-W),WET Labs,ECO Triplet-w,1488,,20160812,,,
 CGINS-PCO2WB-C0081,A00628,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SERIES B (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0081,,20140110,20208.3,,
-CGCON-GWFPGX-10401,A00630.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics #1,McLane,MMP 210-3512,ML13104-01,,20140115,0,,Woods Hole Oceanographic Institution
-CGCON-GWFPGX-10402,A00631.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics #1,McLane,MMP 210-3512,ML13104-02,,20140115,0,,Woods Hole Oceanographic Institution
-CGCON-GWFPGX-10403,A00632.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics #1,McLane,MMP 210-3512,ML13104-03,,20140115,0,,Woods Hole Oceanographic Institution
+CGCON-GWFPGX-10401,A00630.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics
+CGCON-GWFPGX-10402,A00631.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics
+CGCON-GWFPGX-10403,A00632.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics
 CGINS-CTDBPF-50001,A00635,Sensor,0,CTD Pumped: CTDBP Series F,CTDBP SERIES F (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-50001,2.5.2,20140429,13875,,
 CGINS-CTDMOQ-11480,A00636,Sensor,0,CTD Mooring (Inductive): CTDMO Series Q,CTDMO SERIES Q (37IM),Sea-Bird Electronics,SBE 37-IM,37-11480,3.1,20140429,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOQ-11481,A00637,Sensor,0,CTD Mooring (Inductive): CTDMO Series Q,CTDMO SERIES Q (37IM),Sea-Bird Electronics,SBE 37-IM,37-11481,3.1,20140429,6600,,Woods Hole Oceanographic Institution
@@ -491,11 +491,11 @@ CGINS-PRESFB-01386,A00813,Sensor,0,Seafloor Pressure: PRESF Series B,PRESF SERIE
 CGINS-ADCPSJ-21496,A00816,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series J,ADCP SERIES J (WHLS75-1500),Teledyne RDI,WHLS75-1500,21496,50.4,20150604,50688,,
 A00835,A00835,Sensor,0,SENSOR CTD,SENSOR CTD,Sea-Bird Electronics,SBE 52-MP,138,,20140128,9966,,
 A00838,A00838,Sensor,0,FLUOROMETER,FLUOROMETER,WET Labs,FLCDRTD (CDOM),3400,,20140128,6665,UW Claims they have asset,
-CGCON-CWFPCP-10301,A00846.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML13103-01,,20140128,0,,Woods Hole Oceanographic Institution
-CGCON-CWFPCP-10302,A00847.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML13103-02,,20140128,0,,Woods Hole Oceanographic Institution
-CGCON-CWFPCP-10303,A00848.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML13103-03,,20140129,0,,Woods Hole Oceanographic Institution
-CGCON-CWFPCP-10304,A00849.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML13103-04,,20140128,0,,Woods Hole Oceanographic Institution
-CGCON-CWFPCP-10305,A00850.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML13103-05,,20140128,0,,Woods Hole Oceanographic Institution
+CGCON-CWFPCP-10301,A00846.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics
+CGCON-CWFPCP-10302,A00847.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics
+CGCON-CWFPCP-10303,A00848.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics
+CGCON-CWFPCP-10304,A00849.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics
+CGCON-CWFPCP-10305,A00850.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics
 CGINS-ADCPSN-21654,A00853,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series N,ADCP SERIES N (WHLS75-6KS-I),Teledyne RDI,WHLS75-6KS-I,21654,50.4,20140530,79353,,
 CGINS-ADCPSN-21638,A00854,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series N,ADCP SERIES N (WHLS75-6KS-I),Teledyne RDI,WHLS75-6KS-I,21638,50.4,20140530,79353,,
 CGINS-ADCPSN-21717,A00855,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series N,ADCP SERIES N (WHLS75-6KS-I),Teledyne RDI,WHLS75-6KS-I,21717,50.4,20140530,79353,,
@@ -689,10 +689,10 @@ CGINS-VELPTA-12229,A01070,Sensor,0,Single Point Velocity Meter: VELPT Series A,V
 CGINS-VELPTA-12224,A01071,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12224,,20140927,8650,,
 CGINS-VELPTA-12230,A01072,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12230,,20150604,8650,,
 A01073,A01073,Sensor,0,SONAR BIO ACOUSTIC,SONAR BIO ACOUSTIC,Kongsberg Underwater Technology Inc,CLIN 001,S/N 3,,20140423,173968,,
-CGCON-GWFPGX-77401,A01080.1,Sensor,0,Global Wire-Following Profiler Controller,GLOBAL WIRE FOLLOWING PROFILER Electronics #1,McLane,MMP 210-3512,ML12774-01,,20140814,0,,Woods Hole Oceanographic Institution
-CGCON-GWFPGX-10404,A01081,Sensor,0,Global Wire-Following Profiler Controller,GLOBAL WIRE FOLLOWING PROFILER Electronics #1,McLane,MMP 210-3512,ML13104-04,,20140926,0,,Woods Hole Oceanographic Institution
-CGCON-GWFPGX-10406,A01082,Sensor,0,Global Wire-Following Profiler Controller,GLOBAL WIRE FOLLOWING PROFILER Electronics #1,McLane,MMP 210-3512,ML13104-06,,20140926,0,,Woods Hole Oceanographic Institution
-CGCON-GWFPGX-10407,A01083,Sensor,0,Global Wire-Following Profiler Controller,GLOBAL WIRE FOLLOWING PROFILER Electronics #1,McLane,MMP 210-3512,ML13104-07,,20140826,0,,Woods Hole Oceanographic Institution
+CGCON-GWFPGX-77401,A01080.1,Sensor,0,Global Wire-Following Profiler Controller,GLOBAL WIRE FOLLOWING PROFILER Electronics
+CGCON-GWFPGX-10404,A01081,Sensor,0,Global Wire-Following Profiler Controller,GLOBAL WIRE FOLLOWING PROFILER Electronics
+CGCON-GWFPGX-10406,A01082,Sensor,0,Global Wire-Following Profiler Controller,GLOBAL WIRE FOLLOWING PROFILER Electronics
+CGCON-GWFPGX-10407,A01083,Sensor,0,Global Wire-Following Profiler Controller,GLOBAL WIRE FOLLOWING PROFILER Electronics
 CGINS-OPTAAD-00189,A01084,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D (AC-S),WET Labs,AC-S,ACS-189,,20150604,38969.75,,
 A01085,A01085,Sensor,0,ANEMOMETER WINDMASTER PRO,ANEMOMETER WINDMASTER PRO,PP SYSTEMS,WINDMASTER PRO,TAS141004,,20140304,4565,,
 A01086,A01086,Sensor,0,ANEMOMETER WINDMASTER PRO,ANEMOMETER WINDMASTER PRO,PP SYSTEMS,WINDMASTER PRO,TAS141005,,20150604,4565,,
@@ -714,7 +714,7 @@ CGINS-CTDBPD-50058,A01106,Sensor,0,CTD Pumped: CTDBP Series D,CTDBP SERIES D (D-
 CGINS-ZPLSCC-55074,A01107,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,SONAR BIOACOUSTIC AZFP,ASL Environmental,AZFP,55074,,20141007,46964,,
 CGINS-ZPLSCC-55077,A01108,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,SONAR BIOACOUSTIC AZFP,ASL Environmental,AZFP,55077,,20141007,46964,,
 CGINS-ZPLSCC-55080,A01109,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,SONAR BIOACOUSTIC AZFP,ASL Environmental,AZFP,55080,,20141007,46964,,
-CGCON-GWFPGX-10405,A01110,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics #1,McLane,MMP 210-3512,ML13104-05,,20140403,0,,Woods Hole Oceanographic Institution
+CGCON-GWFPGX-10405,A01110,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics
 CGINS-OPTAAD-00193,A01111,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D (AC-S),WET Labs,AC-S,ACS-193,,20150604,38969.75,,
 CGINS-OPTAAD-00205,A01112,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D (AC-S),WET Labs,AC-S,ACS-205,,20141010,38969.75,,
 CGINS-CTDMOQ-12585,A01113,Sensor,0,CTD Mooring (Inductive): CTDMO Series Q,CTDMO SERIES Q (37IM),Sea-Bird Electronics,SBE 37-IM,37-12585,,20141014,6775,,Woods Hole Oceanographic Institution
@@ -1509,7 +1509,7 @@ ATOSU-58337-00016,ATOSU-58337-00016,Sensor,0,Seawater pH: PHSEN Series A,"ph sen
 ATOSU-58337-00017,ATOSU-58337-00017,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0159,,,18544.5,Assumed price from above sami,
 ATOSU-58341-00005,ATOSU-58341-00005,Sensor,0,Spectral Irradiance: SPKIR Series A,SPKIR-A,Satlantic,OCR507 ICSW,341,,,,,
 ATOSU-58341-00008,ATOSU-58341-00008,Sensor,0,Spectral Irradiance: SPKIR Series A,OCR507-ICSW (series A) w/ Midrange (500m) Bioshutter II (SPKIR-A),Satlantic,OCR507 ICSW,251,,,14000,,
-ATOSU-58346-00008,ATOSU-58346-00008,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series A,"Falmouth Scientific 3D-ACM, with Impulse MCBH(WB)-5-FS-Ti connector (if available)",Falmouth Scientific,ACM-Plus-MP,1131/TAG#: 116118,,20140128,10850,,
+ATOSU-58346-00008,ATOSU-58346-00008,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series A,"Falmouth Scientific 3D-ACM, with Impulse MCBH(WB)-5-FS-Ti connector (if available)",Falmouth Scientific,ACM-Plus-MP,1131/TAG
 ATOSU-58694-00007,ATOSU-58694-00007,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,DOFSTA for RSN,Sea-Bird Electronics,SBE 43,43-3136,,,,,
 ATOSU-63259-00001,ATOSU-63259-00001,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 3 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,3,,20140523,174000,,
 ATOSU-63259-00002,ATOSU-63259-00002,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 4 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,4,,,174000,,
@@ -1521,7 +1521,7 @@ ATOSU-66662-00006,ATOSU-66662-00006,Sensor,0,CTD Profiler: CTDPF Series A,CTDPF-
 ATOSU-66662-00007,ATOSU-66662-00007,Sensor,0,CTD Profiler: CTDPF Series A,Shallow 16 Plus V2 CTD,Sea-Bird Electronics,SBE 16plus V2,16-50019,,20150511,13535,,
 ATOSU-66662-00013,ATOSU-66662-00013,Sensor,0,CTD Profiler: CTDPF Series A,Shallow 16 Plus V2 CTD,Sea-Bird Electronics,SBE 16plus V2,16-50112,,,27000,,
 ATOSU-66662-00014,ATOSU-66662-00014,Sensor,0,CTD Profiler: CTDPF Series A,Shallow 16 Plus V2 CTD,Sea-Bird Electronics,SBE 16plus V2,16-50113,,,27000,,
-ATOSU-67977-00007,ATOSU-67977-00007,Sensor,0,CTD Profiler: CTDPF Series L,"SBE52MP-1a-2g-4, with RS-232 interface, 3500m strain gauge pressure sensor, MCBH(WB) connector",Sea-Bird Electronics,SBE 52-MP,5277187-0138/TAG#: 116117,,20140128,9966.25,,
+ATOSU-67977-00007,ATOSU-67977-00007,Sensor,0,CTD Profiler: CTDPF Series L,"SBE52MP-1a-2g-4, with RS-232 interface, 3500m strain gauge pressure sensor, MCBH(WB) connector",Sea-Bird Electronics,SBE 52-MP,5277187-0138/TAG
 ATOSU-68020-00008,ATOSU-68020-00008,Sensor,0,Nitrate: NUTNR Series A,SATLANTIC SUNA NITRATE SENSOR,Satlantic,Deep SUNA,625,,,28000,,
 ATOSU-69825-00001,ATOSU-69825-00001,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series I,ADCP SERIES J (WHLS75-1500),Teledyne RDI,WHLM75-1500,21498,,20130424,48199.5,,
 ATOSU-69825-00002,ATOSU-69825-00002,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series I,ADCP SERIES I (WHLM75-1500),Teledyne RDI,WHLM75-1500,18153,,20120914,46795.5,,
@@ -1642,7 +1642,7 @@ CGINS-VEL3DL-01109,N00116,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series
 CGINS-ADCPAM-48877,N00117,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648877,,20130701,186935,,
 CGINS-FLORTM-02819,N00118,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,2819,,20130701,186935,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09083,N00119,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9083,,20130701,186935,CGSN Glider Instrument Pool,
-CGCON-CWFPCE-37801,,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics #1,McLane,MMP-7,ML14378-01,,20170907,,,Oregon State University
+CGCON-CWFPCE-37801,,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL Electronics
 CGINS-CTDPFK-00189,,Sensor,0,CTD Profiler: CTDPF Series K,CTD for WFP Coastal ML14378-01,Sea-Bird Electronics,SBE 52-MP,189,,20170907,,,Oregon State University
 CGINS-DOFSTK-03535,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML14378-01,Sea-Bird Electronics,SBE 43F,43-3535,,20170907,,,Oregon State University
 CGINS-FLORTK-01602,,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,FLOR for WFP Coastal ML14378-01,WET Labs,ECO Triplet,1602,,20170907,,,Oregon State University
@@ -1972,7 +1972,7 @@ CGINS-ZPLSCC-55098,N00681,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERI
 CGINS-CAMDSA-00109,N00682,Sensor,0,Underwater Digital Still Camera: CAMDS Series A,CAMDS,Kongsberg Underwater Technology Inc,Custom,0484-6102-0109,,,,,
 CGINS-PRESFC-01398,N00683,Sensor,0,Seafloor Pressure: PRESF Series C,PRESF SERIES C (26PLUS),Sea-Bird Electronics,SBE 26plus,26P-1398,,,14300,,
 CGINS-PRESFC-01399,,Sensor,0,Seafloor Pressure: PRESF Series C,PRESF SERIES C (26PLUS),Sea-Bird Electronics,SBE 26plus,26P-1399,,,14300,,
-N00687,N00687,Sensor,0,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD (CDOM),3400/TAG#:116120,,20140128,6665,,
+N00687,N00687,Sensor,0,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD (CDOM),3400/TAG
 ATOSU-58324-00013,N00689,Sensor,0,Broadband Acoustic Receiver (Hydrophone): HYDBB Series A,"Passive Bioacoustics, HYDBB-B",Ocean Sonics,icListen SB35-ETH,1250,,20130321,13943.62,,
 ATOSU-58317-00008,N00691,Sensor,0,Underwater Digital Still Camera: CAMDS Series B,Underwater Digital Still Camera (CAMDS),Kongsberg Underwater Technology Inc,Custom,105,,20140709,34185,,
 CGINS-CAMDSB-00100,N00694,Sensor,0,Underwater Digital Still Camera: CAMDS Series B,CAMDS,Kongsberg Underwater Technology Inc,Custom,0484-6002-0100,,,,,
@@ -2061,8 +2061,8 @@ CGINS-VEL3DL-01255,OL000053,Sensor,0,3-D Single Point Velocity Meter: VEL3D Seri
 CGINS-DOSTAL-02196,OL000054,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA Series L,Aanderaa,Optode 4330,2196,,,,,
 CGINS-CTDPFL-00153,OL000055,Sensor,0,CTD Profiler: CTDPF Series L,CTDPF Series L,Sea-Bird Electronics,SBE 52-MP,153,,,,,
 CGINS-VEL3DL-01254,OL000056,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series L,VEL3D Series L,Falmouth Scientific,ACM-Plus,1254,,,,,
-CGCON-GWFPGX-45203,OL000057.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics #1,McLane,MMP 210-3512,ML13452-03,,,,,Woods Hole Oceanographic Institution
-CGCON-GWFPGX-45204,OL000058.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics #1,McLane,MMP 210-3512,ML13452-04,,,,,Woods Hole Oceanographic Institution
+CGCON-GWFPGX-45203,OL000057.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics
+CGCON-GWFPGX-45204,OL000058.1,Sensor,0,Global Wire-Following Profiler Controller,WFP GLOBAL Electronics
 CGCON-SIOCON-14880,OL000059,Sensor,0,Subsurface Mooring Platform Controller,SIO Controller,SIO,Subsurface Mooring Controller,14880,,,,,
 OL000060,OL000060,Sensor,0,Subsurface Mooring Platform Controller,SIO Controller,SIO,Subsurface Mooring Controller,GP02HYPM-00002-SIOENG,,,,,
 CGINS-METLGR-00024,OL000061,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,GA01SUMO-00002-METBK,Star Engineering,ASIMET,LGR024,,,,,
@@ -2923,7 +2923,7 @@ CGINS-CTDGVM-09306,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Gli
 CGINS-DOSTAM-00538,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,538,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04100,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4100,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTO-01348,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,,WET Labs,ECO Puck BB3,1348,,,,,Woods Hole Oceanographic Institution
-CGINS-NUTNRM-00662,,Sensor,1,Nitrate for Glider: NUTNR Series M,NUTNR for Global Profiling Glider ,Satlantic,SUNA,662,,,,,
+CGINS-NUTNRM-00662,,Sensor,1,Nitrate for Glider: NUTNR Series M,NUTNR for Global Profiling Glider,Satlantic,SUNA,662,,,,,
 CGINS-PARADM-50215,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50215,,,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50245,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50245,1.2,,,CGSN Glider Instrument Pool,
 CGINS-METLWR-00313,,Sensor,0,Bulk Meteorology Instrument Package: METBK LWR Module,METBK LWR MODULE,Star Engineering,ABS104-LWR,LWR313,,,,,
@@ -3026,8 +3026,8 @@ CGINS-DOSTAN-02901,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for 
 CGINS-DOSTAN-02909,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,2909,,,,CGSN AUV Instrument Pool,
 CGINS-CTDAVN-00424,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Sea-Bird Electronics,SBE AUV Payload CTD,424,,,,CGSN AUV Instrument Pool,
 CGINS-CTDAVN-00425,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Sea-Bird Electronics,SBE AUV Payload CTD,425,,,,CGSN AUV Instrument Pool,
-CGINS-NUTNRN-01109,,Sensor,1,Nitrate for AUV: NUTNR Series N,NUTNR for AUV ,Satlantic,SUNA,1109,,,,CGSN AUV Instrument Pool,
-CGINS-NUTNRN-01121,,Sensor,1,Nitrate for AUV: NUTNR Series N,NUTNR for AUV ,Satlantic,SUNA,1121,,,,CGSN AUV Instrument Pool,
+CGINS-NUTNRN-01109,,Sensor,1,Nitrate for AUV: NUTNR Series N,NUTNR for AUV,Satlantic,SUNA,1109,,,,CGSN AUV Instrument Pool,
+CGINS-NUTNRN-01121,,Sensor,1,Nitrate for AUV: NUTNR Series N,NUTNR for AUV,Satlantic,SUNA,1121,,,,CGSN AUV Instrument Pool,
 CGINS-PARADN-50267,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50267,,,,CGSN AUV Instrument Pool,
 CGINS-PARADN-50266,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50266,,,,CGSN AUV Instrument Pool,
 CGCON-NDCL16-00043,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,43,,,,,
@@ -3058,3 +3058,9 @@ CGINS-ZPLSGA-55107,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,A
 CGINS-ZPLSGA-55108,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55108,,,,,Woods Hole Oceanographic Institution
 CGCON-SIOCON-13993,,Sensor,0,Subsurface Mooring Platform Controller,,SIO,Subsurface Mooring Controller,13993 / 10,,,,,Woods Hole Oceanographic Institution
 CGINS-DOSTAM-00542,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,542,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
+PIRSN-SCTAAA-00001,,Sensor,0,Self-Calibrating Triaxial Accelerometer,SCTA Series A,PI Wilcock,,001,,,,,
+PIRSN-SCPRAA-00001,,Sensor,0,Self-Calibrating Pressure Recorder,SCPR Series A,PI Zumberge and Sasagawa,,001/C,,,,,
+PIRSN-COVISA-00001,,Sensor,0,Cabled Observatory Vent Imaging System,COVIS Series A,Bemis,,1,,,,,
+PIRSN-OVRSRA-00001,,Sensor,0,Overview Sonar,OVRSR Series A,MARUM,R2 Sonic 2022,101409,,,,,
+PIRSN-QNTSRA-00001,,Sensor,0,Quantification Sonar,QNTSR Series A,MARUM,Kongsberg 1171-Series Scanning Sonar,1708062,,,,,
+PIRSN-CTDPFA-10001,,Sensor,0,CTD with optode,CTDPFA Series A wth optode,MARUM,16plusV2 with SBE 63 optode,16-50216,,,,,
