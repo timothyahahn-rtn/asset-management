@@ -1,5 +1,6 @@
 DESCRIPTION OF EQUIPMENT,Manufacturer,Model
-Cabled ASHES Vent Field: Medium Power Junction Box,UW-APL,RS03ASHS-MJ03B
+#Cabled ASHES Vent Field: Medium Power Junction Box,UW-APL,RS03ASHS-MJ03B
+Medium Power Junction Box,UW-APL,MPJBox
 Cabled ASHES Vent Field: Primary Node,UW-APL,RS03ASHS-PN03B
 Cabled Axial Base Deep Profiler Mooring: Deep Profiler,UW-APL,RS03AXPD-DP03A
 Cabled Axial Base Seafloor: Low Power Junction Box,UW-APL,RS03AXBS-LJ03A
