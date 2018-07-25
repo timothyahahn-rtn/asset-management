@@ -77,8 +77,9 @@ class OPTAACalibration(Calibration):
             inst_type = 'OPTAAD'
         elif self.asset_tracking_number.find('69943') != -1:
             inst_type = 'OPTAAC'
-        complete_path = os.path.join(self.type, 'cal_sheets', inst_type)
+        complete_path = os.path.join(os.path.realpath('../..'), 'calibration', inst_type)
         file_name = self.asset_tracking_number + '__' + self.date
+        print(complete_path)
         with open(os.path.join(complete_path, '%s.csv' % file_name), 'w') as info:
             writer = csv.writer(info)
             writer.writerow(['serial','name', 'value', 'notes'])
@@ -86,6 +87,7 @@ class OPTAACalibration(Calibration):
                 writer.writerow([self.serial] + list(each))
 
         def write_array(filename, cal_array):
+            print(filename)
             with open(filename, 'w') as out:
                 array_writer = csv.writer(out)
                 array_writer.writerows(cal_array)
