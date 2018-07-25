@@ -79,7 +79,6 @@ class OPTAACalibration(Calibration):
             inst_type = 'OPTAAC'
         complete_path = os.path.join(os.path.realpath('../..'), 'calibration', inst_type)
         file_name = self.asset_tracking_number + '__' + self.date
-        print(complete_path)
         with open(os.path.join(complete_path, '%s.csv' % file_name), 'w') as info:
             writer = csv.writer(info)
             writer.writerow(['serial','name', 'value', 'notes'])
