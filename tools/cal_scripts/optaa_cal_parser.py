@@ -86,7 +86,6 @@ class OPTAACalibration(Calibration):
                 writer.writerow([self.serial] + list(each))
 
         def write_array(filename, cal_array):
-            print(filename)
             with open(filename, 'w') as out:
                 array_writer = csv.writer(out)
                 array_writer.writerows(cal_array)

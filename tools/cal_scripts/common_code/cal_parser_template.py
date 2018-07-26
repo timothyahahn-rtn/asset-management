@@ -20,7 +20,6 @@ class Calibration(object):
 
     def write_cal_info(self):
         complete_path = os.path.join(os.path.realpath('../..'), 'calibration', self.type)
-        print(complete_path)
         file_name = self.asset_tracking_number + '__' + self.date
         with open(os.path.join(complete_path, '%s.csv' % file_name), 'w') as info:
             writer = csv.writer(info)
