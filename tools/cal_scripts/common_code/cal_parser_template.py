@@ -27,9 +27,7 @@ class Calibration(object):
             writer.writerow(['serial','name', 'value', 'notes'])
             for each in sorted(self.coefficients.items()):
                 row = [self.serial] + list(each)
-                print(row)
                 row.append('')
-                print(row)
                 writer.writerow(row)
 
 def get_uid_serial_mapping(csv_name):
