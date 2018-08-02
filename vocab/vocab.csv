@@ -1327,8 +1327,8 @@ RS01SBPS-PC01A-4A-DOSTAD103,Cabled Continental Margin,Oregon Slope Base Shallow 
 RS01SBPS-PC01A-4B-PHSENA102,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,200m Platform (PC01A),Seawater pH,Sunburst,SAMI-pH,200,200
 RS01SBPS-PC01A-4C-FLORDD103,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,200m Platform (PC01A),2-Wavelength Fluorometer,WET Labs,ECO Triplet-w,200,200
 RS01SBPS-SC01A,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Winch Controller (SC01A),,,,200,200
-RS01SBPS-SC01A-00-WINCH,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Winch Controller (SC01A),,APL,,200,200
-RS01SBPS-SC01A-00-ENG,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Winch Controller (SC01A),,APL,,200,200
+#RS01SBPS-SC01A-00-WINCH,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Winch Controller (SC01A),,APL,,200,200
+#RS01SBPS-SC01A-00-ENG,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Winch Controller (SC01A),,APL,,200,200
 RS01SBPS-SF01A,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Shallow Profiler (SF01A),,,,5,200
 RS01SBPS-SF01A-2A-CTDPFA102,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Shallow Profiler (SF01A),CTD,Sea-Bird,SBE 16plusV2,5,200
 RS01SBPS-SF01A-2A-DOFSTA102,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Shallow Profiler (SF01A),Dissolved Oxygen,Sea-Bird,SBE 43,5,200
