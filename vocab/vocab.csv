@@ -143,7 +143,7 @@ CE04OSPS-SC01B,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring
 CE04OSPS-SF01B,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),,,,20,200
 CE04OSPS-SF01B-2A-CTDPFA107,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),CTD,Sea-Bird,SBE 16plusV2,20,200
 CE04OSPS-SF01B-2A-DOFSTA107,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),Dissolved Oxygen,Sea-Bird,SBE 43,20,200
-CE04OSPS-SF01B-2B-PHSENA108,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),Seawater pH,Sunburst,SAMI-pH,20,200
+CE04OSPS-SF01B-2D-PHSENA108,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),Seawater pH,Sunburst,SAMI-pH,20,200
 CE04OSPS-SF01B-3A-FLORTD104,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),3-Wavelength Fluorometer,WET Labs,ECO Triplet-w,20,200
 CE04OSPS-SF01B-3B-OPTAAD105,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),Spectrophotometer,WET Labs,AC-S,20,200
 CE04OSPS-SF01B-3C-PARADA102,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),Photosynthetically Available Radiation,Satlantic,digital PAR,20,200
@@ -1373,7 +1373,8 @@ RS01SUM2-MJ01B-00-FLOBNM101,Cabled Continental Margin,Southern Hydrate Summit 2 
 RS01SUM2-MJ01B-00-OSMOIA101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Osmosis-Based Water Sampler,"TLR, Inc.",OsmoSampler,811,811
 RS01SUM2-MJ01B-05-CAMDSB103,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Digital Still Camera,Kongsberg,Custom Digital Still Camera Assembly,811,811
 RS01SUM2-MJ01B-06-MASSPA101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Mass Spectrometer,"Girguis, Harvard",cabled Mass Spec,811,811
-RS01SUM2-MJ01B-08-OVRSRA101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Overview Sonar,MARUM,R2Sonic 2022,811,811
+RS01SUM2-MJ01B-08-OVRSRA101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Overview Sonar,MARUM,Custom Digital Still Camera Assembly,811,811
+RS01SUM2-MJ01B-09-CAMPIA101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Digital Still Camera,MARUM,R2Sonic 2022,811,811
 RS01SUM2-MJ01B-10-QNTSRA101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Quantification Sonar,MARUM,Kongsberg 1171,811,811
 RS01SUM2-MJ01B-11-CTDPFA110,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),CTD,Sea-Bird,SBE 16plusV2,811,811
 RS01SUM2-MJ01B-12-ADCPSK101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Velocity Profiler (75 kHz),Teledyne RDI,WorkHorse LongRanger Monitor 75khz,811,811
@@ -1408,7 +1409,7 @@ RS03AXPD-DP03A-00-ENG000000,Cabled Axial Seamount,Axial Base Deep Profiler Moori
 RS03AXPD-DP03A-01-CTDPFL304,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),CTD,Sea-Bird,SBE 52MP,150,2465
 RS03AXPD-DP03A-02-VEL3DA303,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),3-D Single Point Velocity Meter,Falmouth Scientific,ACM-3D-MP,150,2465
 RS03AXPD-DP03A-03-FLCDRA302,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),CDOM Fluorometer,WET Labs,FLCDRTD (CDOM),150,2465
-RS03AXPD-DP03A-03-FLNTUA302,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),2-Wavelength Fluorometer,WET Labs,FLNTURTD (chlorophyll and backscatter),150,2465
+RS03AXPD-DP03A-04-FLNTUA302,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),2-Wavelength Fluorometer,WET Labs,FLNTURTD (chlorophyll and backscatter),150,2465
 RS03AXPD-DP03A-05-OPTAAC302,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),Spectrophotometer,WET Labs,AC-S Deep,150,2465
 RS03AXPD-DP03A-06-DOSTAD304,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),Dissolved Oxygen,Aanderaa,Optode 4831,150,2465
 RS03AXPD-PD03A,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Profiler Docking Station (PD03A),,,,2465,2465
