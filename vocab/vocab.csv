@@ -1409,7 +1409,7 @@ RS03AXPD-DP03A-00-ENG000000,Cabled Axial Seamount,Axial Base Deep Profiler Moori
 RS03AXPD-DP03A-01-CTDPFL304,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),CTD,Sea-Bird,SBE 52MP,150,2465
 RS03AXPD-DP03A-02-VEL3DA303,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),3-D Single Point Velocity Meter,Falmouth Scientific,ACM-3D-MP,150,2465
 RS03AXPD-DP03A-03-FLCDRA302,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),CDOM Fluorometer,WET Labs,FLCDRTD (CDOM),150,2465
-RS03AXPD-DP03A-04-FLNTUA302,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),2-Wavelength Fluorometer,WET Labs,FLNTURTD (chlorophyll and backscatter),150,2465
+RS03AXPD-DP03A-03-FLNTUA302,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),2-Wavelength Fluorometer,WET Labs,FLNTURTD (chlorophyll and backscatter),150,2465
 RS03AXPD-DP03A-05-OPTAAC302,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),Spectrophotometer,WET Labs,AC-S Deep,150,2465
 RS03AXPD-DP03A-06-DOSTAD304,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Wire-Following Profiler (DP03A),Dissolved Oxygen,Aanderaa,Optode 4831,150,2465
 RS03AXPD-PD03A,Cabled Axial Seamount,Axial Base Deep Profiler Mooring,Profiler Docking Station (PD03A),,,,2465,2465
