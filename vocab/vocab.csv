@@ -143,7 +143,7 @@ CE04OSPS-SC01B,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring
 CE04OSPS-SF01B,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),,,,20,200
 CE04OSPS-SF01B-2A-CTDPFA107,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),CTD,Sea-Bird,SBE 16plusV2,20,200
 CE04OSPS-SF01B-2A-DOFSTA107,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),Dissolved Oxygen,Sea-Bird,SBE 43,20,200
-CE04OSPS-SF01B-2D-PHSENA108,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),Seawater pH,Sunburst,SAMI-pH,20,200
+CE04OSPS-SF01B-2B-PHSENA108,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),Seawater pH,Sunburst,SAMI-pH,20,200
 CE04OSPS-SF01B-3A-FLORTD104,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),3-Wavelength Fluorometer,WET Labs,ECO Triplet-w,20,200
 CE04OSPS-SF01B-3B-OPTAAD105,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),Spectrophotometer,WET Labs,AC-S,20,200
 CE04OSPS-SF01B-3C-PARADA102,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),Photosynthetically Available Radiation,Satlantic,digital PAR,20,200
