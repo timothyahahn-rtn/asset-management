@@ -121,3 +121,6 @@ RR1811,R/V Roger Revelle,2018-07-13T10:00:00,2018-07-18T16:00:00,Cabled (rvdata)
 RR1812,R/V Roger Revelle,2018-07-20T10:00:00,2018-08-03T16:00:00,Cabled (rvdata) Visions 18 Leg 4
 P10b,R/V Connecticut,2018-07-24T03:00:00,2018-07-25T09:00:00,Pioneer 10b Gliders and AUVs
 SR1812,R/V Sally Ride,2018-08-09T00:00:00,2018-09-20T23:59:00,NASA EXPORTS cruise exact dates unknown - deploying 1 glider at Papa array
+SR1813,R/V Sally Ride,2018-09-17T11:30:00,2018-10-02T14:20:00,Endurance 10 and cspps and gliders
+#P10c,R/V Connecticut,2018-09-17T00:00:00,2018-09-21T23:59:00,Pioneer 10c AUVs (cruise cancelled due to weather)
+#DY096,RRS Discovery,2018-11-28T00:00:00,2018-12-14T23:59:00,Southern Ocean 5 (CUSTARD)
