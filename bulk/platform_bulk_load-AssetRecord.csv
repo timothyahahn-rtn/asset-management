@@ -303,3 +303,9 @@ CGVGI-05MOAS-00000,N00279,Platform,1,Global Irminger Sea Gliders,GI05MOAS Glider
 CGVGP-05MOAS-00000,N00280,Platform,1,Global Station Papa Gliders,GP05MOAS Glider Master Platform,Teledyne Webb,GP05MOAS,GP05MOAS,,,,,Woods Hole Oceanographic Institution
 CGVGS-05MOAS-00000,N00282,Platform,1,Global Southern Ocean Gliders,GS05MOAS Glider Master Platform,Teledyne Webb,GS05MOAS,GS05MOAS,,,,,Woods Hole Oceanographic Institution
 CGMCE-01ISSP-00011,,Platform,0,Coastal Endurance Oregon Inshore Surface Piercing Profiler Mooring,MOORING ENDURANCE,WHOI,CE01ISSP,CE01ISSP-00011,,,,,Oregon State University
+CGMCE-01ISSM-00010,,Platform,0,Coastal Endurance Oregon Inshore Surface Mooring,MOORING ENDURANCE,WHOI,CE01ISSM,CE01ISSM-00010,,,,,Oregon State University
+CGMCE-02SHSM-00008,,Platform,0,Coastal Endurance Oregon Shelf Surface Mooring,MOORING ENDURANCE,WHOI,CE02SHSM,CE02SHSM-00008,,,,,Oregon State University
+CGMCE-04OSSM-00007,,Platform,0,Coastal Endurance Oregon Offshore Surface Mooring,MOORING ENDURANCE,WHOI,CE04OSSM,CE04OSSM-00007,,,,,Oregon State University
+CGMCE-06ISSM-00009,,Platform,0,Coastal Endurance Washington Inshore Surface Mooring,MOORING ENDURANCE,WHOI,CE06ISSM,CE06ISSM-00009,,,,,Oregon State University
+CGMCE-07SHSM-00008,,Platform,0,Coastal Endurance Washington Shelf Surface Mooring,MOORING ENDURANCE,WHOI,CE07SHSM,CE07SHSM-00008,,,,,Oregon State University
+CGMCE-09OSSM-00008,,Platform,0,Coastal Endurance Washington Offshore Surface Mooring,MOORING ENDURANCE,WHOI,CE09OSSM,CE09OSSM-00008,,,,,Oregon State University
