@@ -1277,8 +1277,8 @@ ATAPL-58328-00004,ATAPL-58331-00011,Sensor,0,Broadband Ocean Bottom Seismometer:
 ATAPL-58328-00005,ATAPL-58328-00005,Sensor,0,Broadband Ocean Bottom Seismometer: OBSBB Series A,"16"" Sphere cable ready OBS Broadband sensor w/ Titanium sphere casing (GURALP) (Alice)",Guralp,1T/5T/DM24,T1074,,20140106,146877,,University of Washington
 ATAPL-58328-00006,ATAPL-58328-00006,Sensor,0,Broadband Ocean Bottom Seismometer: OBSBB Series A,"16"" Sphere cable ready OBS Broadband sensor w/ Titanium sphere casing (GURALP) (OBSBB) (Fred)",Guralp,1T/5T/DM24,T1080,,20140724,59664,,University of Washington
 ATAPL-58328-00007,ATAPL-58328-00007,Sensor,0,Broadband Ocean Bottom Seismometer: OBSBB Series A,"16"" Sphere cable ready OBS Broadband sensor w/ Titanium sphere casing (GURALP) (OBSBB) (Chuck)",Guralp,1T/5T/DM24,T1081,,20140724,59664,,University of Washington
-ATAPL-58329-00001,ATAPL-58329-00001,Sensor,0,Broadband Seismometer Keck (OBSBK),Broadband Seismometer Keck (OBSBK),Guralp,1T/5T/DM24,1,,20140605,92032,,University of Washington
-ATAPL-58329-00002,ATAPL-58329-00002,Sensor,0,Broadband Seismometer Keck (OBSBK),Broadband Seismometer Keck (OBSBK),Guralp,1T/5T/DM24,2,,20140605,84038,,University of Washington
+ATAPL-58329-00001,ATAPL-58329-00001,Sensor,0,Broadband Seismometer Keck (OBSBK),Broadband Seismometer Keck (OBSBK),Guralp,1T/5T/DM24,T1081,,20140605,92032,,University of Washington
+ATAPL-58329-00002,ATAPL-58329-00002,Sensor,0,Broadband Seismometer Keck (OBSBK),Broadband Seismometer Keck (OBSBK),Guralp,1T/5T/DM24,T1080,,20140605,84038,,University of Washington
 ATAPL-58331-00001,ATAPL-58331-00001,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J67,,20130507,40000,,University of Washington
 ATAPL-58331-00002,ATAPL-58331-00002,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J68,,20130507,40000,,University of Washington
 ATAPL-58331-00003,ATAPL-58331-00003,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J69,,20130507,40000,,University of Washington
@@ -1515,10 +1515,18 @@ ATOSU-58336-00005,ATOSU-58336-00005,Sensor,0,pCO2 Water: PCO2W Series A,PCO2W SE
 ATOSU-58336-00006,ATOSU-58336-00006,Sensor,0,pCO2 Water: PCO2W Series A,PCO2W SERIES A (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0079,,20140127,17942.3,,
 ATOSU-58336-00007,ATOSU-58336-00007,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0116,,,18054,,
 ATOSU-58336-00008,ATOSU-58336-00008,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0117,,,18544.5,,
+ATOSU-58336-00011,ATOSU-58336-00011,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0064,,,18544.5,Using price from above co2 sensor,
+ATOSU-58336-00012,ATOSU-58336-00012,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0080,,,18544.5,,
+ATOSU-58336-00013,ATOSU-58336-00013,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0090,,,18544.5,,
+ATOSU-58336-00014,ATOSU-58336-00014,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0118,,,18544.5,,
 ATOSU-58337-00007,ATOSU-58337-00007,Sensor,0,Seawater pH: PHSEN Series A,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0115,,20140109,17479.95,,
 ATOSU-58337-00008,ATOSU-58337-00008,Sensor,0,Seawater pH: PHSEN Series A,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0131,,20140425,18003.4,,
 ATOSU-58337-00011,ATOSU-58337-00011,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0153,,,18054,,
 ATOSU-58337-00012,ATOSU-58337-00012,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0154,,,18544.5,,
+ATOSU-58337-00015,ATOSU-58337-00015,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0116,,,18544.5,Assumed price from above sami,
+ATOSU-58337-00016,ATOSU-58337-00016,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0117,,,18544.5,Assumed price from above sami,
+ATOSU-58337-00017,ATOSU-58337-00017,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0159,,,18544.5,Assumed price from above sami,
+ATOSU-58337-00018,ATOSU-58337-00018,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0132,,,18544.5,Assumed price from above sami,
 ATOSU-58341-00005,ATOSU-58341-00005,Sensor,0,Spectral Irradiance: SPKIR Series A,SPKIR-A,Satlantic,OCR507 ICSW,241,,,,,
 ATOSU-58341-00008,ATOSU-58341-00008,Sensor,0,Spectral Irradiance: SPKIR Series A,OCR507-ICSW (series A) w/ Midrange (500m) Bioshutter II (SPKIR-A),Satlantic,OCR507 ICSW,251,,,14000,,
 ATOSU-58346-00007,ATOSU-58346-00007,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series A,"Falmouth Scientific 3D-ACM, with Impulse MCBH(WB)-5-FS-Ti connector (if available)",Falmouth Scientific,ACM-Plus-MP,1216,,20140128,10850,,
