@@ -1280,15 +1280,16 @@ ATAPL-58328-00007,ATAPL-58328-00007,Sensor,0,Broadband Ocean Bottom Seismometer:
 ATAPL-58329-00001,ATAPL-58329-00001,Sensor,0,Broadband Seismometer Keck (OBSBK),Broadband Seismometer Keck (OBSBK),Guralp,1T/5T/DM24,1,,20140605,92032,,University of Washington
 ATAPL-58329-00002,ATAPL-58329-00002,Sensor,0,Broadband Seismometer Keck (OBSBK),Broadband Seismometer Keck (OBSBK),Guralp,1T/5T/DM24,2,,20140605,84038,,University of Washington
 ATAPL-58331-00001,ATAPL-58331-00001,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J67,,20130507,40000,,University of Washington
+ATAPL-58331-00002,ATAPL-58331-00002,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J68,,20130507,40000,,University of Washington
 ATAPL-58331-00003,ATAPL-58331-00003,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J69,,20130507,40000,,University of Washington
 ATAPL-58331-00004,ATAPL-58331-00004,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J70,,20130507,40000,,University of Washington
 ATAPL-58331-00005,ATAPL-58331-00005,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J71,,20130507,40000,,University of Washington
 ATAPL-58331-00006,ATAPL-58331-00006,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J72,,20130507,40000,,University of Washington
+ATAPL-58331-00007,ATAPL-58331-00007,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J73,,20130507,40000,,University of Washington
 ATAPL-58331-00008,ATAPL-58331-00008,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J74,,20130507,40000,,University of Washington
 ATAPL-58331-00009,ATAPL-58331-00009,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J75,,20130507,40000,,University of Washington
 ATAPL-58331-00010,ATAPL-58331-00010,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J76,,20130507,40000,,University of Washington
-ATAPL-58331-0002A,ATAPL-58331-0002A,Sensor,0,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB) (O&M),GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB) (O&M),Guralp,CMG-6TF/DM24,T6J68,,20130507,40000,,University of Washington
-ATAPL-58331-0007A,ATAPL-58331-0007A,Sensor,0,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB) (O&M),GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB) (O&M),Guralp,CMG-6TF/DM24,T6J73,,20130507,40000,,University of Washington
+ATAPL-58331-00011,ATAPL-58331-00011,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J77,,20130507,40000,,University of Washington
 ATAPL-58332-00001,ATAPL-58332-00001,Sensor,0,Spectrophotometer: OPTAA Series D,AC-S (optical attenuation and absorption instrument w/ biofouling/pump) per OPTAA delivery order,WET Labs,AC-S,ACS-134,,20120424,37830,,University of Washington
 ATAPL-58332-00002,ATAPL-58332-00002,Sensor,0,Spectrophotometer: OPTAA Series D,AC-S (optical attenuation and absorption instrument w/ biofouling/pump) per OPTAA delivery order,WET Labs,AC-S,ACS-166,,20140311,38969.75,,University of Washington
 ATAPL-58332-00004,ATAPL-58332-00004,Sensor,0,Spectrophotometer: OPTAA Series D,AC-S (optical attenuation and absorption instrument w/ biofouling/pump) per OPTAA delivery order,WET Labs,AC-S,ACS-186,,20140821,38969.75,,University of Washington
@@ -1335,6 +1336,9 @@ ATAPL-58341-00007,ATAPL-58341-00007,Sensor,0,Spectral Irradiance: SPKIR Series A
 ATAPL-58342-00001,ATAPL-58342-00001,Sensor,0,Hydrothermal Vent Fluid In-situ Chemistry: THSPH Series A,Hydrothermal Vent Chemistry Instrument (THSPH),University of Minnesota,Custom,A,,20140314,35000,,University of Washington
 ATAPL-58342-00002,ATAPL-58342-00002,Sensor,0,Hydrothermal Vent Fluid In-situ Chemistry: THSPH Series A,Hydrothermal Vent Chemistry Instrument (THSPH),University of Minnesota,Custom,C,,20140620,35000,,University of Washington
 ATAPL-58342-00003,ATAPL-58342-00003,Sensor,0,Hydrothermal Vent Fluid In-situ Chemistry: THSPH Series A,Hydrothermal Vent Chemistry Instrument (THSPH),University of Minnesota,Custom,B,,20140710,35000,,University of Washington
+ATAPL-58343-00001,ATAPL-58343-00001,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger,RBR Global,XR-420-T24,21968,,20121113,15000,,University of Washington
+ATAPL-58343-00002,ATAPL-58343-00002,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger,RBR Global,XR-420-T24,21969,,20121113,15000,,University of Washington
+ATAPL-58343-00003,ATAPL-58343-00003,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger  (O&M),RBR Global,XR-420-T24,21964,,20130416,14902,,University of Washington
 ATAPL-58345-00001,ATAPL-58345-00001,Sensor,0,"ADCP 5-Beam, 600 kHz Acoustic Doppler Current Profiler: VADCP Series A",Teledyne VADCP (5 Beam),Teledyne RDI,WH600-I-5BEAM-UG2,61247,,20120124,65000,,University of Washington
 ATAPL-58345-00002,ATAPL-58345-00002,Sensor,0,"ADCP 5-Beam, 600 kHz Acoustic Doppler Current Profiler: VADCP Series A",Teledyne VADCP (5 Beam),Teledyne RDI,WH600-I-5BEAM-UG2,19073,,20130530,20492.11,,University of Washington
 ATAPL-58345-00003,ATAPL-58345-00003,Sensor,0,"ADCP 5-Beam, 600 kHz Acoustic Doppler Current Profiler: VADCP Series A",Teledyne VADCP (5 Beam),Teledyne RDI,WH600-I-5BEAM-UG2,19075,,20130530,20492.11,,University of Washington
@@ -1447,9 +1451,6 @@ ATAPL-69943-00007,ATAPL-69943-00007,Sensor,0,Spectrophotometer: OPTAA Series C,O
 ATAPL-69943-00008,ATAPL-69943-00008,Sensor,0,Spectrophotometer: OPTAA Series C,OPTAA-C,WET Labs,AC-S Deep,ACS-248,,,,,University of Washington
 ATAPL-69943-00009,ATAPL-69943-00009,Sensor,0,Spectrophotometer: OPTAA Series C,OPTAA-C,WET Labs,AC-S Deep,ACS-250,,,,,University of Washington
 ATAPL-69943-00012,ATAPL-69943-00012,Sensor,0,Spectrophotometer: OPTAA Series C,OPTAA-C,WET Labs,AC-S,ACS-243,,,,,
-ATAPL-69971-00001,ATAPL-69971-00001,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger,RBR Global,XR-420-T24,21968,,20121113,15000,,University of Washington
-ATAPL-69971-00002,ATAPL-69971-00002,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger,RBR Global,XR-420-T24,21969,,20121113,15000,,University of Washington
-ATAPL-69971-00003,ATAPL-69971-00003,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger  (O&M),RBR Global,XR-420-T24,21964,,20130416,14902,,University of Washington
 ATAPL-70100-00001,ATAPL-70100-00001,Sensor,0,CAMDS: Color Digital Stills Camera w/ Ti Housing & Connectors (ATAPL-58317-00001),CAMDS: Color Digital Stills Camera w/ Ti Housing & Connectors (ATAPL-58317-00001),Kongsberg Underwater Technology Inc,04184-6002,101,,20130619,34185,,University of Washington
 ATAPL-70100-00002,ATAPL-70100-00002,Sensor,0,CAMDS: Color Digital Stills Camera w/ Ti Housing & Connectors (ATAPL-58317-00002),CAMDS: Color Digital Stills Camera w/ Ti Housing & Connectors (ATAPL-58317-00002),Kongsberg Underwater Technology Inc,04184-6002,,,20130619,34185,,University of Washington
 ATAPL-70100-00003,ATAPL-70100-00003,Sensor,0,CAMDS: Color Digital Stills Camera w/ Ti Housing & Connectors (ATAPL-58317-00003),CAMDS: Color Digital Stills Camera w/ Ti Housing & Connectors (ATAPL-58317-00003),Kongsberg Underwater Technology Inc,04184-6002,,,20130619,34185,,University of Washington
@@ -1467,8 +1468,8 @@ ATAPL-70111-00002,ATAPL-70111-00002,Sensor,0,CDOM Fluorometer: FLCDR Series A,We
 ATAPL-70111-00003,ATAPL-70111-00003,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD,FLCDRTD-3460,,20140409,6665,,University of Washington
 ATAPL-70111-00004,ATAPL-70111-00004,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD,FLCDRTD-3715,,20141222,13330,,University of Washington
 ATAPL-70111-00005,ATAPL-70111-00005,Sensor,0,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD (CDOM),FLCDRTD-3716,,20141222,13330,,University of Washington
+ATOSU-70111-00006,ATOSU-70111-00006,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector WHOI,WET Labs,FLCDRTD,FLCDRTD-3717,,20141222,13330,,University of Washington
 ATOSU-70111-00007,ATOSU-70111-00007,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector WHOI,WET Labs,FLCDRTD,FLCDRTD-3400,,,,,University of Washington
-ATAPL-70111-00006,ATAPL-70111-00006,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector WHOI,WET Labs,FLCDRTD,FLCDRTD-3717,,20141222,13330,,University of Washington
 ATAPL-70113-00001,ATAPL-70113-00001,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,1,,,,,University of Washington
 ATAPL-70113-00002,ATAPL-70113-00002,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,4,,,,,University of Washington
 ATAPL-70113-00003,ATAPL-70113-00003,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,3,,,,,University of Washington
@@ -1514,18 +1515,10 @@ ATOSU-58336-00005,ATOSU-58336-00005,Sensor,0,pCO2 Water: PCO2W Series A,PCO2W SE
 ATOSU-58336-00006,ATOSU-58336-00006,Sensor,0,pCO2 Water: PCO2W Series A,PCO2W SERIES A (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0079,,20140127,17942.3,,
 ATOSU-58336-00007,ATOSU-58336-00007,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0116,,,18054,,
 ATOSU-58336-00008,ATOSU-58336-00008,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0117,,,18544.5,,
-ATOSU-58336-00011,ATOSU-58336-00011,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0064,,,18544.5,Using price from above co2 sensor,
-ATOSU-58336-00012,ATOSU-58336-00012,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0080,,,18544.5,,
-ATOSU-58336-00013,ATOSU-58336-00013,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0090,,,18544.5,,
-ATOSU-58336-00014,ATOSU-58336-00014,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0118,,,18544.5,,
 ATOSU-58337-00007,ATOSU-58337-00007,Sensor,0,Seawater pH: PHSEN Series A,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0115,,20140109,17479.95,,
 ATOSU-58337-00008,ATOSU-58337-00008,Sensor,0,Seawater pH: PHSEN Series A,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0131,,20140425,18003.4,,
 ATOSU-58337-00011,ATOSU-58337-00011,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0153,,,18054,,
 ATOSU-58337-00012,ATOSU-58337-00012,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0154,,,18544.5,,
-ATOSU-58337-00015,ATOSU-58337-00015,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0116,,,18544.5,Assumed price from above sami,
-ATOSU-58337-00016,ATOSU-58337-00016,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0117,,,18544.5,Assumed price from above sami,
-ATOSU-58337-00017,ATOSU-58337-00017,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0159,,,18544.5,Assumed price from above sami,
-ATOSU-58337-00018,ATOSU-58337-00018,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0132,,,18544.5,Assumed price from above sami,
 ATOSU-58341-00005,ATOSU-58341-00005,Sensor,0,Spectral Irradiance: SPKIR Series A,SPKIR-A,Satlantic,OCR507 ICSW,241,,,,,
 ATOSU-58341-00008,ATOSU-58341-00008,Sensor,0,Spectral Irradiance: SPKIR Series A,OCR507-ICSW (series A) w/ Midrange (500m) Bioshutter II (SPKIR-A),Satlantic,OCR507 ICSW,251,,,14000,,
 ATOSU-58346-00007,ATOSU-58346-00007,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series A,"Falmouth Scientific 3D-ACM, with Impulse MCBH(WB)-5-FS-Ti connector (if available)",Falmouth Scientific,ACM-Plus-MP,1216,,20140128,10850,,
