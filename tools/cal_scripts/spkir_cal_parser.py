@@ -57,6 +57,8 @@ def main():
     lookup = get_uid_serial_mapping('SPKIRA/spkir_lookup.csv')
     for path, directories, files in os.walk('SPKIRA/manufacturer'):
         for file in files:
+            if file == '.DS_Store':
+                continue
             cal = SPKIRCalibration()
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
