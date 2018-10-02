@@ -30,11 +30,11 @@ class FLNTUACalibration(Calibration):
                 if not len(parts):  # skip blank lines
                     continue
                 if 'ECO' == parts[0]:
-                    self.serial = parts[-1]
+                    self.serial = parts[1]
                 elif 'Created' == parts[0]:
                     self.date = datetime.datetime.strptime(parts[-1], '%m/%d/%y').strftime('%Y%m%d')
                 deconstruct = parts[0].split('=')
-                if deconstruct[0] == 'NTU':
+                if deconstruct[0].lower() == 'lambda':
                     self.vol = (parts[1], parts[2])
                     self.coefficients['CC_scale_factor_volume_scatter'] = parts[1]
                     self.coefficients['CC_dark_counts_volume_scatter'] = parts[2]
@@ -47,6 +47,8 @@ def main():
     lookup = get_uid_serial_mapping('FLNTUA/flntua_lookup.csv')
     for path, directories, files in os.walk('FLNTUA/manufacturer'):
         for file in files:
+            if file == '.DS_Store':
+                continue
             cal = FLNTUACalibration()
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]

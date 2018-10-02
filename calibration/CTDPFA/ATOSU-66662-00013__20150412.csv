@@ -5,7 +5,7 @@ serial,name,value,notes
 16-50112,CC_a3,2.04535e-07,
 16-50112,CC_cpcor,-9.57e-08,
 16-50112,CC_ctcor,3.25e-06,
-16-50112,CC_frequency_offset,-0.5199,"this is voltage_offset value, left in this sheet until pre-load can be updated to use voltage_offset"
+16-50112,CC_frequency_offset,-0.5119,"this is voltage_offset value, left in this sheet until pre-load can be updated to use voltage_offset"
 16-50112,CC_g,-0.9733758,
 16-50112,CC_h,0.1472746,
 16-50112,CC_i,-0.0001213067,
