@@ -151,6 +151,7 @@ def main():
     lookup = get_uid_serial_mapping('CTD/ctd_lookup.csv')
     for path, directories, files in os.walk('CTD/manufacturer'):
         for file in files:
+            # Skip hidden files
             if file[0] == '.':
                 continue
             cal = CTDCalibration()

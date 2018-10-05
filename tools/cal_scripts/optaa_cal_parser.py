@@ -106,6 +106,8 @@ def main():
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
             cal.write_cal_info()
+            shutil.move(os.path.join(os.getcwd(), 'OPTAA', 'manufacturer', file), \
+                        os.path.join(os.getcwd(), 'OPTAA', 'manufacturer_ARCHIVE', file))
 
 if __name__ == '__main__':
     start_time = time.time()
