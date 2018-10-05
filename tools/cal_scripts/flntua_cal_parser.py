@@ -47,7 +47,8 @@ def main():
     lookup = get_uid_serial_mapping('FLNTUA/flntua_lookup.csv')
     for path, directories, files in os.walk('FLNTUA/manufacturer'):
         for file in files:
-            if file == '.DS_Store':
+            # Skip hidden files
+            if file[0] == '.':
                 continue
             cal = FLNTUACalibration()
             cal.read_cal(os.path.join(path, file))

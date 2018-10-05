@@ -109,7 +109,6 @@ class CTDCalibration(Calibration):
                     self.serial = '16-'
 
                 if key == 'SERIALNO':
-                    print('sn found')
                     self.serial += value
 
                 if key == 'CCALDATE':
@@ -152,7 +151,7 @@ def main():
     lookup = get_uid_serial_mapping('CTD/ctd_lookup.csv')
     for path, directories, files in os.walk('CTD/manufacturer'):
         for file in files:
-            if file == '.DS_Store':
+            if file[0] == '.':
                 continue
             cal = CTDCalibration()
             with open(os.path.join(path, file)) as unknown_file:

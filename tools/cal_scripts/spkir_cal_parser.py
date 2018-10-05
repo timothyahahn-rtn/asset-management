@@ -57,7 +57,8 @@ def main():
     lookup = get_uid_serial_mapping('SPKIRA/spkir_lookup.csv')
     for path, directories, files in os.walk('SPKIRA/manufacturer'):
         for file in files:
-            if file == '.DS_Store':
+            # Skip hidden files
+            if file[0] == '.':
                 continue
             cal = SPKIRCalibration()
             cal.read_cal(os.path.join(path, file))

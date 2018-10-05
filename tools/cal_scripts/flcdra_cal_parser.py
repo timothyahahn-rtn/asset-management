@@ -39,6 +39,9 @@ def main():
     lookup = get_uid_serial_mapping('FLCDRA/flcdra_lookup.csv')
     for path, directories, files in os.walk('FLCDRA/manufacturer'):
         for file in files:
+            # Skip hidden files
+            if file[0] == '.':
+                continue
             cal = FLCDRACalibration()
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]

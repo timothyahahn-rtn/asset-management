@@ -67,6 +67,9 @@ def main():
     lookup = get_uid_serial_mapping('NUTNRA/nutnr_lookup.csv')
     for path, directories, files in os.walk('NUTNRA/manufacturer'):
         for file in files:
+            # Skip hidden files
+            if file[0] == '.':
+                continue
             cal = NUTNRCalibration()
             if not file.startswith("SNA"):
                 continue

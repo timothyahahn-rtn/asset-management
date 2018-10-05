@@ -60,6 +60,9 @@ def main():
     #Begin writing files
     for path, directories, files in os.walk('DOFSTA/manufacturer'):
         for file in files:
+            # Skip hidden files
+            if file[0] == '.':
+                continue
             cal = SBE43Calibration()
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
