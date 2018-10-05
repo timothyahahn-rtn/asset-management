@@ -7,6 +7,7 @@ from __future__ import absolute_import
 import csv
 import datetime
 import os
+import shutil
 import sys
 import time
 import xml.etree.ElementTree as et
@@ -58,7 +59,7 @@ class CTDCalibration(Calibration):
         # dictionary with calibration coefficient names and values
         self.coefficients = {}
         self.asset_tracking_number = None
-        self.serial = '52-'
+        self.serial = '16-'
         self.date = None
         self.type = 'CTD'
 
@@ -98,7 +99,6 @@ class CTDCalibration(Calibration):
         with open(filename) as fh:
             for line in fh:
                 parts = line.split('=')
-
                 if len(parts) != 2:
                     continue  # skip anything that is not key value paired
 
@@ -109,6 +109,7 @@ class CTDCalibration(Calibration):
                     self.serial = '16-'
 
                 if key == 'SERIALNO':
+                    print('sn found')
                     self.serial += value
 
                 if key == 'CCALDATE':
@@ -151,6 +152,8 @@ def main():
     lookup = get_uid_serial_mapping('CTD/ctd_lookup.csv')
     for path, directories, files in os.walk('CTD/manufacturer'):
         for file in files:
+            if file == '.DS_Store':
+                continue
             cal = CTDCalibration()
             with open(os.path.join(path, file)) as unknown_file:
                 c = unknown_file.read(1)
@@ -160,6 +163,8 @@ def main():
                     cal.read_cal(os.path.join(path, file))
                 cal.asset_tracking_number = lookup[cal.serial]
                 cal.write_cal_info()
+                shutil.move(os.path.join(os.getcwd(), 'CTD', 'manufacturer', file), \
+                        os.path.join(os.getcwd(), 'CTD', 'manufacturer_ARCHIVE', file))
 
 if __name__ == '__main__':
     start_time = time.time()

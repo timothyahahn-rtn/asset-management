@@ -7,6 +7,7 @@
 import csv
 import datetime
 import os
+import shutil
 import sys
 import time
 from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
@@ -53,10 +54,14 @@ def main():
     lookup = get_uid_serial_mapping('FLOR/flor_lookup.csv')
     for path, directories, files in os.walk('FLOR/manufacturer'):
         for file in files:
+            if file == '.DS_Store':
+                continue
             cal = FLORCalibration()
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
             cal.write_cal_info()
+            shutil.move(os.path.join(os.getcwd(), 'FLOR', 'manufacturer', file), \
+                        os.path.join(os.getcwd(), 'FLOR', 'manufacturer_ARCHIVE', file))
 
 if __name__ == '__main__':
     start_time = time.time()

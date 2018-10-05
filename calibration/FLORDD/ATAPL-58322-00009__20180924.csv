@@ -1,0 +1,7 @@
+serial,name,value,notes
+1292,CC_angular_resolution,1.076,
+1292,CC_dark_counts_cdom,50,
+1292,CC_depolarization_ratio,0.039,
+1292,CC_measurement_wavelength,700,
+1292,CC_scale_factor_cdom,7.28e-02,
+1292,CC_scattering_angle,124,
