@@ -64,7 +64,6 @@ class CTDCalibration(Calibration):
         self.type = 'CTD'
 
     def read_xml(self, filename):
-        # TODO: Finish up xml reading
         with open(filename) as fh:
             tree = et.parse(filename)
             root = tree.getroot()

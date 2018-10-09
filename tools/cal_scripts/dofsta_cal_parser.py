@@ -34,7 +34,6 @@ class SBE43Calibration(Calibration):
             t_flag = False
             for child in tree.iter():
                 key = child.tag.upper()
-                print(child.tag)
                 if key == '':
                     continue
 
