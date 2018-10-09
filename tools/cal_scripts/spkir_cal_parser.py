@@ -7,10 +7,11 @@
 
 import csv
 import datetime
+import json
 import os
+import shutil
 import sys
 import time
-import json
 from dateutil.parser import parse
 from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
@@ -57,10 +58,14 @@ def main():
     lookup = get_uid_serial_mapping('SPKIRA/spkir_lookup.csv')
     for path, directories, files in os.walk('SPKIRA/manufacturer'):
         for file in files:
+            # Skip hidden files
+            if file[0] == '.':
+                continue
             cal = SPKIRCalibration()
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
             cal.write_cal_info()
+            cal.move_to_archive(cal.type, file)
 
 if __name__ == '__main__':
     start_time = time.time()

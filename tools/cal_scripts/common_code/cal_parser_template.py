@@ -29,6 +29,10 @@ class Calibration(object):
                 row.append('')
                 writer.writerow(row)
 
+    def move_to_archive(self, inst_type, file):
+        os.rename(os.path.join(os.getcwd(), inst_type, 'manufacturer', file), \
+                    os.path.join(os.getcwd(), inst_type, 'manufacturer_ARCHIVE', file))
+
 def get_uid_serial_mapping(csv_name):
     lookup = {}
     with open(csv_name, 'rb') as csvfile:
