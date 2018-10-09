@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-2463,CC_oxygen_signal_slope,4.7033e-001,
+43-2463,CC_residual_temperature_correction_factor_a,-2.5470e-003,
+43-2463,CC_residual_temperature_correction_factor_b, 1.5954e-004,
+43-2463,CC_residual_temperature_correction_factor_c,-2.6904e-006,
+43-2463,CC_residual_temperature_correction_factor_e, 3.6000e-002,
+43-2463,CC_voltage_offset,-0.4358,
