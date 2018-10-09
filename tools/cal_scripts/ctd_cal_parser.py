@@ -83,7 +83,7 @@ class CTDCalibration(Calibration):
                 elif t_flag:
                     key = 'T' + child.tag
 
-                if child.tag == "SerialNumber" and child.text != None:
+                if child.tag == "SerialNumber" and child.text != None and self.serial == '16-':
                     self.serial = '16-' + child.text
 
                 if child.tag == "CalibrationDate" and child.text != None and self.date == None:

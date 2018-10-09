@@ -61,7 +61,7 @@ def main():
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
             cal.write_cal_info()
-            cal.move_to_archive(cal.type, file)
+            cal.move_to_archive('FLOR', file)
 
 if __name__ == '__main__':
     start_time = time.time()
