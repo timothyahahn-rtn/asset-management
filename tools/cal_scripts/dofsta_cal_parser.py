@@ -46,6 +46,8 @@ class SBE43Calibration(Calibration):
                 if name is None:
                     continue
                 self.coefficients[name] = child.text
+                if name == 'CC_voltage_offset':
+                        self.coefficients['CC_frequency_offset'] = child.text
 
     def read_cal(self, filename):
         with open(filename) as fh:
