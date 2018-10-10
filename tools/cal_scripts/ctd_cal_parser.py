@@ -63,7 +63,7 @@ class CTDCalibration(Calibration):
         self.date = None
         self.type = 'CTD'
 
-    def read_xml(self, filename):
+    def _read_xml(self, filename):
         with open(filename) as fh:
             tree = et.parse(filename)
             root = tree.getroot()
@@ -96,28 +96,32 @@ class CTDCalibration(Calibration):
     def read_cal(self, filename):
         ## Reads the calibration files and extracts out the necessary calibration values needed for CI.
         with open(filename) as fh:
-            for line in fh:
-                parts = line.split('=')
-                if len(parts) != 2:
-                    continue  # skip anything that is not key value paired
+            c = fh.read(1)
+            if c == '<':
+                self._read_xml(filename)
+            else:
+                for line in fh:
+                    parts = line.split('=')
+                    if len(parts) != 2:
+                        continue  # skip anything that is not key value paired
 
-                key = parts[0]
-                value = parts[1].strip()
+                    key = parts[0]
+                    value = parts[1].strip()
 
-                if key == 'INSTRUMENT_TYPE' and value == 'SEACATPLUS':
-                    self.serial = '16-'
+                    if key == 'INSTRUMENT_TYPE' and value == 'SEACATPLUS':
+                        self.serial = '16-'
 
-                if key == 'SERIALNO':
-                    self.serial += value
+                    if key == 'SERIALNO':
+                        self.serial += value
 
-                if key == 'CCALDATE':
-                    self.date = datetime.datetime.strptime(value, "%d-%b-%y").strftime("%Y%m%d")
+                    if key == 'CCALDATE':
+                        self.date = datetime.datetime.strptime(value, "%d-%b-%y").strftime("%Y%m%d")
 
-                name = self.coefficient_name_map.get(key)
-                if not name:
-                    continue
+                    name = self.coefficient_name_map.get(key)
+                    if not name:
+                        continue
 
-                self.coefficients[name] = value
+                    self.coefficients[name] = value
 
     def write_cal_info(self):
         inst_type = None
@@ -155,11 +159,7 @@ def main():
                 continue
             cal = CTDCalibration()
             with open(os.path.join(path, file)) as unknown_file:
-                c = unknown_file.read(1)
-                if c == '<':
-                    cal.read_xml(os.path.join(path, file))
-                else:
-                    cal.read_cal(os.path.join(path, file))
+                cal.read_cal(os.path.join(path, file))
                 cal.asset_tracking_number = lookup[cal.serial]
                 cal.write_cal_info()
                 cal.move_to_archive(cal.type, file)
