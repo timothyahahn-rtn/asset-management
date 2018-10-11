@@ -42,10 +42,10 @@ class NUTNRCalibration(Calibration):
                     key_value = parts[1].split()
                     if len(key_value) == 2:
                         name, value = key_value
-                        if name == 'T_CAL':
+                        if name == 'T_CAL' or (name == 'T_CAL_SWA' and 'CC_cal_temp' not in self.coefficients):
                             self.cal_temp = float(value)
                             self.coefficients['CC_cal_temp'] = self.cal_temp
-                    elif "creation" in key_value:
+                    if "creation" in key_value:
                         cal_date = key_value[-2]
                         cal_date = datetime.datetime.strptime(cal_date, "%d-%b-%Y").strftime("%Y%m%d")
                         if self.date < cal_date:
