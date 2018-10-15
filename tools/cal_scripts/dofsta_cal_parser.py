@@ -29,7 +29,7 @@ class SBE43Calibration(Calibration):
 
     def _read_xml(self, filename):
         if not filename.endswith('.xmlcon'):
-            return false
+            return False
 
         with open(filename) as fh:
             tree = et.parse(filename)
@@ -51,11 +51,12 @@ class SBE43Calibration(Calibration):
                 self.coefficients[name] = child.text
                 if name == 'CC_voltage_offset':
                         self.coefficients['CC_frequency_offset'] = child.text
+            return True
 
     def read_cal(self, filename):
         if self._read_xml(filename):
             return
-            
+
         with open(filename) as fh:
             c = fh.read(1)
             for line in fh:

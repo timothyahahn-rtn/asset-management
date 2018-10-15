@@ -65,8 +65,8 @@ class CTDCalibration(Calibration):
 
     def _read_xml(self, filename):
         if not filename.endswith('.xmlcon'):
-            return false
-        
+            return False
+
         with open(filename) as fh:
             tree = et.parse(filename)
             root = tree.getroot()
@@ -95,7 +95,7 @@ class CTDCalibration(Calibration):
                 if name is None:
                     continue
                 self.coefficients[name] = child.text
-            return True
+        return True
 
     def read_cal(self, filename):
         ## Reads the calibration files and extracts out the necessary calibration values needed for CI.
