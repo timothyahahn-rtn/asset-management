@@ -64,6 +64,9 @@ class CTDCalibration(Calibration):
         self.type = 'CTD'
 
     def _read_xml(self, filename):
+        if not filename.endswith('.xmlcon'):
+            return false
+        
         with open(filename) as fh:
             tree = et.parse(filename)
             root = tree.getroot()
@@ -92,36 +95,36 @@ class CTDCalibration(Calibration):
                 if name is None:
                     continue
                 self.coefficients[name] = child.text
+            return True
 
     def read_cal(self, filename):
         ## Reads the calibration files and extracts out the necessary calibration values needed for CI.
+        if self._read_xml(filename):
+            return
         with open(filename) as fh:
             c = fh.read(1)
-            if c == '<':
-                self._read_xml(filename)
-            else:
-                for line in fh:
-                    parts = line.split('=')
-                    if len(parts) != 2:
-                        continue  # skip anything that is not key value paired
+            for line in fh:
+                parts = line.split('=')
+                if len(parts) != 2:
+                    continue  # skip anything that is not key value paired
 
-                    key = parts[0]
-                    value = parts[1].strip()
+                key = parts[0]
+                value = parts[1].strip()
 
-                    if key == 'INSTRUMENT_TYPE' and value == 'SEACATPLUS':
-                        self.serial = '16-'
+                if key == 'INSTRUMENT_TYPE' and value == 'SEACATPLUS':
+                    self.serial = '16-'
 
-                    if key == 'SERIALNO':
-                        self.serial += value
+                if key == 'SERIALNO':
+                    self.serial += value
 
-                    if key == 'CCALDATE':
-                        self.date = datetime.datetime.strptime(value, "%d-%b-%y").strftime("%Y%m%d")
+                if key == 'CCALDATE':
+                    self.date = datetime.datetime.strptime(value, "%d-%b-%y").strftime("%Y%m%d")
 
-                    name = self.coefficient_name_map.get(key)
-                    if not name:
-                        continue
+                name = self.coefficient_name_map.get(key)
+                if not name:
+                    continue
 
-                    self.coefficients[name] = value
+                self.coefficients[name] = value
 
     def write_cal_info(self):
         inst_type = None
