@@ -3120,3 +3120,7 @@ CGCON-MDCL36-00037,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data C
 CGCON-NDCL26-00052,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,52,,,,,
 CGCON-NDCL16-00026,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,26,,,,,
 CGCON-MDCL36-00051,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,51,,,,,
+CGCON-BSTC01-00042,,Sensor,0,Sensor and Telemetry Platform Controller,Sensor and Telemetry Controller,WHOI,STC,SWE 0042,,,,,Woods Hole Oceanographic Institution
+CGCON-MDCL35-00034,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,34,,,,,Woods Hole Oceanographic Institution
+CGCON-NDCL26-00040,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,40,,,,,Woods Hole Oceanographic Institution
+CGINS-HYDGN0-Z5971,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A6Z5971,,,,,Woods Hole Oceanographic Institution
