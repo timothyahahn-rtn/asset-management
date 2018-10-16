@@ -63,8 +63,10 @@ class CTDCalibration(Calibration):
         self.date = None
         self.type = 'CTD'
 
-    def read_xml(self, filename):
-        # TODO: Finish up xml reading
+    def _read_xml(self, filename):
+        if not filename.endswith('.xmlcon'):
+            return False
+
         with open(filename) as fh:
             tree = et.parse(filename)
             root = tree.getroot()
@@ -83,7 +85,7 @@ class CTDCalibration(Calibration):
                 elif t_flag:
                     key = 'T' + child.tag
 
-                if child.tag == "SerialNumber" and child.text != None:
+                if child.tag == "SerialNumber" and child.text != None and self.serial == '16-':
                     self.serial = '16-' + child.text
 
                 if child.tag == "CalibrationDate" and child.text != None and self.date == None:
@@ -93,10 +95,14 @@ class CTDCalibration(Calibration):
                 if name is None:
                     continue
                 self.coefficients[name] = child.text
+        return True
 
     def read_cal(self, filename):
         ## Reads the calibration files and extracts out the necessary calibration values needed for CI.
+        if self._read_xml(filename):
+            return
         with open(filename) as fh:
+            c = fh.read(1)
             for line in fh:
                 parts = line.split('=')
                 if len(parts) != 2:
@@ -156,11 +162,7 @@ def main():
                 continue
             cal = CTDCalibration()
             with open(os.path.join(path, file)) as unknown_file:
-                c = unknown_file.read(1)
-                if c == '<':
-                    cal.read_xml(os.path.join(path, file))
-                else:
-                    cal.read_cal(os.path.join(path, file))
+                cal.read_cal(os.path.join(path, file))
                 cal.asset_tracking_number = lookup[cal.serial]
                 cal.write_cal_info()
                 cal.move_to_archive(cal.type, file)
