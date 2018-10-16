@@ -6,10 +6,11 @@
 
 import csv
 import datetime
+import json
 import os
+import shutil
 import sys
 import time
-import json
 from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
 class NUTNRCalibration(Calibration):
@@ -41,7 +42,7 @@ class NUTNRCalibration(Calibration):
                     key_value = parts[1].split()
                     if len(key_value) == 2:
                         name, value = key_value
-                        if name == 'T_CAL':
+                        if name == 'T_CAL' or (name == 'T_CAL_SWA' and 'CC_cal_temp' not in self.coefficients):
                             self.cal_temp = float(value)
                             self.coefficients['CC_cal_temp'] = self.cal_temp
                     elif "creation" in key_value:
@@ -67,13 +68,16 @@ def main():
     lookup = get_uid_serial_mapping('NUTNRA/nutnr_lookup.csv')
     for path, directories, files in os.walk('NUTNRA/manufacturer'):
         for file in files:
+            # Skip hidden files
+            if file[0] == '.':
+                continue
             cal = NUTNRCalibration()
             if not file.startswith("SNA"):
                 continue
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
             cal.write_cal_info()
-
+            cal.move_to_archive(cal.type, file)
 
 if __name__ == '__main__':
     start_time = time.time()

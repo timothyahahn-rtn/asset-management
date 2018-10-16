@@ -97,12 +97,16 @@ def main():
     lookup = get_uid_serial_mapping('OPTAA/optaa_lookup.csv')
     for path, directories, files in os.walk('OPTAA/manufacturer'):
         for file in files:
+            # Skip hidden files
+            if file[0] == '.':
+                continue
             sheet_name = os.path.basename(file).partition('.')[0].upper()
             sheet_name = sheet_name[:3] + '-' + sheet_name[3:]
             cal = OPTAACalibration(sheet_name)
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
             cal.write_cal_info()
+            cal.move_to_archive(cal.type, file)
 
 if __name__ == '__main__':
     start_time = time.time()
