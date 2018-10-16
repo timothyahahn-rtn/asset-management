@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SBE_InstrumentConfiguration SB_ConfigCTD_FileVersion="7.26.4.0" >
+<SBE_InstrumentConfiguration SB_ConfigCTD_FileVersion="7.21.0.12" >
   <Instrument Type="11" >
     <Name>SBE 19plus V2 Seacat CTD</Name>
     <PressureSensorType>1</PressureSensorType>
@@ -7,8 +7,8 @@
     <Mode>0</Mode>
     <!-- Serial RS-232 Sensor: 0 = None. -->
     <SerialRS232C_Sensor>0</SerialRS232C_Sensor>
-    <SampleIntervalSeconds>10</SampleIntervalSeconds>
-    <ScansToAverage>4</ScansToAverage>
+    <SampleIntervalSeconds>60</SampleIntervalSeconds>
+    <ScansToAverage>1</ScansToAverage>
     <SurfaceParVoltageAdded>0</SurfaceParVoltageAdded>
     <ScanTimeAdded>0</ScanTimeAdded>
     <NmeaPositionDataAdded>0</NmeaPositionDataAdded>
@@ -19,11 +19,11 @@
       <Sensor index="0" SensorID="58" >
         <TemperatureSensor SensorID="58" >
           <SerialNumber>7205</SerialNumber>
-          <CalibrationDate>15-Sep-17</CalibrationDate>
-          <A0>1.26154670e-003</A0>
-          <A1>2.74174914e-004</A1>
-          <A2>-1.17262784e-006</A2>
-          <A3>1.80698748e-007</A3>
+          <CalibrationDate>23-Oct-12</CalibrationDate>
+          <A0>1.25468900e-003</A0>
+          <A1>2.76718100e-004</A1>
+          <A2>-1.48836700e-006</A2>
+          <A3>1.93803400e-007</A3>
           <Slope>1.00000000</Slope>
           <Offset>0.0000</Offset>
         </TemperatureSensor>
@@ -31,7 +31,7 @@
       <Sensor index="1" SensorID="3" >
         <ConductivitySensor SensorID="3" >
           <SerialNumber>7205</SerialNumber>
-          <CalibrationDate>15-Sep-17</CalibrationDate>
+          <CalibrationDate>23-Oct-12</CalibrationDate>
           <UseG_J>1</UseG_J>
           <!-- Cell const and series R are applicable only for wide range sensors. -->
           <SeriesR>0.0000</SeriesR>
@@ -46,10 +46,10 @@
             <CPcor>-9.57000000e-008</CPcor>
           </Coefficients>
           <Coefficients equation="1" >
-            <G>-9.85243469e-001</G>
-            <H>1.38595982e-001</H>
-            <I>-3.73326200e-004</I>
-            <J>4.56531083e-005</J>
+            <G>-9.85793300e-001</G>
+            <H>1.38692200e-001</H>
+            <I>-3.78346900e-004</I>
+            <J>4.65084900e-005</J>
             <CPcor>-9.57000000e-008</CPcor>
             <CTcor>3.2500e-006</CTcor>
             <!-- WBOTC not applicable unless ConductivityType = 1. -->
@@ -62,16 +62,16 @@
       <Sensor index="2" SensorID="46" >
         <PressureSensor SensorID="46" >
           <SerialNumber>7205</SerialNumber>
-          <CalibrationDate>25-Aug-17</CalibrationDate>
-          <PA0>5.81944633e-002</PA0>
-          <PA1>1.55216870e-003</PA1>
-          <PA2>8.58481768e-012</PA2>
-          <PTEMPA0>-5.50755478e+001</PTEMPA0>
-          <PTEMPA1>5.58453062e+001</PTEMPA1>
-          <PTEMPA2>-5.87877286e-001</PTEMPA2>
-          <PTCA0>5.25668443e+005</PTCA0>
-          <PTCA1>4.70408851e+000</PTCA1>
-          <PTCA2>-1.37147776e-001</PTCA2>
+          <CalibrationDate>18-Oct-12</CalibrationDate>
+          <PA0>6.46086684e-002</PA0>
+          <PA1>1.55228450e-003</PA1>
+          <PA2>8.50556180e-012</PA2>
+          <PTEMPA0>-5.44976572e+001</PTEMPA0>
+          <PTEMPA1>5.50964885e+001</PTEMPA1>
+          <PTEMPA2>-3.01157382e-001</PTEMPA2>
+          <PTCA0>5.25747257e+005</PTCA0>
+          <PTCA1>4.32987936e+000</PTCA1>
+          <PTCA2>-1.11810441e-001</PTCA2>
           <PTCB0>2.50435000e+001</PTCB0>
           <PTCB1>-1.00000000e-004</PTCB1>
           <PTCB2>0.00000000e+000</PTCB2>
@@ -81,7 +81,7 @@
       <Sensor index="3" SensorID="38" >
         <OxygenSensor SensorID="38" >
           <SerialNumber>2463</SerialNumber>
-          <CalibrationDate>09-Sep-17</CalibrationDate>
+          <CalibrationDate>26-Oct-12</CalibrationDate>
           <Use2007Equation>1</Use2007Equation>
           <CalibrationCoefficients equation="0" >
             <!-- Coefficients for Owens-Millard equation. -->
@@ -94,16 +94,16 @@
           </CalibrationCoefficients>
           <CalibrationCoefficients equation="1" >
             <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->
-            <Soc>4.1133e-001</Soc>
-            <offset>-0.4404</offset>
-            <A>-3.3433e-003</A>
-            <B> 1.5757e-004</B>
-            <C>-2.3553e-006</C>
+            <Soc>4.4669e-001</Soc>
+            <offset>-0.4203</offset>
+            <A>-1.3418e-003</A>
+            <B> 5.3451e-005</B>
+            <C>-9.5226e-007</C>
             <D0> 2.5826e+000</D0>
             <D1> 1.92634e-004</D1>
             <D2>-4.64803e-002</D2>
             <E> 3.6000e-002</E>
-            <Tau20> 3.5500</Tau20>
+            <Tau20> 6.1600</Tau20>
             <H1>-3.3000e-002</H1>
             <H2> 5.0000e+003</H2>
             <H3> 1.4500e+003</H3>

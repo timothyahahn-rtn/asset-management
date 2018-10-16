@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SBE_InstrumentConfiguration SB_ConfigCTD_FileVersion="7.26.4.0" >
+<SBE_InstrumentConfiguration SB_ConfigCTD_FileVersion="7.23.0.2" >
   <Instrument Type="11" >
     <Name>SBE 19plus V2 Seacat CTD</Name>
     <PressureSensorType>1</PressureSensorType>
@@ -19,11 +19,11 @@
       <Sensor index="0" SensorID="58" >
         <TemperatureSensor SensorID="58" >
           <SerialNumber>7205</SerialNumber>
-          <CalibrationDate>15-Sep-17</CalibrationDate>
-          <A0>1.26154670e-003</A0>
-          <A1>2.74174914e-004</A1>
-          <A2>-1.17262784e-006</A2>
-          <A3>1.80698748e-007</A3>
+          <CalibrationDate>03-Mar-16</CalibrationDate>
+          <A0>1.26417540e-003</A0>
+          <A1>2.73059047e-004</A1>
+          <A2>-1.01877665e-006</A2>
+          <A3>1.73780263e-007</A3>
           <Slope>1.00000000</Slope>
           <Offset>0.0000</Offset>
         </TemperatureSensor>
@@ -31,7 +31,7 @@
       <Sensor index="1" SensorID="3" >
         <ConductivitySensor SensorID="3" >
           <SerialNumber>7205</SerialNumber>
-          <CalibrationDate>15-Sep-17</CalibrationDate>
+          <CalibrationDate>03-Mar-16</CalibrationDate>
           <UseG_J>1</UseG_J>
           <!-- Cell const and series R are applicable only for wide range sensors. -->
           <SeriesR>0.0000</SeriesR>
@@ -46,10 +46,10 @@
             <CPcor>-9.57000000e-008</CPcor>
           </Coefficients>
           <Coefficients equation="1" >
-            <G>-9.85243469e-001</G>
-            <H>1.38595982e-001</H>
-            <I>-3.73326200e-004</I>
-            <J>4.56531083e-005</J>
+            <G>-9.84842725e-001</G>
+            <H>1.38212905e-001</H>
+            <I>-2.29426963e-004</I>
+            <J>3.74525405e-005</J>
             <CPcor>-9.57000000e-008</CPcor>
             <CTcor>3.2500e-006</CTcor>
             <!-- WBOTC not applicable unless ConductivityType = 1. -->
@@ -62,16 +62,16 @@
       <Sensor index="2" SensorID="46" >
         <PressureSensor SensorID="46" >
           <SerialNumber>7205</SerialNumber>
-          <CalibrationDate>25-Aug-17</CalibrationDate>
-          <PA0>5.81944633e-002</PA0>
-          <PA1>1.55216870e-003</PA1>
-          <PA2>8.58481768e-012</PA2>
-          <PTEMPA0>-5.50755478e+001</PTEMPA0>
-          <PTEMPA1>5.58453062e+001</PTEMPA1>
-          <PTEMPA2>-5.87877286e-001</PTEMPA2>
-          <PTCA0>5.25668443e+005</PTCA0>
-          <PTCA1>4.70408851e+000</PTCA1>
-          <PTCA2>-1.37147776e-001</PTCA2>
+          <CalibrationDate>17-Feb-16</CalibrationDate>
+          <PA0>4.98203778e-002</PA0>
+          <PA1>1.55237638e-003</PA1>
+          <PA2>8.42395581e-012</PA2>
+          <PTEMPA0>-5.43365826e+001</PTEMPA0>
+          <PTEMPA1>5.47004734e+001</PTEMPA1>
+          <PTEMPA2>-1.41899515e-001</PTEMPA2>
+          <PTCA0>5.25681734e+005</PTCA0>
+          <PTCA1>4.00292549e+000</PTCA1>
+          <PTCA2>-1.16101613e-001</PTCA2>
           <PTCB0>2.50435000e+001</PTCB0>
           <PTCB1>-1.00000000e-004</PTCB1>
           <PTCB2>0.00000000e+000</PTCB2>
@@ -81,7 +81,7 @@
       <Sensor index="3" SensorID="38" >
         <OxygenSensor SensorID="38" >
           <SerialNumber>2463</SerialNumber>
-          <CalibrationDate>09-Sep-17</CalibrationDate>
+          <CalibrationDate>06-Feb-16</CalibrationDate>
           <Use2007Equation>1</Use2007Equation>
           <CalibrationCoefficients equation="0" >
             <!-- Coefficients for Owens-Millard equation. -->
@@ -94,16 +94,16 @@
           </CalibrationCoefficients>
           <CalibrationCoefficients equation="1" >
             <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->
-            <Soc>4.1133e-001</Soc>
-            <offset>-0.4404</offset>
-            <A>-3.3433e-003</A>
-            <B> 1.5757e-004</B>
-            <C>-2.3553e-006</C>
+            <Soc>4.8132e-001</Soc>
+            <offset>-0.4363</offset>
+            <A>-3.2956e-003</A>
+            <B> 1.8898e-004</B>
+            <C>-3.2069e-006</C>
             <D0> 2.5826e+000</D0>
             <D1> 1.92634e-004</D1>
             <D2>-4.64803e-002</D2>
             <E> 3.6000e-002</E>
-            <Tau20> 3.5500</Tau20>
+            <Tau20> 5.2100</Tau20>
             <H1>-3.3000e-002</H1>
             <H2> 5.0000e+003</H2>
             <H3> 1.4500e+003</H3>
