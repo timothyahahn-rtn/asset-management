@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SBE_InstrumentConfiguration SB_ConfigCTD_FileVersion="7.22.0.0" >
+<SBE_InstrumentConfiguration SB_ConfigCTD_FileVersion="7.22.0.1" >
   <Instrument Type="10" >
     <Name>SBE 16plus V2 Seacat CTD</Name>
     <PressureSensorType>1</PressureSensorType>
@@ -17,20 +17,20 @@
     <SensorArray Size="3" >
       <Sensor index="0" SensorID="58" >
         <TemperatureSensor SensorID="58" >
-          <SerialNumber>7231</SerialNumber>
-          <CalibrationDate>07-Nov-12</CalibrationDate>
-          <A0>1.25475529e-003</A0>
-          <A1>2.75887073e-004</A1>
-          <A2>-1.36826761e-006</A2>
-          <A3>1.91079487e-007</A3>
+          <SerialNumber>7249</SerialNumber>
+          <CalibrationDate>01-Jan-13</CalibrationDate>
+          <A0>1.23992900e-003</A0>
+          <A1>2.76990400e-004</A1>
+          <A2>-1.32149700e-006</A2>
+          <A3>1.88580800e-007</A3>
           <Slope>1.00000000</Slope>
           <Offset>0.0000</Offset>
         </TemperatureSensor>
       </Sensor>
       <Sensor index="1" SensorID="3" >
         <ConductivitySensor SensorID="3" >
-          <SerialNumber>7231</SerialNumber>
-          <CalibrationDate>07-Nov-12</CalibrationDate>
+          <SerialNumber>7249</SerialNumber>
+          <CalibrationDate>01-Jan-13</CalibrationDate>
           <UseG_J>1</UseG_J>
           <!-- Cell const and series R are applicable only for wide range sensors. -->
           <SeriesR>0.0000</SeriesR>
@@ -45,10 +45,10 @@
             <CPcor>-9.57000000e-008</CPcor>
           </Coefficients>
           <Coefficients equation="1" >
-            <G>-9.76179900e-001</G>
-            <H>1.36999400e-001</H>
-            <I>-3.52386000e-004</I>
-            <J>4.40425200e-005</J>
+            <G>-9.81305861e-001</G>
+            <H>1.52710306e-001</H>
+            <I>-4.20277048e-004</I>
+            <J>5.44603977e-005</J>
             <CPcor>-9.57000000e-008</CPcor>
             <CTcor>3.2500e-006</CTcor>
             <!-- WBOTC not applicable unless ConductivityType = 1. -->
@@ -60,17 +60,17 @@
       </Sensor>
       <Sensor index="2" SensorID="45" >
         <PressureSensor SensorID="45" >
-          <SerialNumber>7231</SerialNumber>
-          <CalibrationDate>02-Nov-12</CalibrationDate>
-          <C1>-4.642672e+003</C1>
-          <C2>-4.611640e-003</C2>
-          <C3>8.921190e-004</C3>
-          <D1>7.024800e-002</D1>
+          <SerialNumber>125427</SerialNumber>
+          <CalibrationDate>12-17-2012</CalibrationDate>
+          <C1>-4.643779e+003</C1>
+          <C2>-7.540100e-002</C2>
+          <C3>8.852730e-004</C3>
+          <D1>6.781200e-002</D1>
           <D2>0.000000e+000</D2>
-          <T1>3.022595e+001</T1>
-          <T2>-1.549720e-004</T2>
-          <T3>2.677750e-006</T3>
-          <T4>1.705490e-009</T4>
+          <T1>3.005444e+001</T1>
+          <T2>-3.892070e-004</T2>
+          <T3>2.670250e-006</T3>
+          <T4>1.718780e-009</T4>
           <Slope>1.00000000</Slope>
           <Offset>0.00000</Offset>
           <T5>0.000000e+000</T5>
