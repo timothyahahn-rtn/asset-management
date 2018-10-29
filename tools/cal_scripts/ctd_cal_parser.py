@@ -56,6 +56,26 @@ class CTDCalibration(Calibration):
             'T4': 'CC_T4',
             'T5': 'CC_T5',
         }
+        self.o_series_coefficients_map = {
+            'C1': 'CC_C1',
+            'C2': 'CC_C2',
+            'C3': 'CC_C3',
+            'D1': 'CC_D1',
+            'D2': 'CC_D2',
+            'T1': 'CC_T1',
+            'T2': 'CC_T2',
+            'T3': 'CC_T3',
+            'T4': 'CC_T4',
+            'T5': 'CC_T5',
+        }
+        self.o2_coefficients_map = {
+            'A':'CC_residual_temperature_correction_factor_a',
+            'B':'CC_residual_temperature_correction_factor_b',
+            'C':'CC_residual_temperature_correction_factor_c',
+            'E':'CC_residual_temperature_correction_factor_e',
+            'SOC':'CC_oxygen_signal_slope',
+            'OFFSET':'CC_frequency_offset'
+        }
         # dictionary with calibration coefficient names and values
         self.coefficients = {}
         self.asset_tracking_number = None
@@ -71,8 +91,12 @@ class CTDCalibration(Calibration):
             tree = et.parse(filename)
             root = tree.getroot()
             t_flag = False
+            o2_sensor_flag = False
             for child in tree.iter():
                 key = child.tag.upper()
+                if key == 'OXYGENSENSOR':
+                    o2_sensor_flag = True
+
                 if key == '':
                     continue
 
@@ -92,9 +116,13 @@ class CTDCalibration(Calibration):
                     self.date = datetime.datetime.strptime(child.text, "%d-%b-%y").strftime("%Y%m%d")
 
                 name = self.coefficient_name_map.get(key)
-                if name is None:
+                o2_name = self.o2_coefficients_map.get(key)
+                if name is None and o2_name is None:
                     continue
-                self.coefficients[name] = child.text
+                elif not name is None:
+                    self.coefficients[name] = child.text
+                elif o2_sensor_flag:
+                    self.coefficients[o2_name] = child.text
         return True
 
     def read_cal(self, filename):
@@ -140,6 +168,12 @@ class CTDCalibration(Calibration):
         elif self.asset_tracking_number.find('69828') != -1:
             inst_type = 'CTDBPO'
         ## Writes the calibration information to a comma-separated value file
+        if not inst_type.startswith('CTDBP'):
+            for key in self.o_series_coefficients_map.keys():
+                try:
+                    del self.coefficients[self.o_series_coefficients_map.get(key)]
+                except KeyError:
+                    continue
         complete_path = os.path.join(self.type, 'cal_sheets', inst_type)
         complete_path = os.path.join(os.path.realpath('../..'), 'calibration', inst_type)
         file_name = self.asset_tracking_number + '__' + self.date
