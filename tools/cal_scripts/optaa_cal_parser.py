@@ -8,8 +8,9 @@ import csv
 import datetime
 import os
 import json
-import sys
+import sqlite3
 import string
+import sys
 import time
 from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
 
@@ -94,6 +95,7 @@ class OPTAACalibration(Calibration):
         write_array(os.path.join(complete_path, '%s__CC_taarray.ext' % file_name), self.taarray)
 
 def main():
+    sql = sqlite3.connect('instrumentLookUp.db')
     lookup = get_uid_serial_mapping('OPTAA/optaa_lookup.csv')
     for path, directories, files in os.walk('OPTAA/manufacturer'):
         for file in files:
@@ -101,10 +103,11 @@ def main():
             if file[0] == '.':
                 continue
             sheet_name = os.path.basename(file).partition('.')[0].upper()
-            sheet_name = sheet_name[:3] + '-' + sheet_name[3:]
+            sheet_name = sheet_name[:3] + '-' + sheet_name[3:6]
             cal = OPTAACalibration(sheet_name)
             cal.read_cal(os.path.join(path, file))
-            cal.asset_tracking_number = lookup[cal.serial]
+            uid_query_result = sql.execute('select uid from INSTRUMENT_LOOKUP where serial=:sn', {'sn':cal.serial}).fetchone()[0]
+            cal.asset_tracking_number = uid_query_result
             cal.write_cal_info()
             cal.move_to_archive(cal.type, file)
 
