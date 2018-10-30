@@ -37,7 +37,6 @@ class Calibration(object):
                     os.path.join(os.getcwd(), inst_type, 'manufacturer_ARCHIVE', file))
     
     def get_uid(self):
-        print(os.getcwd())
         sql = sqlite3.connect('instrumentLookUp.db')
         uid_query_result = sql.execute('select uid from INSTRUMENT_LOOKUP where serial=:sn',\
                                              {'sn':self.serial}).fetchone()
