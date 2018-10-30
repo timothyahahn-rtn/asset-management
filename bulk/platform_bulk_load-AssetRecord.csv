@@ -1,7 +1,4 @@
 ASSET_UID,LEGACY_ASSET_UID,TYPE,Mobile,DESCRIPTION OF EQUIPMENT,MIO_Inventory_Description,Manufacturer,Model,Manufacturer's Serial No./Other Identifier,Firmware Version,ACQUISITION DATE,ORIGINAL COST,comments,MIO
-A00043,A00043,Platform,0,MOORING PIONEER COASTAL PROFIL,MOORING PIONEER COASTAL PROFIL,WHOI,AS02CPPM-00001,N/A,,20110919,523113,,
-A00044,A00044,Platform,0,MOORING PIONEER COASTAL SURFAC,MOORING PIONEER COASTAL SURFAC,WHOI,AS02CPSM-0001,N/A,,20110919,1729923,6/8/2012,
-A00224,A00224,Platform,0,MOORING STRETCH HOSE TEST,MOORING STRETCH HOSE TEST,WHOI,STRETCH HOSE,ECR1301-00881,,20121114,46633.5,,
 ATAPL-65244-010-0023,ATAPL-65244-010-0023,Platform,0,Cabled Oregon Slope Base Seafloor: Medium Power Junction Box,MOORING RSN,UW-APL,RS01SLBS-MJ01A,SN0023,,,,,University of Washington
 ATAPL-65244-020-0024,N00299,Platform,0,Cabled Southern Hydrate Summit 1 Seafloor: Medium Power Junction Box,MOORING RSN,UW-APL,RS01SUM2-MJ01B,SN0024,,,,,University of Washington
 ATAPL-65244-030-0025,ATAPL-65244-030-0025,Platform,0,Coastal Endurance Oregon Shelf Cabled Benthic Experiment Package: Medium Power Junction Box,MOORING ENDURANCE OS,WHOI,CE02SHBP-MJ01C,SN0025,,,,,University of Washington
@@ -148,6 +145,7 @@ CGMCE-09OSSM-00005,,Platform,0,Coastal Endurance Washington Offshore Surface Moo
 CGMCE-09OSSM-00006,,Platform,0,Coastal Endurance Washington Offshore Surface Mooring,MOORING ENDURANCE,WHOI,CE09OSSM,CE09OSSM-00006,,,,,Oregon State University
 CGMCE-09OSSM-00007,,Platform,0,Coastal Endurance Washington Offshore Surface Mooring,MOORING ENDURANCE,WHOI,CE09OSSM,CE09OSSM-00007,,,,,Oregon State University
 CGMCP-01CNPM-00001,,Platform,0,Coastal Pioneer Central Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP01CNPM,CP01CNPM-00001,,,,,Woods Hole Oceanographic Institution
+CGMCP-01CNPM-00002,,Platform,0,Coastal Pioneer Central Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP01CNPM,CP01CNPM-00002,,,,,Woods Hole Oceanographic Institution
 CGMCP-01CNSM-00001,A00228,Platform,0,Coastal Pioneer Central Surface Mooring,MOORING PIONEER CENTRAL SURFAC,WHOI,CP01CNSM,CP01CNSM-00001,,20130218,280424.81,,Woods Hole Oceanographic Institution
 CGMCP-01CNSM-00002,N00201,Platform,0,Coastal Pioneer Central Surface Mooring,MOORING PIONEER CENTRAL SURFAC,WHOI,CP01CNSM,CP01CNSM-00002,,,,,Woods Hole Oceanographic Institution
 CGMCP-01CNSM-00003,N00206,Platform,0,Coastal Pioneer Central Surface Mooring,MOORING PIONEER CENTRAL SURFAC,WHOI,CP01CNSM,CP01CNSM-00003,,,,,Woods Hole Oceanographic Institution
@@ -157,6 +155,7 @@ CGMCP-01CNSM-00006,,Platform,0,Coastal Pioneer Central Surface Mooring,,WHOI,CP0
 CGMCP-01CNSM-00007,,Platform,0,Coastal Pioneer Central Surface Mooring,MOORING PIONEER CN,WHOI,CP01CNSM,CP01CNSM-00007,,,,,Woods Hole Oceanographic Institution
 CGMCP-01CNSM-00008,,Platform,0,Coastal Pioneer Central Surface Mooring,MOORING PIONEER CN,WHOI,CP01CNSM,CP01CNSM-00008,,,,,Woods Hole Oceanographic Institution
 CGMCP-01CNSM-00009,,Platform,0,Coastal Pioneer Central Surface Mooring,MOORING PIONEER CN,WHOI,CP01CNSM,CP01CNSM-00009,,,,,Woods Hole Oceanographic Institution
+CGMCP-01CNSM-00010,,Platform,0,Coastal Pioneer Central Surface Mooring,MOORING PIONEER CN,WHOI,CP01CNSM,CP01CNSM-00010,,,,,Woods Hole Oceanographic Institution
 CGMCP-01CNSP-00001,N00208,Platform,0,Coastal Pioneer Central Surface Piercing Profiler Mooring,MOORING PIONEER CENTRAL SURFAC,WHOI,CP01CNSP,CP01CNSP-00001,,,,,Woods Hole Oceanographic Institution
 CGMCP-01CNSP-00002,N00209,Platform,0,Coastal Pioneer Central Surface Piercing Profiler Mooring,MOORING PIONEER CENTRAL SURFAC,WHOI,CP01CNSP,CP01CNSP-00002,,,,,Woods Hole Oceanographic Institution
 CGMCP-01CNSP-00003,N00210,Platform,0,Coastal Pioneer Central Surface Piercing Profiler Mooring,MOORING PIONEER CENTRAL SURFAC,WHOI,CP01CNSP,CP01CNSP-00003,,,,,Woods Hole Oceanographic Institution
@@ -171,6 +170,7 @@ CGMCP-02PMCI-00007,RM00002,Platform,0,Coastal Pioneer Central Inshore Profiler M
 CGMCP-02PMCI-00008,,Platform,0,Coastal Pioneer Central Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMCI,CP02PMCI-00008,,,,,Woods Hole Oceanographic Institution
 CGMCP-02PMCI-00009,,Platform,0,Coastal Pioneer Central Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMCI,CP02PMCI-00009,,,,,Woods Hole Oceanographic Institution
 CGMCP-02PMCI-00010,,Platform,0,Coastal Pioneer Central Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMCI,CP02PMCI-00010,,,,,Woods Hole Oceanographic Institution
+CGMCP-02PMCI-00011,,Platform,0,Coastal Pioneer Central Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMCI,CP02PMCI-00011,,,,,Woods Hole Oceanographic Institution
 CGMCP-02PMCO-00001,A00231,Platform,0,Coastal Pioneer Central Offshore Profiler Mooring,MOORING PIONEER CENTRAL OFFSHO,WHOI,CP02PMCO,CP02PMCO-00001,,20130218,110911.35,,Woods Hole Oceanographic Institution
 CGMCP-02PMCO-00002,A01196,Platform,0,Coastal Pioneer Central Offshore Profiler Mooring,MOORING PIONEER CO PROFILER,WHOI,CP02PMCO,CP02PMCO-00002,,20130218,110911.35,,Woods Hole Oceanographic Institution
 CGMCP-02PMCO-00003,N00232,Platform,0,Coastal Pioneer Central Offshore Profiler Mooring,MOORING PIONEER CO PROFILER,WHOI,CP02PMCO,CP02PMCO-00003,,,110911.35,,Woods Hole Oceanographic Institution
@@ -181,6 +181,7 @@ CGMCP-02PMCO-00007,,Platform,0,Coastal Pioneer Central Offshore Profiler Mooring
 CGMCP-02PMCO-00008,,Platform,0,Coastal Pioneer Central Offshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMCO,CP02PMCO-00008,,,,,Woods Hole Oceanographic Institution
 CGMCP-02PMCO-00009,,Platform,0,Coastal Pioneer Central Offshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMCO,CP02PMCO-00009,,,,,Woods Hole Oceanographic Institution
 CGMCP-02PMCO-00010,,Platform,0,Coastal Pioneer Central Offshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMCO,CP02PMCO-00010,,,,,Woods Hole Oceanographic Institution
+CGMCP-02PMCO-00011,,Platform,0,Coastal Pioneer Central Offshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMCO,CP02PMCO-00011,,,,,Woods Hole Oceanographic Institution
 CGMCP-02PMUI-00001,A00230,Platform,0,Coastal Pioneer Upstream Inshore Profiler Mooring,MOORING PIONEER UPSTREAM INSHO,WHOI,CP02PMUI,CP02PMUI-00001,,20130218,110911.35,,Woods Hole Oceanographic Institution
 CGMCP-02PMUI-00002,A01197,Platform,0,Coastal Pioneer Upstream Inshore Profiler Mooring,MOORING PIONEER UI PROFILER,WHOI,CP02PMUI,CP02PMUI-00002,,20130218,110911.35,,Woods Hole Oceanographic Institution
 CGMCP-02PMUI-00003,N00204,Platform,0,Coastal Pioneer Upstream Inshore Profiler Mooring,MOORING PIONEER UI PROFILER,WHOI,CP02PMUI,CP02PMUI-00003,,,,,Woods Hole Oceanographic Institution
@@ -192,6 +193,7 @@ CGMCP-02PMUI-00008,,Platform,0,Coastal Pioneer Upstream Inshore Profiler Mooring
 CGMCP-02PMUI-00009,,Platform,0,Coastal Pioneer Upstream Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMUI,CP02PMUI-00009,,,,,Woods Hole Oceanographic Institution
 CGMCP-02PMUI-00010,,Platform,0,Coastal Pioneer Upstream Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMUI,CP02PMUI-00010,,,,,Woods Hole Oceanographic Institution
 CGMCP-02PMUI-00011,,Platform,0,Coastal Pioneer Upstream Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMUI,CP02PMUI-00011,,,,,Woods Hole Oceanographic Institution
+CGMCP-02PMUI-00012,,Platform,0,Coastal Pioneer Upstream Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMUI,CP02PMUI-00012,,,,,Woods Hole Oceanographic Institution
 CGMCP-02PMUO-00001,N00238,Platform,0,Coastal Pioneer Upstream Offshore Profiler Mooring,MOORING PIONEER UPSTREAM OFFSH,WHOI,CP02PMUO,CP02PMUO-00001,,,110911.35,,Woods Hole Oceanographic Institution
 CGMCP-02PMUO-00002,A00229,Platform,0,Coastal Pioneer Upstream Offshore Profiler Mooring,MOORING PIONEER UPSTREAM OFFSH,WHOI,CP02PMUO,CP02PMUO-00002,,20130218,110911.35,,Woods Hole Oceanographic Institution
 CGMCP-02PMUO-00003,A01198,Platform,0,Coastal Pioneer Upstream Offshore Profiler Mooring,MOORING PIONEER UO PROFILER,WHOI,CP02PMUO,CP02PMUO-00003,,20130218,110911.35,,Woods Hole Oceanographic Institution
@@ -203,7 +205,9 @@ CGMCP-02PMUO-00008,,Platform,0,Coastal Pioneer Upstream Offshore Profiler Moorin
 CGMCP-02PMUO-00009,,Platform,0,Coastal Pioneer Upstream Offshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMUO,CP02PMUO-00009,,,,,Woods Hole Oceanographic Institution
 CGMCP-02PMUO-00010,,Platform,0,Coastal Pioneer Upstream Offshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMUO,CP02PMUO-00010,,,,,Woods Hole Oceanographic Institution
 CGMCP-02PMUO-00011,,Platform,0,Coastal Pioneer Upstream Offshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMUO,CP02PMUO-00011,,,,,Woods Hole Oceanographic Institution
+CGMCP-02PMUO-00012,,Platform,0,Coastal Pioneer Upstream Offshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMUO,CP02PMUO-00012,,,,,Woods Hole Oceanographic Institution
 CGMCP-03ISPM-00001,,Platform,0,Coastal Pioneer Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP03ISPM,CP03ISPM-00001,,,,,Woods Hole Oceanographic Institution
+CGMCP-03ISPM-00002,,Platform,0,Coastal Pioneer Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP03ISPM,CP03ISPM-00002,,,,,Woods Hole Oceanographic Institution
 CGMCP-03ISSM-00001,N00241,Platform,0,Coastal Pioneer Inshore Surface Mooring,MOORING PIONEER IS SURFACE,WHOI,CP03ISSM,CP03ISSM-00001,,,,,Woods Hole Oceanographic Institution
 CGMCP-03ISSM-00002,N00242,Platform,0,Coastal Pioneer Inshore Surface Mooring,MOORING PIONEER IS SURFACE,WHOI,CP03ISSM,CP03ISSM-00002,,,,,Woods Hole Oceanographic Institution
 CGMCP-03ISSM-00003,N00243,Platform,0,Coastal Pioneer Inshore Surface Mooring,MOORING PIONEER IS SURFACE,WHOI,CP03ISSM,CP03ISSM-00003,,,,,Woods Hole Oceanographic Institution
@@ -212,6 +216,7 @@ CGMCP-03ISSM-00005,,Platform,0,Coastal Pioneer Inshore Surface Mooring,,WHOI,CP0
 CGMCP-03ISSM-00006,,Platform,0,Coastal Pioneer Inshore Surface Mooring,MOORING PIONEER IS,WHOI,CP03ISSM,CP03ISSM-00006,,,,,Woods Hole Oceanographic Institution
 CGMCP-03ISSM-00007,,Platform,0,Coastal Pioneer Inshore Surface Mooring,MOORING PIONEER IS,WHOI,CP03ISSM,CP03ISSM-00007,,,,,Woods Hole Oceanographic Institution
 CGMCP-03ISSM-00008,,Platform,0,Coastal Pioneer Inshore Surface Mooring,MOORING PIONEER IS,WHOI,CP03ISSM,CP03ISSM-00008,,,,,Woods Hole Oceanographic Institution
+CGMCP-03ISSM-00009,,Platform,0,Coastal Pioneer Inshore Surface Mooring,MOORING PIONEER IS,WHOI,CP03ISSM,CP03ISSM-00009,,,,,Woods Hole Oceanographic Institution
 CGMCP-03ISSP-00001,N00244,Platform,0,Coastal Pioneer Inshore Surface Piercing Profiler Mooring,MOORING PIONEER IS PROFILER,WHOI,CP03ISSP,CP03ISSP-00001,,,,,Woods Hole Oceanographic Institution
 CGMCP-03ISSP-00002,N00245,Platform,0,Coastal Pioneer Inshore Surface Piercing Profiler Mooring,MOORING PIONEER IS PROFILER,WHOI,CP03ISSP,CP03ISSP-00002,,,,,Woods Hole Oceanographic Institution
 CGMCP-03ISSP-00003,N00246,Platform,0,Coastal Pioneer Inshore Surface Piercing Profiler Mooring,MOORING PIONEER IS PROFILER,WHOI,CP03ISSP,CP03ISSP-00003,,,,,Woods Hole Oceanographic Institution
@@ -226,6 +231,7 @@ CGMCP-04OSPM-00006,,Platform,0,Coastal Pioneer Offshore Profiler Mooring,,WHOI,C
 CGMCP-04OSPM-00007,,Platform,0,Coastal Pioneer Offshore Profiler Mooring,MOORING PIONEER OS PROFILER,WHOI,CP04OSPM,CP04OSPM-00007,,,,,Woods Hole Oceanographic Institution
 CGMCP-04OSPM-00008,,Platform,0,Coastal Pioneer Offshore Profiler Mooring,MOORING PIONEER OS PROFILER,WHOI,CP04OSPM,CP04OSPM-00008,,,,,Woods Hole Oceanographic Institution
 CGMCP-04OSPM-00009,,Platform,0,Coastal Pioneer Offshore Profiler Mooring,MOORING PIONEER OS PROFILER,WHOI,CP04OSPM,CP04OSPM-00009,,,,,Woods Hole Oceanographic Institution
+CGMCP-04OSPM-00010,,Platform,0,Coastal Pioneer Offshore Profiler Mooring,MOORING PIONEER OS PROFILER,WHOI,CP04OSPM,CP04OSPM-00010,,,,,Woods Hole Oceanographic Institution
 CGMCP-04OSSM-00001,N00202,Platform,0,Coastal Pioneer Offshore Surface Mooring,MOORING PIONEER OS PROFILER,WHOI,CP04OSSM,CP04OSSM-00001,,,,,Woods Hole Oceanographic Institution
 CGMCP-04OSSM-00002,N00203,Platform,0,Coastal Pioneer Offshore Surface Mooring,MOORING PIONEER OS PROFILER,WHOI,CP04OSSM,CP04OSSM-00002,,,,,Woods Hole Oceanographic Institution
 CGMCP-04OSSM-00003,N00249,Platform,0,Coastal Pioneer Offshore Surface Mooring,MOORING PIONEER OS PROFILER,WHOI,CP04OSSM,CP04OSSM-00003,,,,,Woods Hole Oceanographic Institution
@@ -234,6 +240,7 @@ CGMCP-04OSSM-00005,,Platform,0,Coastal Pioneer Offshore Surface Mooring,,WHOI,CP
 CGMCP-04OSSM-00006,,Platform,0,Coastal Pioneer Offshore Surface Mooring,MOORING PIONEER OS,WHOI,CP04OSSM,CP04OSSM-00006,,,,,Woods Hole Oceanographic Institution
 CGMCP-04OSSM-00007,,Platform,0,Coastal Pioneer Offshore Surface Mooring,MOORING PIONEER OS,WHOI,CP04OSSM,CP04OSSM-00007,,,,,Woods Hole Oceanographic Institution
 CGMCP-04OSSM-00008,,Platform,0,Coastal Pioneer Offshore Surface Mooring,MOORING PIONEER OS,WHOI,CP04OSSM,CP04OSSM-00008,,,,,Woods Hole Oceanographic Institution
+CGMCP-04OSSM-00009,,Platform,0,Coastal Pioneer Offshore Surface Mooring,MOORING PIONEER OS,WHOI,CP04OSSM,CP04OSSM-00009,,,,,Woods Hole Oceanographic Institution
 CGMGA-01SUMO-00001,N00216,Platform,0,Global Argentine Basin Apex Surface Mooring,MOORING Argentine OS,WHOI,GA01SUMO,GA01SUMO-00001,,,,,Woods Hole Oceanographic Institution
 CGMGA-01SUMO-00002,OL000091,Platform,0,Global Argentine Basin Apex Surface Mooring,MOORING Argentine OS,WHOI,GA01SUMO,GA01SUMO-00002,,,,,Woods Hole Oceanographic Institution
 CGMGA-01SUMO-00003,,Platform,0,Global Argentine Basin Apex Surface Mooring,MOORING Argentine OS,WHOI,GA01SUMO,GA01SUMO-00003,,,,,Woods Hole Oceanographic Institution
@@ -312,13 +319,3 @@ CGMCE-09OSSM-00008,,Platform,0,Coastal Endurance Washington Offshore Surface Moo
 CGMCE-07SHSP-00007,,Platform,0,Coastal Endurance Washington Shelf Surface Piercing Profiler Mooring,MOORING ENDURANCE,WHOI,CE07SHSP,CE07SHSP-00007,,,,,Oregon State University
 CGMCE-09OSPM-00010,,Platform,0,Coastal Endurance Washington Offshore Wire Following Profiler Mooring,MOORING ENDURANCE,WHOI,CE09OSPM,CE09OSPM-00010,,,,,Oregon State University
 CGMCE-02SHSP-00011,,Platform,0,Coastal Endurance Oregon Shelf Surface Piercing Profiler Mooring,MOORING ENDURANCE,WHOI,CE02SHSP,CE02SHSP-00011,,,,,Oregon State University
-CGMCP-01CNPM-00002,,Platform,0,Coastal Pioneer Central Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP01CNPM,CP01CNPM-00002,,,,,Woods Hole Oceanographic Institution
-CGMCP-01CNSM-00010,,Platform,0,Coastal Pioneer Central Surface Mooring,MOORING PIONEER CN,WHOI,CP01CNSM,CP01CNSM-00010,,,,,Woods Hole Oceanographic Institution
-CGMCP-02PMCI-00011,,Platform,0,Coastal Pioneer Central Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMCI,CP02PMCI-00011,,,,,Woods Hole Oceanographic Institution
-CGMCP-02PMCO-00011,,Platform,0,Coastal Pioneer Central Offshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMCO,CP02PMCO-00011,,,,,Woods Hole Oceanographic Institution
-CGMCP-02PMUI-00012,,Platform,0,Coastal Pioneer Upstream Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMUI,CP02PMUI-00012,,,,,Woods Hole Oceanographic Institution
-CGMCP-02PMUO-00012,,Platform,0,Coastal Pioneer Upstream Offshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP02PMUO,CP02PMUO-00012,,,,,Woods Hole Oceanographic Institution
-CGMCP-03ISPM-00002,,Platform,0,Coastal Pioneer Inshore Profiler Mooring,MOORING PIONEER PROFILER,WHOI,CP03ISPM,CP03ISPM-00002,,,,,Woods Hole Oceanographic Institution
-CGMCP-03ISSM-00009,,Platform,0,Coastal Pioneer Inshore Surface Mooring,MOORING PIONEER IS,WHOI,CP03ISSM,CP03ISSM-00009,,,,,Woods Hole Oceanographic Institution
-CGMCP-04OSPM-00010,,Platform,0,Coastal Pioneer Offshore Profiler Mooring,MOORING PIONEER OS PROFILER,WHOI,CP04OSPM,CP04OSPM-00010,,,,,Woods Hole Oceanographic Institution
-CGMCP-04OSSM-00009,,Platform,0,Coastal Pioneer Offshore Surface Mooring,MOORING PIONEER OS,WHOI,CP04OSSM,CP04OSSM-00009,,,,,Woods Hole Oceanographic Institution
