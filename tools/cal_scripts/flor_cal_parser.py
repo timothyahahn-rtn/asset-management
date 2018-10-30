@@ -7,6 +7,7 @@
 import csv
 import datetime
 import os
+import shutil
 import sys
 import time
 from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
@@ -34,7 +35,7 @@ class FLORCalibration(Calibration):
                     self.serial = serial[-1]
                 elif 'Created' == parts[0]:
                     self.date = datetime.datetime.strptime(parts[-1], '%m/%d/%y').strftime('%Y%m%d')
-                deconstruct = parts[0].split('=')
+                deconstruct = parts[0].upper().split('=')
                 if deconstruct[0] == 'LAMBDA':
                     self.vol = (parts[1], parts[2])
                     self.coefficients['CC_scale_factor_volume_scatter'] = parts[1]
@@ -53,10 +54,14 @@ def main():
     lookup = get_uid_serial_mapping('FLOR/flor_lookup.csv')
     for path, directories, files in os.walk('FLOR/manufacturer'):
         for file in files:
+            # Skip hidden files
+            if file[0] == '.':
+                continue
             cal = FLORCalibration()
             cal.read_cal(os.path.join(path, file))
             cal.asset_tracking_number = lookup[cal.serial]
             cal.write_cal_info()
+            cal.move_to_archive('FLOR', file)
 
 if __name__ == '__main__':
     start_time = time.time()

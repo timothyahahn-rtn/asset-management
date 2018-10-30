@@ -1,4 +1,6 @@
 ASSET_UID,LEGACY_ASSET_UID,TYPE,Mobile,DESCRIPTION OF EQUIPMENT,MIO_Inventory_Description,Manufacturer,Model,Manufacturer's Serial No./Other Identifier,Firmware Version,ACQUISITION DATE,ORIGINAL COST,comments,MIO
+PICGN-NOCSIA-SI112,,Sensor,0,NOC CUSTARD Silicate sensor,,NOC UK,LOC-Silicate,Si112,,,,,Woods Hole Oceanographic Institution
+PICGN-NOCNIA-0N009,,Sensor,0,NOC CUSTARD Nitrate sensor,,NOC UK,LOC-Nitrate,N009,,,,,Woods Hole Oceanographic Institution
 CGINS-CTDMOQ-08523,A00023,Sensor,0,CTD Mooring (Inductive): CTDMO Series Q,CTDMO SERIES Q (37IM),Sea-Bird Electronics,SBE 37-IM,37IM64183-8523,3.1,20110527,6200,,Woods Hole Oceanographic Institution
 CGCON-CWFPCP-71401,A00025.1,Sensor,0,Coastal Wire-Following Profiler Controller,WFP COASTAL REFURBISHED Electronics #1,McLane,MMP-7,ML12714-01,,20110617,0,,Woods Hole Oceanographic Institution
 CGINS-VELPTB-09952,A00048,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M,Nortek,Aquadopp,AQD 9952,,20150604,11150,,
@@ -1271,29 +1273,33 @@ ATAPL-58326-00001,ATAPL-58326-00001,Sensor,0,"Subsea Nitrate Sensor, ISUS V3","S
 ATAPL-58328-00001,ATAPL-58328-00001,Sensor,0,Broadband Ocean Bottom Seismometer: OBSBB Series A,"16"" Sphere cable ready OBS Broadband sensor w/ Titanium sphere casing (GURALP) (OBSBB)",Guralp,1T/5T/DM24,T1076,,20131113,167464,,University of Washington
 ATAPL-58328-00002,ATAPL-58328-00002,Sensor,0,Broadband Ocean Bottom Seismometer: OBSBB Series A,"16"" Sphere cable ready OBS Broadband sensor w/ Titanium sphere casing (O&M) (GURALP) (OBSBB)",Guralp,1T/5T/DM24,T1073,,20131220,146877,,University of Washington
 ATAPL-58328-00003,ATAPL-58328-00003,Sensor,0,Broadband Ocean Bottom Seismometer: OBSBB Series A,"16"" Sphere cable ready OBS Broadband sensor w/ Titanium sphere casing (GURALP) (Martha)",Guralp,1T/5T/DM24,T1075,,20140106,146877,,University of Washington
+ATAPL-58328-00004,ATAPL-58331-00011,Sensor,0,Broadband Ocean Bottom Seismometer: OBSBB Series A,"16"" Sphere cable ready OBS Broadband sensor w/ Titanium sphere casing (GURALP)",Guralp,1T/5T/DM24,T1077,,20140106,146877,,University of Washington
 ATAPL-58328-00005,ATAPL-58328-00005,Sensor,0,Broadband Ocean Bottom Seismometer: OBSBB Series A,"16"" Sphere cable ready OBS Broadband sensor w/ Titanium sphere casing (GURALP) (Alice)",Guralp,1T/5T/DM24,T1074,,20140106,146877,,University of Washington
 ATAPL-58328-00006,ATAPL-58328-00006,Sensor,0,Broadband Ocean Bottom Seismometer: OBSBB Series A,"16"" Sphere cable ready OBS Broadband sensor w/ Titanium sphere casing (GURALP) (OBSBB) (Fred)",Guralp,1T/5T/DM24,T1080,,20140724,59664,,University of Washington
 ATAPL-58328-00007,ATAPL-58328-00007,Sensor,0,Broadband Ocean Bottom Seismometer: OBSBB Series A,"16"" Sphere cable ready OBS Broadband sensor w/ Titanium sphere casing (GURALP) (OBSBB) (Chuck)",Guralp,1T/5T/DM24,T1081,,20140724,59664,,University of Washington
-ATAPL-58329-00001,ATAPL-58329-00001,Sensor,0,Broadband Seismometer Keck (OBSBK),Broadband Seismometer Keck (OBSBK),Guralp,1T/5T/DM24,1,,20140605,92032,,University of Washington
-ATAPL-58329-00002,ATAPL-58329-00002,Sensor,0,Broadband Seismometer Keck (OBSBK),Broadband Seismometer Keck (OBSBK),Guralp,1T/5T/DM24,2,,20140605,84038,,University of Washington
+ATAPL-58329-00001,ATAPL-58329-00001,Sensor,0,Broadband Seismometer Keck (OBSBK),Broadband Seismometer Keck (OBSBK),Guralp,1T/5T/DM24,T1081,,20140605,92032,,University of Washington
+ATAPL-58329-00002,ATAPL-58329-00002,Sensor,0,Broadband Seismometer Keck (OBSBK),Broadband Seismometer Keck (OBSBK),Guralp,1T/5T/DM24,T1080,,20140605,84038,,University of Washington
 ATAPL-58331-00001,ATAPL-58331-00001,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J67,,20130507,40000,,University of Washington
+ATAPL-58331-00002,ATAPL-58331-00002,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J68,,20130507,40000,,University of Washington
 ATAPL-58331-00003,ATAPL-58331-00003,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J69,,20130507,40000,,University of Washington
 ATAPL-58331-00004,ATAPL-58331-00004,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J70,,20130507,40000,,University of Washington
 ATAPL-58331-00005,ATAPL-58331-00005,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J71,,20130507,40000,,University of Washington
 ATAPL-58331-00006,ATAPL-58331-00006,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J72,,20130507,40000,,University of Washington
+ATAPL-58331-00007,ATAPL-58331-00007,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J73,,20130507,40000,,University of Washington
 ATAPL-58331-00008,ATAPL-58331-00008,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J74,,20130507,40000,,University of Washington
 ATAPL-58331-00009,ATAPL-58331-00009,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J75,,20130507,40000,,University of Washington
 ATAPL-58331-00010,ATAPL-58331-00010,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J76,,20130507,40000,,University of Washington
-ATAPL-58328-00004,ATAPL-58331-00011,Sensor,0,Broadband Ocean Bottom Seismometer: OBSBB Series A,"16"" Sphere cable ready OBS Broadband sensor w/ Titanium sphere casing (GURALP)",Guralp,1T/5T/DM24,T1077,,20140106,146877,,University of Washington
-ATAPL-58331-0002A,ATAPL-58331-0002A,Sensor,0,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB) (O&M),GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB) (O&M),Guralp,CMG-6TF/DM24,T6J68,,20130507,40000,,University of Washington
-ATAPL-58331-0007A,ATAPL-58331-0007A,Sensor,0,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB) (O&M),GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB) (O&M),Guralp,CMG-6TF/DM24,T6J73,,20130507,40000,,University of Washington
+ATAPL-58331-00011,ATAPL-58331-00011,Sensor,0,Short-Period Ocean Bottom Seismometer 1 to 100Hz: OBSSP Series A,GURALP Short Period Seismometer 1 to 100Hz Sensor (OBSBB),Guralp,CMG-6TF,T6J77,,20130507,40000,,University of Washington
 ATAPL-58332-00001,ATAPL-58332-00001,Sensor,0,Spectrophotometer: OPTAA Series D,AC-S (optical attenuation and absorption instrument w/ biofouling/pump) per OPTAA delivery order,WET Labs,AC-S,ACS-134,,20120424,37830,,University of Washington
 ATAPL-58332-00002,ATAPL-58332-00002,Sensor,0,Spectrophotometer: OPTAA Series D,AC-S (optical attenuation and absorption instrument w/ biofouling/pump) per OPTAA delivery order,WET Labs,AC-S,ACS-166,,20140311,38969.75,,University of Washington
 ATAPL-58332-00004,ATAPL-58332-00004,Sensor,0,Spectrophotometer: OPTAA Series D,AC-S (optical attenuation and absorption instrument w/ biofouling/pump) per OPTAA delivery order,WET Labs,AC-S,ACS-186,,20140821,38969.75,,University of Washington
 ATAPL-58332-00005,ATAPL-58332-00005,Sensor,0,Spectrophotometer: OPTAA Series D,AC-S (optical attenuation and absorption instrument w/ biofouling/pump) per OPTAA delivery order,WET Labs,AC-S,ACS-244,,20150529,40133.75,,University of Washington
 ATAPL-58332-00006,ATAPL-58332-00006,Sensor,0,Spectrophotometer: OPTAA Series D,AC-S (optical attenuation and absorption instrument w/ biofouling/pump) per OPTAA delivery order,WET Labs,AC-S,ACS-251,,20150529,40133.75,,University of Washington
-ATAPL-58333-00003,ATAPL-58333-00003,Sensor,0,Osmosis-Based Water Sampler: OSMOI Series A,RS01SUM2-MJ01B-00-OSMOIA101,TLR Inc.,OsmoSampler,4,,,,,University of Washington
-ATAPL-58333-00004,ATAPL-58333-00004,Sensor,0,Osmosis-Based Water Sampler: OSMOI Series A,RS01SUM2-MJ01B-00-OSMOIA101,TLR Inc.,OsmoSampler,,,,,,University of Washington
+ATAPL-58333-00001,ATAPL-58333-00001,Sensor,0,Osmosis-Based Water Sampler: OSMOI Series A,RS01SUM2-MJ01B-00-OSMOIA101,TLR Inc.,OsmoSampler,1,,,,,University of Washington
+ATAPL-58333-00002,ATAPL-58333-00002,Sensor,0,Osmosis-Based Water Sampler: OSMOI Series A,RS01SUM2-MJ01B-00-OSMOIA101,TLR Inc.,OsmoSampler,2,,,,,University of Washington
+ATAPL-58333-00003,ATAPL-58333-00003,Sensor,0,Osmosis-Based Water Sampler: OSMOI Series A,RS01SUM2-MJ01B-00-OSMOIA101,TLR Inc.,OsmoSampler,3,,,,,University of Washington
+ATAPL-58333-00004,ATAPL-58333-00004,Sensor,0,Osmosis-Based Water Sampler: OSMOI Series A,RS01SUM2-MJ01B-00-OSMOIA101,TLR Inc.,OsmoSampler,4,,,,,University of Washington
+ATAPL-58333-00005,ATAPL-58333-00005,Sensor,0,Osmosis-Based Water Sampler: OSMOI Series A,RS01SUM2-MJ01B-00-OSMOIA101,TLR Inc.,OsmoSampler,5,,,,,University of Washington
 ATAPL-58334-00001,ATAPL-58334-00001,Sensor,0,CAT meter for autonomous deployment (FLOBN),CAT meter for autonomous deployment (FLOBN),MICHAEL TRYON,CAT,1,,20130513,8827.28,,University of Washington
 ATAPL-58334-00002,ATAPL-58334-00002,Sensor,0,Benthic Fluid Flow: FLOBN Series C,CAT meter for autonomous deployment (FLOBN),Michael Tryon,CAT,2,,20130513,8827.28,,University of Washington
 ATAPL-58334-00003,ATAPL-58334-00003,Sensor,0,CAT meter for autonomous deployment (FLOBN)  (O&M),CAT meter for autonomous deployment (FLOBN)  (O&M),MICHAEL TRYON,CAT,3,,20130513,8827.28,,University of Washington
@@ -1330,6 +1336,9 @@ ATAPL-58341-00007,ATAPL-58341-00007,Sensor,0,Spectral Irradiance: SPKIR Series A
 ATAPL-58342-00001,ATAPL-58342-00001,Sensor,0,Hydrothermal Vent Fluid In-situ Chemistry: THSPH Series A,Hydrothermal Vent Chemistry Instrument (THSPH),University of Minnesota,Custom,A,,20140314,35000,,University of Washington
 ATAPL-58342-00002,ATAPL-58342-00002,Sensor,0,Hydrothermal Vent Fluid In-situ Chemistry: THSPH Series A,Hydrothermal Vent Chemistry Instrument (THSPH),University of Minnesota,Custom,C,,20140620,35000,,University of Washington
 ATAPL-58342-00003,ATAPL-58342-00003,Sensor,0,Hydrothermal Vent Fluid In-situ Chemistry: THSPH Series A,Hydrothermal Vent Chemistry Instrument (THSPH),University of Minnesota,Custom,B,,20140710,35000,,University of Washington
+ATAPL-58343-00001,ATAPL-58343-00001,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger,RBR Global,XR-420-T24,21968,,20121113,15000,,University of Washington
+ATAPL-58343-00002,ATAPL-58343-00002,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger,RBR Global,XR-420-T24,21969,,20121113,15000,,University of Washington
+ATAPL-58343-00003,ATAPL-58343-00003,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger  (O&M),RBR Global,XR-420-T24,21964,,20130416,14902,,University of Washington
 ATAPL-58345-00001,ATAPL-58345-00001,Sensor,0,"ADCP 5-Beam, 600 kHz Acoustic Doppler Current Profiler: VADCP Series A",Teledyne VADCP (5 Beam),Teledyne RDI,WH600-I-5BEAM-UG2,61247,,20120124,65000,,University of Washington
 ATAPL-58345-00002,ATAPL-58345-00002,Sensor,0,"ADCP 5-Beam, 600 kHz Acoustic Doppler Current Profiler: VADCP Series A",Teledyne VADCP (5 Beam),Teledyne RDI,WH600-I-5BEAM-UG2,19073,,20130530,20492.11,,University of Washington
 ATAPL-58345-00003,ATAPL-58345-00003,Sensor,0,"ADCP 5-Beam, 600 kHz Acoustic Doppler Current Profiler: VADCP Series A",Teledyne VADCP (5 Beam),Teledyne RDI,WH600-I-5BEAM-UG2,19075,,20130530,20492.11,,University of Washington
@@ -1342,7 +1351,6 @@ ATAPL-58346-00003,ATAPL-58346-00003,Sensor,0,3-D Single Point Velocity Meter: VE
 ATAPL-58346-00004,ATAPL-58346-00004,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series A,"Falmouth Scientific 3D-ACM, with Impulse MCBH(WB)-5-FS-Ti connector (if available)",Falmouth Scientific,ACM-Plus-MP,1148,,20140409,10850,,University of Washington
 ATAPL-58346-00005,ATAPL-58346-00005,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series A,"Falmouth Scientific 3D-ACM, with Impulse MCBH(WB)-5-FS-Ti connector (if available)",Falmouth Scientific,ACM-Plus-MP,1214,,20141222,10850,,University of Washington
 ATAPL-58346-00006,ATAPL-58346-00006,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series A,"Falmouth Scientific 3D-ACM, with Impulse MCBH(WB)-5-FS-Ti connector (if available)",Falmouth Scientific,ACM-Plus-MP,1215,,20141222,10850,,University of Washington
-ATAPL-58346-00007,ATAPL-58346-00007,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series A,"Falmouth Scientific 3D-ACM, with Impulse MCBH(WB)-5-FS-Ti connector (if available) WHOI",Falmouth Scientific,ACM-Plus-MP,1216,,20141222,10850,,University of Washington
 ATAPL-58419-00001,ATAPL-58419-00001,Sensor,0,K-WHLM75-1500 Quartermaster workhorse monitor ADCP,K-WHLM75-1500 Quartermaster workhorse monitor ADCP,Teledyne RDI,WHLM75-1500,18444,,20120928,49158,,University of Washington
 ATAPL-58419-00002,ATAPL-58419-00002,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series K,"Work Horse Monitor Long Ranger ADCP; RS-232, short test cable  (O&M)",Teledyne RDI,WHLM75-1500,18975,,20130118,49158,,University of Washington
 ATAPL-58419-00003,ATAPL-58419-00003,Sensor,0,"Work Horse Monitor Long Ranger ADCP; RS-232, short test cable","Work Horse Monitor Long Ranger ADCP; RS-232, short test cable",Teledyne RDI,WHLM75-1500,18977,,20130118,49158,,University of Washington
@@ -1355,9 +1363,10 @@ ATAPL-58693-00006,ATAPL-58693-00006,Sensor,0,Low Frequency Broadband Acoustic Re
 ATAPL-58693-00007,ATAPL-58693-00007,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299468,,20140724,19600,,University of Washington
 ATAPL-58694-00001,ATAPL-58694-00001,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,Subsea CTD + Dissolved Oxygen Sensor,Sea-Bird Electronics,SBE 43,43-2463,,,,,University of Washington
 ATAPL-58694-00002,ATAPL-58694-00002,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,Subsea CTD + Dissolved Oxygen Sensor,Sea-Bird Electronics,SBE 43,43-2484,,,,,University of Washington
-ATAPL-58694-00004,ATAPL-58694-00004,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,DOFSTA for RSN,Sea-Bird Electronics,SBE 43,43-2853,,,,,University of Washington
+ATAPL-58694-00003,ATAPL-58694-00003,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,DOFSTA for RSN,Sea-Bird Electronics,SBE 43,43-2891,,,,,University of Washington
 ATAPL-58694-00005,ATAPL-58694-00005,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,Subsea CTD + Dissolved Oxygen Sensor,Sea-Bird Electronics,SBE 43,43-3163,,,,,University of Washington
 ATAPL-58694-00006,ATAPL-58694-00006,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,DOFSTA for RSN,Sea-Bird Electronics,SBE 43,43-3164,,,,,University of Washington
+ATAPL-66645-00001,ATAPL-66645-00001,Sensor,0,Photosynthetically Available Radiation: PARAD Series A,PARADA for RSN,Satlantic,Satlantic digital PAR,226,,,,,University of Washington
 ATAPL-66645-00002,ATAPL-66645-00002,Sensor,0,Photosynthetically Available Radiation: PARAD Series A,PARADA for RSN,Satlantic,Satlantic digital PAR,463,,,,,University of Washington
 ATAPL-66645-00003,ATAPL-66645-00003,Sensor,0,Photosynthetically Available Radiation: PARAD Series A,PARADA for RSN,Satlantic,Satlantic digital PAR,464,,,,,University of Washington
 ATAPL-66645-00004,ATAPL-66645-00004,Sensor,0,Photosynthetically Available Radiation: PARAD Series A,PARADA for RSN,Satlantic,Satlantic digital PAR,507,,,,,University of Washington
@@ -1390,10 +1399,6 @@ ATAPL-67639-00006,ATAPL-67639-00006,Sensor,0,"Tidal Seafloor Pressure (Tsunamete
 ATAPL-67653-00001,ATAPL-67653-00001,Sensor,0,Hydrothermal Vent Fluid Temperature and Resistivity: TRHPH Series A,TRHPH SENSOR ASSSY (CONTAINS 70510 & 70511),"Marv Lilley Lab, UW",Custom,1,,,56722,,University of Washington
 ATAPL-67653-00002,ATAPL-67653-00002,Sensor,0,Hydrothermal Vent Fluid Temperature and Resistivity: TRHPH Series A,TRHPH SENSOR ASSSY (CONTAINS 70510 & 70511),"Marv Lilley Lab, UW",Custom,2,,,56722,,University of Washington
 ATAPL-67653-00003,ATAPL-67653-00003,Sensor,0,Hydrothermal Vent Fluid Temperature and Resistivity: TRHPH Series A,TRHPH SENSOR ASSSY (CONTAINS 70510 & 70511),"Marv Lilley Lab, UW",Custom,3,,,56722,,University of Washington
-ATAPL-67679-00006,ATAPL-67679-00006,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,VEL3D-B,Nobska,MAVS-4,10349,,,,,University of Washington
-ATAPL-67679-00007,ATAPL-67679-00007,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,VEL3D-B,Nobska,MAVS-4,10350,,,,,University of Washington
-ATAPL-67679-00008,ATAPL-67679-00008,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,VEL3D-B,Nobska,MAVS-4,10351,,,,,University of Washington
-ATAPL-67679-00009,ATAPL-67679-00009,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,VEL3D-B,Nobska,MAVS-4,10352,,,,,University of Washington
 ATAPL-67693-00001,ATAPL-67693-00001,Sensor,0,Model 42.4K-265 Digiquartz Pressure Transducer. PAROS DEPTH GAUGE (ATAPL-58316-00004),Model 42.4K-265 Digiquartz Pressure Transducer. PAROS DEPTH GAUGE (ATAPL-58316-00004),Paroscientific,42.4K-265,121184,,20120223,6340,,University of Washington
 ATAPL-67693-00002,ATAPL-67693-00002,Sensor,0,Model 42.4K-265 Digiquartz Pressure Transducer. PAROS DEPTH GAUGE (ATAPL-58316-00001),Model 42.4K-265 Digiquartz Pressure Transducer. PAROS DEPTH GAUGE (ATAPL-58316-00001),Paroscientific,42.4K-265,120785,,20120223,6340,,University of Washington
 ATAPL-67693-00003,ATAPL-67693-00003,Sensor,0,Model 42.4K-265 Digiquartz Pressure Transducer. PAROS DEPTH GAUGE (ATAPL-58316-00002) (MJ03D),Model 42.4K-265 Digiquartz Pressure Transducer. PAROS DEPTH GAUGE (ATAPL-58316-00002) (MJ03D),Paroscientific,42.4K-265,120788,,20120223,6340,,University of Washington
@@ -1412,17 +1417,19 @@ ATAPL-67977-00002,ATAPL-67977-00002,Sensor,0,CTD Profiler: CTDPF Series L,"SBE52
 ATAPL-67977-00003,ATAPL-67977-00003,Sensor,0,CTD Profiler: CTDPF Series L,"SBE52MP-1a-2g-4, RS-232, 3500m strain gauge pressure sensor, MCBH(WB)",Sea-Bird Electronics,SBE 52-MP,5277833-0139,,20140409,9966.25,,University of Washington
 ATAPL-67977-00004,ATAPL-67977-00004,Sensor,0,CTD Profiler: CTDPF Series L,"SBE52MP-1a-2g-4, RS-232, 3500m strain gauge pressure sensor, MCBH(WB)",Sea-Bird Electronics,SBE 52-MP,52-0144,,20141222,10250,,University of Washington
 ATAPL-67977-00005,ATAPL-67977-00005,Sensor,0,"SBE52MP-1a-2g-4, RS-232, 3500m strain gauge pressure sensor, MCBH(WB)","SBE52MP-1a-2g-4, RS-232, 3500m strain gauge pressure sensor, MCBH(WB)",Sea-Bird Electronics,SBE 52-MP,52-0145,,20141222,10250,,University of Washington
-ATAPL-67977-00006,ATAPL-67977-00006,Sensor,0,CTD Profiler: CTDPF Series L,"SBE52MP-1a-2g-4, RS-232, 3500m strain gauge pressure sensor, MCBH(WB) WHOI",Sea-Bird Electronics,SBE 52-MP,52-0146,,20141222,10250,,University of Washington
 ATAPL-67979-00001,ATAPL-67979-00001,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,MAVS-4 Acoustic Current Meter (VEL3D),Nobska,MAVS-4,10306,,20120710,10969,,University of Washington
 ATAPL-67979-00002,ATAPL-67979-00002,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,MAVS-4 Acoustic Current Meter (VEL3D),Nobska,MAVS-4,10311,,20130426,10969,,University of Washington
 ATAPL-67979-00003,ATAPL-67979-00003,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,MAVS-4 Acoustic Current Meter (VEL3D)  (O&M),Nobska,MAVS-4,10312,,20130426,10969,,University of Washington
 ATAPL-67979-00004,ATAPL-67979-00004,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,MAVS-4 Acoustic Current Meter (VEL3D),Nobska,MAVS-4,10313,,20130426,10969,,University of Washington
 ATAPL-67979-00005,ATAPL-67979-00005,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,MAVS-4 Acoustic Current Meter (VEL3D),Nobska,MAVS-4,10314,,20130426,10969,,University of Washington
+ATAPL-67979-00006,ATAPL-67979-00006,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,MAVS-4 Acoustic Current Meter (VEL3D),Nobska,MAVS-4,10349,,20130426,10969,,University of Washington
+ATAPL-67979-00007,ATAPL-67979-00007,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,MAVS-4 Acoustic Current Meter (VEL3D),Nobska,MAVS-4,10350,,20130426,10969,,University of Washington
+ATAPL-67979-00008,ATAPL-67979-00008,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,MAVS-4 Acoustic Current Meter (VEL3D),Nobska,MAVS-4,10351,,20130426,10969,,University of Washington
+ATAPL-67979-00009,ATAPL-67979-00009,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series B,MAVS-4 Acoustic Current Meter (VEL3D),Nobska,MAVS-4,10352,,20130426,10969,,University of Washington
 ATAPL-68020-00001,ATAPL-68020-00001,Sensor,0,Nitrate: NUTNR Series A,SATLANTIC SUNA NITRATE SENSOR,Satlantic,Deep SUNA,234,,20120829,23524.38,,University of Washington
 ATAPL-68020-00002,ATAPL-68020-00002,Sensor,0,Nitrate: NUTNR Series A,SATLANTIC SUNA NITRATE SENSOR,Satlantic,Deep SUNA,379,,20131127,24919.44,,University of Washington
 ATAPL-68020-00003,ATAPL-68020-00003,Sensor,0,Nitrate: NUTNR Series A,SATLANTIC SUNA NITRATE SENSOR,Satlantic,Deep SUNA,380,,20131127,24919.44,,University of Washington
 ATAPL-68020-00004,ATAPL-68020-00004,Sensor,0,Nitrate: NUTNR Series A,SATLANTIC SUNA NITRATE SENSOR,Satlantic,Deep SUNA,429,,20140514,26438.02,,University of Washington
-ATAPL-68020-00005,ATAPL-68020-00005,Sensor,0,Nitrate: NUTNR Series A,NUTNR,Satlantic,Deep SUNA,344,,20140924,38790.36,,University of Washington
 ATAPL-68020-00006,ATAPL-68020-00006,Sensor,0,Nitrate: NUTNR Series A,SATLANTIC SUNA NITRATE SENSOR,Satlantic,Deep SUNA,617,,20150515,26956,,University of Washington
 ATAPL-68020-00007,ATAPL-68020-00007,Sensor,0,Nitrate: NUTNR Series A,SATLANTIC SUNA NITRATE SENSOR,Satlantic,Deep SUNA,618,,20150515,26956,,University of Washington
 ATAPL-68073-00001,ATAPL-68073-00001,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series E,ADCP E-WHM150-6000m (ADCPT-E),Teledyne RDI,WHM150-6000,18471,,20120919,53533,,University of Washington
@@ -1430,6 +1437,8 @@ ATAPL-68073-00002,ATAPL-68073-00002,Sensor,0,ADCP Velocity Profiler (short range
 ATAPL-68073-00003,ATAPL-68073-00003,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series E,ADCP E-WHM150-6000m (ADCPT-E),Teledyne RDI,WHM150-6000,19224,,20130201,53533,,University of Washington
 ATAPL-68073-00004,ATAPL-68073-00004,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series E,ADCP E-WHM150-6000m (ADCPT-E),Teledyne RDI,WHM150-6000,23442,,20150529,56791,,University of Washington
 ATAPL-68073-00005,ATAPL-68073-00005,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series E,ADCP E-WHM150-6000m (ADCPT-E),Teledyne RDI,WHM150-6000,23443,,20150529,56791,,University of Washington
+#ATAPL-69140-001-120-1,ATAPL-69140-001-120-1,Sensor,0,Shallow Profiler Winch Controller,Winch Controller,APL,Winch Controller,120,,,,RS01SBPS-SC01A-00-WINCH,University of Washington
+#ATAPL-69140-001-120-2,ATAPL-69140-001-120-2,Sensor,0,Shallow Profiler Winch Controller Node Controller,Node Controller,APL,Node Controller,120,,,,RS01SBPS-SC01A-00-ENG,University of Washington
 ATAPL-69923-00001,ATAPL-69923-00001,Sensor,0,"Tidal Seafloor Pressure (Tsunameter 2,000 psia): PREST Series B","Seabird SBE54 Tsunameter 2,000 psia (1300 meter) (PREST)",Sea-Bird Electronics,SBE 54,5471540-0031,,20130102,15900,,University of Washington
 ATAPL-69923-00002,ATAPL-69923-00002,Sensor,0,"Tidal Seafloor Pressure (Tsunameter 2,000 psia): PREST Series B",PREST-B,Sea-Bird Electronics,SBE 54,5471540-0047,,,,,University of Washington
 ATAPL-69943-00001,ATAPL-69943-00001,Sensor,0,Spectrophotometer: OPTAA Series C,AC-S Deep (optical attenuation and absorption instrument with biofouling/pump) per OPTAA delivery order,WET Labs,AC-S Deep,ACS-141,,20130726,41710,,University of Washington
@@ -1441,9 +1450,7 @@ ATAPL-69943-00006,ATAPL-69943-00006,Sensor,0,Spectrophotometer: OPTAA Series C,A
 ATAPL-69943-00007,ATAPL-69943-00007,Sensor,0,Spectrophotometer: OPTAA Series C,OPTAA-C,WET Labs,AC-S Deep,ACS-247,,,,,University of Washington
 ATAPL-69943-00008,ATAPL-69943-00008,Sensor,0,Spectrophotometer: OPTAA Series C,OPTAA-C,WET Labs,AC-S Deep,ACS-248,,,,,University of Washington
 ATAPL-69943-00009,ATAPL-69943-00009,Sensor,0,Spectrophotometer: OPTAA Series C,OPTAA-C,WET Labs,AC-S Deep,ACS-250,,,,,University of Washington
-ATAPL-69971-00001,ATAPL-69971-00001,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger,RBR Global,XR-420-T24,21968,,20121113,15000,,University of Washington
-ATAPL-69971-00002,ATAPL-69971-00002,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger,RBR Global,XR-420-T24,21969,,20121113,15000,,University of Washington
-ATAPL-69971-00003,ATAPL-69971-00003,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger  (O&M),RBR Global,XR-420-T24,21964,,20130416,14902,,University of Washington
+ATAPL-69943-00012,ATAPL-69943-00012,Sensor,0,Spectrophotometer: OPTAA Series C,OPTAA-C,WET Labs,AC-S,ACS-243,,,,,
 ATAPL-70100-00001,ATAPL-70100-00001,Sensor,0,CAMDS: Color Digital Stills Camera w/ Ti Housing & Connectors (ATAPL-58317-00001),CAMDS: Color Digital Stills Camera w/ Ti Housing & Connectors (ATAPL-58317-00001),Kongsberg Underwater Technology Inc,04184-6002,101,,20130619,34185,,University of Washington
 ATAPL-70100-00002,ATAPL-70100-00002,Sensor,0,CAMDS: Color Digital Stills Camera w/ Ti Housing & Connectors (ATAPL-58317-00002),CAMDS: Color Digital Stills Camera w/ Ti Housing & Connectors (ATAPL-58317-00002),Kongsberg Underwater Technology Inc,04184-6002,,,20130619,34185,,University of Washington
 ATAPL-70100-00003,ATAPL-70100-00003,Sensor,0,CAMDS: Color Digital Stills Camera w/ Ti Housing & Connectors (ATAPL-58317-00003),CAMDS: Color Digital Stills Camera w/ Ti Housing & Connectors (ATAPL-58317-00003),Kongsberg Underwater Technology Inc,04184-6002,,,20130619,34185,,University of Washington
@@ -1454,16 +1461,18 @@ ATAPL-70110-00002,ATAPL-70110-00002,Sensor,0,2-Wavelength Fluorometer: FLNTU Ser
 ATAPL-70110-00003,ATAPL-70110-00003,Sensor,0,2-Wavelength Fluorometer: FLNTU Series A,Wetlabs FLNTURTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLNTURTD,FLNTURTD-3468,,20140409,7585,,University of Washington
 ATAPL-70110-00004,ATAPL-70110-00004,Sensor,0,2-Wavelength Fluorometer: FLNTU Series A,Wetlabs FLNTURTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLNTURTD,FLNTURTD-3637,,20140716,6665,,University of Washington
 ATAPL-70110-00005,ATAPL-70110-00005,Sensor,0,2-Wavelength Fluorometer: FLNTU Series A,Wetlabs FLNTURTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLNTURTD,FLNTURTD-3638,,20140716,6665,,University of Washington
-ATAPL-70110-00006,ATAPL-70110-00006,Sensor,0,2-Wavelength Fluorometer: FLNTU Series A,Wetlabs FLNTURTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLNTURTD,FLNTURTD-3762,,,,,University of Washington
+ATOSU-70110-00006,ATOSU-70110-00006,Sensor,0,2-Wavelength Fluorometer: FLNTU Series A,Wetlabs FLNTURTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLNTURTD,FLNTURTD-3762,,,,,University of Washington
 ATOSU-70110-00007,ATOSU-70110-00007,Sensor,0,2-Wavelength Fluorometer: FLNTU Series A,Wetlabs FLNTURTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLNTURTD,FLNTURTD-3398,,,,,WHOI
 ATAPL-70111-00001,ATAPL-70111-00001,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD,FLCDRTD-3098,,20130524,7585,,University of Washington
 ATAPL-70111-00002,ATAPL-70111-00002,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD,FLCDRTD-3399,,20140128,7585,,University of Washington
 ATAPL-70111-00003,ATAPL-70111-00003,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD,FLCDRTD-3460,,20140409,6665,,University of Washington
 ATAPL-70111-00004,ATAPL-70111-00004,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD,FLCDRTD-3715,,20141222,13330,,University of Washington
 ATAPL-70111-00005,ATAPL-70111-00005,Sensor,0,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD (CDOM),FLCDRTD-3716,,20141222,13330,,University of Washington
+ATOSU-70111-00006,ATOSU-70111-00006,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector WHOI,WET Labs,FLCDRTD,FLCDRTD-3717,,20141222,13330,,University of Washington
 ATOSU-70111-00007,ATOSU-70111-00007,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector WHOI,WET Labs,FLCDRTD,FLCDRTD-3400,,,,,University of Washington
-ATAPL-70111-00006,ATAPL-70111-00006,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector WHOI,WET Labs,FLCDRTD,FLCDRTD-3717,,20141222,13330,,University of Washington
+ATAPL-70113-00001,ATAPL-70113-00001,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,1,,,,,University of Washington
 ATAPL-70113-00002,ATAPL-70113-00002,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,4,,,,,University of Washington
+ATAPL-70113-00003,ATAPL-70113-00003,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,3,,,,,University of Washington
 ATAPL-70113-00004,ATAPL-70113-00004,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,2,,,,,University of Washington
 ATAPL-70114-00001,ATAPL-70114-00001,Sensor,0,Single Point Velocity Meter: VELPT Series D,"Aquadopp, 300m depth rating (P/C 901101) per attached quote (VELPT)",Nortek,Aquadopp,AQS-6031/AQD 8493,,20130425,9420,,University of Washington
 ATAPL-70114-00002,ATAPL-70114-00002,Sensor,0,Single Point Velocity Meter: VELPT Series D,"Aquadopp, 300m depth rating (P/C 901101) per attached quote (VELPT)",Nortek,Aquadopp,AQS 6334/AQD 11653,,20131211,9240,,University of Washington
@@ -1477,8 +1486,10 @@ ATAPL-70129-00003,ATAPL-70129-00003,Sensor,0,Inverted Echosounder with Integral 
 ATAPL-70168-00001,ATAPL-70168-00001,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,Seafloor High Definition Video Camera,APL,Custom,SUBC12096,,20130114,32177,,University of Washington
 ATAPL-70168-00002,ATAPL-70168-00002,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,"SUBC1CM01, SubC 1Cam Underwater Camera in titanium housing",APL,Custom,SUBC13115,,20130603,25600,,University of Washington
 ATAPL-70168-00003,ATAPL-70168-00003,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,"SUBC1CM01, SubC 1Cam Underwater Camera in titanium housing",APL,Custom,SUBC13114,,20130603,25600,,University of Washington
-ATAPL-70248-00002,ATAPL-70248-00002,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,Seafloor High Definition Video Camera,APL,Custom,SUBC12096,,20130114,32177,,University of Washington
+ATAPL-70248-00001,ATAPL-70248-00001,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,Seafloor High Definition Video Camera,APL,Custom,P1-SUBC13115,,20130114,32177,,University of Washington
+ATAPL-70248-00002,ATAPL-70248-00002,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,Seafloor High Definition Video Camera,APL,Custom,P2-SUBC13114,,20130114,32177,,University of Washington
 ATOSU-58317-00007,ATOSU-58317-00007,Sensor,0,Underwater Digital Still Camera: CAMDS Series C,CAMDS-C,Kongsberg Underwater Technology Inc,Custom,100,,,,,
+ATOSU-58317-00008,ATOSU-58317-00008,Sensor,0,Underwater Digital Still Camera: CAMDS Series C,CAMDS-C,Kongsberg Underwater Technology Inc,Custom,105,,,,,
 ATOSU-58317-00012,ATOSU-58317-00012,Sensor,0,Underwater Digital Still Camera: CAMDS Series B,Underwater Digital Still Camera (CAMDS),Kongsberg Underwater Technology Inc,Custom,117,,,,,
 ATOSU-58317-00013,ATOSU-58317-00013,Sensor,0,Underwater Digital Still Camera: CAMDS Series C,CAMDS-C,Kongsberg Underwater Technology Inc,Custom,118,,,,,
 ATOSU-58320-00007,ATOSU-58320-00007,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,215,,,,,
@@ -1489,13 +1500,14 @@ ATOSU-58320-00019,ATOSU-58320-00019,Sensor,0,Dissolved Oxygen Stable Response: D
 ATOSU-58320-00020,ATOSU-58320-00020,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,216,,,,,
 ATOSU-58320-00021,ATOSU-58320-00021,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,133,,20130124,5258.25,,
 ATOSU-58320-00022,ATOSU-58320-00022,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA for RSN,Aanderaa,Optode 4831,381,,,5092.2,,
-ATOSU-58322-00006,ATOSU-58322-00006,Sensor,0,3-Wavelength Fluorometer: FLORT Series D,FLORT SERIES D (ECO TRIPLET-W),WET Labs,ECO Triplet-w,1194,,20140218,13013.52,,
 ATOSU-58322-00008,ATOSU-58322-00008,Sensor,0,3-Wavelength Fluorometer: FLORT Series D,FLORT SERIES D (ECO TRIPLET-W),WET Labs,ECO Triplet-w,1150,,20140218,13013.52,,
 ATOSU-58322-00013,ATOSU-58322-00013,Sensor,0,3-Wavelength Fluorometer: FLORT Series D,ECO-triplet-w (3-wavelength fluorometer w/ wiper) (FLOR-D),WET Labs,ECO Triplet-w,1289,,,13800,,
+ATOSU-58324-00012,N00698,Sensor,0,Broadband Acoustic Receiver (Hydrophone): HYDBB Series A,"Passive Bioacoustics, HYDBB-B",Ocean Sonics,icListen SB35-ETH,1411,,20130321,13943.61,,
+ATOSU-58324-00013,N00689,Sensor,0,Broadband Acoustic Receiver (Hydrophone): HYDBB Series A,"Passive Bioacoustics, HYDBB-B",Ocean Sonics,icListen SB35-ETH,1250,,20130321,13943.62,,
 ATOSU-58324-00014,ATOSU-58324-00014,Sensor,0,Broadband Acoustic Receiver (Hydrophone): HYDBB Series A,HYDBB-A,Ocean Sonics,icListen SB35-ETH,1248,,20130321,13943.61,,
 ATOSU-58324-00015,ATOSU-58324-00015,Sensor,0,Broadband Acoustic Receiver (Hydrophone): HYDBB Series A,"Passive Bioacoustics, HYDBB-B",Ocean Sonics,icListen SB35-ETH,1249,,,,,
 ATOSU-58324-00016,ATOSU-58324-00016,Sensor,0,Broadband Acoustic Receiver (Hydrophone): HYDBB Series A,HYDBB-A,Ocean Sonics,icListen SB35-ETH,1412,,,,,
-ATOSU-58332-00003,ATOSU-58332-00003,Sensor,0,Spectrophotometer: OPTAA Series D,AC-S (optical attenuation and absorption instrument w/ biofouling/pump) per OPTAA delivery order,WET Labs,AC-S,ACS-128,,,41000,,
+ATOSU-58332-00003,CGINS-OPTAAD-00128,Sensor,0,Spectrophotometer: OPTAA Series D,AC-S (optical attenuation and absorption instrument w/ biofouling/pump) per OPTAA delivery order,WET Labs,AC-S,ACS-128,,,41000,,
 ATOSU-58332-00007,ATOSU-58332-00007,Sensor,0,Spectrophotometer: OPTAA Series D,AC-S (optical attenuation and absorption instrument w/ biofouling/pump) per OPTAA delivery order,WET Labs,AC-S,ACS-223,,,41000,,
 ATOSU-58332-00008,ATOSU-58332-00008,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D,WET Labs,AC-S,ACS-221,,20150501,40133.75,,
 ATOSU-58332-00009,ATOSU-58332-00009,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA-D,WET Labs,AC-S,ACS-169,,,,,
@@ -1503,58 +1515,68 @@ ATOSU-58336-00005,ATOSU-58336-00005,Sensor,0,pCO2 Water: PCO2W Series A,PCO2W SE
 ATOSU-58336-00006,ATOSU-58336-00006,Sensor,0,pCO2 Water: PCO2W Series A,PCO2W SERIES A (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0079,,20140127,17942.3,,
 ATOSU-58336-00007,ATOSU-58336-00007,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0116,,,18054,,
 ATOSU-58336-00008,ATOSU-58336-00008,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0117,,,18544.5,,
-ATOSU-58336-00013,ATOSU-58336-00013,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0090,,,18544.5,Using price from above co2 sensor,
+ATOSU-58336-00011,ATOSU-58336-00011,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0064,,,18544.5,Using price from above co2 sensor,
+ATOSU-58336-00012,ATOSU-58336-00012,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0080,,,18544.5,,
+ATOSU-58336-00013,ATOSU-58336-00013,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0090,,,18544.5,,
+ATOSU-58336-00014,ATOSU-58336-00014,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0118,,,18544.5,,
 ATOSU-58337-00007,ATOSU-58337-00007,Sensor,0,Seawater pH: PHSEN Series A,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0115,,20140109,17479.95,,
 ATOSU-58337-00008,ATOSU-58337-00008,Sensor,0,Seawater pH: PHSEN Series A,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0131,,20140425,18003.4,,
 ATOSU-58337-00011,ATOSU-58337-00011,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0153,,,18054,,
 ATOSU-58337-00012,ATOSU-58337-00012,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0154,,,18544.5,,
+ATOSU-58337-00015,ATOSU-58337-00015,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0116,,,18544.5,Assumed price from above sami,
 ATOSU-58337-00016,ATOSU-58337-00016,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0117,,,18544.5,Assumed price from above sami,
 ATOSU-58337-00017,ATOSU-58337-00017,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0159,,,18544.5,Assumed price from above sami,
-ATOSU-58341-00003,ATOSU-58341-00003,Sensor,0,Spectral Irradiance: SPKIR Series A,SPKIR-A,Satlantic,OCR507 ICSW,245,,,,,
-ATOSU-58341-00005,ATOSU-58341-00005,Sensor,0,Spectral Irradiance: SPKIR Series A,SPKIR-A,Satlantic,OCR507 ICSW,341,,,,,
+ATOSU-58337-00018,ATOSU-58337-00018,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0132,,,18544.5,Assumed price from above sami,
+ATOSU-58341-00005,CGINS-SPKIRB-00241,Sensor,0,Spectral Irradiance: SPKIR Series A,SPKIR-A,Satlantic,OCR507 ICSW,241,,,,,
 ATOSU-58341-00008,ATOSU-58341-00008,Sensor,0,Spectral Irradiance: SPKIR Series A,OCR507-ICSW (series A) w/ Midrange (500m) Bioshutter II (SPKIR-A),Satlantic,OCR507 ICSW,251,,,14000,,
+ATOSU-58346-00007,ATOSU-58346-00007,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series A,"Falmouth Scientific 3D-ACM, with Impulse MCBH(WB)-5-FS-Ti connector (if available)",Falmouth Scientific,ACM-Plus-MP,1216,,20140128,10850,,
 ATOSU-58346-00008,ATOSU-58346-00008,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series A,"Falmouth Scientific 3D-ACM, with Impulse MCBH(WB)-5-FS-Ti connector (if available)",Falmouth Scientific,ACM-Plus-MP,1131/TAG#: 116118,,20140128,10850,,
 ATOSU-58694-00004,ATOSU-58694-00004,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,DOFSTA for RSN,Sea-Bird Electronics,SBE 43,43-2853,,,,,
 ATOSU-58694-00007,ATOSU-58694-00007,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,DOFSTA for RSN,Sea-Bird Electronics,SBE 43,43-3136,,,,,
 ATOSU-63259-00001,ATOSU-63259-00001,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 3 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,3,,20140523,174000,,
 ATOSU-63259-00002,ATOSU-63259-00002,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 4 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,4,,,174000,,
 ATOSU-63259-00003,ATOSU-63259-00003,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 5 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,5,,,174000,,
+ATOSU-63259-00004,ATOSU-63259-00004,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,1,,,174000,,
 ATOSU-63259-00005,ATOSU-63259-00005,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,ZPLSC-B,Kongsberg Underwater Technology Inc,EK-60,2,,,,,
-ATOSU-66645-00005,ATOSU-66645-00005,Sensor,0,Photosynthetically Available Radiation: PARAD Series A,PARAD,Satlantic,Satlantic digital PAR,434,,,,,
+ATOSU-66645-00005,CGINS-PARADJ-00434,Sensor,0,Photosynthetically Available Radiation: PARAD Series A,PARAD,Satlantic,Satlantic digital PAR,434,,,,,
 ATOSU-66645-00008,ATOSU-66645-00008,Sensor,0,Photosynthetically Available Radiation: PARAD Series A,PARAD,Satlantic,Satlantic digital PAR,566,,,,,
 ATOSU-66662-00006,ATOSU-66662-00006,Sensor,0,CTD Profiler: CTDPF Series A,CTDPF-A,Sea-Bird Electronics,SBE 16plus V2,16-50018,,,,,
 ATOSU-66662-00007,ATOSU-66662-00007,Sensor,0,CTD Profiler: CTDPF Series A,Shallow 16 Plus V2 CTD,Sea-Bird Electronics,SBE 16plus V2,16-50019,,20150511,13535,,
 ATOSU-66662-00013,ATOSU-66662-00013,Sensor,0,CTD Profiler: CTDPF Series A,Shallow 16 Plus V2 CTD,Sea-Bird Electronics,SBE 16plus V2,16-50112,,,27000,,
 ATOSU-66662-00014,ATOSU-66662-00014,Sensor,0,CTD Profiler: CTDPF Series A,Shallow 16 Plus V2 CTD,Sea-Bird Electronics,SBE 16plus V2,16-50113,,,27000,,
+ATOSU-67977-00006,ATOSU-67977-00006,Sensor,0,CTD Profiler: CTDPF Series L,"SBE52MP-1a-2g-4, RS-232, 3500m strain gauge pressure sensor, MCBH(WB) WHOI",Sea-Bird Electronics,SBE 52-MP,52-0146,,20141222,10250,,University of Washington
 ATOSU-67977-00007,ATOSU-67977-00007,Sensor,0,CTD Profiler: CTDPF Series L,"SBE52MP-1a-2g-4, with RS-232 interface, 3500m strain gauge pressure sensor, MCBH(WB) connector",Sea-Bird Electronics,SBE 52-MP,5277187-0138/TAG#: 116117,,20140128,9966.25,,
 ATOSU-68020-00005,ATOSU-68020-00005,Sensor,0,Nitrate: NUTNR Series A,SATLANTIC SUNA NITRATE SENSOR,Satlantic,Deep SUNA,344,,,28000,,
 ATOSU-68020-00008,ATOSU-68020-00008,Sensor,0,Nitrate: NUTNR Series A,SATLANTIC SUNA NITRATE SENSOR,Satlantic,Deep SUNA,625,,,28000,,
-ATOSU-69825-00001,ATOSU-69825-00001,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series I,ADCP SERIES J (WHLS75-1500),Teledyne RDI,WHLM75-1500,21498,,20130424,48199.5,,
+ATOSU-69825-00001,ATOSU-69825-00001,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series I,ADCP SERIES I (WHLS75-1500),Teledyne RDI,WHLM75-1500,21498,,20130424,48199.5,,
 ATOSU-69825-00002,ATOSU-69825-00002,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series I,ADCP SERIES I (WHLM75-1500),Teledyne RDI,WHLM75-1500,18153,,20120914,46795.5,,
+ATOSU-69825-00003,CGINS-ADCPSI-18919,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series I,ADCP SERIES I (WHLM75-1500),Teledyne RDI,WHLM75-1500,18919,,,46795.5,,
 ATOSU-69826-00001,ATOSU-69826-00001,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series B,ADCP SERIES B (WHM600-500),Teledyne RDI,WHM300-500,18493,,20120826,22482,,
 ATOSU-69826-00002,ATOSU-69826-00002,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series B,ADCP SERIES B (WHM600-500),Teledyne RDI,WHM300-500,19003,,20121219,22482,,
 ATOSU-69826-00003,ATOSU-69826-00003,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series B,ADCP SERIES B (WHM600-500),Teledyne RDI,WHM300-500,19003,,20121219,22482,,
-ATOSU-69827-00001,CGINS-CTDBPN-03230,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7230,,20121203,17500,OSU reports S/N 16P7116-7230,
+ATOSU-69827-00001,CGINS-CTDBPN-07230,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7230,,20121203,17500,OSU reports S/N 16P7116-7230,
 ATOSU-69827-00002,ATOSU-69827-00002,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-50114,,20150514,19135,,
 ATOSU-69827-00003,ATOSU-69827-00003,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7248,,20130115,17550,,
 ATOSU-69828-00001,ATOSU-69828-00001,Sensor,0,CTD Pumped: CTDBP Series O,CTDBP SERIES O (O-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7231,,20121203,18250,,
-ATOSU-69828-00002,ATOSU-69828-00002,Sensor,0,CTD Pumped: CTDBP Series O,CTDBP SERIES O (O-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7249,,,,,
+ATOSU-69828-00002,CGINS-CTDBPO-07249,Sensor,0,CTD Pumped: CTDBP Series O,CTDBP SERIES O (O-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7249,,,,,
 ATOSU-69828-00003,CGINS-CTDBPO-50117,Sensor,0,CTD Pumped: CTDBP Series O,CTDBP SERIES O (O-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-50117,,20150514,19885,Former CGINS instrument,
 ATOSU-69829-00001,ATOSU-69829-00001,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series C,VEL3D,Nortek,VECTOR,5157,,,,,
 ATOSU-69829-00002,ATOSU-69829-00002,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series C,VEL3D,Nortek,VECTOR,5156,,,,,
 ATOSU-69829-00003,ATOSU-69829-00003,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series C,VEL3D-C,Nortek,VECTOR,8167,,,,,
 ATOSU-69829-00004,ATOSU-69829-00004,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series C,VEL3D SERIES C (VECTOR),Nortek,VECTOR,8159,,20120828,15960,,
+ATOSU-69829-00005,CGINS-VEL3DC-08181,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series C,VEL3D-C,Nortek,VECTOR,8181,,,,,
 ATOSU-69943-00010,ATOSU-69943-00010,Sensor,0,Spectrophotometer: OPTAA Series C,OPTAA SERIES D (AC-S),WET Labs,AC-S Deep,ACS-191,,20141126,38969.75,,
 ATOSU-69943-00011,ATOSU-69943-00011,Sensor,0,Spectrophotometer: OPTAA Series C,OPTAA SERIES C (AC-S DEEP),WET Labs,AC-S Deep,ACS-140,,20130426,41710,,
-ATOSU-69943-00012,ATOSU-69943-00012,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA-D,WET Labs,AC-S,ACS-243,,,,,
-ATOSU-70114-00008,ATOSU-70114-00008,Sensor,0,"Aquadopp, 300m depth rating (P/C 901101) per attached quote (VELPT)","Aquadopp, 300m depth rating (P/C 901101) per attached quote (VELPT)",Nortek,Aquadopp,AQS-12692,,20150701,9180,,
+ATOSU-70114-10005,CGINS-VELPTA-08399,Sensor,0,Single Point Velocity Meter: VELPT Series D,VELPT SERIES A,Nortek,Aquadopp,AQD 8399,,20150430,9180,,
 ATOSU-70114-10008,ATOSU-70114-10008,Sensor,0,Single Point Velocity Meter: VELPT Series D,VELPT SERIES A,Nortek,Aquadopp,AQD 12692,,20150430,9180,,
 ATOSU-70570-00001,ATOSU-70570-00001,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W-B,Sunburst Sensors,SAMI-pCO2,C0064,,,,,
 ATOSU-70570-00002,ATOSU-70570-00002,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SERIES B (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0080,,20140127,20208.3,,
+ATOSU-70570-00003,CGINS-PCO2WB-C0090,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SERIES B (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0090,,20140414,20208.3,Price copied from C0080 as units are similar. Double check and update when more information comes available. Check date acquisition,
+ATOSU-70570-00004,CGINS-PCO2WB-C0118,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SERIES B (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0118,,20140715,20208.3,Price copied from C0080 as units are similar. Double check and update when more information comes available. Check date acquisition,
 ATOSU-70571-00001,ATOSU-70571-00001,Sensor,0,Seawater pH: PHSEN Series D,PHSEN-D,Sunburst Sensors,SAMI-pH,P0116,,,,,
 ATOSU-70571-00002,ATOSU-70571-00002,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0117,,20140121,17479.95,,
-ATOSU-70571-00003,ATOSU-70571-00003,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0132,,,,,
-ATOSU-70571-00004,ATOSU-70571-00004,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0159,,,,,
+ATOSU-70571-00003,CGINS-PHSEND-P0132,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0132,,,,,
+ATOSU-70571-00004,CGINS-PHSEND-P0159,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0159,,,,,
 CGINS-CTDPFK-00093,N00001,Sensor,0,CTD Profiler: CTDPF Series K,CTD for WFP Coastal ML12714-01,Sea-Bird Electronics,SBE 52-MP,93,,20110617,,,
 CGINS-DOFSTK-00209,N00002,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12714-01,Sea-Bird Electronics,SBE 43F,43-0209,,20110617,,,
 CGINS-FLORTK-00830,N00003,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,FLOR for WFP Coastal ML12714-01,WET Labs,ECO Triplet,830,,20110617,,,
@@ -1921,7 +1943,7 @@ CGINS-CTDPFL-00132,N00618,Sensor,0,CTD Profiler: CTDPF Series L,CTDPF for ML1310
 CGINS-VEL3DL-01115,N00619,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series L,VEL3D for ML13104-03,Falmouth Scientific,ACM-Plus,1115,,20140115,,,
 CGINS-CTDGVM-00104,N00620,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),104,,20120525,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00012,N00621,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,12,,20120525,,CGSN Glider Instrument Pool,
-CGINS-FLORDM-03260,N00622,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBCDSLC-3260,,20120525,,,
+CGINS-FLORTM-03260,N00622,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Global Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,3260,,20120525,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09058,N00623,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9058,,20130530,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00139,N00624,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,139,,20130530,,CGSN Glider Instrument Pool,
 CGINS-FLORDM-03061,N00625,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3061,,20130530,,,
@@ -1980,12 +2002,9 @@ CGINS-CAMDSA-00109,N00682,Sensor,0,Underwater Digital Still Camera: CAMDS Series
 CGINS-PRESFC-01398,N00683,Sensor,0,Seafloor Pressure: PRESF Series C,PRESF SERIES C (26PLUS),Sea-Bird Electronics,SBE 26plus,26P-1398,,,14300,,
 CGINS-PRESFC-01399,,Sensor,0,Seafloor Pressure: PRESF Series C,PRESF SERIES C (26PLUS),Sea-Bird Electronics,SBE 26plus,26P-1399,,,14300,,
 N00687,N00687,Sensor,0,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD (CDOM),3400/TAG#:116120,,20140128,6665,,
-ATOSU-58324-00013,N00689,Sensor,0,Broadband Acoustic Receiver (Hydrophone): HYDBB Series A,"Passive Bioacoustics, HYDBB-B",Ocean Sonics,icListen SB35-ETH,1250,,20130321,13943.62,,
-ATOSU-58317-00008,N00691,Sensor,0,Underwater Digital Still Camera: CAMDS Series B,Underwater Digital Still Camera (CAMDS),Kongsberg Underwater Technology Inc,Custom,105,,20140709,34185,,
 CGINS-CAMDSB-00100,N00694,Sensor,0,Underwater Digital Still Camera: CAMDS Series B,CAMDS,Kongsberg Underwater Technology Inc,Custom,0484-6002-0100,,,,,
 CGINS-CTDBPN-07230,N00696,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7230,,,17500,,
 N00697,N00697,Sensor,0,CAMDS,CAMDS,Kongsberg Underwater Technology Inc,Custom,0484-6002-0108,,,,,
-ATOSU-58324-00012,N00698,Sensor,0,Broadband Acoustic Receiver (Hydrophone): HYDBB Series A,"Passive Bioacoustics, HYDBB-B",Ocean Sonics,icListen SB35-ETH,1411,,20130321,13943.61,,
 CGINS-OPTAAD-00267,N00702,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D,WET Labs,AC-S,ACS-267,,,40133.74,,
 N00708,N00708,Sensor,0,Guralp Hydrophone (HYDLF),Guralp Hydrophone (HYDLF),HTI,HTI-90-U/Diff,299470,,20140724,19600,,
 CGINS-DOSTAD-00514,N00725,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,514,,,5092.2,,
@@ -2021,7 +2040,11 @@ N00754,N00754,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP0
 CGINS-METLGR-00013,N00755,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,MTBK for CP031SSM-00001,Star Engineering,ASIMET,LGR013,,,,,
 N00756,N00756,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP03ISSM-00002-METBK,Star Engineering,ASIMET,CP03ISSM-00002-METBK,,,,,
 CGINS-METLGR-00023,N00757,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for CP031SSM-00003,Star Engineering,ASIMET,LGR023,,,,,
-ATOSU-63295-00004,N00760,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,1,,20140523,174000,,
+ATOSU-63295-00001,ATOSU-63295-00001,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,3,,,174000,,
+ATOSU-63295-00002,ATOSU-63295-00002,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,4,,,174000,,
+ATOSU-63295-00003,ATOSU-63295-00003,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,5,,,174000,,
+ATOSU-63295-00004,N00760,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,1,,20140523,,,
+ATOSU-63295-00005,ATOSU-63295-00005,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,2,,,174000,,
 CGCON-SIOCON-98925,OL000001,Sensor,0,Subsurface Mooring Platform Controller,SIO Controller,SIO,Subsurface Mooring Controller,13989 / 25,,,,,
 CGCON-SIOCON-99520,OL000002,Sensor,0,Subsurface Mooring Platform Controller,SIO Controller,SIO,Subsurface Mooring Controller,13995 / 20,,,,,
 CGCON-SIOCON-99826,OL000003,Sensor,0,Subsurface Mooring Platform Controller,SIO Controller,SIO,Subsurface Mooring Controller,13998 / 26,,,,,
@@ -2730,8 +2753,6 @@ CGCON-BCPM01-00007,,Sensor,0,Surface Buoy Communications and Power Manager,,WHOI
 CGCON-MCPM03-00007,,Sensor,0,Multi-Function Node Communications and Power Manager,,WHOI,CPM,7,,,,,
 CGCON-BDCL11-00007,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,7,,,,,
 CGCON-BDCL12-00007,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,7,,,,,
-ATOSU-70570-00003,ATOSU-70570-00003,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SERIES B (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0090,,20140414,20208.3,Price copied from C0080 as units are similar. Double check and update when more information comes available. Check date acquisition,
-ATOSU-70570-00004,ATOSU-70570-00004,Sensor,0,pCO2 Water: PCO2W Series B,PCO2W SERIES B (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0118,,20140715,20208.3,Price copied from C0080 as units are similar. Double check and update when more information comes available. Check date acquisition,
 CGINS-FLORTM-04466,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4466,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04194,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4194,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04465,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4465,,,,CGSN Glider Instrument Pool,
@@ -2948,6 +2969,9 @@ CGINS-NUTNRB-01115,,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES B (SUNA),Sea-B
 CGINS-NUTNRB-01127,,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES B (SUNA),Sea-Bird Scientific (Satlantic),SUNA V2,1127,,20171226,,,Oregon State University
 CGINS-NUTNRB-01128,,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES B (SUNA),Sea-Bird Scientific (Satlantic),SUNA V2,1128,,20171226,,,Oregon State University
 CGINS-NUTNRB-01129,,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES B (SUNA),Sea-Bird Scientific (Satlantic),SUNA V2,1129,,20171226,,,Oregon State University
+CGINS-NUTNRB-01164,,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES B (SUNA),Sea-Bird Scientific (Satlantic),SUNA V2,1164,,20180612,,,Oregon State University
+CGINS-NUTNRB-01167,,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES B (SUNA),Sea-Bird Scientific (Satlantic),SUNA V2,1167,,20180612,,,Oregon State University
+CGINS-NUTNRB-01183,,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES B (SUNA),Sea-Bird Scientific (Satlantic),SUNA V2,1183,,20180612,,,Oregon State University
 CGCON-GLDRCP-00564,,Sensor,1,Mobile Asset Controller for Coastal Glider,GL564 Controller,Teledyne Webb,G2 Slocum Gliders,564,,,,,
 CGCON-CWFPCP-30001,,Sensor,0,Coastal Wire-Following Profiler Controller,,McLane,MMP-7,ML14300-01,,20170627,0,,Woods Hole Oceanographic Institution
 CGCON-CWFPCP-30002,,Sensor,0,Coastal Wire-Following Profiler Controller,,McLane,MMP-7,ML14300-02,,20170627,0,,Woods Hole Oceanographic Institution
@@ -3078,3 +3102,31 @@ CGINS-FLORTM-03027,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M
 CGINS-ADCPAM-00539,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,539,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-ADCPAM-00537,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,537,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-NUTNRN-00366,,Sensor,1,Nitrate for AUV: NUTNR Series N,NUTNR for AUV ,Satlantic,SUNA,366,,,,CGSN AUV Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-CTDAVN-00103,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Sea-Bird Electronics,SBE AUV Payload CTD,103,,,,CGSN AUV Instrument Pool,
+CGINS-CTDAVN-00104,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Sea-Bird Electronics,SBE AUV Payload CTD,104,,,,CGSN AUV Instrument Pool,
+CGINS-DOSTAN-01519,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,1519,,,,CGSN AUV Instrument Pool,
+CGINS-DOSTAN-01520,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,1520,,,,CGSN AUV Instrument Pool,
+CGINS-FLORTN-01109,,Sensor,1,3-Wavelength Fluorometer for AUV: FLORT Series N,FLORT for AUV,WET Labs,ECO Triplet,1109,,,,CGSN AUV Instrument Pool,
+CGINS-FLORTN-01108,,Sensor,1,3-Wavelength Fluorometer for AUV: FLORT Series N,FLORT for AUV,WET Labs,ECO Triplet,1108,,,,CGSN AUV Instrument Pool,
+CGINS-NUTNRN-00367,,Sensor,1,Nitrate for AUV: NUTNR Series N,NUTNR for AUV ,Satlantic,SUNA,367,,,,CGSN AUV Instrument Pool,
+CGINS-PARADN-50180,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50180,,,,CGSN AUV Instrument Pool,
+CGINS-PARADN-50170,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50170,,,,CGSN AUV Instrument Pool,
+CGCON-BCPM01-02001,,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2001,,,,,
+CGCON-BDCL11-02001,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2001,,,,,
+CGCON-BDCL12-02001,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2001,,,,,
+CGCON-NDCL26-00021,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,21,,,,,
+CGCON-MDCL36-00020,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,20,,,,,
+CGCON-MDCL36-00037,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,37,,,,,
+CGCON-NDCL26-00052,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,52,,,,,
+CGCON-NDCL16-00026,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,26,,,,,
+CGCON-MDCL36-00051,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,51,,,,,
+CGCON-BSTC01-00042,,Sensor,0,Sensor and Telemetry Platform Controller,Sensor and Telemetry Controller,WHOI,STC,SWE 0042,,,,,Woods Hole Oceanographic Institution
+CGCON-MDCL35-00034,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,34,,,,,Woods Hole Oceanographic Institution
+CGCON-NDCL26-00040,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,40,,,,,Woods Hole Oceanographic Institution
+CGINS-HYDGN0-Z5971,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A6Z5971,,,,,Woods Hole Oceanographic Institution
+CGINS-ADCPAM-00552,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,552,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-ADCPAM-00543,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,543,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-ADCPAM-00545,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,545,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-CTDGVM-09453,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9453,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-FLORTM-05133,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,5133,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-PARADM-50277,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50277,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution

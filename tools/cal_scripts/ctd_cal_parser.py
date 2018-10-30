@@ -7,6 +7,7 @@ from __future__ import absolute_import
 import csv
 import datetime
 import os
+import shutil
 import sys
 import time
 import xml.etree.ElementTree as et
@@ -55,21 +56,47 @@ class CTDCalibration(Calibration):
             'T4': 'CC_T4',
             'T5': 'CC_T5',
         }
+        self.o_series_coefficients_map = {
+            'C1': 'CC_C1',
+            'C2': 'CC_C2',
+            'C3': 'CC_C3',
+            'D1': 'CC_D1',
+            'D2': 'CC_D2',
+            'T1': 'CC_T1',
+            'T2': 'CC_T2',
+            'T3': 'CC_T3',
+            'T4': 'CC_T4',
+            'T5': 'CC_T5',
+        }
+        self.o2_coefficients_map = {
+            'A':'CC_residual_temperature_correction_factor_a',
+            'B':'CC_residual_temperature_correction_factor_b',
+            'C':'CC_residual_temperature_correction_factor_c',
+            'E':'CC_residual_temperature_correction_factor_e',
+            'SOC':'CC_oxygen_signal_slope',
+            'OFFSET':'CC_frequency_offset'
+        }
         # dictionary with calibration coefficient names and values
         self.coefficients = {}
         self.asset_tracking_number = None
-        self.serial = '52-'
+        self.serial = '16-'
         self.date = None
         self.type = 'CTD'
 
-    def read_xml(self, filename):
-        # TODO: Finish up xml reading
+    def _read_xml(self, filename):
+        if not filename.endswith('.xmlcon'):
+            return False
+
         with open(filename) as fh:
             tree = et.parse(filename)
             root = tree.getroot()
             t_flag = False
+            o2_sensor_flag = False
             for child in tree.iter():
                 key = child.tag.upper()
+                if key == 'OXYGENSENSOR':
+                    o2_sensor_flag = True
+
                 if key == '':
                     continue
 
@@ -82,23 +109,30 @@ class CTDCalibration(Calibration):
                 elif t_flag:
                     key = 'T' + child.tag
 
-                if child.tag == "SerialNumber" and child.text != None:
+                if child.tag == "SerialNumber" and child.text != None and self.serial == '16-':
                     self.serial = '16-' + child.text
 
                 if child.tag == "CalibrationDate" and child.text != None and self.date == None:
                     self.date = datetime.datetime.strptime(child.text, "%d-%b-%y").strftime("%Y%m%d")
 
                 name = self.coefficient_name_map.get(key)
-                if name is None:
+                o2_name = self.o2_coefficients_map.get(key)
+                if name is None and o2_name is None:
                     continue
-                self.coefficients[name] = child.text
+                elif not name is None:
+                    self.coefficients[name] = child.text
+                elif o2_sensor_flag:
+                    self.coefficients[o2_name] = child.text
+        return True
 
     def read_cal(self, filename):
         ## Reads the calibration files and extracts out the necessary calibration values needed for CI.
+        if self._read_xml(filename):
+            return
         with open(filename) as fh:
+            c = fh.read(1)
             for line in fh:
                 parts = line.split('=')
-
                 if len(parts) != 2:
                     continue  # skip anything that is not key value paired
 
@@ -134,6 +168,12 @@ class CTDCalibration(Calibration):
         elif self.asset_tracking_number.find('69828') != -1:
             inst_type = 'CTDBPO'
         ## Writes the calibration information to a comma-separated value file
+        if not inst_type.startswith('CTDBP'):
+            for key in self.o_series_coefficients_map.keys():
+                try:
+                    del self.coefficients[self.o_series_coefficients_map.get(key)]
+                except KeyError:
+                    continue
         complete_path = os.path.join(self.type, 'cal_sheets', inst_type)
         complete_path = os.path.join(os.path.realpath('../..'), 'calibration', inst_type)
         file_name = self.asset_tracking_number + '__' + self.date
@@ -151,15 +191,15 @@ def main():
     lookup = get_uid_serial_mapping('CTD/ctd_lookup.csv')
     for path, directories, files in os.walk('CTD/manufacturer'):
         for file in files:
+            # Skip hidden files
+            if file[0] == '.':
+                continue
             cal = CTDCalibration()
             with open(os.path.join(path, file)) as unknown_file:
-                c = unknown_file.read(1)
-                if c == '<':
-                    cal.read_xml(os.path.join(path, file))
-                else:
-                    cal.read_cal(os.path.join(path, file))
+                cal.read_cal(os.path.join(path, file))
                 cal.asset_tracking_number = lookup[cal.serial]
                 cal.write_cal_info()
+                cal.move_to_archive(cal.type, file)
 
 if __name__ == '__main__':
     start_time = time.time()

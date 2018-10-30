@@ -1330,6 +1330,8 @@ RS01SBPS-PC01A-4A-DOSTAD103,Cabled Continental Margin,Oregon Slope Base Shallow 
 RS01SBPS-PC01A-4B-PHSENA102,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,200m Platform (PC01A),Seawater pH,Sunburst,SAMI-pH,200,200
 RS01SBPS-PC01A-4C-FLORDD103,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,200m Platform (PC01A),2-Wavelength Fluorometer,WET Labs,ECO Triplet-w,200,200
 RS01SBPS-SC01A,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Winch Controller (SC01A),,,,200,200
+#RS01SBPS-SC01A-00-WINCH,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Winch Controller (SC01A),,APL,,200,200
+#RS01SBPS-SC01A-00-ENG,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Winch Controller (SC01A),,APL,,200,200
 RS01SBPS-SF01A,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Shallow Profiler (SF01A),,,,5,200
 RS01SBPS-SF01A-2A-CTDPFA102,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Shallow Profiler (SF01A),CTD,Sea-Bird,SBE 16plusV2,5,200
 RS01SBPS-SF01A-2A-DOFSTA102,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Shallow Profiler (SF01A),Dissolved Oxygen,Sea-Bird,SBE 43,5,200
@@ -1374,7 +1376,8 @@ RS01SUM2-MJ01B-00-FLOBNM101,Cabled Continental Margin,Southern Hydrate Summit 2 
 RS01SUM2-MJ01B-00-OSMOIA101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Osmosis-Based Water Sampler,"TLR, Inc.",OsmoSampler,811,811
 RS01SUM2-MJ01B-05-CAMDSB103,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Digital Still Camera,Kongsberg,Custom Digital Still Camera Assembly,811,811
 RS01SUM2-MJ01B-06-MASSPA101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Mass Spectrometer,"Girguis, Harvard",cabled Mass Spec,811,811
-RS01SUM2-MJ01B-08-OVRSRA101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Overview Sonar,MARUM,R2Sonic 2022,811,811
+RS01SUM2-MJ01B-08-OVRSRA101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Overview Sonar,MARUM,Custom Digital Still Camera Assembly,811,811
+RS01SUM2-MJ01B-09-CAMPIA101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Digital Still Camera,MARUM,R2Sonic 2022,811,811
 RS01SUM2-MJ01B-10-QNTSRA101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Quantification Sonar,MARUM,Kongsberg 1171,811,811
 RS01SUM2-MJ01B-11-CTDPFA110,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),CTD,Sea-Bird,SBE 16plusV2,811,811
 RS01SUM2-MJ01B-12-ADCPSK101,Cabled Continental Margin,Southern Hydrate Summit 2 Seafloor,Medium-Power JBox (MJ01B),Velocity Profiler (75 kHz),Teledyne RDI,WorkHorse LongRanger Monitor 75khz,811,811
@@ -1386,6 +1389,7 @@ RS03ASHS-MJ03B-06-OBSSPA301,Cabled Axial Seamount,ASHES Vent Field,Medium-Power 
 RS03ASHS-MJ03B-07-TMPSFA301,Cabled Axial Seamount,ASHES Vent Field,Medium-Power JBox (MJ03B),Diffuse Vent Fluid 3-D Temperature Array,RBR Global,XR-420,1552,1552
 RS03ASHS-MJ03B-09-BOTPTA304,Cabled Axial Seamount,ASHES Vent Field,Medium-Power JBox (MJ03B),Bottom Pressure and Tilt,PMEL/Chadwick,PMELcabled BPR/Tilt,1552,1552
 RS03ASHS-MJ03B-10-CTDPFB304,Cabled Axial Seamount,ASHES Vent Field,Medium-Power JBox (MJ03B),CTD,Sea-Bird,SBE 16plusV2,1552,1552
+RS03ASHS-MJ03B-12-COVISA301,Cabled Axial Seamount,ASHES Vent Field,Medium-Power JBox (MJ03B),Vent Imaging Sonar,APL,COVIS,1552,1552
 RS03ASHS-PN03B,Cabled Axial Seamount,ASHES Vent Field,Primary Node (PN03B),,,,1552,1552
 RS03ASHS-PN03B-06-CAMHDA301,Cabled Axial Seamount,ASHES Vent Field,Primary Node (PN03B),HD Digital Video Camera,SubC,1Cam,1552,1552
 RS03AXBS,Cabled Axial Seamount,Axial Base Seafloor,,,,,2522,2639
@@ -1442,8 +1446,8 @@ RS03CCAL-MJ03F,Cabled Axial Seamount,Central Caldera,Medium-Power JBox (MJ03F),,
 RS03CCAL-MJ03F-05-BOTPTA301,Cabled Axial Seamount,Central Caldera,Medium-Power JBox (MJ03F),Bottom Pressure and Tilt,PMEL/Chadwick,PMELcabled BPR/Tilt,1526,1526
 RS03CCAL-MJ03F-06-HYDLFA305,Cabled Axial Seamount,Central Caldera,Medium-Power JBox (MJ03F),Low Frequency Acoustic Receiver (Hydrophone),HTI,90-U,1526,1526
 RS03CCAL-MJ03F-06-OBSBBA301,Cabled Axial Seamount,Central Caldera,Medium-Power JBox (MJ03F),Broadband Ocean Bottom Seismometer,Guralp,CMG-1T/5T,1526,1526
-RS03CCAL-MJ03F-08-SCPRAA301,Cabled Axial Seamount,Central Caldera,Medium-Power JBox (MJ03F),Self-Calibrating Pressure Recorder,PI Zumberge and Sasagawa,SCPR Series A,1526,1526
-RS03CCAL-MJ03F-09-SCTAAA301,Cabled Axial Seamount,Central Caldera,Medium-Power JBox (MJ03F),Self-Calibrating Triaxial Accelerometer,PI Wilcock,SCTA Series A,1526,1526
+RS03CCAL-MJ03F-08-SCTAAA301,Cabled Axial Seamount,Central Caldera,Medium-Power JBox (MJ03F),Self-Calibrating Triaxial Accelerometer,PI Wilcock,SCTA Series A,1526,1526
+RS03CCAL-MJ03F-09-SCPRAA301,Cabled Axial Seamount,Central Caldera,Medium-Power JBox (MJ03F),Self-Calibrating Pressure Recorder,PI Zumberge and Sasagawa,SCPR Series A,1526,1526
 RS03ECAL,Cabled Axial Seamount,Eastern Caldera,,,,,1516,1516
 RS03ECAL-MJ03E,Cabled Axial Seamount,Eastern Caldera,Medium-Power JBox (MJ03E),,,,1516,1516
 RS03ECAL-MJ03E-05-OBSSPA303,Cabled Axial Seamount,Eastern Caldera,Medium-Power JBox (MJ03E),Short-Period Ocean Bottom Seismometer,Guralp,CMG-6TF,1516,1516
@@ -1671,3 +1675,8 @@ GI05MOAS-GL453-00-ENG000000,Global Irminger Sea,Mobile Assets,Open Ocean Glider 
 GI05MOAS-GL453-01-FLORDM000,Global Irminger Sea,Mobile Assets,Open Ocean Glider 453,2-Wavelength Fluorometer,WET Labs,ECO Puck FLBB-SLC,0,1000
 GI05MOAS-GL453-02-DOSTAM000,Global Irminger Sea,Mobile Assets,Open Ocean Glider 453,Dissolved Oxygen,Aanderaa,Optode 4831,0,1000
 GI05MOAS-GL453-04-CTDGVM000,Global Irminger Sea,Mobile Assets,Open Ocean Glider 453,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,1000
+GP05MOAS-GL469,Global Station Papa,Mobile Assets,Open Ocean Glider 469,,,,0,1000
+GP05MOAS-GL469-00-ENG000000,Global Station Papa,Mobile Assets,Open Ocean Glider 469,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,0,1000
+GP05MOAS-GL469-01-FLORDM000,Global Station Papa,Mobile Assets,Open Ocean Glider 469,2-Wavelength Fluorometer,WET Labs,ECO Puck FLBB-SLC,0,1000
+GP05MOAS-GL469-02-DOSTAM000,Global Station Papa,Mobile Assets,Open Ocean Glider 469,Dissolved Oxygen,Aanderaa,Optode 4831,0,1000
+GP05MOAS-GL469-04-CTDGVM000,Global Station Papa,Mobile Assets,Open Ocean Glider 469,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,1000
