@@ -11,7 +11,7 @@ import os
 import shutil
 import sys
 import time
-from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
+from common_code.cal_parser_template import Calibration
 
 class NUTNRCalibration(Calibration):
     def __init__(self, lower=217, upper=240):

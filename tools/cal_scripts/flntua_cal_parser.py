@@ -11,7 +11,7 @@ import shutil
 import sys
 import time
 import json
-from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
+from common_code.cal_parser_template import Calibration
 
 class FLNTUACalibration(Calibration):
     def __init__(self):

@@ -11,7 +11,7 @@ import shutil
 import sys
 import time
 import xml.etree.ElementTree as et
-from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
+from common_code.cal_parser_template import Calibration
 
 class CTDCalibration(Calibration):
     ## Class that stores calibration values for CTDs.

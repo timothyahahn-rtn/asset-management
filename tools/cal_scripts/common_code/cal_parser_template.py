@@ -20,7 +20,6 @@ class Calibration(object):
         self.type = None
 
     def write_cal_info(self):
-        database_path = os.path.join(os.path.realpath('..'), 'instrumentLookUp.db')
         if not self.get_uid():
             return
         complete_path = os.path.join(os.path.realpath('../..'), 'calibration', self.type)
@@ -38,6 +37,7 @@ class Calibration(object):
                     os.path.join(os.getcwd(), inst_type, 'manufacturer_ARCHIVE', file))
     
     def get_uid(self):
+        print(os.getcwd())
         sql = sqlite3.connect('instrumentLookUp.db')
         uid_query_result = sql.execute('select uid from INSTRUMENT_LOOKUP where serial=:sn',\
                                              {'sn':self.serial}).fetchone()

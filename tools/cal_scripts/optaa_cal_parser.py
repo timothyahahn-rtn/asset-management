@@ -11,7 +11,7 @@ import json
 import string
 import sys
 import time
-from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
+from common_code.cal_parser_template import Calibration
 
 class OPTAACalibration(Calibration):
     def __init__(self, serial):
