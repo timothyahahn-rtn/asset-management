@@ -51,7 +51,6 @@ class FLORCalibration(Calibration):
                     break
 
 def main():
-    lookup = get_uid_serial_mapping('FLOR/flor_lookup.csv')
     for path, directories, files in os.walk('FLOR/manufacturer'):
         for file in files:
             # Skip hidden files
@@ -59,7 +58,6 @@ def main():
                 continue
             cal = FLORCalibration()
             cal.read_cal(os.path.join(path, file))
-            cal.asset_tracking_number = lookup[cal.serial]
             cal.write_cal_info()
             cal.move_to_archive('FLOR', file)
 

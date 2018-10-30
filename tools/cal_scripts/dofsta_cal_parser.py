@@ -87,9 +87,6 @@ class SBE43Calibration(Calibration):
                     self.serial = "43-" + str(value)
 
 def main():
-    # Starts in the directory with
-    # Get corresponding mapping between serial number and uid
-    lookup = get_uid_serial_mapping('DOFSTA/dofsta_lookup.csv')
     #Begin writing files
     for path, directories, files in os.walk('DOFSTA/manufacturer'):
         for file in files:
@@ -98,7 +95,6 @@ def main():
                 continue
             cal = SBE43Calibration()
             cal.read_cal(os.path.join(path, file))
-            cal.asset_tracking_number = lookup[cal.serial]
             cal.write_cal_info()
             cal.move_to_archive(cal.type, file)
 

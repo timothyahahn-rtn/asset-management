@@ -55,7 +55,6 @@ class SPKIRCalibration(Calibration):
 
 
 def main():
-    lookup = get_uid_serial_mapping('SPKIRA/spkir_lookup.csv')
     for path, directories, files in os.walk('SPKIRA/manufacturer'):
         for file in files:
             # Skip hidden files
@@ -63,7 +62,6 @@ def main():
                 continue
             cal = SPKIRCalibration()
             cal.read_cal(os.path.join(path, file))
-            cal.asset_tracking_number = lookup[cal.serial]
             cal.write_cal_info()
             cal.move_to_archive(cal.type, file)
 

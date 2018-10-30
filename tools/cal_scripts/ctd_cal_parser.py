@@ -156,6 +156,8 @@ class CTDCalibration(Calibration):
 
     def write_cal_info(self):
         inst_type = None
+        if not self.get_uid():
+            return
         if self.asset_tracking_number.find('66662') != -1:
             inst_type = 'CTDPFA'
         elif self.asset_tracking_number.find('67627') != -1:
@@ -188,18 +190,15 @@ class CTDCalibration(Calibration):
                 writer.writerow([self.serial, "CC_offset", 0, ''])
 
 def main():
-    lookup = get_uid_serial_mapping('CTD/ctd_lookup.csv')
     for path, directories, files in os.walk('CTD/manufacturer'):
         for file in files:
             # Skip hidden files
             if file[0] == '.':
                 continue
             cal = CTDCalibration()
-            with open(os.path.join(path, file)) as unknown_file:
-                cal.read_cal(os.path.join(path, file))
-                cal.asset_tracking_number = lookup[cal.serial]
-                cal.write_cal_info()
-                cal.move_to_archive(cal.type, file)
+            cal.read_cal(os.path.join(path, file))
+            cal.write_cal_info()
+            cal.move_to_archive(cal.type, file)
 
 if __name__ == '__main__':
     start_time = time.time()

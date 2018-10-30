@@ -8,7 +8,6 @@ import csv
 import datetime
 import os
 import json
-import sqlite3
 import string
 import sys
 import time
@@ -74,6 +73,7 @@ class OPTAACalibration(Calibration):
 
     def write_cal_info(self):
         inst_type = None
+        self.get_uid()
         if self.asset_tracking_number.find('58332') != -1:
             inst_type = 'OPTAAD'
         elif self.asset_tracking_number.find('69943') != -1:
@@ -95,19 +95,15 @@ class OPTAACalibration(Calibration):
         write_array(os.path.join(complete_path, '%s__CC_taarray.ext' % file_name), self.taarray)
 
 def main():
-    sql = sqlite3.connect('instrumentLookUp.db')
-    lookup = get_uid_serial_mapping('OPTAA/optaa_lookup.csv')
     for path, directories, files in os.walk('OPTAA/manufacturer'):
         for file in files:
             # Skip hidden files
             if file[0] == '.':
                 continue
             sheet_name = os.path.basename(file).partition('.')[0].upper()
-            sheet_name = sheet_name[:3] + '-' + sheet_name[3:6]
-            cal = OPTAACalibration(sheet_name)
+            serial = sheet_name[:3] + '-' + sheet_name[3:6]
+            cal = OPTAACalibration(serial)
             cal.read_cal(os.path.join(path, file))
-            uid_query_result = sql.execute('select uid from INSTRUMENT_LOOKUP where serial=:sn', {'sn':cal.serial}).fetchone()[0]
-            cal.asset_tracking_number = uid_query_result
             cal.write_cal_info()
             cal.move_to_archive(cal.type, file)
 
