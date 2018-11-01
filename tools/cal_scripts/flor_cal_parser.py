@@ -12,17 +12,18 @@ import sys
 import time
 from common_code.cal_parser_template import Calibration
 
+
 class FLORCalibration(Calibration):
     def __init__(self):
         self.cdom = None
-        self.chl= None
+        self.chl = None
         self.vol = None
         self.asset_tracking_number = None
         self.serial = None
         self.date = None
         self.type = 'FLORDD'
-        self.coefficients = {'CC_angular_resolution':1.076, 'CC_depolarization_ratio':0.039,\
-                                'CC_measurement_wavelength':700, 'CC_scattering_angle':124}
+        self.coefficients = {'CC_angular_resolution': 1.076, 'CC_depolarization_ratio': 0.039,
+                             'CC_measurement_wavelength': 700, 'CC_scattering_angle': 124}
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -34,7 +35,8 @@ class FLORCalibration(Calibration):
                     serial = parts[1].split('-')
                     self.serial = serial[-1]
                 elif 'Created' == parts[0]:
-                    self.date = datetime.datetime.strptime(parts[-1], '%m/%d/%y').strftime('%Y%m%d')
+                    self.date = datetime.datetime.strptime(
+                        parts[-1], '%m/%d/%y').strftime('%Y%m%d')
                 deconstruct = parts[0].upper().split('=')
                 if deconstruct[0] == 'LAMBDA':
                     self.vol = (parts[1], parts[2])
@@ -50,6 +52,7 @@ class FLORCalibration(Calibration):
                     self.coefficients['CC_dark_counts_cdom'] = parts[2]
                     break
 
+
 def main():
     for path, directories, files in os.walk('FLOR/manufacturer'):
         for file in files:
@@ -60,6 +63,7 @@ def main():
             cal.read_cal(os.path.join(path, file))
             cal.write_cal_info()
             cal.move_to_archive('FLOR', file)
+
 
 if __name__ == '__main__':
     start_time = time.time()

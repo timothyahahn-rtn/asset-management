@@ -13,6 +13,7 @@ import sys
 import time
 from common_code.cal_parser_template import Calibration
 
+
 class NUTNRCalibration(Calibration):
     def __init__(self, lower=217, upper=240):
         self.cal_temp = None
@@ -26,8 +27,8 @@ class NUTNRCalibration(Calibration):
         self.date = None
         self.serial = None
         self.type = 'NUTNRA'
-        self.coefficients = {'CC_lower_wavelength_limit_for_spectra_fit' : self.lower_limit,
-                            'CC_upper_wavelength_limit_for_spectra_fit' : self.upper_limit}
+        self.coefficients = {'CC_lower_wavelength_limit_for_spectra_fit': self.lower_limit,
+                             'CC_upper_wavelength_limit_for_spectra_fit': self.upper_limit}
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -47,7 +48,8 @@ class NUTNRCalibration(Calibration):
                             self.coefficients['CC_cal_temp'] = self.cal_temp
                     elif 'creation' in key_value:
                         cal_date = key_value[-2]
-                        cal_date = datetime.datetime.strptime(cal_date, '%d-%b-%Y').strftime('%Y%m%d')
+                        cal_date = datetime.datetime.strptime(
+                            cal_date, '%d-%b-%Y').strftime('%Y%m%d')
                         if self.date < cal_date:
                             self.date = cal_date
                     elif 'SUNA' in key_value:
@@ -64,6 +66,7 @@ class NUTNRCalibration(Calibration):
                     self.coefficients['CC_eswa'] = json.dumps(self.eswa)
                     self.coefficients['CC_di'] = json.dumps(self.di)
 
+
 def main():
     for path, directories, files in os.walk('NUTNRA/manufacturer'):
         for file in files:
@@ -76,6 +79,7 @@ def main():
             cal.read_cal(os.path.join(path, file))
             cal.write_cal_info()
             cal.move_to_archive(cal.type, file)
+
 
 if __name__ == '__main__':
     start_time = time.time()

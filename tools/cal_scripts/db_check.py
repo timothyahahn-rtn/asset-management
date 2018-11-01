@@ -10,8 +10,7 @@ request = sql.execute('SELECT * FROM instrument_lookup').fetchall()
 
 for query in request:
     print(query)
-    # print(bulk_df.loc[bulk_df['ASSET_UID'] == query[1]]['ASSET_UID'])
-    try: 
+    try:
         results = bulk_df.loc[bulk_df['ASSET_UID'] == query[1]]['ASSET_UID']
     except KeyError:
         print('not found')

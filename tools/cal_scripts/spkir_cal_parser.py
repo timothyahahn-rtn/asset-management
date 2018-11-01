@@ -15,6 +15,7 @@ import time
 from dateutil.parser import parse
 from common_code.cal_parser_template import Calibration
 
+
 class SPKIRCalibration(Calibration):
     def __init__(self):
         super(SPKIRCalibration, self).__init__()
@@ -37,7 +38,7 @@ class SPKIRCalibration(Calibration):
                         parse(parts[1])
                     except ValueError:
                         continue
-                    self.date = str(parts[1]).replace('-','')
+                    self.date = str(parts[1]).replace('-', '')
 
                 elif parts[0] == 'ED':
                     read_record = True
@@ -48,7 +49,8 @@ class SPKIRCalibration(Calibration):
                         self.offset.append(float(offset))
                         self.scale.append(float(scale))
                         self.immersion_factor.append(float(factor))
-                        self.coefficients['CC_offset'] = json.dumps(self.offset)
+                        self.coefficients['CC_offset'] = json.dumps(
+                            self.offset)
                         self.coefficients['CC_scale'] = json.dumps(self.scale)
                         self.coefficients['CC_immersion_factor'] = self.immersion_factor
                         read_record = False
@@ -64,6 +66,7 @@ def main():
             cal.read_cal(os.path.join(path, file))
             cal.write_cal_info()
             cal.move_to_archive(cal.type, file)
+
 
 if __name__ == '__main__':
     start_time = time.time()

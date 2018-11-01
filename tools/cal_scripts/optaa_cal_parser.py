@@ -13,6 +13,7 @@ import sys
 import time
 from common_code.cal_parser_template import Calibration
 
+
 class OPTAACalibration(Calibration):
     def __init__(self, serial):
         self.asset_tracking_number = None
@@ -27,8 +28,8 @@ class OPTAACalibration(Calibration):
         self.nbins = None  # number of temperature bins
         self.serial = serial
         self.date = None
-        self.coefficients = {'CC_taarray' : 'SheetRef:CC_taarray',
-                            'CC_tcarray' : 'SheetRef:CC_tcarray'}
+        self.coefficients = {'CC_taarray': 'SheetRef:CC_taarray',
+                             'CC_tcarray': 'SheetRef:CC_tcarray'}
         self.type = 'OPTAA'
 
     def read_cal(self, filename):
@@ -41,7 +42,8 @@ class OPTAACalibration(Calibration):
                         self.tcal = parts[1]
                         self.coefficients['CC_tcal'] = self.tcal
                         cal_date = parts[-1:][0].strip(string.punctuation)
-                        self.date = datetime.datetime.strptime(cal_date, '%m/%d/%y').strftime('%Y%m%d')
+                        self.date = datetime.datetime.strptime(
+                            cal_date, '%m/%d/%y').strftime('%Y%m%d')
                     continue
                 data, comment = parts
 
@@ -63,7 +65,8 @@ class OPTAACalibration(Calibration):
                     self.ccwo.append(float(parts[3]))
                     self.acwo.append(float(parts[4]))
                     tcrow = [float(x) for x in parts[5:self.nbins+5]]
-                    tarow = [float(x) for x in parts[self.nbins+5:2*self.nbins+5]]
+                    tarow = [float(x)
+                             for x in parts[self.nbins+5:2*self.nbins+5]]
                     self.tcarray.append(tcrow)
                     self.taarray.append(tarow)
                     self.coefficients['CC_cwlngth'] = json.dumps(self.cwlngth)
@@ -78,11 +81,12 @@ class OPTAACalibration(Calibration):
             inst_type = 'OPTAAD'
         elif self.asset_tracking_number.find('69943') != -1:
             inst_type = 'OPTAAC'
-        complete_path = os.path.join(os.path.realpath('../..'), 'calibration', inst_type)
+        complete_path = os.path.join(
+            os.path.realpath('../..'), 'calibration', inst_type)
         file_name = self.asset_tracking_number + '__' + self.date
         with open(os.path.join(complete_path, '%s.csv' % file_name), 'w') as info:
             writer = csv.writer(info)
-            writer.writerow(['serial','name', 'value', 'notes'])
+            writer.writerow(['serial', 'name', 'value', 'notes'])
             for each in sorted(self.coefficients.items()):
                 writer.writerow([self.serial] + list(each))
 
@@ -91,8 +95,11 @@ class OPTAACalibration(Calibration):
                 array_writer = csv.writer(out)
                 array_writer.writerows(cal_array)
 
-        write_array(os.path.join(complete_path, '%s__CC_tcarray.ext' % file_name), self.tcarray)
-        write_array(os.path.join(complete_path, '%s__CC_taarray.ext' % file_name), self.taarray)
+        write_array(os.path.join(complete_path, '%s__CC_tcarray.ext' %
+                                 file_name), self.tcarray)
+        write_array(os.path.join(complete_path, '%s__CC_taarray.ext' %
+                                 file_name), self.taarray)
+
 
 def main():
     for path, directories, files in os.walk('OPTAA/manufacturer'):
@@ -106,6 +113,7 @@ def main():
             cal.read_cal(os.path.join(path, file))
             cal.write_cal_info()
             cal.move_to_archive(cal.type, file)
+
 
 if __name__ == '__main__':
     start_time = time.time()
