@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SBE_InstrumentConfiguration SB_ConfigCTD_FileVersion="7.26.4.0" >
+<SBE_InstrumentConfiguration SB_ConfigCTD_FileVersion="7.23.0.2" >
   <Instrument Type="11" >
     <Name>SBE 19plus V2 Seacat CTD</Name>
     <PressureSensorType>1</PressureSensorType>
@@ -19,11 +19,11 @@
       <Sensor index="0" SensorID="58" >
         <TemperatureSensor SensorID="58" >
           <SerialNumber>50119</SerialNumber>
-          <CalibrationDate>10-Aug-18</CalibrationDate>
-          <A0>1.28045699e-003</A0>
-          <A1>2.70178094e-004</A1>
-          <A2>-9.14962348e-007</A2>
-          <A3>1.70624830e-007</A3>
+          <CalibrationDate>10-Feb-17</CalibrationDate>
+          <A0>1.27447658e-003</A0>
+          <A1>2.72412583e-004</A1>
+          <A2>-1.19471686e-006</A2>
+          <A3>1.82373895e-007</A3>
           <Slope>1.00000000</Slope>
           <Offset>0.0000</Offset>
         </TemperatureSensor>
@@ -31,7 +31,7 @@
       <Sensor index="1" SensorID="3" >
         <ConductivitySensor SensorID="3" >
           <SerialNumber>50119</SerialNumber>
-          <CalibrationDate>10-Aug-18</CalibrationDate>
+          <CalibrationDate>10-Feb-17</CalibrationDate>
           <UseG_J>1</UseG_J>
           <!-- Cell const and series R are applicable only for wide range sensors. -->
           <SeriesR>0.0000</SeriesR>
@@ -46,10 +46,10 @@
             <CPcor>-9.57000000e-008</CPcor>
           </Coefficients>
           <Coefficients equation="1" >
-            <G>-9.79608915e-001</G>
-            <H>1.40702798e-001</H>
-            <I>-3.21398134e-004</I>
-            <J>4.41319557e-005</J>
+            <G>-9.79126549e-001</G>
+            <H>1.40550583e-001</H>
+            <I>-2.82174746e-004</I>
+            <J>4.15964945e-005</J>
             <CPcor>-9.57000000e-008</CPcor>
             <CTcor>3.2500e-006</CTcor>
             <!-- WBOTC not applicable unless ConductivityType = 1. -->
@@ -62,16 +62,16 @@
       <Sensor index="2" SensorID="46" >
         <PressureSensor SensorID="46" >
           <SerialNumber>50119</SerialNumber>
-          <CalibrationDate>09-Aug-18</CalibrationDate>
-          <PA0>-1.37403487e+000</PA0>
-          <PA1>1.56280596e-002</PA1>
-          <PA2>-6.32089065e-010</PA2>
-          <PTEMPA0>-6.29679338e+001</PTEMPA0>
-          <PTEMPA1>5.08876522e+001</PTEMPA1>
-          <PTEMPA2>-1.89528881e-002</PTEMPA2>
-          <PTCA0>5.24766881e+005</PTCA0>
-          <PTCA1>-9.19473281e+000</PTCA1>
-          <PTCA2>2.40855059e-001</PTCA2>
+          <CalibrationDate>08-Feb-17</CalibrationDate>
+          <PA0>-7.34363868e-001</PA0>
+          <PA1>1.56357004e-002</PA1>
+          <PA2>-6.64495992e-010</PA2>
+          <PTEMPA0>-6.39114507e+001</PTEMPA0>
+          <PTEMPA1>5.21858597e+001</PTEMPA1>
+          <PTEMPA2>-4.25965010e-001</PTEMPA2>
+          <PTCA0>5.24766581e+005</PTCA0>
+          <PTCA1>-6.87776946e+000</PTCA1>
+          <PTCA2>2.30116990e-001</PTCA2>
           <PTCB0>2.51698750e+001</PTCB0>
           <PTCB1>1.17500000e-003</PTCB1>
           <PTCB2>0.00000000e+000</PTCB2>

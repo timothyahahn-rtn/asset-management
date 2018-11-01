@@ -58,4 +58,4 @@ def main():
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    print("FLNTUA: %s seconds" % (time.time() - start_time))
+    print('FLNTUA: %s seconds' % (time.time() - start_time))

@@ -38,7 +38,7 @@ class Calibration(object):
     
     def get_uid(self):
         sql = sqlite3.connect('instrumentLookUp.db')
-        uid_query_result = sql.execute('select uid from INSTRUMENT_LOOKUP where serial=:sn',\
+        uid_query_result = sql.execute('select uid from instrument_lookup where serial=:sn',\
                                              {'sn':self.serial}).fetchone()
         if len(uid_query_result) != 1:
             return False
@@ -48,7 +48,7 @@ class Calibration(object):
 def get_uid_serial_mapping(csv_name):
     lookup = {}
     with open(csv_name, 'rb') as csvfile:
-        reader = csv.DictReader(csvfile, delimiter=",")
+        reader = csv.DictReader(csvfile, delimiter=',')
         for row in reader:
             lookup[row['serial']] = row['uid']
     return lookup

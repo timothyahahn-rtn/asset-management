@@ -17,7 +17,7 @@ class FLCDRACalibration(Calibration):
         super(FLCDRACalibration, self).__init__()
         self.dark = 0
         self.scale = 0.0
-        self.type = "FLCDRA"
+        self.type = 'FLCDRA'
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -50,4 +50,4 @@ def main():
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    print("FLCDRA: %s seconds" % (time.time() - start_time))
+    print('FLCDRA: %s seconds' % (time.time() - start_time))

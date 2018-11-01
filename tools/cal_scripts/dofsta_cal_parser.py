@@ -40,11 +40,11 @@ class SBE43Calibration(Calibration):
                 if key == '':
                     continue
 
-                if child.tag == "SerialNumber" and child.text != None and self.serial == '43-':
+                if child.tag == 'SerialNumber' and child.text != None and self.serial == '43-':
                     self.serial = '43-' + child.text
 
-                if child.tag == "CalibrationDate" and child.text != None and self.date == None:
-                    self.date = datetime.datetime.strptime(child.text, "%d-%b-%y").strftime("%Y%m%d")
+                if child.tag == 'CalibrationDate' and child.text != None and self.date == None:
+                    self.date = datetime.datetime.strptime(child.text, '%d-%b-%y').strftime('%Y%m%d')
                 name = self.coefficient_name_map.get(key)
                 if name is None:
                     continue
@@ -78,12 +78,12 @@ class SBE43Calibration(Calibration):
                     if name == 'CC_voltage_offset':
                         self.coefficients['CC_frequency_offset'] = value
 
-                if key == "OCALDATE":
+                if key == 'OCALDATE':
                     cal_date = value
-                    cal_date = datetime.datetime.strptime(cal_date, "%d-%b-%y").strftime("%Y%m%d")
+                    cal_date = datetime.datetime.strptime(cal_date, '%d-%b-%y').strftime('%Y%m%d')
                     self.date = cal_date
 
-                if key == "SERIALNO":
+                if key == 'SERIALNO':
                     self.serial = "43-" + str(value)
 
 def main():
@@ -102,4 +102,4 @@ def main():
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    print("DOFSTA: %s seconds" % (time.time() - start_time))
+    print('DOFSTA: %s seconds' % (time.time() - start_time))

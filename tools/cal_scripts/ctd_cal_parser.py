@@ -100,7 +100,7 @@ class CTDCalibration(Calibration):
                 if key == '':
                     continue
 
-                if child.tag == "TemperatureSensor":
+                if child.tag == 'TemperatureSensor':
                     t_flag = True
 
                 if t_flag and child.tag == 'Sensor':
@@ -109,11 +109,11 @@ class CTDCalibration(Calibration):
                 elif t_flag:
                     key = 'T' + child.tag
 
-                if child.tag == "SerialNumber" and child.text != None and self.serial == '16-':
+                if child.tag == 'SerialNumber' and child.text != None and self.serial == '16-':
                     self.serial = '16-' + child.text
 
-                if child.tag == "CalibrationDate" and child.text != None and self.date == None:
-                    self.date = datetime.datetime.strptime(child.text, "%d-%b-%y").strftime("%Y%m%d")
+                if child.tag == 'CalibrationDate' and child.text != None and self.date == None:
+                    self.date = datetime.datetime.strptime(child.text, '%d-%b-%y').strftime('%Y%m%d')
 
                 name = self.coefficient_name_map.get(key)
                 o2_name = self.o2_coefficients_map.get(key)
@@ -146,7 +146,7 @@ class CTDCalibration(Calibration):
                     self.serial += value
 
                 if key == 'CCALDATE':
-                    self.date = datetime.datetime.strptime(value, "%d-%b-%y").strftime("%Y%m%d")
+                    self.date = datetime.datetime.strptime(value, '%d-%b-%y').strftime('%Y%m%d')
 
                 name = self.coefficient_name_map.get(key)
                 if not name:
@@ -186,8 +186,8 @@ class CTDCalibration(Calibration):
                 row = [self.serial] + list(each)
                 row.append('')
                 writer.writerow(row)
-            if inst_type.startswith("CTDPF"):
-                writer.writerow([self.serial, "CC_offset", 0, ''])
+            if inst_type.startswith('CTDPF'):
+                writer.writerow([self.serial, 'CC_offset', 0, ''])
 
 def main():
     for path, directories, files in os.walk('CTD/manufacturer'):
@@ -203,4 +203,4 @@ def main():
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    print("CTD: %s seconds" % (time.time() - start_time))
+    print('CTD: %s seconds' % (time.time() - start_time))

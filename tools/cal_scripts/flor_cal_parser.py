@@ -64,4 +64,4 @@ def main():
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    print("FLOR: %s seconds" % (time.time() - start_time))
+    print('FLOR: %s seconds' % (time.time() - start_time))

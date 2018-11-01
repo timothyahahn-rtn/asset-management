@@ -45,12 +45,12 @@ class NUTNRCalibration(Calibration):
                         if name == 'T_CAL' or (name == 'T_CAL_SWA' and 'CC_cal_temp' not in self.coefficients):
                             self.cal_temp = float(value)
                             self.coefficients['CC_cal_temp'] = self.cal_temp
-                    elif "creation" in key_value:
+                    elif 'creation' in key_value:
                         cal_date = key_value[-2]
-                        cal_date = datetime.datetime.strptime(cal_date, "%d-%b-%Y").strftime("%Y%m%d")
+                        cal_date = datetime.datetime.strptime(cal_date, '%d-%b-%Y').strftime('%Y%m%d')
                         if self.date < cal_date:
                             self.date = cal_date
-                    elif "SUNA" in key_value:
+                    elif 'SUNA' in key_value:
                         self.serial = str(key_value[1]).lstrip('0')
 
                 elif record_type == 'E':
@@ -71,7 +71,7 @@ def main():
             if file[0] == '.':
                 continue
             cal = NUTNRCalibration()
-            if not file.startswith("SNA"):
+            if not file.startswith('SNA'):
                 continue
             cal.read_cal(os.path.join(path, file))
             cal.write_cal_info()
@@ -80,4 +80,4 @@ def main():
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    print("NUTNR: %s seconds" % (time.time() - start_time))
+    print('NUTNR: %s seconds' % (time.time() - start_time))

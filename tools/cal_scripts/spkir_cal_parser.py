@@ -28,7 +28,7 @@ class SPKIRCalibration(Calibration):
             read_record = False  # indicates next line is record we want to read
             for line in fh:
                 parts = line.split()
-                if "OCR-507" in line:
+                if 'OCR-507' in line:
                     self.serial = str(parts[-2]).lstrip('0')
                 elif not len(parts):  # skip blank lines
                     continue
@@ -68,4 +68,4 @@ def main():
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    print("SPKIR: %s seconds" % (time.time() - start_time))
+    print('SPKIR: %s seconds' % (time.time() - start_time))

@@ -37,11 +37,11 @@ class OPTAACalibration(Calibration):
                 parts = line.split(';')
                 if len(parts) != 2:
                     parts = line.split()
-                    if parts[0] == '"tcal:':
+                    if parts[0] == 'tcal:':
                         self.tcal = parts[1]
                         self.coefficients['CC_tcal'] = self.tcal
                         cal_date = parts[-1:][0].strip(string.punctuation)
-                        self.date = datetime.datetime.strptime(cal_date, "%m/%d/%y").strftime("%Y%m%d")
+                        self.date = datetime.datetime.strptime(cal_date, '%m/%d/%y').strftime('%Y%m%d')
                     continue
                 data, comment = parts
 
@@ -110,4 +110,4 @@ def main():
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    print("OPTAA: %s seconds" % (time.time() - start_time))
+    print('OPTAA: %s seconds' % (time.time() - start_time))

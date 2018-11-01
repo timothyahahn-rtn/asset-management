@@ -17,7 +17,7 @@ class PARADACalibration(Calibration):
         super(PARADACalibration, self).__init__()
         self.dark = 0
         self.scale = 0.0
-        self.type = "PARADA"
+        self.type = 'PARADA'
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -52,4 +52,4 @@ def main():
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    print("PARADA: %s seconds" % (time.time() - start_time))
+    print('PARADA: %s seconds' % (time.time() - start_time))
