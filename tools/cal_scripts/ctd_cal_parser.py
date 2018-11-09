@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 # CTD Calibration Parser
-# Create the necessary CI calibration ingest information from an CTD calibration file
+# Create the necessary CI calibration ingest information from an CTD
+# calibration file
 
 from __future__ import absolute_import
 import csv
@@ -11,10 +12,11 @@ import shutil
 import sys
 import time
 import xml.etree.ElementTree as et
-from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
+from common_code.cal_parser_template import Calibration
+
 
 class CTDCalibration(Calibration):
-    ## Class that stores calibration values for CTDs.
+    # Class that stores calibration values for CTDs.
     # \param self
     def __init__(self):
         self.coefficient_name_map = {
@@ -69,12 +71,12 @@ class CTDCalibration(Calibration):
             'T5': 'CC_T5',
         }
         self.o2_coefficients_map = {
-            'A':'CC_residual_temperature_correction_factor_a',
-            'B':'CC_residual_temperature_correction_factor_b',
-            'C':'CC_residual_temperature_correction_factor_c',
-            'E':'CC_residual_temperature_correction_factor_e',
-            'SOC':'CC_oxygen_signal_slope',
-            'OFFSET':'CC_frequency_offset'
+            'A': 'CC_residual_temperature_correction_factor_a',
+            'B': 'CC_residual_temperature_correction_factor_b',
+            'C': 'CC_residual_temperature_correction_factor_c',
+            'E': 'CC_residual_temperature_correction_factor_e',
+            'SOC': 'CC_oxygen_signal_slope',
+            'OFFSET': 'CC_frequency_offset'
         }
         # dictionary with calibration coefficient names and values
         self.coefficients = {}
@@ -100,7 +102,7 @@ class CTDCalibration(Calibration):
                 if key == '':
                     continue
 
-                if child.tag == "TemperatureSensor":
+                if child.tag == 'TemperatureSensor':
                     t_flag = True
 
                 if t_flag and child.tag == 'Sensor':
@@ -109,24 +111,28 @@ class CTDCalibration(Calibration):
                 elif t_flag:
                     key = 'T' + child.tag
 
-                if child.tag == "SerialNumber" and child.text != None and self.serial == '16-':
+                if child.tag == 'SerialNumber' and child.text is not None \
+                                and self.serial == '16-':
                     self.serial = '16-' + child.text
 
-                if child.tag == "CalibrationDate" and child.text != None and self.date == None:
-                    self.date = datetime.datetime.strptime(child.text, "%d-%b-%y").strftime("%Y%m%d")
+                if child.tag == 'CalibrationDate' and child.text is not None \
+                                and self.date is None:
+                    self.date = datetime.datetime.strptime(
+                        child.text, '%d-%b-%y').strftime('%Y%m%d')
 
                 name = self.coefficient_name_map.get(key)
                 o2_name = self.o2_coefficients_map.get(key)
                 if name is None and o2_name is None:
                     continue
-                elif not name is None:
+                elif name is not None:
                     self.coefficients[name] = child.text
                 elif o2_sensor_flag:
                     self.coefficients[o2_name] = child.text
         return True
 
     def read_cal(self, filename):
-        ## Reads the calibration files and extracts out the necessary calibration values needed for CI.
+        # Reads the calibration files and extracts out the necessary
+        # calibration values needed for CI.
         if self._read_xml(filename):
             return
         with open(filename) as fh:
@@ -146,7 +152,8 @@ class CTDCalibration(Calibration):
                     self.serial += value
 
                 if key == 'CCALDATE':
-                    self.date = datetime.datetime.strptime(value, "%d-%b-%y").strftime("%Y%m%d")
+                    self.date = datetime.datetime.strptime(value, '%d-%b-%y')\
+                        .strftime('%Y%m%d')
 
                 name = self.coefficient_name_map.get(key)
                 if not name:
@@ -156,6 +163,8 @@ class CTDCalibration(Calibration):
 
     def write_cal_info(self):
         inst_type = None
+        if not self.get_uid():
+            return
         if self.asset_tracking_number.find('66662') != -1:
             inst_type = 'CTDPFA'
         elif self.asset_tracking_number.find('67627') != -1:
@@ -167,41 +176,42 @@ class CTDCalibration(Calibration):
             inst_type = 'CTDBPN'
         elif self.asset_tracking_number.find('69828') != -1:
             inst_type = 'CTDBPO'
-        ## Writes the calibration information to a comma-separated value file
+        # Writes the calibration information to a comma-separated value file
         if not inst_type.startswith('CTDBP'):
             for key in self.o_series_coefficients_map.keys():
                 try:
-                    del self.coefficients[self.o_series_coefficients_map.get(key)]
+                    del self.coefficients[self.o_series_coefficients_map.get(
+                        key)]
                 except KeyError:
                     continue
         complete_path = os.path.join(self.type, 'cal_sheets', inst_type)
-        complete_path = os.path.join(os.path.realpath('../..'), 'calibration', inst_type)
+        complete_path = os.path.join(
+            os.path.realpath('../..'), 'calibration', inst_type)
         file_name = self.asset_tracking_number + '__' + self.date
         with open(os.path.join(complete_path, '%s.csv' % file_name), 'w') as info:
             writer = csv.writer(info)
-            writer.writerow(['serial','name', 'value', 'notes'])
+            writer.writerow(['serial', 'name', 'value', 'notes'])
             for each in sorted(self.coefficients.items()):
                 row = [self.serial] + list(each)
                 row.append('')
                 writer.writerow(row)
-            if inst_type.startswith("CTDPF"):
-                writer.writerow([self.serial, "CC_offset", 0, ''])
+            if inst_type.startswith('CTDPF'):
+                writer.writerow([self.serial, 'CC_offset', 0, ''])
+
 
 def main():
-    lookup = get_uid_serial_mapping('CTD/ctd_lookup.csv')
     for path, directories, files in os.walk('CTD/manufacturer'):
         for file in files:
             # Skip hidden files
             if file[0] == '.':
                 continue
             cal = CTDCalibration()
-            with open(os.path.join(path, file)) as unknown_file:
-                cal.read_cal(os.path.join(path, file))
-                cal.asset_tracking_number = lookup[cal.serial]
-                cal.write_cal_info()
-                cal.move_to_archive(cal.type, file)
+            cal.read_cal(os.path.join(path, file))
+            cal.write_cal_info()
+            cal.move_to_archive(cal.type, file)
+
 
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    print("CTD: %s seconds" % (time.time() - start_time))
+    print('CTD: %s seconds' % (time.time() - start_time))
