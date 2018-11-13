@@ -1,9 +1,10 @@
 ASSET_UID,LEGACY_ASSET_UID,TYPE,Mobile,DESCRIPTION OF EQUIPMENT,MIO_Inventory_Description,Manufacturer,Model,Manufacturer's Serial No./Other Identifier,Firmware Version,ACQUISITION DATE,ORIGINAL COST,comments,MIO
-CE02SHBP-MJ01C-00-ENG,,Eng,0,Engineering Data,Engineering Data,,,,,,,CE02SHBP-MJ01C-00-ENG,University of Washington
-CE02SHBP-MJ01C-05-IP1,,Eng,0,JBox Port J05 (LJ01D),JBox Port J05 (LJ01D),,,,,,,CE02SHBP-MJ01C-05-IP1 (LJ01D),University of Washington
-CE02SHBP-MJ01C-06-IP2,,Eng,0,JBox Port J06,JBox Port J06,,,,,,,CE02SHBP-MJ01C-06-IP2,University of Washington
-CE02SHBP-MJ01C-07-IP3,,Eng,0,JBox Port J07 (ZPLSCB101),JBox Port J07 (ZPLSCB101),,,,,,,CE02SHBP-MJ01C-07-IP3 (ZPLSCB101),University of Washington
-CE02SHBP-MJ01C-08-IP4,,Eng,0,JBox Port J08 (CAMDSB107),JBox Port J08 (CAMDSB107),,,,,,,CE02SHBP-MJ01C-08-IP4 (CAMDSB107),University of Washington
+CE02SHBP-MJ01C-00-ENG,,Sensor,0,Engineering Data,Engineering Data,,,,,,,CE02SHBP-MJ01C-00-ENG,University of Washington
+CE02SHBP-MJ01C-05-IP1,,Sensor,0,JBox Port J05 (LJ01D),JBox Port J05 (LJ01D),,,,,,,CE02SHBP-MJ01C-05-IP1 (LJ01D),University of Washington
+CE02SHBP-MJ01C-06-IP2,,Sensor,0,JBox Port J06,JBox Port J06,,,,,,,CE02SHBP-MJ01C-06-IP2,University of Washington
+CE02SHBP-MJ01C-07-IP3,,Sensor,0,JBox Port J07 (ZPLSCB101),JBox Port J07 (ZPLSCB101),,,,,,,CE02SHBP-MJ01C-07-IP3 (ZPLSCB101),University of Washington
+CE02SHBP-MJ01C-08-IP4,,Sensor,0,JBox Port J08 (CAMDSB107),JBox Port J08 (CAMDSB107),,,,,,,CE02SHBP-MJ01C-08-IP4 (CAMDSB107),University of Washington
+CE02SHBP-MJ01C-PN1C-LVPS,,Sensor,0,Engineering Data,Engineering Data,,,,,,,CE02SHBP-MJ01C-PN1C-LVPS,University of Washington
 #ATAPL-69140-001-120-1,ATAPL-69140-001-120-1,Sensor,0,Shallow Profiler Winch Controller,Winch Controller,APL,Winch Controller,120,,,,RS01SBPS-SC01A-00-WINCH,University of Washington
 #ATAPL-69140-001-120-2,ATAPL-69140-001-120-2,Sensor,0,Shallow Profiler Winch Controller Node Controller,Node Controller,APL,Node Controller,120,,,,RS01SBPS-SC01A-00-ENG,University of Washington
 
