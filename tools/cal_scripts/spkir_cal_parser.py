@@ -13,7 +13,8 @@ import shutil
 import sys
 import time
 from dateutil.parser import parse
-from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
+from common_code.cal_parser_template import Calibration
+
 
 class SPKIRCalibration(Calibration):
     def __init__(self):
@@ -28,7 +29,7 @@ class SPKIRCalibration(Calibration):
             read_record = False  # indicates next line is record we want to read
             for line in fh:
                 parts = line.split()
-                if "OCR-507" in line:
+                if 'OCR-507' in line:
                     self.serial = str(parts[-2]).lstrip('0')
                 elif not len(parts):  # skip blank lines
                     continue
@@ -37,7 +38,7 @@ class SPKIRCalibration(Calibration):
                         parse(parts[1])
                     except ValueError:
                         continue
-                    self.date = str(parts[1]).replace('-','')
+                    self.date = str(parts[1]).replace('-', '')
 
                 elif parts[0] == 'ED':
                     read_record = True
@@ -48,14 +49,14 @@ class SPKIRCalibration(Calibration):
                         self.offset.append(float(offset))
                         self.scale.append(float(scale))
                         self.immersion_factor.append(float(factor))
-                        self.coefficients['CC_offset'] = json.dumps(self.offset)
+                        self.coefficients['CC_offset'] = json.dumps(
+                            self.offset)
                         self.coefficients['CC_scale'] = json.dumps(self.scale)
                         self.coefficients['CC_immersion_factor'] = self.immersion_factor
                         read_record = False
 
 
 def main():
-    lookup = get_uid_serial_mapping('SPKIRA/spkir_lookup.csv')
     for path, directories, files in os.walk('SPKIRA/manufacturer'):
         for file in files:
             # Skip hidden files
@@ -63,11 +64,11 @@ def main():
                 continue
             cal = SPKIRCalibration()
             cal.read_cal(os.path.join(path, file))
-            cal.asset_tracking_number = lookup[cal.serial]
             cal.write_cal_info()
             cal.move_to_archive(cal.type, file)
+
 
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    print("SPKIR: %s seconds" % (time.time() - start_time))
+    print('SPKIR: %s seconds' % (time.time() - start_time))
