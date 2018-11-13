@@ -59,6 +59,11 @@ CE02SHBP-LJ01D-11-HYDBBA106,Coastal Endurance,Oregon Shelf Cabled Benthic Experi
 CE02SHBP-MJ01C,Coastal Endurance,Oregon Shelf Cabled Benthic Experiment Package,Medium-Power JBox (MJ01C),,,,80,80
 CE02SHBP-MJ01C-07-ZPLSCB101,Coastal Endurance,Oregon Shelf Cabled Benthic Experiment Package,Medium-Power JBox (MJ01C),Bio-acoustic Sonar (Coastal),Kongsberg,Modified EK-60,80,80
 CE02SHBP-MJ01C-08-CAMDSB107,Coastal Endurance,Oregon Shelf Cabled Benthic Experiment Package,Medium-Power JBox (MJ01C),Digital Still Camera,Kongsberg,Custom Digital Still Camera Assembly,80,80
+CE02SHBP-MJ01C-00-ENG,Coastal Endurance,Oregon Shelf Cabled Benthic Experiment Package,Medium-Power JBox (MJ01C),Engineering Data,UW,,80,80
+CE02SHBP-MJ01C-05-IP1,Coastal Endurance,Oregon Shelf Cabled Benthic Experiment Package,Medium-Power JBox (MJ01C),JBox Port J05 (LJ01D),,80,80
+CE02SHBP-MJ01C-06-IP2,Coastal Endurance,Oregon Shelf Cabled Benthic Experiment Package,Medium-Power JBox (MJ01C),Port J06,,80,80
+CE02SHBP-MJ01C-07-IP3,Coastal Endurance,Oregon Shelf Cabled Benthic Experiment Package,Medium-Power JBox (MJ01C),Port J07 (ZPLSCB101),,80,80
+CE02SHBP-MJ01C-08-IP4,Coastal Endurance,Oregon Shelf Cabled Benthic Experiment Package,Medium-Power JBox (MJ01C),Port J08 (CAMDSB107),,80,80
 CE02SHSM,Coastal Endurance,Oregon Shelf Surface Mooring,,,,,0,80
 CE02SHSM-RIC21,Coastal Endurance,Oregon Shelf Surface Mooring,Near Surface Instrument Frame,,,,7,7
 CE02SHSM-RIC21-00-CPMENG000,Coastal Endurance,Oregon Shelf Surface Mooring,Near Surface Instrument Frame,Platform Controller,WHOI,Communications and Power Manager,7,7
@@ -1462,6 +1467,7 @@ RS03INT1-MJ03C-05-CAMDSB303,Cabled Axial Seamount,International District Vent Fi
 RS03INT1-MJ03C-06-MASSPA301,Cabled Axial Seamount,International District Vent Field 1,Medium-Power JBox (MJ03C),Mass Spectrometer,"Girguis, Harvard",cabled Mass Spec,1520,1520
 RS03INT1-MJ03C-07-PPSDNA301,Cabled Axial Seamount,International District Vent Field 1,Medium-Power JBox (MJ03C),Particulate DNA Sampler,PMEL/Butterfield,modified McLane Particulate Sampler,1520,1520
 RS03INT1-MJ03C-07-RASFLA301,Cabled Axial Seamount,International District Vent Field 1,Medium-Power JBox (MJ03C),Hydrothermal Vent Fluid Interactive Sampler,PMEL/Butterfield,Modified McLane Remote Access Sampler,1520,1520
+RS03INT1-MJ03C-07-D1000A301,Cabled Axial Seamount,International District Vent Field 1,Medium-Power JBox (MJ03C),Temperature Sensor,PMEL/Butterfield,Modified McLane RTD Temperature Sensor,1520,1520
 RS03INT1-MJ03C-09-THSPHA301,Cabled Axial Seamount,International District Vent Field 1,Medium-Power JBox (MJ03C),Hydrothermal Vent Fluid In-situ Chemistry,"Kang/Seyfried, U Minnesota","Vent Chemistry Instrument (H2, H2S, pH)",1520,1520
 RS03INT1-MJ03C-10-TRHPHA301,Cabled Axial Seamount,International District Vent Field 1,Medium-Power JBox (MJ03C),Hydrothermal Vent Fluid Temperature and Resistivity,"Lilley, UW",Vent Temperature & Resistivity,1520,1520
 RS03INT2,Cabled Axial Seamount,International District Vent Field 2,,,,,1527,1527
