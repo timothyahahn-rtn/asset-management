@@ -11,7 +11,8 @@ import os
 import shutil
 import sys
 import time
-from common_code.cal_parser_template import Calibration, get_uid_serial_mapping
+from common_code.cal_parser_template import Calibration
+
 
 class NUTNRCalibration(Calibration):
     def __init__(self, lower=217, upper=240):
@@ -26,8 +27,8 @@ class NUTNRCalibration(Calibration):
         self.date = None
         self.serial = None
         self.type = 'NUTNRA'
-        self.coefficients = {'CC_lower_wavelength_limit_for_spectra_fit' : self.lower_limit,
-                            'CC_upper_wavelength_limit_for_spectra_fit' : self.upper_limit}
+        self.coefficients = {'CC_lower_wavelength_limit_for_spectra_fit': self.lower_limit,
+                             'CC_upper_wavelength_limit_for_spectra_fit': self.upper_limit}
 
     def read_cal(self, filename):
         with open(filename) as fh:
@@ -45,12 +46,13 @@ class NUTNRCalibration(Calibration):
                         if name == 'T_CAL' or (name == 'T_CAL_SWA' and 'CC_cal_temp' not in self.coefficients):
                             self.cal_temp = float(value)
                             self.coefficients['CC_cal_temp'] = self.cal_temp
-                    elif "creation" in key_value:
+                    elif 'creation' in key_value:
                         cal_date = key_value[-2]
-                        cal_date = datetime.datetime.strptime(cal_date, "%d-%b-%Y").strftime("%Y%m%d")
+                        cal_date = datetime.datetime.strptime(
+                            cal_date, '%d-%b-%Y').strftime('%Y%m%d')
                         if self.date < cal_date:
                             self.date = cal_date
-                    elif "SUNA" in key_value:
+                    elif 'SUNA' in key_value:
                         self.serial = str(key_value[1]).lstrip('0')
 
                 elif record_type == 'E':
@@ -64,22 +66,22 @@ class NUTNRCalibration(Calibration):
                     self.coefficients['CC_eswa'] = json.dumps(self.eswa)
                     self.coefficients['CC_di'] = json.dumps(self.di)
 
+
 def main():
-    lookup = get_uid_serial_mapping('NUTNRA/nutnr_lookup.csv')
     for path, directories, files in os.walk('NUTNRA/manufacturer'):
         for file in files:
             # Skip hidden files
             if file[0] == '.':
                 continue
             cal = NUTNRCalibration()
-            if not file.startswith("SNA"):
+            if not file.startswith('SNA'):
                 continue
             cal.read_cal(os.path.join(path, file))
-            cal.asset_tracking_number = lookup[cal.serial]
             cal.write_cal_info()
             cal.move_to_archive(cal.type, file)
+
 
 if __name__ == '__main__':
     start_time = time.time()
     main()
-    print("NUTNR: %s seconds" % (time.time() - start_time))
+    print('NUTNR: %s seconds' % (time.time() - start_time))

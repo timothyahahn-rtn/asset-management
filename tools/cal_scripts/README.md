@@ -8,6 +8,7 @@ https://github.com/funnyabc/asset-management/blob/master/bulk/sensor_bulk_load-A
 The scripts currently support the creation of the following instrument types:
 * CTD
 * DOFSTA
+* FLCDRA
 * FLNTUA
 * FLOR
 * NUTNR
@@ -75,6 +76,7 @@ You can run each of the scripts individually by calling the corresponding parser
 ```
 python ctd_cal_parser.py
 python dofsta_cal_parser.py
+python flcdra_cal_parser.py
 python flntua_cal_parser.py
 python flor_cal_parser.py
 python nutnr_cal_parser.py
@@ -101,3 +103,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Dan Mergens for starting the calibration scripts
+
+Last updated 1st November 2018
