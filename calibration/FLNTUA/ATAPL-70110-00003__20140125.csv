@@ -5,5 +5,5 @@ FLNTURTD-3468,CC_dark_counts_volume_scatter,21,
 FLNTURTD-3468,CC_depolarization_ratio,0.039,
 FLNTURTD-3468,CC_measurement_wavelength,700,
 FLNTURTD-3468,CC_scale_factor_chlorophyll_a,0.0121,
-FLNTURTD-3468,CC_scale_factor_volume_scatter,0.0061,
+FLNTURTD-3468,CC_scale_factor_volume_scatter,1.888E-05,"Using 2015 values. No volume cal performed in 2014."
 FLNTURTD-3468,CC_scattering_angle,140,
