@@ -5,5 +5,5 @@ FLNTURTD-3397,CC_dark_counts_volume_scatter,0,Not Available. Calibrated for Neph
 FLNTURTD-3397,CC_depolarization_ratio,0.039,"Default value per <flo_scat_seawater(degC, psu, theta=117.0, wlngth=700.0, delta=0.039)>"
 FLNTURTD-3397,CC_measurement_wavelength,700,"Default value per <flo_bback_total(beta, degC=20.0, psu=32.0, theta=117.0, wlngth=700.0, xfactor=1.08)>"
 FLNTURTD-3397,CC_scale_factor_chlorophyll_a,0.0121,
-FLNTURTD-3397,CC_scale_factor_volume_scatter,0,Not Available. Calibrated for Nephelometric Turbidity.
+FLNTURTD-3397,CC_scale_factor_volume_scatter,1.877e-05,"Using 2015 volume scatter value. No calibration for volume performed in 2013."
 FLNTURTD-3397,CC_scattering_angle,140,"Default value per <flo_bback_total(beta, degC=20.0, psu=32.0, theta=117.0, wlngth=700.0, xfactor=1.08)>"
