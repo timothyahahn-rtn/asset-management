@@ -2241,8 +2241,8 @@ CGINS-MOPAK0-44005,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6
 CGINS-MOPAK0-44016,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-44016,,,,,
 CGINS-MOPAK0-58478,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-58478,,,,,
 CGINS-MOPAK0-58481,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-58481,,,,,
-CGINS-NOCNIA-00112,,Sensor,0,NOC CUSTARD Nitrate sensor,,NOC UK,LOC-Nitrate,N112,,,,,Woods Hole Oceanographic Institution
-CGINS-NOCSIA-00009,,Sensor,0,NOC CUSTARD Silicate sensor,,NOC UK,LOC-Silicate,Si009,,,,,Woods Hole Oceanographic Institution
+PICGN-NOCNIA-0N112,,Sensor,0,NOC CUSTARD Nitrate sensor,,NOC UK,LOC-Nitrate,N112,,,,,Woods Hole Oceanographic Institution
+PICGN-NOCSIA-Si009,,Sensor,0,NOC CUSTARD Silicate sensor,,NOC UK,LOC-Silicate,Si009,,,,,Woods Hole Oceanographic Institution
 CGINS-NUTNRA-00334,A00374,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES A (SUNA),Satlantic,ISUS,334,,20130723,35812.15,,
 CGINS-NUTNRB-00239,A00065,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES B (ISUS),Satlantic,ISUS,239,3.2.4,20120924,35182.98,,
 CGINS-NUTNRB-00240,A00066,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES B (ISUS),Satlantic,ISUS,240,3.2.4,20120924,35182.98,,
