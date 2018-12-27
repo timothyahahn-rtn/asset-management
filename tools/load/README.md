@@ -98,10 +98,7 @@ Note, these files are located in the base of this repository in the folder
 labeled "bulk"
 
 ```
-cp array_bulk_load-AssetRecord.csv $XAD
-cp platform_bulk_load-AssetRecord.csv $XAD
-cp node_bulk_load-AssetRecord.csv $XAD
-cp sensor_bulk_load-AssetRecord.csv $XAD
+cp *-AssetRecord.csv $XAD
 ```
 
 Each record ingested from a bulk file will create a log message like this:
