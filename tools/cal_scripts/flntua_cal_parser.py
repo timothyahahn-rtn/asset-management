@@ -46,10 +46,13 @@ class FLNTUACalibration(Calibration):
                     self.vol = (parts[1], parts[2])
                     self.coefficients['CC_scale_factor_volume_scatter'] = parts[1]
                     self.coefficients['CC_dark_counts_volume_scatter'] = parts[2]
+                elif deconstruct[0].upper() == 'NTU':
+                    return False
                 elif deconstruct[0] == 'Chl':
                     self.chl = (parts[1], parts[2])
                     self.coefficients['CC_scale_factor_chlorophyll_a'] = parts[1]
                     self.coefficients['CC_dark_counts_chlorophyll_a'] = parts[2]
+        return True
 
 
 def main():
@@ -59,7 +62,9 @@ def main():
             if file[0] == '.':
                 continue
             cal = FLNTUACalibration()
-            cal.read_cal(os.path.join(path, file))
+            if not cal.read_cal(os.path.join(path, file)):
+                print("File does not have volume scatter: %s", file)
+                continue
             cal.write_cal_info()
             cal.move_to_archive(cal.type, file)
 
