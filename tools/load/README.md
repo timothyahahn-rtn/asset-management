@@ -27,8 +27,8 @@ files in the appropriate format.
 
 ```
 mkdir cruise deploy cal
-./load_cruises.py ../../cruise cruise
-./load_deploy.py ../../deployment deploy
+./load_cruises.py ../../cruise/*.csv cruise/.
+./load_deploy.py ../../deployment/*.csv deploy/.
 ./load_cal.py ../../calibration cal
 ```
 
