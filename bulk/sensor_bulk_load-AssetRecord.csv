@@ -6,29 +6,6 @@ A00838,A00838,Sensor,0,FLUOROMETER,FLUOROMETER,WET Labs,FLCDRTD (CDOM),3400,,201
 A01061,A01061,Sensor,0,SONAR BIO ACOUSTIC,SONAR BIO ACOUSTIC,Kongsberg Underwater Technology Inc,CLIN 001,S/N 1,,20140423,173968,,
 A01062,A01062,Sensor,0,SONAR BIO ACOUSTIC,SONAR BIO ACOUSTIC,Kongsberg Underwater Technology Inc,CLIN 001,S/N 2,,20140423,173968,,
 A01073,A01073,Sensor,0,SONAR BIO ACOUSTIC,SONAR BIO ACOUSTIC,Kongsberg Underwater Technology Inc,CLIN 001,S/N 3,,20140423,173968,,
-A01330,A01330,Sensor,0,VELPT SERIES A (AQUADOPP 300M),VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,P21893-1,,20150402,8900,,
-A01331,A01331,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P28193-3,,20150402,9925,,
-A01347,A01347,Sensor,0,VELPT SERIES A (AQUADOPP 300M),VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,P28193-2,,20150527,8800,,
-A01348,A01348,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-1,,20140527,10135,SIO inventory claims AQD11669/A3L6884,
-A01349,A01349,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-2,,20140527,10135,SIO inventory claims AQD11964 / A3L6883,
-A01350,A01350,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-3,,20140527,10135,SIO inventory claims AQD11967 / A3L6863,
-A01351,A01351,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-4,,20140527,10135,SIO inventory claims AQD11970/A3L6862,
-A01352,A01352,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-5,,20140527,10135,SIO inventory claims 11973,
-A01353,A01353,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-6,,20140527,10135,SIO inventory claims 11974,
-A01354,A01354,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-7,,20140527,10135,SIO inventory claims 11976,
-A01355,A01355,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-8,,20140527,10135,SIO inventory claims 11981,
-A01356,A01356,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-9,,20140527,10135,SIO inventory claims P27135-9,
-A01357,A01357,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-10,,20140527,10135,SIO inventory claims  P27135-5,
-A01359,A01359,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-1,,20150508,9925,,
-A01360,A01360,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-2,,20150508,9925,,
-A01361,A01361,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-3,,20150508,9925,,
-A01362,A01362,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-4,,20150508,9925,,
-A01363,A01363,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-5,,20150508,9925,,
-A01364,A01364,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-6,,20150508,9925,,
-A01365,A01365,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-7,,20150508,9925,,
-A01366,A01366,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-8,,20150508,9925,,
-A01634,A01634,Sensor,0,VELPT SERIES A,VELPT SERIES A,Nortek,Aquadopp,28484-1,,20150720,8900,,
-A01635,A01635,Sensor,0,VELPT SERIES A,VELPT SERIES A,Nortek,Aquadopp,28484-2,,20150720,8900,,
 ATAPL-58315-00001,ATAPL-58315-00001,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series D,ADCP D-WHM150-1500 Quartermaster (ADCPT-D),Teledyne RDI,WHM150-1500,18478,,20120928,35534,,University of Washington
 ATAPL-58315-00002,ATAPL-58315-00002,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series D,ADCP D-WHM150-1500 Quartermaster (ADCPT-D) (O&M),Teledyne RDI,WHM150-1500,18974,,20130118,35534,,University of Washington
 ATAPL-58315-00003,ATAPL-58315-00003,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series D,ADCP D-WHM150-1500 Quartermaster (ADCPT-D),Teledyne RDI,WHM150-1500,18980,,20130118,35534,,University of Washington
@@ -2334,22 +2311,22 @@ CGINS-VELPTA-06326,A00580,Sensor,0,Single Point Velocity Meter: VELPT Series A,V
 CGINS-VELPTA-06327,A00578,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 6327,,20130916,8500,,
 CGINS-VELPTA-08381,A00236,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8381,,20121217,8500,,
 CGINS-VELPTA-08399,A00238,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8399,,20121217,8500,,
-CGINS-VELPTA-08532,A00115,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8532,3.35,20121214,8500,,
+CGINS-VELPTA-08532,A00115,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8532,3.35,20121214,8500,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-08535,A00239,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8535,,20121217,8500,,
 CGINS-VELPTA-08539,A00237,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8539,,20121217,8500,,
-CGINS-VELPTA-08544,A00116,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8544,3.35,20121214,8500,,
-CGINS-VELPTA-08550,A00117,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD8550,3.35,20121204,8500,,
-CGINS-VELPTA-11377,A00410,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11377,3.35,20130916,8500,,
+CGINS-VELPTA-08544,A00116,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8544,3.35,20121214,8500,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-08550,A00117,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD8550,3.35,20121204,8500,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-11377,A00410,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11377,3.35,20130916,8500,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-11380,N00414,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11380,,20130917,8500,,
-CGINS-VELPTA-11382,A00411,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11382,3.35,20150604,8500,,
-CGINS-VELPTA-11386,A00412,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11386,3.35,20150604,8500,,
-CGINS-VELPTA-11397,A00415,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11397,3.35,20130917,8500,,
+CGINS-VELPTA-11382,A00411,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11382,3.35,20150604,8500,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-11386,A00412,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11386,3.35,20150604,8500,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-11397,A00415,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11397,3.35,20130917,8500,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-11398,N00413,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11398,,20130917,8500,,
 CGINS-VELPTA-11401,OL000293,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11401,,,,,
-CGINS-VELPTA-11402,A00416,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11402,3.35,20130917,8500,,
+CGINS-VELPTA-11402,A00416,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11402,3.35,20130917,8500,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-11405,N00418,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11405,,20130917,8500,,
-CGINS-VELPTA-11412,A00417,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11412,3.35,20130917,8500,,
-CGINS-VELPTA-11417,A00418,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11417,3.35,20150604,8500,,
+CGINS-VELPTA-11412,A00417,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11412,3.35,20130917,8500,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-11417,A00418,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11417,3.35,20150604,8500,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-11748,A01021,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11748,,20130916,8650,,
 CGINS-VELPTA-11768,N00421,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11768,,20130917,8500,,
 CGINS-VELPTA-11774,A01015,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11774,,20130916,8650,,
@@ -2362,44 +2339,44 @@ CGINS-VELPTA-11790,A01022,Sensor,0,Single Point Velocity Meter: VELPT Series A,V
 CGINS-VELPTA-11814,A01023,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11814,,20130916,8650,,
 CGINS-VELPTA-11820,A01024,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11820,,20130916,8650,,
 CGINS-VELPTA-11823,A01025,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11823,,20130916,8650,,
-CGINS-VELPTA-12198,N00503,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12198,,20150604,8650,,
-CGINS-VELPTA-12203,,Sensor,0,Single Point Velocity Meter: VELPT Series A,Single Point Velocity Meter,Nortek,Aquadopp,AQD 12203,,,,,
-CGINS-VELPTA-12224,A01071,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12224,,20140927,8650,,
-CGINS-VELPTA-12229,A01070,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12229,,20140926,8650,,
-CGINS-VELPTA-12230,A01072,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12230,,20150604,8650,,
-CGINS-VELPTA-12231,A01069,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12231,,20140927,8650,,
-CGINS-VELPTA-12234,A01068,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12234,,20150604,8650,,
+CGINS-VELPTA-12198,N00503/A01347,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12198,,20150604,8650,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-12203,,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12203,,,,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-12224,A01071,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12224,,20140927,8650,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-12229,A01070,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12229,,20140926,8650,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-12230,A01072/A01330,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12230,,20150604,8650,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-12231,A01069,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12231,,20140927,8650,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-12234,A01068,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12234,,20150604,8650,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-12703,A01751,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12703,,20150831,9180,,
 CGINS-VELPTA-12707,A01747,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12707,,20150831,9180,,
-CGINS-VELPTA-12711,N00555,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12711,,20150831,9180,,
+CGINS-VELPTA-12711,N00555/A01635,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12711,,20150831,9180,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-12712,A01753,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12712,,20150831,9180,,
 CGINS-VELPTA-12721,A01754,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12721,,20150831,9180,,
 CGINS-VELPTA-12732,A01748,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12732,,20150831,9180,,
 CGINS-VELPTA-12737,A01749,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12737,,20150831,9180,,
 CGINS-VELPTA-12742,A01750,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12742,,20150831,9180,,
 CGINS-VELPTA-12746,A01752,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12746,,20150831,9180,,
-CGINS-VELPTA-12747,N00551,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12747,,,9180,,
-CGINS-VELPTB-09952,A00048,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M,Nortek,Aquadopp,AQD 9952,,20150604,11150,,
-CGINS-VELPTB-09984,A00049,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M,Nortek,Aquadopp,AQD 9984,3.37,20150604,11150,,
-CGINS-VELPTB-11669,N00507,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11669,,,9240,,
-CGINS-VELPTB-11964,N00508,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11964,,,9240,,
-CGINS-VELPTB-11967,N00509,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11967,,,9240,,
-CGINS-VELPTB-11969,OL000602,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11969,,,,,
-CGINS-VELPTB-11970,N00510,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11970,,,9240,,
-CGINS-VELPTB-11973,N00516,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11973,,,9240,,
-CGINS-VELPTB-11974,N00517,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11974,,,9240,,
-CGINS-VELPTB-11976,N00518,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11976,,,9240,,
-CGINS-VELPTB-11981,N00519,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11981,,,9240,,
-CGINS-VELPTB-11986,,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11986,,,,,
-CGINS-VELPTB-12095,N00521,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12095,,,9240,,
-CGINS-VELPTB-12195,N00511,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12195,,,9240,,
-CGINS-VELPTB-12197,N00523,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12197,,,9240,,
-CGINS-VELPTB-12233,,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12233,,,,,
-CGINS-VELPTB-12236,N00512,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12236,,,9240,,
-CGINS-VELPTB-12459,N00522,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12459,,,9240,,
-CGINS-VELPTB-12652,N00520,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12652,,,9240,,
-CGINS-VELPTB-12663,N00513,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12663,,,9240,,
-CGINS-VELPTB-12673,N00514,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12673,,,9240,,
+CGINS-VELPTA-12747,N00551/A01634,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12747,,,9180,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-09952,A00048,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 9952,,20150604,11150,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-09984,A00049,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 9984,3.37,20150604,11150,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11669,N00507,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11669,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11964,N00508/A01353,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11964,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11967,N00509/A01349,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11967,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11969,OL000602/A01352,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11969,,,,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11970,N00510/A01348,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11970,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11973,N00516/A01351,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11973,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11974,N00517/A01357,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11974,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11976,N00518/A01350,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11976,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11981,N00519/A01355,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11981,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11986,A01356,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11986,,,,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12095,N00521/A01360,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12095,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12195,N00511/A01364,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12195,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12197,N00523/A01361,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12197,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12233,A01331,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12233,,,,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12236,N00512/A01365,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12236,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12459,N00522/A01359,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12459,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12652,N00520/A01366,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12652,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12663,N00513/A01363,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12663,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12673,N00514/A01362,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12673,,,9240,,Woods Hole Oceanographic Institution
 CGINS-VELPTJ-11259,N00590,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-001,Nortek,Aquadopp,AQD 11259,,20130630,9240,,Oregon State University
 CGINS-VELPTJ-11779,N00598,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-006,Nortek,Aquadopp,AQD 11779,,20140929,9240,,Oregon State University
 CGINS-VELPTJ-11900,N00574,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-003,Nortek,Aquadopp,AQD 11900,,20140616,9240,,Oregon State University
