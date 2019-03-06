@@ -27,8 +27,8 @@ files in the appropriate format.
 
 ```
 mkdir cruise deploy cal
-./load_cruises.py ../../cruise cruise
-./load_deploy.py ../../deployment deploy
+./load_cruises.py ../../cruise/*.csv cruise/.
+./load_deploy.py ../../deployment/*.csv deploy/.
 ./load_cal.py ../../calibration cal
 ```
 
@@ -98,10 +98,7 @@ Note, these files are located in the base of this repository in the folder
 labeled "bulk"
 
 ```
-cp array_bulk_load-AssetRecord.csv $XAD
-cp platform_bulk_load-AssetRecord.csv $XAD
-cp node_bulk_load-AssetRecord.csv $XAD
-cp sensor_bulk_load-AssetRecord.csv $XAD
+cp *-AssetRecord.csv $XAD
 ```
 
 Each record ingested from a bulk file will create a log message like this:
@@ -150,3 +147,17 @@ INFO  2017-02-10 16:34:21,153 [Camel (camel-1) thread #7 - file:///edex/data/ooi
 As files are processed they are removed from the ingest folder ($XAD).
 Once this folder is empty ingestion is complete. This should take
 approximately five minutes.
+
+### Reset the UI Asset Management Cache
+
+Enter the following commands from a terminal where Redis is installed:
+
+```
+redis-cli del "flask_cache_asset_list"
+redis-cli del "flask_cache_assets_dict"
+```
+
+Navigate in Google Chrome to:
+https://ooinet-dev-01.oceanobservatories.org/assets/management/
+
+The cache keys will reload in 1-2 minutes.
