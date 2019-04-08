@@ -135,6 +135,7 @@ ML20180907,Miss Linda,2018-09-07T13:29:00,2018-09-07T17:24:00,Endurance Glider D
 SR1813,R/V Sally Ride,2018-09-17T11:30:00,2018-10-02T14:20:00,Endurance 10 and cspps and gliders
 EK20181017,R/V Elakha,2018-10-17T15:15:00,2018-10-17T21:20:00,Endurance Glider operations
 AR-31,R/V Neil Armstrong,2018-10-20T18:00:00,2018-11-09T16:30:00,Pioneer 11
+EK20181017,R/V Elakha,2018-10-17T15:15:00,2018-10-17T21:20:00,Endurance Glider operations
 EK20181022,R/V Elakha,2018-10-22T11:49:00,2018-10-22T15:00:00,Endurance Glider recovery
 SU20181101,R/V Pacific Surveyor,2018-11-01T15:10:00,2018-11-01T18:22:00,Endurance Glider Deployment
 MR20181116,F/V Miss Raven,2018-11-16T16:14:00,2018-11-16T18:54:00,Endurance Glider Recovery
@@ -150,3 +151,4 @@ SU20190125,R/V Pacific Surveyor,2019-01-25T16:30:00,2019-01-26T04:26:00,Enduranc
 WJ20190203,M/V Warren Jr.,2019-02-03T09:00:00,2019-02-04T21:00:00,"Pioneer 11a, OSSM D9 buoy recovery, GL388 D7 recovery"
 TS20190205,F/V Tenacious II,2019-02-05T00:30:00,2019-02-06T01:00:00,"Pioneer 11b, glider deployments"
 WJ20190228,M/V Warren Jr.,2019-02-28T17:00:00,2019-03-02T13:00:00,"Pioneer 11c, AUV deployments, glider cp_339 recovery"
+EK20190403,R/V Elakha,2019-04-03T15:00:00,2019-04-03T22:00:00,ce01issp_00012 and ce02shsp_00012 deployments
