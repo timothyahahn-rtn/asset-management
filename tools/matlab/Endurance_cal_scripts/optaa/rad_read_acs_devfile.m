@@ -86,11 +86,14 @@ if length(idx) ~= 2
 end
 month = sscanf(str( idx(1)-2 : idx(1)-1), '%u');
 day   = sscanf(str( idx(1)+1 : idx(2)-1), '%u');
-year  = sscanf(str( idx(2)+1 : idx(2)+2), '%u');
-year = mod(year, 100);  % in case year is yyyy
+%.. year might be yy, might be yyyy, might have a period after it.
+%.. might have a ".
+year = sscanf(str( idx(2)+1 : end), '%s');
+year = strtrim(strrep(year, '.', ''));
+year = strtrim(strrep(year, '"', ''));
+year = year(end-1:end);
 
-date = ['20' num2str(year, '%2.2u') '-' num2str(month,'%2.2u') '-' ...
-    num2str(day,'%2.2u')];
+date = ['20' year '-' num2str(month,'%2.2u') '-' num2str(day,'%2.2u')];
 disp(['Devfile date that offsets were saved:  ', date]);
 disp(' ');
 
