@@ -99,6 +99,7 @@ CGCON-BSTC01-00013,OL000340,Sensor,0,Sensor and Telemetry Platform Controller,Se
 CGCON-BSTC01-00016,,Sensor,0,Sensor and Telemetry Platform Controller,Sensor and Telemetry Controller,WHOI,STC,SWE 0016,,,,,
 CGCON-BSTC01-00017,,Sensor,0,Sensor and Telemetry Platform Controller,Sensor and Telemetry Controller,WHOI,STC,SWE 0017,,,,,
 CGCON-BSTC01-00018,,Sensor,0,Sensor and Telemetry Platform Controller,Sensor and Telemetry Controller,WHOI,STC,SWE 0018,,,,,
+CGCON-BSTC01-00040,,Sensor,0,Sensor and Telemetry Platform Controller,Sensor and Telemetry Controller,WHOI,STC,SWE 0040,,,,NEED TO CHECK SERIAL NUMBER,Woods Hole Oceanographic Institution
 CGCON-BSTC01-00042,,Sensor,0,Sensor and Telemetry Platform Controller,Sensor and Telemetry Controller,WHOI,STC,SWE 0042,,,,,Woods Hole Oceanographic Institution
 CGCON-BSTC01-01002,R00011,Sensor,0,Sensor and Telemetry Platform Controller,Sensor and Telemetry Controller,WHOI,STC,1002,,,,,
 CGCON-BSTC01-01003,OL000338,Sensor,0,Sensor and Telemetry Platform Controller,SIO Controller,WHOI,STC,1003,,,,,
@@ -307,6 +308,7 @@ CGCON-NCPM02-00015,,Sensor,0,Near Surface Instrument Frame Communications and Po
 CGCON-NCPM02-00016,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,16,,,,,
 CGCON-NCPM02-00017,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,17,,,,,
 CGCON-NCPM02-00018,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,18,,,,,
+CGCON-NCPM02-00033,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,33,,,,,
 CGCON-NCPM02-15008,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,8,,,,CE02SHSM-00004-CPM21 added 1500 to sn UID to distinguish it from Pioneer,
 CGCON-NCPM02-50001,OL000279,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0001,,,,CP04OSSM-00004-CPM2,
 CGCON-NCPM02-50004,OL000261,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0004,,,,CP03ISSM-00004-CPM2,
@@ -375,6 +377,7 @@ CGCON-NDCL27-00015,,Sensor,0,Near Surface Instrument Frame Data Concentrator Log
 CGCON-NDCL27-00016,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,16,,,,,
 CGCON-NDCL27-00017,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,17,,,,,
 CGCON-NDCL27-00018,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,18,,,,,
+CGCON-NDCL27-00033,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,33,,,,NEED TO CHECK SERIAL NUMBER,Woods Hole Oceanographic Institution
 CGCON-SIOCON-00018,,Sensor,0,Subsurface Mooring Platform Controller,,SIO,Subsurface Mooring Controller,18,,,,,Woods Hole Oceanographic Institution
 CGCON-SIOCON-00019,,Sensor,0,Subsurface Mooring Platform Controller,,SIO,Subsurface Mooring Controller,19,,,,,Woods Hole Oceanographic Institution
 CGCON-SIOCON-00023,,Sensor,0,Subsurface Mooring Platform Controller,,SIO,Subsurface Mooring Controller,23,,,,,Woods Hole Oceanographic Institution
