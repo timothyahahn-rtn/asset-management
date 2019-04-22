@@ -308,6 +308,7 @@ CGCON-NCPM02-00015,,Sensor,0,Near Surface Instrument Frame Communications and Po
 CGCON-NCPM02-00016,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,16,,,,,
 CGCON-NCPM02-00017,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,17,,,,,
 CGCON-NCPM02-00018,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,18,,,,,
+CGCON-NCPM02-00033,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,33,,,,,
 CGCON-NCPM02-15008,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,8,,,,CE02SHSM-00004-CPM21 added 1500 to sn UID to distinguish it from Pioneer,
 CGCON-NCPM02-50001,OL000279,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0001,,,,CP04OSSM-00004-CPM2,
 CGCON-NCPM02-50004,OL000261,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0004,,,,CP03ISSM-00004-CPM2,
