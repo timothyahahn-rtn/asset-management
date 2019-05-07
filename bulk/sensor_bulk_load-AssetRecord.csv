@@ -160,8 +160,8 @@ ATAPL-58693-00002,ATAPL-58693-00002,Sensor,0,Low Frequency Broadband Acoustic Re
 ATAPL-58693-00003,ATAPL-58693-00003,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299467,,20140106,19600,,University of Washington
 ATAPL-58693-00004,ATAPL-58693-00004,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299465,,20131113,19600,,University of Washington
 ATAPL-58693-00005,ATAPL-58693-00005,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299464,,20140106,19600,,University of Washington
-ATAPL-58693-00006,ATAPL-58693-00006,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299469,,20140724,19600,,University of Washington
-ATAPL-58693-00007,ATAPL-58693-00007,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299468,,20140724,19600,,University of Washington
+ATAPL-58693-00006,ATAPL-58693-00006,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299468,,20140724,19600,,University of Washington
+ATAPL-58693-00007,ATAPL-58693-00007,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299469,,20140724,19600,,University of Washington
 ATAPL-58694-00001,ATAPL-58694-00001,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,Subsea CTD + Dissolved Oxygen Sensor,Sea-Bird Electronics,SBE 43,43-2463,,,,,University of Washington
 ATAPL-58694-00002,ATAPL-58694-00002,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,Subsea CTD + Dissolved Oxygen Sensor,Sea-Bird Electronics,SBE 43,43-2484,,,,,University of Washington
 ATAPL-58694-00003,ATAPL-58694-00003,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,DOFSTA for RSN,Sea-Bird Electronics,SBE 43,43-2891,,,,,University of Washington
@@ -315,18 +315,10 @@ ATOSU-58336-00005,ATOSU-58336-00005,Sensor,0,pCO2 Water: PCO2W Series A,PCO2W SE
 ATOSU-58336-00006,ATOSU-58336-00006,Sensor,0,pCO2 Water: PCO2W Series A,PCO2W SERIES A (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0079,,20140127,17942.3,,
 ATOSU-58336-00007,ATOSU-58336-00007,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0116,,,18054,,
 ATOSU-58336-00008,ATOSU-58336-00008,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0117,,,18544.5,,
-ATOSU-58336-00011,ATOSU-58336-00011,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0064,,,18544.5,Using price from above co2 sensor,
-ATOSU-58336-00012,ATOSU-58336-00012,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0080,,,18544.5,,
-ATOSU-58336-00013,ATOSU-58336-00013,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0090,,,18544.5,,
-ATOSU-58336-00014,ATOSU-58336-00014,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0118,,,18544.5,,
 ATOSU-58337-00007,ATOSU-58337-00007,Sensor,0,Seawater pH: PHSEN Series A,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0115,,20140109,17479.95,,
 ATOSU-58337-00008,ATOSU-58337-00008,Sensor,0,Seawater pH: PHSEN Series A,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0131,,20140425,18003.4,,
 ATOSU-58337-00011,ATOSU-58337-00011,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0153,,,18054,,
 ATOSU-58337-00012,ATOSU-58337-00012,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0154,,,18544.5,,
-ATOSU-58337-00015,ATOSU-58337-00015,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0116,,,18544.5,Assumed price from above sami,
-ATOSU-58337-00016,ATOSU-58337-00016,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0117,,,18544.5,Assumed price from above sami,
-ATOSU-58337-00017,ATOSU-58337-00017,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0159,,,18544.5,Assumed price from above sami,
-ATOSU-58337-00018,ATOSU-58337-00018,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0132,,,18544.5,Assumed price from above sami,
 ATOSU-58341-00005,CGINS-SPKIRB-00241,Sensor,0,Spectral Irradiance: SPKIR Series A,SPKIR-A,Satlantic,OCR507 ICSW,241,,,,,
 ATOSU-58341-00008,ATOSU-58341-00008,Sensor,0,Spectral Irradiance: SPKIR Series A,OCR507-ICSW (series A) w/ Midrange (500m) Bioshutter II (SPKIR-A),Satlantic,OCR507 ICSW,251,,,14000,,
 ATOSU-58346-00007,ATOSU-58346-00007,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series A,"Falmouth Scientific 3D-ACM, with Impulse MCBH(WB)-5-FS-Ti connector (if available)",Falmouth Scientific,ACM-Plus-MP,1216,,20140128,10850,,
@@ -338,11 +330,6 @@ ATOSU-63259-00002,ATOSU-63259-00002,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,
 ATOSU-63259-00003,ATOSU-63259-00003,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 5 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,5,,,174000,,
 ATOSU-63259-00004,ATOSU-63259-00004,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,1,,,174000,,
 ATOSU-63259-00005,ATOSU-63259-00005,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,ZPLSC-B,Kongsberg Underwater Technology Inc,EK-60,2,,,,,
-ATOSU-63295-00001,ATOSU-63295-00001,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,3,,,174000,,
-ATOSU-63295-00002,ATOSU-63295-00002,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,4,,,174000,,
-ATOSU-63295-00003,ATOSU-63295-00003,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,5,,,174000,,
-ATOSU-63295-00004,N00760,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,1,,20140523,,,
-ATOSU-63295-00005,ATOSU-63295-00005,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,2,,,174000,,
 ATOSU-66645-00005,CGINS-PARADJ-00434,Sensor,0,Photosynthetically Available Radiation: PARAD Series A,PARAD,Satlantic,Satlantic digital PAR,434,,,,,
 ATOSU-66645-00008,ATOSU-66645-00008,Sensor,0,Photosynthetically Available Radiation: PARAD Series A,PARAD,Satlantic,Satlantic digital PAR,566,,,,,
 ATOSU-66662-00006,ATOSU-66662-00006,Sensor,0,CTD Profiler: CTDPF Series A,CTDPF-A,Sea-Bird Electronics,SBE 16plus V2,16-50018,,,,,
@@ -358,7 +345,7 @@ ATOSU-69825-00002,ATOSU-69825-00002,Sensor,0,ADCP Velocity Profiler (long range)
 ATOSU-69825-00003,CGINS-ADCPSI-18919,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series I,ADCP SERIES I (WHLM75-1500),Teledyne RDI,WHLM75-1500,18919,,,46795.5,,
 ATOSU-69826-00001,ATOSU-69826-00001,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series B,ADCP SERIES B (WHM600-500),Teledyne RDI,WHM300-500,18493,,20120826,22482,,
 ATOSU-69826-00002,ATOSU-69826-00002,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series B,ADCP SERIES B (WHM600-500),Teledyne RDI,WHM300-500,19003,,20121219,22482,,
-ATOSU-69826-00003,ATOSU-69826-00003,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series B,ADCP SERIES B (WHM600-500),Teledyne RDI,WHM300-500,19003,,20121219,22482,,
+ATOSU-69826-00003,ATOSU-69826-00003,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series B,ADCP SERIES B (WHM600-500),Teledyne RDI,WHM300-500,22115,,20121219,22482,,
 ATOSU-69827-00001,CGINS-CTDBPN-07230,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7230,,20121203,17500,OSU reports S/N 16P7116-7230,
 ATOSU-69827-00002,ATOSU-69827-00002,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-50114,,20150514,19135,,
 ATOSU-69827-00003,ATOSU-69827-00003,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7248,,20130115,17550,,
@@ -1787,6 +1774,7 @@ CGINS-MOPAK0-11854,OL000432,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Mo
 CGINS-MOPAK0-11856,OL000298,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,11856,,,,,
 CGINS-MOPAK0-11918,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11918,,,,,
 CGINS-MOPAK0-11923,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11923,,,,,
+CGINS-MOPAK0-11924,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11924,,,,,
 CGINS-MOPAK0-24112,N00025,Sensor,0,3-Axis Motion Pack: MOPAK,MOTION,MicroStrain,3DM-GX3-25,24112,,20150713,92259.49,,
 CGINS-MOPAK0-24436,OL000333,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,24436,,,,,
 CGINS-MOPAK0-27200,N00088,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,27200,,20140128,,,
