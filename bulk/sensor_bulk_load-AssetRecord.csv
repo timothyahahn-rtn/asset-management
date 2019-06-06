@@ -286,6 +286,10 @@ ATAPL-70248-00002,ATAPL-70248-00002,Sensor,0,HD Digital Video Camera with Strobe
 ATAPL-71553-00005,OL000579,Sensor,0,Cabled Wire-Following Profiler Controller: Docking Station,Controller,APL,DP Docking Station,5,,,,RS03AXPD-DP03A-ENG-00001,University of Washington
 ATAPL-71553-00203,OL000575,Sensor,0,Cabled Wire-Following Profiler Controller: Docking Station,Controller,APL,DP Docking Station,203,,,,CE04OSPD-DP01B-ENG-00001,University of Washington
 ATAPL-71553-00204,OL000577,Sensor,0,Cabled Wire-Following Profiler Controller: Docking Station,Controller,APL,DP Docking Station,204,,,,RS01SBPD-DP01A-ENG-00001,University of Washington
+ATAPL-78437-00001,ATAPL-78437-00001,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18830,,20180930,43237,,University of Washington
+ATAPL-78437-00002,ATAPL-78437-00002,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18831,,20180930,43237,,University of Washington
+ATAPL-78437-00003,ATAPL-78437-00003,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18832,,20180930,43237,,University of Washington
+ATAPL-78437-00004,ATAPL-78437-00004,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18833,,20180930,43237,,University of Washington
 ATCWK-67627-00006,,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 3500m,Sea-Bird Electronics,SBE 16plus V2,16-50209,3.1.8,20170401,16060,PI,University of Washington
 ATCWK-67627-00007,,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 3500m,Sea-Bird Electronics,SBE 16plus V2,16-50210,3.1.8,20170401,16060,PI,University of Washington
 ATOSU-58317-00007,ATOSU-58317-00007,Sensor,0,Underwater Digital Still Camera: CAMDS Series C,CAMDS-C,Kongsberg Underwater Technology Inc,Custom,100,,,,,
@@ -2527,6 +2531,8 @@ OL000553,OL000553,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instrument
 OL000563,OL000563,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP03ISSM-00001-MOPAK,,,,CP03ISSM-00001-MOPAK,
 OL000564,OL000564,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00001-SBD11-HYDGN,,,,CP03ISSM-00001-SBD11-HYDGN,
 OL000565,OL000565,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00001-SBD12-HYDGN,,,,CP03ISSM-00001-SBD12-HYDGN,
+PIRSN-AOABPA-00001,,Sensor,0,,,Wilcock,,1,,,,,
+PIRSN-CAMPIA-00001,,Sensor,0,,,MARUM,,1,,,,,
 PIRSN-COVISA-00001,,Sensor,0,Cabled Observatory Vent Imaging System,COVIS Series A,Bemis,,1,,,,,
 PIRSN-CTDPFA-10001,,Sensor,0,CTD with optode,CTDPFA Series A wth optode,MARUM,16plusV2 with SBE 63 optode,16-50216,,,,,
 PIRSN-OVRSRA-00001,,Sensor,0,Overview Sonar,OVRSR Series A,MARUM,R2 Sonic 2022,101409,,,,,
