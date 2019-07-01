@@ -1,5 +1,5 @@
 serial,name,value,notes
-26P76848-1387,CC_b,2796.2,source_file QCT 3305-00105-00011-A.zip > 3305-00105-00011-11042014.cap
+26P76848-1387,CC_b,2796.2,source_file QCT 3305-00105-00030-A.zip > 3305-00105-00030-A.cap
 26P76848-1387,CC_c1,2094.369,
 26P76848-1387,CC_c2,15.74913,
 26P76848-1387,CC_c3,-3649.47,
@@ -7,7 +7,7 @@ serial,name,value,notes
 26P76848-1387,CC_d2,0,
 26P76848-1387,CC_m,41943,
 26P76848-1387,CC_offset_correction_factor,0,Constant
-26P76848-1387,CC_pressure_offset_calibration_coefficient,-0.2014,
+26P76848-1387,CC_pressure_offset_calibration_coefficient,-0.2777,
 26P76848-1387,CC_slope_correction_factor,1,Constant
 26P76848-1387,CC_t1,27.67723,
 26P76848-1387,CC_t2,0.390712,

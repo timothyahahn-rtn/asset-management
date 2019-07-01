@@ -1,14 +1,14 @@
 serial,name,value,notes
-26P71826-1352,CC_b,2796.2,
+26P71826-1352,CC_b,2796.2, source_file QCT 3305-00105-00003-A.zip > 3305-00105-00003-A.cap
 26P71826-1352,CC_c1,2011.033,
 26P71826-1352,CC_c2,-53.76979,
 26P71826-1352,CC_c3,-3419.788,
 26P71826-1352,CC_d1,0.022333,
 26P71826-1352,CC_d2,0,
 26P71826-1352,CC_m,41943,
-26P71826-1352,CC_offset_correction_factor,0,
+26P71826-1352,CC_offset_correction_factor,0,constant
 26P71826-1352,CC_pressure_offset_calibration_coefficient,-0.1942,
-26P71826-1352,CC_slope_correction_factor,1,
+26P71826-1352,CC_slope_correction_factor,1,constant
 26P71826-1352,CC_t1,27.87143,
 26P71826-1352,CC_t2,0.490026,
 26P71826-1352,CC_t3,17.18162,
