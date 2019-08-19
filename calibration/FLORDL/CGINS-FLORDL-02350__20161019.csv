@@ -5,5 +5,5 @@ serial,name,value,notes
 2350,CC_depolarization_ratio,0.039,Constant
 2350,CC_measurement_wavelength,700,Constant
 2350,CC_scale_factor_chlorophyll_a,0.0071,
-2350,CC_scale_factor_volume_scatter,1.93E-06,
+2350,CC_scale_factor_volume_scatter,1.929E-06,
 2350,CC_scattering_angle,140,Constant
