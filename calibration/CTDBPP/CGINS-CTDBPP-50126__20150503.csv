@@ -1,5 +1,5 @@
 serial,name,value,notes
-16-50126,CC_a0,1.229102e-003,
+16-50126,CC_a0,1.229102e-003,source_file CTDBP-P_SBE_16PlusV2_SN_16-50126_Calibration_Files_2015-05-03.pdf
 16-50126,CC_a1,2.764560e-004,
 16-50126,CC_a2,-1.008090e-006,
 16-50126,CC_a3,1.779026e-007,
