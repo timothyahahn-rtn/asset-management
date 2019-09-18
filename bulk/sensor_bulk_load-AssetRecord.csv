@@ -377,6 +377,7 @@ ATOSU-70571-00001,ATOSU-70571-00001,Sensor,0,Seawater pH: PHSEN Series D,PHSEN-D
 ATOSU-70571-00002,ATOSU-70571-00002,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0117,,20140121,17479.95,,
 ATOSU-70571-00003,CGINS-PHSEND-P0132,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0132,,,,,
 ATOSU-70571-00004,CGINS-PHSEND-P0159,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0159,,,,,
+CGINS-ADCPAM-00000,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,0,,,,Placeholder dummy sensor for when the transducer number of a DVL deployed on a slocum glider cannot be determined. ,
 CGINS-ADCPAM-00223,N00728,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,223,,20110721,,,
 CGINS-ADCPAM-00537,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,537,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-ADCPAM-00539,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,539,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
@@ -399,6 +400,7 @@ CGINS-ADCPAM-43474,N00325,Sensor,1,ADCP Velocity Profiler (short range) for Glid
 CGINS-ADCPAM-48292,N00335,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648292,,20130806,,,
 CGINS-ADCPAM-48875,N00031,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648875,,20130412,,,
 CGINS-ADCPAM-48877,N00117,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648877,,20130701,186935,,
+CGINS-ADCPAM-48878,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648878,,,,,
 CGINS-ADCPAM-49015,N00146,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649015,,20130701,,,
 CGINS-ADCPAM-49016,N00141,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649016,,20130701,,,
 CGINS-ADCPAM-49696,N00151,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649696,,20130806,,,
@@ -1434,6 +1436,7 @@ CGINS-FLORTM-04195,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M
 CGINS-FLORTM-04196,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4196,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04197,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4197,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04198,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4198,,,,CGSN Glider Instrument Pool,
+CGINS-FLORTM-04201,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLC,4201,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04202,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4202,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-FLORTM-04220,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4220,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04221,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4221,,,,CGSN Glider Instrument Pool,
@@ -2056,6 +2059,7 @@ CGINS-PARADM-50244,,Sensor,1,Photosynthetically Available Radiation for Glider: 
 CGINS-PARADM-50245,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50245,1.2,,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50252,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50252,,,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50277,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50277,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-PARADM-50304,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50304,,,,CGSN Glider Instrument Pool,
 CGINS-PARADN-50170,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50170,,,,CGSN AUV Instrument Pool,
 CGINS-PARADN-50180,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50180,,,,CGSN AUV Instrument Pool,
 CGINS-PARADN-50266,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50266,,,,CGSN AUV Instrument Pool,
