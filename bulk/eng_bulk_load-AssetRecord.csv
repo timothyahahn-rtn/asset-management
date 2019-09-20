@@ -20,6 +20,8 @@ CGCON-BCPM01-15004,,Sensor,0,Surface Buoy Communications and Power Manager,Commu
 CGCON-BCPM01-15005,,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0005,,,,CE02SHSM-00004-CPM11 added the last two digits before the hyphen  to the UID to distinguish between Pioneer and Endurance,Oregon State University
 CGCON-BCPM01-15009,R00027,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,9,,,,TO BE DELETED,
 CGCON-BCPM01-17009,,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2017-009,,,,TO BE DELETED,
+CGCON-BCPM01-20001,CGCON-BCPM01-00006,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00245-00001-20001,,,,CP01CNSM-00012 CPM01; OLD SN 0006,Woods Hole Oceanographic Institution
+CGCON-BCPM01-20003,CGCON-BCPM01-00007,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00245-00001-20003,,,,CP04OSSM-00011 CPM01; OLD SN 0007,Woods Hole Oceanographic Institution
 CGCON-BCPM01-50001,OL000278 R00049,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0001,,,,CP04OSSM-00004-CPM1,Woods Hole Oceanographic Institution
 CGCON-BCPM01-50002,OL000097,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0002,,,,GA01SUMO-00002-CPM1,Woods Hole Oceanographic Institution
 CGCON-BCPM01-50003,OL000075,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0003,,,,,Woods Hole Oceanographic Institution
@@ -48,6 +50,8 @@ CGCON-BDCL11-15004,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentr
 CGCON-BDCL11-15005,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2015-0005,,,,CE02SHSM-00004-DCL11,Oregon State University
 CGCON-BDCL11-15009,OL000303,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,9,,,,CE02SHSM-00001-DCL11 added 15000 to SN UID to distinguish between Pioneer and Endurance,Oregon State University
 CGCON-BDCL11-17009,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2017-009,,,,TO BE DELETED,
+CGCON-BDCL11-20001,CGCON-BDCL11-00006,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00245-00001-20001,,,,CP01CNSM-00012 DCL11; OLD SN 0006,Woods Hole Oceanographic Institution
+CGCON-BDCL11-20003,CGCON-BDCL11-00007,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00245-00001-20003,,,,CP04OSSM-00011 DCL11; OLD SN 0007,Woods Hole Oceanographic Institution
 CGCON-BDCL11-50001,OL000281 R00051,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2015-0001,,,,CP04OSSM-00004-DCL11,Woods Hole Oceanographic Institution
 CGCON-BDCL11-50002,OL000099,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2015-0002,,,,,Woods Hole Oceanographic Institution
 CGCON-BDCL11-50003,OL000077,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2015-0003,,,,,Woods Hole Oceanographic Institution
@@ -76,6 +80,8 @@ CGCON-BDCL12-15004,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentr
 CGCON-BDCL12-15005,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2015-0005,,,,CE02SHSM-00004-DCL12,Oregon State University
 CGCON-BDCL12-15009,OL000304,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,9,,,,CE02SHSM-00001-DCL12 added 15000 to distinguish between Pioneer and Endurance,Oregon State University
 CGCON-BDCL12-17009,,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2017-009,,,,TO BE DELETED,
+CGCON-BDCL12-20001,CGCON-BDCL12-00006,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00245-00001-20001,,,,CP01CNSM-00012 DCL12; OLD SN 0006,Woods Hole Oceanographic Institution
+CGCON-BDCL12-20003,CGCON-BDCL12-00007,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00245-00001-20003,,,,CP04OSSM-00011 DCL12; OLD SN 0007,Woods Hole Oceanographic Institution
 CGCON-BDCL12-50001,OL000282 R00052,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2015-0001,,,,CP04OSSM-00004-DCL12,Woods Hole Oceanographic Institution
 CGCON-BDCL12-50002,OL000100,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2015-0002,,,,,Woods Hole Oceanographic Institution
 CGCON-BDCL12-50003,OL000078,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,2015-0003,,,,,Woods Hole Oceanographic Institution
@@ -243,10 +249,13 @@ CGCON-MCPM03-00011,OL000193,Sensor,0,Multi-Function Node Communications and Powe
 CGCON-MCPM03-00012,R00017,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0012,,,,CP03ISSM-00002-CPM3,Woods Hole Oceanographic Institution
 CGCON-MCPM03-00013,OL000544,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0013,,,,CP03ISSM-00006-CPM3,Woods Hole Oceanographic Institution
 CGCON-MCPM03-00014,,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,14,,,,,
-CGCON-MCPM03-00015,,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,15,,,,,
+CGCON-MCPM03-00015,,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,15,,,,,Woods Hole Oceanographic Institution
 CGCON-MCPM03-00016,,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,16,,,,CE06ISSM-00006-CPM3,Oregon State University
 CGCON-MCPM03-00019,,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,19,,,,,
 CGCON-MCPM03-00020,,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,20,,,,,
+CGCON-MCPM03-20001,CGCON-MCPM03-00015,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00275-00001-20001,,,,CP01CNSM-00012 CPM03; OLD SN 0015,Woods Hole Oceanographic Institution
+CGCON-MCPM03-20002,CGCON-MCPM03-00012,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00275-00001-20002,,,,CP03ISSM-00011 CPM03; OLD SN 0012,Woods Hole Oceanographic Institution
+CGCON-MCPM03-20003,CGCON-MCPM03-00006,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00275-00001-20003,,,,CP04OSSM-00011 CPM03; OLD SN 0006,Woods Hole Oceanographic Institution
 CGCON-MCPM03-50001,OL000280,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0001,,,,CP04OSSM-00004-CPM3 TO BE DELETED,
 CGCON-MCPM03-50004,OL000262,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0004,,,,CP03ISSM-00004-CPM3 TO BE DELETED,
 CGCON-MCPM03-50005,OL000230,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0005,,,,CP01CNSM-00005-CPM31 TO BE DELETED,
@@ -272,6 +281,9 @@ CGCON-MDCL35-00041,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data C
 CGCON-MDCL35-00045,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0045,,,,,Woods Hole Oceanographic Institution
 CGCON-MDCL35-00050,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0050,,,,,Woods Hole Oceanographic Institution
 CGCON-MDCL35-10007,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0007,,,,Leading 1 to distinguish it; There were two S/N 0007 DCL bottles deployed on Pioneer 8,Woods Hole Oceanographic Institution
+CGCON-MDCL35-20001,CGCON-MDCL35-00040,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00272-00001-20001,,,,CP01CNSM-00012 DCL35; OLD SN 0040,Woods Hole Oceanographic Institution
+CGCON-MDCL35-20002,CGCON-MDCL35-00041,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00272-00001-20002,,,,CP03ISSM-00011 DCL35; OLD SN 0041,Woods Hole Oceanographic Institution
+CGCON-MDCL35-20004,CGCON-MDCL35-00023,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00272-00001-20004,,,,CP04OSSM-00011 DCL35; OLD SN 0023,Woods Hole Oceanographic Institution
 CGCON-MDCL36-00001,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00292-0001,,,,CE06ISSM-00004 CE07SHSM-00005convertedbottle,Oregon State University
 CGCON-MDCL36-00005,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,5,,,,,
 CGCON-MDCL36-00009,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,9,,,,,
@@ -304,6 +316,9 @@ CGCON-MDCL37-00015,R00035,Sensor,0,Multi-Function Node Data Concentrator Logger,
 CGCON-MDCL37-00016,OL000562,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0016,,,,CP04OSSM-00003-DCL37,Woods Hole Oceanographic Institution
 CGCON-MDCL37-00019,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,19,,,,,
 CGCON-MDCL37-00020,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,20,,,,,
+CGCON-MDCL37-20001,CGCON-MDCL37-00015,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00275-00001-20001,,,,CP01CNSM-00012 DCL37; OLD SN 0015,Woods Hole Oceanographic Institution
+CGCON-MDCL37-20002,CGCON-MDCL37-00012,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00275-00001-20002,,,,CP03ISSM-00011 DCL37; OLD SN 0012,Woods Hole Oceanographic Institution
+CGCON-MDCL37-20003,CGCON-MDCL37-00006,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00275-00001-20003,,,,CP04OSSM-00011 DCL37; OLD SN 0006,Woods Hole Oceanographic Institution
 CGCON-NCPM02-00001,OL000484,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0001,,,,CP01CNSM-00001-CPM2,Woods Hole Oceanographic Institution
 CGCON-NCPM02-00002,OL000326,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00274-0002,,,,CE02SHSM-00003-CPM21,Oregon State University
 CGCON-NCPM02-00003,OL000439,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00274-0003,,,,CE07SHSM-00003-CPM2 CE02SHSM-00001-CPM2 used same UID assuming they are the same,Oregon State University
@@ -325,6 +340,9 @@ CGCON-NCPM02-00018,,Sensor,0,Near Surface Instrument Frame Communications and Po
 CGCON-NCPM02-00023,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0023,,,,,Woods Hole Oceanographic Institution
 CGCON-NCPM02-00033,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0033,,,,,Woods Hole Oceanographic Institution
 CGCON-NCPM02-15008,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,8,,,,CE02SHSM-00004-CPM21 added 1500 to sn UID to distinguish it from Pioneer,Oregon State University
+CGCON-NCPM02-20001,CGCON-NCPM02-00015,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00274-00001-20001,,,,CP01CNSM-00012 CPM02; OLD SN 0015,Woods Hole Oceanographic Institution
+CGCON-NCPM02-20002,CGCON-NCPM02-00004,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00274-00001-20002,,,,CP03ISSM-00011 CPM02; OLD SN 0004,Woods Hole Oceanographic Institution
+CGCON-NCPM02-20003,CGCON-NCPM02-00005,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00274-00001-20003,,,,CP04OSSM-00011 CPM02; OLD SN 0005,Woods Hole Oceanographic Institution
 CGCON-NCPM02-50001,OL000279,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0001,,,,CP04OSSM-00004-CPM2 TO BE DELETED,
 CGCON-NCPM02-50004,OL000261,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0004,,,,CP03ISSM-00004-CPM2 TO BE DELETED,
 CGCON-NCPM02-50005,OL000229,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,2015-0005,,,,CP01CNSM-00005-CPM21 TO BE DELETED,
@@ -373,7 +391,7 @@ CGCON-NDCL26-00027,,Sensor,0,Near Surface Instrument Frame Data Concentrator Log
 CGCON-NDCL26-00029,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,29,,,,CE02SHSM-00004-DCL26,Oregon State University
 CGCON-NDCL26-00031,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0031,,,,CP04OSSM-00006-DCL26,Woods Hole Oceanographic Institution
 CGCON-NDCL26-00032,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,32,,,,,
-CGCON-NDCL26-00034,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0034,,,,CP01CNSM-00008-DCL26,Woods Hole Oceanographic Institution
+CGCON-NDCL26-00034,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0034,,,,CP01CNSM-00008-DCL26 CP01CNSM-00012; new SN 3703-00272-00001-00034,Woods Hole Oceanographic Institution
 CGCON-NDCL26-00036,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,36,,,,,
 CGCON-NDCL26-00037,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,37,,,,,
 CGCON-NDCL26-00039,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0039,,,,CP03ISSM-00007-DCL26,Woods Hole Oceanographic Institution
@@ -382,6 +400,8 @@ CGCON-NDCL26-00042,,Sensor,0,Near Surface Instrument Frame Data Concentrator Log
 CGCON-NDCL26-00047,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,47,,,,,
 CGCON-NDCL26-00048,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,48,,,,,
 CGCON-NDCL26-00052,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,52,,,,,
+CGCON-NDCL26-20003,CGCON-NDCL26-00039,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00272-00001-20003,,,,CP03ISSM-00011 DCL26; OLD SN 0039,Woods Hole Oceanographic Institution
+CGCON-NDCL26-20005,CGCON-NDCL26-00024,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00272-00001-20005,,,,CP04OSSM-00011 DCL26; OLD SN 0024,Woods Hole Oceanographic Institution
 CGCON-NDCL27-00001,OL000489,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0001,,,,CP01CNSM-00001-DCL27,Woods Hole Oceanographic Institution
 CGCON-NDCL27-00002,OL000327,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00274-0002,,,,CE02SHSM-00003-DCL27,Oregon State University
 CGCON-NDCL27-00003,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00274-0003,,,,CE02SHSM-00005-DCL27,Oregon State University
@@ -402,6 +422,9 @@ CGCON-NDCL27-00017,,Sensor,0,Near Surface Instrument Frame Data Concentrator Log
 CGCON-NDCL27-00018,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,18,,,,,
 CGCON-NDCL27-00023,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0023,,,,,Woods Hole Oceanographic Institution
 CGCON-NDCL27-00033,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0033,,,,NEED TO CHECK SERIAL NUMBER,Woods Hole Oceanographic Institution
+CGCON-NDCL27-20001,CGCON-NDCL27-00015,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00274-00001-20001,,,,CP01CNSM-00012 DCL27; OLD SN 0015,Woods Hole Oceanographic Institution
+CGCON-NDCL27-20002,CGCON-NDCL27-00004,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00274-00001-20002,,,,CP03ISSM-00011 DCL27; OLD SN 0004,Woods Hole Oceanographic Institution
+CGCON-NDCL27-20003,CGCON-NDCL27-00005,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00274-00001-20003,,,,CP04OSSM-00011 DCL27; OLD SN 0005,Woods Hole Oceanographic Institution
 CGCON-SIOCON-00018,,Sensor,0,Subsurface Mooring Platform Controller,,SIO,Subsurface Mooring Controller,18,,,,TO BE DELETED,Woods Hole Oceanographic Institution
 CGCON-SIOCON-00019,,Sensor,0,Subsurface Mooring Platform Controller,,SIO,Subsurface Mooring Controller,19,,,,TO BE DELETED,Woods Hole Oceanographic Institution
 CGCON-SIOCON-00023,,Sensor,0,Subsurface Mooring Platform Controller,,SIO,Subsurface Mooring Controller,23,,,,TO BE DELETED,Woods Hole Oceanographic Institution
