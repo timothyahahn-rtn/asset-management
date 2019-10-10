@@ -1,2 +1,2 @@
 serial,name,value,notes
-50151,CC_bsipar_par_scaling,1e-06,
+50151,CC_bsipar_par_scaling,1e-06,not a vendor service but required to revert back to scale factor in CGINS-PARADM-50151__20121003.csv
