@@ -7,5 +7,5 @@ BBFL2W-1207,CC_depolarization_ratio,0.039,Depolarization ratio [unitless].
 BBFL2W-1207,CC_measurement_wavelength,700,Optical backscatter measurement wavelength [nm].
 BBFL2W-1207,CC_scale_factor_cdom,0.0904,Multiplier [ppb counts^-1]
 BBFL2W-1207,CC_scale_factor_chlorophyll_a,0.0121,Multiplier [ug L^-1 counts^-1]
-BBFL2W-1207,CC_scale_factor_volume_scatter,3.02E-06,Multiplier [m^-1 sr^-1 counts^-1]
+BBFL2W-1207,CC_scale_factor_volume_scatter,3.016E-06,Multiplier [m^-1 sr^-1 counts^-1]
 BBFL2W-1207,CC_scattering_angle,124,Optical backscatter scattering angle [degrees].
