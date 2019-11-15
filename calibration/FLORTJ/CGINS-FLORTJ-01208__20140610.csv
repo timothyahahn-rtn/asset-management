@@ -1,5 +1,5 @@
 serial,name,value,notes
-BBFL2W-1208,CC_angular_resolution,1.076,X (Chi) factor for high angular resolution.
+BBFL2W-1208,CC_angular_resolution,1.076,X (Chi) factor for high angular resolution.;source_file FLORT-J_BBFL2W-1208_Calibration_2014-06-10.pdf
 BBFL2W-1208,CC_dark_counts_cdom,40,Measured signal output of fluormeter in clean water with black tape over the detector [counts]
 BBFL2W-1208,CC_dark_counts_chlorophyll_a,47,Measured signal output of fluormeter in clean water with black tape over the detector [counts]
 BBFL2W-1208,CC_dark_counts_volume_scatter,50,Measured signal output of fluormeter in clean water with black tape over the detector [counts]
