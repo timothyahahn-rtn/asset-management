@@ -147,7 +147,7 @@ ML20181203,Miss Linda,2018-12-03T16:15:00,2018-12-03T18:42:00,Endurance Glider R
 RC20181203,R/V Rachel Carson,2018-12-03T18:00:00,2018-12-08T21:00:00,Endurance Profiler Recovery and Glider Deployment
 TN20181209,F/V Tenacious II,2018-12-09T05:00:00,2018-12-09T23:59:00,Glider 339 deploy 9 by Eric Hesse #TO BE DELETED
 TS20181209,F/V Tenacious II,2018-12-09T05:00:00,2018-12-09T23:59:00,Glider 339 deploy 9 by Eric Hesse
-OC1901A,R/V Oceanus,2019-01-11T00:00:00,2019-01-15T00:00:00,Opportunity glider recovery by Oceanus martech
+OC1901A,R/V Oceanus,2019-01-11T00:00:00,2019-01-15T00:00:00,Endurance opportunity glider recovery by Oceanus martech
 SU20190125,R/V Pacific Surveyor,2019-01-25T16:30:00,2019-01-26T04:26:00,Endurance Glider Deployments
 WJ20190203,M/V Warren Jr.,2019-02-03T09:00:00,2019-02-04T21:00:00,"Pioneer 11a, OSSM D9 buoy recovery, GL388 D7 recovery"
 TS20190205,F/V Tenacious II,2019-02-05T00:30:00,2019-02-06T01:00:00,"Pioneer 11b, glider deployments"
@@ -176,9 +176,10 @@ AR35-05,R/V Neil Armstrong,2019-08-02T14:00:00,2019-08-24T14:25:00,Irminger 6
 KP20190808,R/V Kalipi,2019-08-08T13:00:00,2019-08-08T23:14:00,Endurance glider recoveries and deployment
 EK20190813,R/V Elakha,2019-08-13T15:00:00,2019-08-13T23:00:00,Endurance ce02shsp_00015 deployment
 EK20190822,R/V Elakha,2019-08-22T12:00:00,2019-08-22T20:00:00,Endurance ce01issp_00014 and glider deployment
-RC20190827,R/V Rachel Carson,2019-08-27T12:00:00,2019-08-27T19:00:00,ce06issp_00011 deployment
+RC20190827,R/V Rachel Carson,2019-08-27T12:00:00,2019-08-27T19:00:00,Endurance ce06issp_00011 deployment
 SKQ201920S,R/V Sikuliaq,2019-09-19T16:10:00,2019-10-05T00:28:00,Papa 7
 AR-38,R/V Neil Armstrong,2019-09-20T14:00:00,2019-09-22T15:15:00,Pioneer glider recovery
 AR-39,R/V Neil Armstrong,2019-09-25T16:55:00,2019-10-15T16:26:00,Pioneer 13
 SKQ201921S,R/V Sikuliaq,2019-10-10T05:00:00,2019-10-24T00:00:00,Endurance 12
 AR-40,R/V Neil Armstrong,2019-10-20T12:00:00,2019-11-06T16:00:00,Pioneer glider cp_340 recovery
+EK20191121,R/V Elakha,2019-11-21T16:14:00,2019-11-22T00:08:00,Endurance CSPP and glider operations
