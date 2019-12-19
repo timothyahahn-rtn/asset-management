@@ -1,0 +1,4 @@
+serial,name,value,notes
+412,CC_Im,1.3589,date in filename comes from factory devfile
+412,CC_a0,4455,incorrect vender doc has digital a0 as 2899
+412,CC_a1,2899,incorrect vendor doc has digital a1 as 4455

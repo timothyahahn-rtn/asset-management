@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-2978,CC_frequency_offset,-7.691666e+002,source_file DOFST-K_SBE43F_SN_2978_Calibration_2019-07-11.zip > 2978.cal and SBE 43F O2978 SOCAdjusted 11Jul19.pdf
+43-2978,CC_oxygen_signal_slope,2.2176e-004,use adjusted Soc
+43-2978,CC_residual_temperature_correction_factor_a,-5.360127e-003,
+43-2978,CC_residual_temperature_correction_factor_b,2.773047e-004,
+43-2978,CC_residual_temperature_correction_factor_c,-3.867184e-006,
+43-2978,CC_residual_temperature_correction_factor_e,0.036,

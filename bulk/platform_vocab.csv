@@ -2,6 +2,7 @@ DESCRIPTION OF EQUIPMENT,Manufacturer,Model
 Cabled ASHES Vent Field: Medium Power Junction Box,UW-APL,RS03ASHS-MJ03B
 Cabled ASHES Vent Field: Primary Node,UW-APL,RS03ASHS-PN03B
 Cabled Axial Base Deep Profiler Mooring: Deep Profiler,UW-APL,RS03AXPD-DP03A
+Cabled Axial Base Seafloor: Low Voltage Node,UW-APL,RS03AXBS-LV03A
 Cabled Axial Base Seafloor: Low Power Junction Box,UW-APL,RS03AXBS-LJ03A
 Cabled Axial Base Seafloor: Medium Power Junction Box,UW-APL,RS03AXBS-MJ03A
 Cabled Axial Base Shallow Profiler Mooring: Platform Interface Controller,UW-APL,RS03AXPS-PC03A
@@ -13,11 +14,13 @@ Cabled International District Vent Field 2: Medium Power Junction Box,UW-APL,RS0
 Cabled Oregon Slope Base Deep Profiler Mooring: Deep Profiler,UW-APL,RS01SBPD-DP01A
 Cabled Oregon Slope Base Deep Profiler Mooring: Profiler Docking Station,UW-APL,RS01SBPD-PD01A
 Cabled Oregon Slope Base Seafloor: Low Power Junction Box,UW-APL,RS01SLBS-LJ01A
+Cabled Oregon Slope Base Seafloor: Low Voltage Node,UW-APL,RS01SLBS-LV01A
 Cabled Oregon Slope Base Seafloor: Medium Power Junction Box,UW-APL,RS01SLBS-MJ01A
 Cabled Oregon Slope Base Shallow Profiler Mooring: Platform Interface Controller,UW-APL,RS01SBPS-PC01A
 Cabled Oregon Slope Base Shallow Profiler Mooring: Science Pod,UW-APL,RS01SBPS-SF01A
 Cabled Southern Hydrate Summit 1 Seafloor: Low Power Junction Box,UW-APL,RS01SUM1-LJ01B
-Cabled Southern Hydrate Summit 1 Seafloor: Low Voltage Node,UW-APL,RS01SUM1-PN01B
+Cabled Southern Hydrate Summit 1 Seafloor: Low Voltage Node,UW-APL,RS01SUM1-LV01B
+Cabled Southern Hydrate Summit 1 Seafloor: Primary Node,UW-APL,RS01SUM1-PN01B
 Cabled Southern Hydrate Summit 1 Seafloor: Medium Power Junction Box,UW-APL,RS01SUM2-MJ01B
 Coastal Endurance Gliders,Teledyne Webb,CE05MOAS
 Coastal Endurance Oregon Inshore Surface Mooring,WHOI,CE01ISSM
@@ -42,7 +45,7 @@ Coastal Pioneer Central Inshore Profiler Mooring,WHOI,CP02PMCI
 Coastal Pioneer Central Offshore Profiler Mooring,WHOI,CP02PMCO
 Coastal Pioneer Central Surface Mooring,WHOI,CP01CNSM
 Coastal Pioneer Central Surface Piercing Profiler Mooring,WHOI,CP01CNSP
-Coastal Pioneer Gliders,Teledyne Webb,CP05MOAS
+Coastal Pioneer Mobile Assets,Teledyne Webb/Hydroid,CP05MOAS
 Coastal Pioneer Inshore Surface Mooring,WHOI,CP03ISSM
 Coastal Pioneer Inshore Surface Piercing Profiler Mooring,WHOI,CP03ISSP
 Coastal Pioneer Offshore Profiler Mooring,WHOI,CP04OSPM
@@ -68,3 +71,5 @@ Global Station Papa Apex Profiler Mooring,WHOI,GP02HYPM
 Global Station Papa Flanking Subsurface Mooring A,WHOI,GP03FLMA
 Global Station Papa Flanking Subsurface Mooring B,WHOI,GP03FLMB
 Global Station Papa Gliders,Teledyne Webb,GP05MOAS
+Coastal Pioneer Central Profiler Mooring,WHOI,CP01CNPM
+Coastal Pioneer Inshore Profiler Mooring,WHOI,CP03ISPM

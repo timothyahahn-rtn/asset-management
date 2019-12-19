@@ -1,0 +1,4 @@
+serial,name,value,notes
+407,CC_Im,1.3589,digital;source_file PARAD-J_ECOPAR_SN_0407_Calibration_2016-03-12.zip
+407,CC_a0,4439,digital
+407,CC_a1,2826,digital

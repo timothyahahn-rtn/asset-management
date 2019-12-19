@@ -1,11 +1,10 @@
 import fnmatch
 import logging
 import os
-
 import pandas
 from nose.plugins.attrib import attr
 
-from ..test_base import AssetManagementUnitTest
+from test.test_base import AssetManagementUnitTest
 
 logging.basicConfig()
 log = logging.getLogger()
@@ -21,6 +20,7 @@ class DeploymentFilesUnitTest(AssetManagementUnitTest):
     }
 
     required_ids = {
+        'CUID_Deploy',
         'Reference Designator',
         'deploymentNumber',
         'startDateTime',
@@ -31,7 +31,6 @@ class DeploymentFilesUnitTest(AssetManagementUnitTest):
     }
 
     optional_ids = {
-        'CUID_Deploy',
         'deployedBy',
         'CUID_Recover',
         'recoveredBy',
@@ -110,7 +109,7 @@ class DeploymentFilesUnitTest(AssetManagementUnitTest):
                                   (missing, index, record.values))
                     return errors
 
-                # make sure the cruise ID exists if supplied
+                # make sure the cruise ID exists
                 deploy_cuid = record.CUID_Deploy
                 if deploy_cuid and deploy_cuid not in self.cruise_ids:
                     errors.append('Invalid cruise ID - "%r" - row %d' % (deploy_cuid, index))
@@ -137,6 +136,10 @@ class DeploymentFilesUnitTest(AssetManagementUnitTest):
                 if start_time == stop_time:
                     errors.append('Equivalent startDateTime and stopDateTime - (%r, %r) - row %d' %
                                   (start_time, stop_time, index))
+
+                # reference designator must be valid. from ../../misc/reference_designators.csv
+                if not record['Reference Designator'] in self.reference_designators:
+                    errors.append('Reference Designator (%s) at csv index (%s) not in list of valid reference designators (./vocab/vocab.csv)' % (record['Reference Designator'], index+2))
 
                 lat = record['lat']
                 if not self.valid_float(lat):
