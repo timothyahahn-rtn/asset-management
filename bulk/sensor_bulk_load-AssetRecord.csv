@@ -1772,6 +1772,7 @@ CGINS-METWND-00254,A01294,Sensor,0,Bulk Meteorology Instrument Package: METBK WN
 CGINS-METWND-00255,A01295,Sensor,0,Bulk Meteorology Instrument Package: METBK WND Module,METBK WND MODULE,Star Engineering,ABS101-SWND,SWND255,,20150227,12250,,
 CGINS-METWND-00266,A01473,Sensor,0,Bulk Meteorology Instrument Package: METBK WND Module,METBK WIND MODULE 98-ABS101,Star Engineering,ABS101-SWND,SWND266,,20150601,12634,,
 CGINS-MOPAK0-11343,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11343,,,,,
+CGINS-MOPAK0-11345,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11345,,,,,Woods Hole Oceanographic Institution
 CGINS-MOPAK0-11347,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11347,,,,,
 CGINS-MOPAK0-11351,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11351,,,,,
 CGINS-MOPAK0-11353,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11353,,,,,
@@ -1780,6 +1781,7 @@ CGINS-MOPAK0-11358,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6
 CGINS-MOPAK0-11360,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11360,,,,,
 CGINS-MOPAK0-11363,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11363,,,,,
 CGINS-MOPAK0-11364,OL000339,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,6223-4220-11364,,,,,
+CGINS-MOPAK0-11366,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11366,,,,,Woods Hole Oceanographic Institution
 CGINS-MOPAK0-11838,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11838,,,,,
 CGINS-MOPAK0-11839,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11839,,,,,
 CGINS-MOPAK0-11843,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11843,,,,,
@@ -1791,6 +1793,7 @@ CGINS-MOPAK0-11848,,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pac
 CGINS-MOPAK0-11851,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11851,,,,,
 CGINS-MOPAK0-11854,OL000432,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,6223-4220-11854,,,,3DM-GX3-25,
 CGINS-MOPAK0-11856,OL000298,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,11856,,,,,
+CGINS-MOPAK0-11901,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11901,,,,,Woods Hole Oceanographic Institution
 CGINS-MOPAK0-11918,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11918,,,,,
 CGINS-MOPAK0-11923,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11923,,,,,
 CGINS-MOPAK0-11924,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11924,,,,,
