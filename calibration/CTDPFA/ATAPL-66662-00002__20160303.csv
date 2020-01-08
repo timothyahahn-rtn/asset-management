@@ -27,4 +27,4 @@ serial,name,value,notes
 16-7205,CC_residual_temperature_correction_factor_b, 1.8898e-004,
 16-7205,CC_residual_temperature_correction_factor_c,-3.2069e-006,
 16-7205,CC_residual_temperature_correction_factor_e, 3.6000e-002,
-16-7205,CC_offset,0,
+16-7205,CC_offset,4.13,Added pressure offset for miscalibrated Sea-Bird Druck Pressure Sensors (Redmine #12180)
