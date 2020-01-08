@@ -21,4 +21,4 @@ serial,name,value,notes
 16-50019,CC_ptempa0,-6.60917037e+001,
 16-50019,CC_ptempa1,5.26535887e+001,
 16-50019,CC_ptempa2,-4.85764972e-001,
-16-50019,CC_offset,0,
+16-50019,CC_offset,9.6,Added pressure offset for miscalibrated Sea-Bird Druck Pressure Sensors (Redmine #12180)
