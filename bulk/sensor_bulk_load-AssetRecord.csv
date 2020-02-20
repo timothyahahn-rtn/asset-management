@@ -1514,6 +1514,7 @@ CGINS-HYDGN0-49886,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instrume
 CGINS-HYDGN0-49887,OL000589,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A49887,,,,,
 CGINS-HYDGN0-49891,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A49891,,,,,
 CGINS-HYDGN0-51407,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A51407,,,,,
+CGINS-HYDGN0-99999,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,UNKNOWN,,,,Placeholder for unknown S/N,
 CGINS-HYDGN0-Z5971,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A6Z5971,,,,,Woods Hole Oceanographic Institution
 CGINS-METBPR-00237,A00185,Sensor,0,Bulk Meteorology Instrument Package: METBK BPR Module,METBK BPR MODULE,Star Engineering,ABS106-BPR,BPR237,,20150604,7200,,
 CGINS-METBPR-00238,A00192,Sensor,0,Bulk Meteorology Instrument Package: METBK BPR Module,METBK BPR MODULE,Star Engineering,ABS106-BPR,BPR238,,20150604,7200,,
