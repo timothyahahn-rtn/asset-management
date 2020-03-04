@@ -738,6 +738,13 @@ CP05MOAS-GL389-02-FLORTM000,Coastal Pioneer,Mobile Assets,Coastal Glider 389,3-W
 CP05MOAS-GL389-03-CTDGVM000,Coastal Pioneer,Mobile Assets,Coastal Glider 389,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,1000
 CP05MOAS-GL389-04-DOSTAM000,Coastal Pioneer,Mobile Assets,Coastal Glider 389,Dissolved Oxygen,Aanderaa,Optode 4831,0,1000
 CP05MOAS-GL389-05-PARADM000,Coastal Pioneer,Mobile Assets,Coastal Glider 389,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,1000
+CP05MOAS-GL514,Coastal Pioneer,Mobile Assets,Coastal Glider 514,,,,0,1000
+CP05MOAS-GL514-00-ENG000000,Coastal Pioneer,Mobile Assets,Coastal Glider 514,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,0,1000
+CP05MOAS-GL514-01-ADCPAM000,Coastal Pioneer,Mobile Assets,Coastal Glider 514,Velocity Profiler (600kHz),Teledyne RDI,Explorer DVL 600 kHz,0,1000
+CP05MOAS-GL514-02-FLORTM000,Coastal Pioneer,Mobile Assets,Coastal Glider 514,3-Wavelength Fluorometer,WET Labs,ECO Puck FLBBCD-SLK,0,1000
+CP05MOAS-GL514-03-CTDGVM000,Coastal Pioneer,Mobile Assets,Coastal Glider 514,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,1000
+CP05MOAS-GL514-04-DOSTAM000,Coastal Pioneer,Mobile Assets,Coastal Glider 514,Dissolved Oxygen,Aanderaa,Optode 4831,0,1000
+CP05MOAS-GL514-05-PARADM000,Coastal Pioneer,Mobile Assets,Coastal Glider 514,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,1000
 GA01SUMO,Global Argentine Basin,Apex Surface Mooring,,,,,0,5200
 GA01SUMO-RID16,Global Argentine Basin,Apex Surface Mooring,Near Surface Instrument Frame,,,,12,12
 GA01SUMO-RID16-00-DCLENG000,Global Argentine Basin,Apex Surface Mooring,Near Surface Instrument Frame,Data Concentrator Logger (DCL),WHOI,Data Concentrator Logger,12,12
