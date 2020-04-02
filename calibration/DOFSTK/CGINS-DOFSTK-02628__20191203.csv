@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-2628,CC_frequency_offset,-8.047682e+002, source_file DOFST-K_SBE43F_SN_2628_Calibration_2019-12-03.zip > 2628.cal and SBE 43F O2628 SOCAdjusted 16Dec19.pdf
+43-2628,CC_oxygen_signal_slope,3.1886e-004, adjusted Soc value
+43-2628,CC_residual_temperature_correction_factor_a,-3.619693e-003,
+43-2628,CC_residual_temperature_correction_factor_b,1.813512e-004,
+43-2628,CC_residual_temperature_correction_factor_c,-3.070325e-006,
+43-2628,CC_residual_temperature_correction_factor_e,3.600000e-002,
