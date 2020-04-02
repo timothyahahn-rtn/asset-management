@@ -1,10 +1,10 @@
 serial,name,value,notes
-1197,CC_dark_counts_cdom,50,date in filename comes from dev file
-1197,CC_scale_factor_cdom,0.0652,
-1197,CC_dark_counts_chlorophyll_a,57,
-1197,CC_scale_factor_chlorophyll_a,.0114,
-1197,CC_dark_counts_volume_scatter,50,
-1197,CC_scale_factor_volume_scatter,2.072e-06,
+1197,CC_dark_counts_cdom,55,date in filename comes from pdf file
+1197,CC_scale_factor_cdom,0.0603,
+1197,CC_dark_counts_chlorophyll_a,56,
+1197,CC_scale_factor_chlorophyll_a,.0105,
+1197,CC_dark_counts_volume_scatter,55,
+1197,CC_scale_factor_volume_scatter,2.347e-06,
 1197,CC_depolarization_ratio,0.039,Constant
 1197,CC_measurement_wavelength,700,[nm]; Constant
 1197,CC_scattering_angle,124,[degrees]; Constant
