@@ -1,0 +1,9 @@
+serial,name,value,notes
+C0100,CC_cala,0.0743,source_file PCO2W-B_SAMI-CO2_SN_C0100_Calibration_Certificate_2020-01-21.pdf
+C0100,CC_calb,0.4966,
+C0100,CC_calc,-1.4323,
+C0100,CC_calt,15.3761,
+C0100,CC_ea434,19706,constant
+C0100,CC_ea620,34,constant
+C0100,CC_eb434,3073,constant
+C0100,CC_eb620,44327,constant
