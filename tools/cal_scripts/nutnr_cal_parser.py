@@ -74,8 +74,8 @@ def main():
             if file[0] == '.':
                 continue
             cal = NUTNRCalibration()
-            if not file.startswith('SNA'):
-                continue
+            #if not file.startswith('SNA'):
+            #    continue
             cal.read_cal(os.path.join(path, file))
             cal.write_cal_info()
             cal.move_to_archive(cal.type, file)
