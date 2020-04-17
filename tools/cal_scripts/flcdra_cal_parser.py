@@ -29,8 +29,10 @@ class FLCDRACalibration(Calibration):
                 if 'ECO' == parts[0]:
                     self.serial = parts[-1]
                 elif 'Created' == parts[0]:
-                    self.date = datetime.datetime.strptime(
-                        parts[-1], '%m/%d/%Y').strftime('%Y%m%d')
+                    try:
+                        self.date = datetime.datetime.strptime(parts[-1], '%m/%d/%Y').strftime('%Y%m%d')
+                    except ValueError:
+                        self.date = datetime.datetime.strptime(parts[-1], '%m/%d/%y').strftime('%Y%m%d')
                 deconstruct = parts[0].split('=')
                 if deconstruct[0] == 'CDOM':
                     self.dark = parts[-1]
