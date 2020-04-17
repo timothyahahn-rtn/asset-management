@@ -31,6 +31,9 @@ class FLORCalibration(Calibration):
                 parts = line.split()
                 if not len(parts):  # skip blank lines
                     continue
+                if 'BBFL2W' in parts[0]:
+                    serial = parts[0].split('-')
+                    self.serial = serial[-1]
                 if 'ECO' == parts[0]:
                     serial = parts[1].split('-')
                     self.serial = serial[-1]
