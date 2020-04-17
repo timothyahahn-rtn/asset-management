@@ -51,6 +51,7 @@ ATAPL-58322-00009,ATAPL-58322-00009,Sensor,0,3-Wavelength Fluorometer: FLORT Ser
 ATAPL-58322-00010,ATAPL-58322-00010,Sensor,0,3-Wavelength Fluorometer: FLORT Series D,ECO-triplet-w (3-wavelength fluorometer w/ wiper) (FLOR-D),WET Labs,ECO Triplet-w,1293,,20150423,13403.46,,University of Washington
 ATAPL-58322-00011,ATAPL-58322-00011,Sensor,0,2-Wavelength Fluorometer: FLORD Series D,ECO-triplet-w (3-wavelength fluorometer w/ wiper) (FLOR-D),WET Labs,ECO Triplet-w,1297,,20150423,13403.46,,University of Washington
 ATAPL-58322-00012,ATAPL-58322-00012,Sensor,0,2-Wavelength Fluorometer: FLORD Series D,ECO-triplet-w (3-wavelength fluorometer w/ wiper) (FLOR-D),WET Labs,ECO Triplet-w,1294,,20150430,13403.46,,University of Washington
+ATAPL-58322-00014,ATAPL-58322-00014,Sensor,0,2-Wavelength Fluorometer: FLORD Series D,ECO-triplet-w (3-wavelength fluorometer w/ wiper) (FLOR-D),WET Labs,ECO Triplet-w,5967,,,,,University of Washington
 ATAPL-58323-00001,ATAPL-58323-00001,Sensor,0,"Horizontal Electric Field, Pressure and Inverted Echo Sounder: HPIES Series A",HPIES for RSN,APL,Custom,1,,,,,University of Washington
 ATAPL-58323-00002,ATAPL-58323-00002,Sensor,0,"Horizontal Electric Field, Pressure and Inverted Echo Sounder: HPIES Series A",HPIES for RSN,APL,Custom,2,,,,,University of Washington
 ATAPL-58323-00003,ATAPL-58323-00003,Sensor,0,"Horizontal Electric Field, Pressure and Inverted Echo Sounder: HPIES Series A",HPIES for RSN,APL,Custom,3,,,,,University of Washington
@@ -396,12 +397,14 @@ CGINS-ADCPAM-43106,N00015,Sensor,1,ADCP Velocity Profiler (short range) for Glid
 CGINS-ADCPAM-43111,N00728,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,643111,,20130125,,,
 CGINS-ADCPAM-43473,N00320,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,643473,,20121228,,,
 CGINS-ADCPAM-43474,N00325,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,643474,,20121228,,,
+CGINS-ADCPAM-44067,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,644067,,,,,
 CGINS-ADCPAM-48292,N00335,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648292,,20130806,,,
 CGINS-ADCPAM-48875,N00031,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648875,,20130412,,,
 CGINS-ADCPAM-48877,N00117,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648877,,20130701,186935,,
 CGINS-ADCPAM-48878,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648878,,,,,
 CGINS-ADCPAM-49015,N00146,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649015,,20130701,,,
 CGINS-ADCPAM-49016,N00141,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649016,,20130701,,,
+CGINS-ADCPAM-49653,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649653,,,,,
 CGINS-ADCPAM-49696,N00151,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649696,,20130806,,,
 CGINS-ADCPAM-49697,N00330,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649697,,20130806,,,
 CGINS-ADCPAM-49982,N00043,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649982,,20130806,,,
@@ -1206,6 +1209,7 @@ CGINS-DOSTAM-00604,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA 
 CGINS-DOSTAM-00605,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,605,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00662,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,662,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-DOSTAM-01059,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,1059,,,,CGSN Glider Instrument Pool,
+CGINS-DOSTAM-99999,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,UNKNOWN,,,,Placeholder for unknown S/N,
 CGINS-DOSTAM-01407,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,1407,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAN-01519,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,1519,,,,CGSN AUV Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-DOSTAN-01520,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,1520,,,,CGSN AUV Instrument Pool,Woods Hole Oceanographic Institution

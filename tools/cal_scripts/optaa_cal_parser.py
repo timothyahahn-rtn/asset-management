@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # OPTAA calibration parser
 #
@@ -38,12 +38,16 @@ class OPTAACalibration(Calibration):
                 parts = line.split(';')
                 if len(parts) != 2:
                     parts = line.split()
-                    if parts[0] == 'tcal:':
+                    if 'tcal:' in parts[0]:
+                    #if parts[0] == 'tcal:':
                         self.tcal = parts[1]
                         self.coefficients['CC_tcal'] = self.tcal
                         cal_date = parts[-1:][0].strip(string.punctuation)
-                        self.date = datetime.datetime.strptime(
-                            cal_date, '%m/%d/%y').strftime('%Y%m%d')
+                        print(cal_date)
+                        try:
+                            self.date = datetime.datetime.strptime(cal_date, '%m/%d/%y').strftime('%Y%m%d')
+                        except ValueError:
+                            self.date = datetime.datetime.strptime(cal_date, '%m/%d/%Y').strftime('%Y%m%d')
                     continue
                 data, comment = parts
 
@@ -57,7 +61,7 @@ class OPTAACalibration(Calibration):
 
                 elif comment.startswith(' C and A offset'):
                     if self.nbins is None:
-                        print 'Error - failed to read number of temperature bins'
+                        print('Error - failed to read number of temperature bins')
                         sys.exit(1)
                     parts = data.split()
                     self.cwlngth.append(float(parts[0][1:]))
@@ -85,14 +89,14 @@ class OPTAACalibration(Calibration):
             os.path.realpath('../..'), 'calibration', inst_type)
         file_name = self.asset_tracking_number + '__' + self.date
         with open(os.path.join(complete_path, '%s.csv' % file_name), 'w') as info:
-            writer = csv.writer(info)
+            writer = csv.writer(info, lineterminator='\n')
             writer.writerow(['serial', 'name', 'value', 'notes'])
             for each in sorted(self.coefficients.items()):
-                writer.writerow([self.serial] + list(each))
+                writer.writerow([self.serial] + list(each) + [""])
 
         def write_array(filename, cal_array):
             with open(filename, 'w') as out:
-                array_writer = csv.writer(out)
+                array_writer = csv.writer(out, lineterminator='\n')
                 array_writer.writerows(cal_array)
 
         write_array(os.path.join(complete_path, '%s__CC_tcarray.ext' %
