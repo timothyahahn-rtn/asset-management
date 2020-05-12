@@ -1,5 +1,5 @@
 serial,name,value,notes
-C0103,CC_cala,0.1894,source_file PCO2W-C_SAMI-CO2_SN_0103_Calibration_Certificate_2020-04-20.pdf
+C0103,CC_cala,0.1894,source_file PCO2W-C_SAMI-CO2_SN_C0103_Calibration_Certificate_2020-04-20.pdf
 C0103,CC_calb,-0.1777,
 C0103,CC_calc,-0.4176,
 C0103,CC_calt,14.7016,
