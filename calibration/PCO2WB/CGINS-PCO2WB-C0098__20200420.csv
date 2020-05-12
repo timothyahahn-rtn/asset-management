@@ -1,5 +1,5 @@
 serial,name,value,notes
-C0098,CC_cala,0.1797,source_file PCO2W-B_SAMI-CO2_SN_0098_Calibration_Certificate_2020-04-20.pdf
+C0098,CC_cala,0.1797,source_file PCO2W-B_SAMI-CO2_SN_C0098_Calibration_Certificate_2020-04-20.pdf
 C0098,CC_calb,-0.1152,
 C0098,CC_calc,-0.5192,
 C0098,CC_calt,14.6766,
