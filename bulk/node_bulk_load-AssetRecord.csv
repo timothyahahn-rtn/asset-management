@@ -106,3 +106,15 @@ CGVEH-GLDRCP-00564,,Node,1,Coastal Glider 564,COASTAL GLIDER 200M,Teledyne Webb,
 CGVEH-GLDRCP-00514,,Node,1,Coastal Glider 514,COASTAL GLIDER 1000M,Teledyne Webb,ASSY 4335-1000,514,,,,,Woods Hole Oceanographic Institution
 CGVEH-AUVPNR-06263,,Node,1,Coastal Pioneer AUV 06263,Coastal AUV,Hydroid,REMUS 600,6263,,,,,Woods Hole Oceanographic Institution
 CGVEH-AUVPNR-06264,,Node,1,Coastal Pioneer AUV 06264,Coastal AUV,Hydroid,REMUS 600,6264,,,,,Woods Hole Oceanographic Institution
+ATAPL-71403-00001,ATAPL-71403-00001,Node,0,Cabled Deep Profiler Mooring Wire-Following Vehicle,"MMP Extended Frame (no sensors), Glass Flotation (2 spheres), Ti controller housing extended",UW-APL,71403,SN00001,N/A,20130723,58740,,University of Washington
+ATAPL-71403-00002,ATAPL-71403-00002,Node,0,Cabled Deep Profiler Mooring Wire-Following Vehicle,"MMP Extended Frame (no sensors), Glass Flotation (2 spheres), Ti controller housing extended",UW-APL,71403,SN00002,N/A,20140409,59190,,University of Washington
+ATAPL-71403-00003,ATAPL-71403-00003,Node,0,Cabled Deep Profiler Mooring Wire-Following Vehicle,"MMP Extended Frame (no sensors), Glass Flotation (2 spheres), Ti controller housing extended",UW-APL,71403,SN00003,N/A,20140409,59190,,University of Washington
+ATAPL-71403-00004,ATAPL-71403-00004,Node,0,Cabled Deep Profiler Mooring Wire-Following Vehicle,"MMP Extended Frame (no sensors), Glass Flotation (2 spheres), Ti controller housing extended",UW-APL,71403,SN00004,N/A,20140421,59190,,University of Washington
+ATAPL-71403-00005,ATAPL-71403-00005,Node,0,Cabled Deep Profiler Mooring Wire-Following Vehicle,"MMP Extended Frame (no sensors), Glass Flotation (2 spheres), Ti controller housing extended",UW-APL,71403,SN00005,N/A,20150428,59190,,University of Washington
+ATAPL-71403-00006,ATAPL-71403-00006,Node,0,Cabled Deep Profiler Mooring Wire-Following Vehicle,"MMP Extended Frame (no sensors), Glass Flotation (2 spheres), Ti controller housing extended",UW-APL,71403,SN00006,N/A,20150428,59190,,University of Washington
+ATAPL-71403-00007,ATAPL-71403-00007,Node,0,Cabled Deep Profiler Mooring Wire-Following Vehicle,"MMP Extended Frame (no sensors), Glass Flotation (2 spheres), Ti controller housing extended",UW-APL,71403,SN00007,N/A,20150428,59190,,University of Washington
+ATAPL-71533-00001,ATAPL-71533-00001,Node,0,Cabled Deep Profiler Mooring Docking Station,DP Docking Station,UW-APL,71533,SN00001,,,,,University of Washington
+ATAPL-71533-00002,ATAPL-71533-00002,Node,0,Cabled Deep Profiler Mooring Docking Station,DP Docking Station,UW-APL,71533,SN00002,,,,,University of Washington
+ATAPL-71533-00003,ATAPL-71533-00003,Node,0,Cabled Deep Profiler Mooring Docking Station,DP Docking Station,UW-APL,71533,SN00003,,,,,University of Washington
+ATAPL-71533-00004,ATAPL-71533-00004,Node,0,Cabled Deep Profiler Mooring Docking Station,DP Docking Station,UW-APL,71533,SN00004,,,,,University of Washington
+ATAPL-71533-00005,ATAPL-71533-00005,Node,0,Cabled Deep Profiler Mooring Docking Station,DP Docking Station,UW-APL,71533,SN00005,,,,,University of Washington
