@@ -1,5 +1,5 @@
 Prefix,Vessel Designation,Vessel Name,ICES Code,Operator,Call Sign,MMSI#,IMO#,Length (m),Max Speed (m/s),Max Draft (m),Designation,Active,R2R
-AJ,R/V,Adolf Jensen,,60North,,,,,,,,Y,N
+AJ,R/V,Adolf Jensen,,60North,OYTL,331185000,6708575,,,,,Y,N
 HX,R/V,Alpha Helix,31HX,UAF,WSD7078,368625000,6600905,40.5,5.4,4.2,,(N),Y
 AM,CCGS,Amundsen,,CCGS,,,,,,,,Y,N
 AQ,R/V,Aquila,,,,,,,,,,Y,N
