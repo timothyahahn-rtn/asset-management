@@ -1,9 +1,9 @@
 serial,name,value,notes
 FLNTURTD-3397,CC_angular_resolution,1.096,
 FLNTURTD-3397,CC_dark_counts_chlorophyll_a,49,
-FLNTURTD-3397,CC_dark_counts_volume_scatter,48,"No calibration for volume performed in 2013. Using 2015 values."
+FLNTURTD-3397,CC_dark_counts_volume_scatter,48,"No volume scatter calibration completed; using 2015 scatter values."
 FLNTURTD-3397,CC_depolarization_ratio,0.039,
 FLNTURTD-3397,CC_measurement_wavelength,700,
 FLNTURTD-3397,CC_scale_factor_chlorophyll_a,0.0121,
-FLNTURTD-3397,CC_scale_factor_volume_scatter,1.877e-05,"Using 2015 volume scatter value. No calibration for volume performed in 2013."
+FLNTURTD-3397,CC_scale_factor_volume_scatter,1.877e-05,"No volume scatter calibration completed; using 2015 scatter values."
 FLNTURTD-3397,CC_scattering_angle,140,
