@@ -225,7 +225,7 @@ CE05MOAS-GL326,Coastal Endurance,Mobile Assets,Coastal Glider 326,,,,0,200
 CE05MOAS-GL326-00-ENG000000,Coastal Endurance,Mobile Assets,Coastal Glider 326,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,0,200
 CE05MOAS-GL326-01-PARADM000,Coastal Endurance,Mobile Assets,Coastal Glider 326,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,200
 CE05MOAS-GL326-02-FLORTM000,Coastal Endurance,Mobile Assets,Coastal Glider 326,3-Wavelength Fluorometer,WET Labs,ECO Puck FLBBCD-SLK,0,200
-CE05MOAS-GL326-03-ADCPAM000,Coastal Endurance,Mobile Assets,Coastal Glider 326,Velocity Profiler (600kHz),Teledyne RDI,Explorer DVL 600 kHz,TBD,TBD
+CE05MOAS-GL326-03-ADCPAM000,Coastal Endurance,Mobile Assets,Coastal Glider 326,Velocity Profiler (600kHz),Teledyne RDI,Explorer DVL 600 kHz,0,200
 CE05MOAS-GL326-04-DOSTAM000,Coastal Endurance,Mobile Assets,Coastal Glider 326,Dissolved Oxygen,Aanderaa,Optode 4831,0,200
 CE05MOAS-GL326-05-CTDGVM000,Coastal Endurance,Mobile Assets,Coastal Glider 326,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,200
 CE05MOAS-GL327,Coastal Endurance,Mobile Assets,Coastal Glider 327,,,,0,200
@@ -267,7 +267,7 @@ CE05MOAS-GL386,Coastal Endurance,Mobile Assets,Coastal Glider 386,,,,0,1000
 CE05MOAS-GL386-00-ENG000000,Coastal Endurance,Mobile Assets,Coastal Glider 386,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,0,1000
 CE05MOAS-GL386-01-PARADM000,Coastal Endurance,Mobile Assets,Coastal Glider 386,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,1000
 CE05MOAS-GL386-02-FLORTM000,Coastal Endurance,Mobile Assets,Coastal Glider 386,3-Wavelength Fluorometer,WET Labs,ECO Puck FLBBCD-SLK,0,1000
-CE05MOAS-GL386-03-ADCPAM000,Coastal Endurance,Mobile Assets,Coastal Glider 386,Velocity Profiler (600kHz),Teledyne RDI,Explorer DVL 600 kHz,TBD,TBD
+CE05MOAS-GL386-03-ADCPAM000,Coastal Endurance,Mobile Assets,Coastal Glider 386,Velocity Profiler (600kHz),Teledyne RDI,Explorer DVL 600 kHz,0,1000
 CE05MOAS-GL386-04-DOSTAM000,Coastal Endurance,Mobile Assets,Coastal Glider 386,Dissolved Oxygen,Aanderaa,Optode 4831,0,1000
 CE05MOAS-GL386-05-CTDGVM000,Coastal Endurance,Mobile Assets,Coastal Glider 386,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,1000
 CE06ISSM,Coastal Endurance,Washington Inshore Surface Mooring,,,,,0,29
@@ -721,13 +721,13 @@ CP05MOAS-GL374-02-FLORTM000,Coastal Pioneer,Mobile Assets,Coastal Glider 374,3-W
 CP05MOAS-GL374-03-CTDGVM000,Coastal Pioneer,Mobile Assets,Coastal Glider 374,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,200
 CP05MOAS-GL374-04-DOSTAM000,Coastal Pioneer,Mobile Assets,Coastal Glider 374,Dissolved Oxygen,Aanderaa,Optode 4831,0,200
 CP05MOAS-GL374-05-PARADM000,Coastal Pioneer,Mobile Assets,Coastal Glider 374,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,200
-CP05MOAS-GL375,Coastal Pioneer,Mobile Assets,Coastal Glider 375,,,,TBD,TBD
-CP05MOAS-GL375-00-ENG000000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,TBD,TBD
-CP05MOAS-GL375-01-ADCPAM000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,Velocity Profiler (600kHz),Teledyne RDI,Explorer DVL 600 kHz,TBD,TBD
-CP05MOAS-GL375-02-FLORTM000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,3-Wavelength Fluorometer,WET Labs,ECO Puck FLBBCD-SLK,TBD,TBD
-CP05MOAS-GL375-03-CTDGVM000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),TBD,TBD
-CP05MOAS-GL375-04-DOSTAM000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,Dissolved Oxygen,Aanderaa,Optode 4831,TBD,TBD
-CP05MOAS-GL375-05-PARADM000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,TBD,TBD
+CP05MOAS-GL375,Coastal Pioneer,Mobile Assets,Coastal Glider 375,,,,0,1000
+CP05MOAS-GL375-00-ENG000000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,0,1000D
+CP05MOAS-GL375-01-ADCPAM000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,Velocity Profiler (600kHz),Teledyne RDI,Explorer DVL 600 kHz,0,1000
+CP05MOAS-GL375-02-FLORTM000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,3-Wavelength Fluorometer,WET Labs,ECO Puck FLBBCD-SLK,0,1000
+CP05MOAS-GL375-03-CTDGVM000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,CTD,Sea-Bird,SBE Glider Payload CTD (GP-CTD),0,1000
+CP05MOAS-GL375-04-DOSTAM000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,Dissolved Oxygen,Aanderaa,Optode 4831,0,1000
+CP05MOAS-GL375-05-PARADM000,Coastal Pioneer,Mobile Assets,Coastal Glider 375,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,1000
 CP05MOAS-GL376,Coastal Pioneer,Mobile Assets,Coastal Glider 376,,,,0,1000
 CP05MOAS-GL376-00-ENG000000,Coastal Pioneer,Mobile Assets,Coastal Glider 376,Mobile Asset Controller,Teledyne Webb,G2 Slocum Gliders,0,1000
 CP05MOAS-GL376-02-FLORTM000,Coastal Pioneer,Mobile Assets,Coastal Glider 376,3-Wavelength Fluorometer,WET Labs,ECO Puck FLBBCD-SLK,0,1000
