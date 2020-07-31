@@ -300,6 +300,17 @@ ATAPL-78437-00001,ATAPL-78437-00001,Sensor,0,Underwater Digital Camera,Underwate
 ATAPL-78437-00002,ATAPL-78437-00002,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18831,,20180930,43237,,University of Washington
 ATAPL-78437-00003,ATAPL-78437-00003,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18832,,20180930,43237,,University of Washington
 ATAPL-78437-00004,ATAPL-78437-00004,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18833,,20180930,43237,,University of Washington
+ATAPL-78437-00005,ATAPL-78437-00005,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC19005,,,,,University of Washington
+ATAPL-78437-00006,ATAPL-78437-00006,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC19006,,,,,University of Washington
+ATAPL-78437-00007,ATAPL-78437-00007,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC19007,,,,,University of Washington
+ATAPL-78437-00008,ATAPL-78437-00008,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC19008,,,,,University of Washington
+ATAPL-78452-00001,ATAPL-78452-00001,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1399,,,,,University of Washington
+ATAPL-78452-00002,ATAPL-78452-00002,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1400,,,,,University of Washington
+ATAPL-78452-00003,ATAPL-78452-00003,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1401,,,,,University of Washington
+ATAPL-78452-00004,ATAPL-78452-00004,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1402,,,,,University of Washington
+ATAPL-78452-00005,ATAPL-78452-00005,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1403,,,,,University of Washington
+ATAPL-78452-00006,ATAPL-78452-00006,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1404,,,,,University of Washington
+ATAPL-78452-00007,ATAPL-78452-00007,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1405,,,,,University of Washington
 ATCWK-67627-00006,,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 3500m,Sea-Bird Electronics,SBE 16plus V2,16-50209,3.1.8,20170401,16060,PI,University of Washington
 ATCWK-67627-00007,,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 3500m,Sea-Bird Electronics,SBE 16plus V2,16-50210,3.1.8,20170401,16060,PI,University of Washington
 ATCWK-67627-00008,,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 2000m,Sea-Bird Electronics,SBE 16plus V2,16-50321,3.1.8,,,PI,University of Washington
