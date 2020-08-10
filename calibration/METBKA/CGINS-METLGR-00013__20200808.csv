@@ -1,5 +1,5 @@
 serial,name,value,notes
-LGR013,CC_depth_of_conductivity_and_temperature_measurements_m,1.23,GI01SUMO-00007
+LGR013,CC_depth_of_conductivity_and_temperature_measurements_m,1.37,GI01SUMO-00007, METBK 1 CT in METBK 2 position
 LGR013,CC_height_of_air_humidity_measurement_m,5.255,
 LGR013,CC_height_of_air_temperature_measurement_m,5.255,
 LGR013,CC_height_of_windspeed_sensor_above_sealevel_m,5.74,
