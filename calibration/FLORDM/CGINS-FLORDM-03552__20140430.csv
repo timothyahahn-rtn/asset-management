@@ -1,5 +1,5 @@
 serial,name,value,notes
-FLBBSLC-3552,CC_angular_resolution,1.096,
-FLBBSLC-3552,CC_depolarization_ratio,0.039,
-FLBBSLC-3552,CC_measurement_wavelength,700.0,
-FLBBSLC-3552,CC_scattering_angle,140.0,
+3552,CC_angular_resolution,1.096,
+3552,CC_depolarization_ratio,0.039,
+3552,CC_measurement_wavelength,700,
+3552,CC_scattering_angle,140,
