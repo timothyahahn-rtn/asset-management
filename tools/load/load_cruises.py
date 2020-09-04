@@ -11,6 +11,8 @@ dest_dir = sys.argv[2]
 
 
 for f in os.listdir(source_dir):
+    if not '.csv' in f:
+        continue
     df = pd.read_csv(os.path.join(source_dir, f), index_col=None)
     starts = []
     stops = []
