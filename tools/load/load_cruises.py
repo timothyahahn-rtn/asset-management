@@ -19,13 +19,13 @@ for f in os.listdir(source_dir):
 
     for t in df['cruiseStartDateTime']:
         try:
-            starts.append(parser.parse(t).date())
+            starts.append(parser.parse(t))
         except AttributeError:
             starts.append(None)
 
     for t in df['cruiseStopDateTime']:
         try:
-            stops.append(parser.parse(t).date())
+            stops.append(parser.parse(t))
         except AttributeError:
             stops.append(None)
 
