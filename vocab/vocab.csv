@@ -1379,8 +1379,6 @@ GP05MOAS-PG576-04-FLORTO000,Global Station Papa,Mobile Assets,Profiling Glider 5
 GP05MOAS-PG576-05-NUTNRM000,Global Station Papa,Mobile Assets,Profiling Glider 576,Nitrate,Satlantic,SUNA V2,0,200
 GP05MOAS-PG576-06-PARADM000,Global Station Papa,Mobile Assets,Profiling Glider 576,Photosynthetically Available Radiation,Biospherical Instruments,QSP-2155,0,200
 GS01SUMO,Global Southern Ocean,Apex Surface Mooring,,,,,0,4800
-GS01SUMO-RIC21,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,,,,12,12
-GS01SUMO-RIC21-00-CPMENG000,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,Platform Controller,WHOI,Communications and Power Manager,12,12
 GS01SUMO-RID16,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,,,,12,12
 GS01SUMO-RID16-00-DCLENG000,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,Data Concentrator Logger (DCL),WHOI,Data Concentrator Logger,12,12
 GS01SUMO-RID16-01-OPTAAD000,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,Spectrophotometer,WET Labs,AC-S,12,12
@@ -1391,6 +1389,8 @@ GS01SUMO-RID16-05-PCO2WB000,Global Southern Ocean,Apex Surface Mooring,Near Surf
 GS01SUMO-RID16-06-DOSTAD000,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,Dissolved Oxygen,Aanderaa,Optode 4831,12,12
 GS01SUMO-RID16-07-NUTNRB000,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,Nitrate,Satlantic,ISUS,12,12
 GS01SUMO-RID16-08-SPKIRB000,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,Spectral Irradiance,Satlantic,OCR507 ICSW,12,12
+GS01SUMO-RIC21,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,,,,12,12
+GS01SUMO-RIC21-00-CPMENG000,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,Platform Controller,WHOI,Communications and Power Manager,12,12
 GS01SUMO-RID27-00-DCLENG000,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,Data Concentrator Logger (DCL),WHOI,Data Concentrator Logger,12,12
 GS01SUMO-RID27-01-NOCNIA000,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,NOC Nitrate,NOC UK,LOC-Nitrate,12,12
 GS01SUMO-RID27-02-NOCSIA000,Global Southern Ocean,Apex Surface Mooring,Near Surface Instrument Frame,NOC Silicate,NOC UK,LOC-Silicate,12,12
