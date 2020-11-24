@@ -439,6 +439,7 @@ CGINS-ADCPAM-52696,N00350,Sensor,1,ADCP Velocity Profiler (short range) for Glid
 CGINS-ADCPAM-54584,N00156,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,654584,,20131223,,,
 CGINS-ADCPAM-54585,N00161,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,654585,,20131223,,,
 CGINS-ADCPAM-54587,N00136,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,654587,,20131223,,,
+CGINS-ADCPAM-55979,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,655979,,20200709,,,
 CGINS-ADCPAM-55980,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,655980,,,,From Teledyne Webb Research's OOI glider instrument pool,
 CGINS-ADCPAM-62598,N00131,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,62598,,20130301,,,
 CGINS-ADCPAM-72777,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,672777,,,,,
@@ -1220,6 +1221,7 @@ CGINS-DOSTAM-00480,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA 
 CGINS-DOSTAM-00494,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,494,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00496,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,496,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00499,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,,Aanderaa,Optode 4831,499,,,,CGSN Glider Instrument Pool,
+CGINS-DOSTAM-00537,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,537,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00538,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,538,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00539,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,539,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00541,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,541,,,,CGSN Glider Instrument Pool,
@@ -2036,6 +2038,9 @@ CGINS-PARADK-20541,,Sensor,0,Photosynthetically Available Radiation: PARAD Serie
 CGINS-PARADK-20542,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20542,,20170627,,,Woods Hole Oceanographic Institution
 CGINS-PARADK-20555,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,PAR for WFP Coastal ML14378-01,Biospherical Instruments,QSP-2200,20555,,20170907,,,Oregon State University
 CGINS-PARADK-20582,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20582,,,,,Woods Hole Oceanographic Institution
+CGINS-PARADK-20608,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20608,,,,,Woods Hole Oceanographic Institution
+CGINS-PARADK-20609,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20609,,,,,Woods Hole Oceanographic Institution
+CGINS-PARADK-20610,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20610,,,,,Woods Hole Oceanographic Institution
 CGINS-PARADM-50145,N00304,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50145,,20121002,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50146,N00309,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50146,,20121002,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50147,N00314,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50147,,20121206,,CGSN Glider Instrument Pool,
@@ -2093,6 +2098,7 @@ CGINS-PARADM-50245,,Sensor,1,Photosynthetically Available Radiation for Glider: 
 CGINS-PARADM-50252,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50252,,,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50277,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50277,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-PARADM-50304,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50304,,,,CGSN Glider Instrument Pool,
+CGINS-PARADM-50324,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50324,,,,CGSN Glider Instrument Pool,
 CGINS-PARADN-50170,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50170,,,,CGSN AUV Instrument Pool,
 CGINS-PARADN-50180,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50180,,,,CGSN AUV Instrument Pool,
 CGINS-PARADN-50266,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50266,,,,CGSN AUV Instrument Pool,
