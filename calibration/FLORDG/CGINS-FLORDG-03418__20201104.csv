@@ -1,0 +1,9 @@
+serial,name,value,notes
+3418,CC_angular_resolution,1.096,Constant; source_file FLORD-G_FLBBSB_SN_3418_Calibration_Files_2020-11-04.zip > FLBBSB-3418_CharSheets.pdf
+3418,CC_dark_counts_chlorophyll_a,0.063,in Volts (because analog signal going to CTDBP)
+3418,CC_dark_counts_volume_scatter,0.0650,in Volts (because analog signal going to CTDBP)
+3418,CC_depolarization_ratio,0.039,Constant
+3418,CC_measurement_wavelength,700,Constant
+3418,CC_scale_factor_chlorophyll_a,6,in Volts (because analog signal going to CTDBP)
+3418,CC_scale_factor_volume_scatter,1.372E-03,in Volts (because analog signal going to CTDBP)
+3418,CC_scattering_angle,140,Constant
