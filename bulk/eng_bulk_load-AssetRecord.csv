@@ -180,7 +180,6 @@ CGCON-GLDRCP-00514,,Sensor,1,Mobile Asset Controller for Coastal Glider,GL514 Co
 CGCON-GLDRCP-00559,,Sensor,1,Mobile Asset Controller for Coastal Glider,GL559 Controller,Teledyne Webb,G2 Slocum Gliders,559,,,,Was Global; now Coastal,Woods Hole Oceanographic Institution
 CGCON-GLDRCP-00564,,Sensor,1,Mobile Asset Controller for Coastal Glider,GL564 Controller,Teledyne Webb,G2 Slocum Gliders,564,,,,,Woods Hole Oceanographic Institution
 CGCON-GLDRCP-00583,,Sensor,1,Mobile Asset Controller for Coastal Glider,GL583 Controller,Teledyne Webb,G2 Slocum Gliders,583,,,,Was Global; now Coastal,Woods Hole Oceanographic Institution
-CGCON-GLDRGP-00470,,Sensor,1,Mobile Asset Controller for Profiling Glider,PG470 Controller,Teledyne Webb,G2 Slocum Gliders,470,,,,TO BE DELETED,Woods Hole Oceanographic Institution
 CGCON-GLDRGP-00514,OL000133,Sensor,1,Mobile Asset Controller for Profiling Glider,PG514 Controller,Teledyne Webb,G2 Slocum Gliders,514,,,,,Woods Hole Oceanographic Institution
 CGCON-GLDRGP-00515,OL000134,Sensor,1,Mobile Asset Controller for Profiling Glider,PG515 Controller,Teledyne Webb,G2 Slocum Gliders,515,,,,,Woods Hole Oceanographic Institution
 CGCON-GLDRGP-00528,OL000122,Sensor,1,Mobile Asset Controller for Profiling Glider,PG528 Controller,Teledyne Webb,G2 Slocum Gliders,528,,,,,Woods Hole Oceanographic Institution
@@ -423,10 +422,6 @@ CGCON-NDCL27-00033,,Sensor,0,Near Surface Instrument Frame Data Concentrator Log
 CGCON-NDCL27-20001,CGCON-NDCL27-00015,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00274-00001-20001,,,,CP01CNSM-00012 DCL27; OLD SN 0015,Woods Hole Oceanographic Institution
 CGCON-NDCL27-20002,CGCON-NDCL27-00004,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00274-00001-20002,,,,CP03ISSM-00011 DCL27; OLD SN 0004,Woods Hole Oceanographic Institution
 CGCON-NDCL27-20003,CGCON-NDCL27-00005,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00274-00001-20003,,,,CP04OSSM-00011 DCL27; OLD SN 0005,Woods Hole Oceanographic Institution
-CGCON-SIOCON-00018,,Sensor,0,Subsurface Mooring Platform Controller,,SIO,Subsurface Mooring Controller,18,,,,TO BE DELETED,Woods Hole Oceanographic Institution
-CGCON-SIOCON-00019,,Sensor,0,Subsurface Mooring Platform Controller,,SIO,Subsurface Mooring Controller,19,,,,TO BE DELETED,Woods Hole Oceanographic Institution
-CGCON-SIOCON-00023,,Sensor,0,Subsurface Mooring Platform Controller,,SIO,Subsurface Mooring Controller,23,,,,TO BE DELETED,Woods Hole Oceanographic Institution
-CGCON-SIOCON-00027,,Sensor,0,Subsurface Mooring Platform Controller,,SIO,Subsurface Mooring Controller,27,,,,TO BE DELETED,Woods Hole Oceanographic Institution
 CGCON-SIOCON-10118,OL000605 OL000103,Sensor,0,Subsurface Mooring Platform Controller,SIO Controller,SIO,Subsurface Mooring Controller,10118,,,,,Woods Hole Oceanographic Institution
 CGCON-SIOCON-11690,OL000080,Sensor,0,Subsurface Mooring Platform Controller,SIO Controller,SIO,Subsurface Mooring Controller,11690,,,,,Woods Hole Oceanographic Institution
 CGCON-SIOCON-12365,OL000088,Sensor,0,Subsurface Mooring Platform Controller,SIO Controller,SIO,Subsurface Mooring Controller,12365,,,,,Woods Hole Oceanographic Institution
