@@ -2452,8 +2452,6 @@ CGINS-WAVSSA-05321,A00657,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SE
 CGINS-WAVSSA-05771,A01026,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NM),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05771,,20140204,22660,,
 CGINS-WAVSSA-05781,A00968,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05781,,20140812,22660,,Woods Hole Oceanographic Institution
 CGINS-WAVSSA-05791,A00969,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05791,1.05.0002,20140812,22660,,Woods Hole Oceanographic Institution
-OL000495,OL000495,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,CP01CNSM-00002-WAVSS,,,,TO BE DELETED and replaced by CGINS-WAVSSA-05791,
-OL000509,OL000509,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,CP01CNSM-00003-WAVSS,,,,TO BE DELETED and replaced by CGINS-WAVSSA-05791,
 CGINS-WAVSSA-05971,A01150,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05971,,20141029,23340,,Woods Hole Oceanographic Institution
 CGINS-WAVSSA-05981,A01149,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05981,,20141110,23340,,Woods Hole Oceanographic Institution
 CGINS-WAVSSA-06271,A01435,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS06271,,20150528,24039.99,,Woods Hole Oceanographic Institution
