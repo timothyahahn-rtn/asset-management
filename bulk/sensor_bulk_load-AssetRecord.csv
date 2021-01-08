@@ -455,7 +455,7 @@ CGINS-ADCPSJ-22642,A01221,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Se
 CGINS-ADCPSJ-22649,A01243,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series J,ADCP SERIES J,Teledyne RDI,WHLS75-1500,22649,,20150127,55109.5,,
 CGINS-ADCPSL-13992,N00506,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP,Teledyne RDI,WHLS75-1500-I,13992,,,,,
 CGINS-ADCPSL-18260,A00075,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,18260,,20120925,51646.5,,
-CGINS-ADCPSL-18261,A00076,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,18261,,20120925,51646,Missing from SIO inventory,
+CGINS-ADCPSL-18261,A00076,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,18261,,20120925,51646,,
 CGINS-ADCPSL-18351,A00068,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,18351,50.4,20120928,51646.5,,
 CGINS-ADCPSL-18352,A00067,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,18352,,20120928,51646.5,,
 CGINS-ADCPSL-18353,A00077,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,18353,,20120925,51646.5,,
@@ -469,8 +469,8 @@ CGINS-ADCPSL-21393,A01503,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Se
 CGINS-ADCPSL-21446,A01505,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,21446,,20140530,53199,,
 CGINS-ADCPSL-21450,A01504,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,21450,,20140530,53199,,
 CGINS-ADCPSL-21497,A01506,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,21497,,20140530,53199,,
-CGINS-ADCPSL-22650,A01512,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L,Teledyne RDI,WHLS75-1500-I,22650,,20150623,57840.75,Missing from SIO inventory,
-CGINS-ADCPSL-22846,A01511,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES  L,Teledyne RDI,WHLS75-1500-I,22846,,20150623,57840.75,,
+CGINS-ADCPSL-22650,A01512,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L,Teledyne RDI,WHLS75-1500-I,22650,,20150623,57840.75,,
+CGINS-ADCPSL-22846,A01511,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L,Teledyne RDI,WHLS75-1500-I,22846,,20150623,57840.75,,
 CGINS-ADCPSL-23380,A01509,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L,Teledyne RDI,WHLS75-1500-I,23380,,20150622,59579.25,,
 CGINS-ADCPSL-23381,A01510,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L,Teledyne RDI,WHLS75-1500-I,23381,,20150622,59579.25,,
 CGINS-ADCPSL-23497,A01507,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L,Teledyne RDI,WHLS75-1500-I,23497,,20150622,59579.25,,
@@ -720,7 +720,7 @@ CGINS-CTDMOG-11604,A00675,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO
 CGINS-CTDMOG-11605,A00676,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11605,,20140128,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-11606,A00684,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11606,,20140128,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-11607,A00682,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11607,,20140128,6600,,Woods Hole Oceanographic Institution
-CGINS-CTDMOG-11608,A00681,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11608,,20140128,6600,duplicate ooi_barcode number; Missing from SIO inventory,Woods Hole Oceanographic Institution
+CGINS-CTDMOG-11608,A00681,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11608,,20140128,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-11609,A00667,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11609,,20140128,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-11610,A00668,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11610,,20140128,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-11611,A00673,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11611,,20140128,6600,,Woods Hole Oceanographic Institution
@@ -746,7 +746,7 @@ CGINS-CTDMOG-11653,A01405,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO
 CGINS-CTDMOG-11654,A01406,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11654,,20140221,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-12189,A00866,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12189,,20140604,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-12190,A00867,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12190,,20140604,6775,,Woods Hole Oceanographic Institution
-CGINS-CTDMOG-12308,A00908,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12308,,20140722,6775,Missing from SIO inventory,Woods Hole Oceanographic Institution
+CGINS-CTDMOG-12308,A00908,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12308,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-12309,A00909,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12309,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-12310,A00910,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12310,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-12311,A00911,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12311,,20140722,6775,,Woods Hole Oceanographic Institution
@@ -876,11 +876,11 @@ CGINS-CTDMOH-12222,A00872,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO
 CGINS-CTDMOH-12223,A00873,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12223,,20140604,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12224,A00874,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12224,,20140604,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12225,A00875,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12225,,20140604,6775,,Woods Hole Oceanographic Institution
-CGINS-CTDMOH-12226,A00876,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12226,,20140604,6775,duplicate ooi_barcode number; Missing from SIO inventory,Woods Hole Oceanographic Institution
+CGINS-CTDMOH-12226,A00876,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12226,,20140604,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12227,A00877,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12227,,20140604,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12384,A00959,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12384,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12385,A00958,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12385,,20140722,6775,,Woods Hole Oceanographic Institution
-CGINS-CTDMOH-12386,A00912,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12386,,20140722,6775,Missing from inventory,Woods Hole Oceanographic Institution
+CGINS-CTDMOH-12386,A00912,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12386,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12387,A00913,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12387,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12388,A00914,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12388,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12389,A00915,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12389,,20140722,6775,,Woods Hole Oceanographic Institution
@@ -2506,47 +2506,18 @@ N00419,N00419,Sensor,0,"Camera, Uncabled","Camera, Uncabled",Kongsberg Underwate
 N00687,N00687,Sensor,0,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD (CDOM),3400/TAG#:116120,,20140128,6665,,
 N00697,N00697,Sensor,0,CAMDS,CAMDS,Kongsberg Underwater Technology Inc,Custom,0484-6002-0108,,,,,
 N00708,N00708,Sensor,0,Guralp Hydrophone (HYDLF),Guralp Hydrophone (HYDLF),HTI,HTI-90-U/Diff,299470,,20140724,19600,,
-N00747,N00747,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP01CNSM-00002-METBK1,Star Engineering,ASIMET,CP01CNSM-00002-METBK1,,,,,TO BE DELETED and replaced by CGINS-METBKA-99999
-N00748,N00748,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP01CNSM-00002-METBK2,Star Engineering,ASIMET,CP01CNSM-00002-METBK2,,,,,TO BE DELETED and replaced by CGINS-METBKA-99999
-N00749,N00749,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP01CNSM-00003-METBK1,Star Engineering,ASIMET,CP01CNSM-00003-METBK1,,,,,TO BE DELETED and replaced by CGINS-METBKA-99999
-N00750,N00750,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP01CNSM-00003-METBK2,Star Engineering,ASIMET,CP01CNSM-00003-METBK2,,,,,TO BE DELETED and replaced by CGINS-METBKA-99999
-N00754,N00754,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP04OSSM-00002-METBK,Star Engineering,ASIMET,CP04OSSM-00002-METBK,,,,,TO BE DELETED and replaced by CGINS-METBKA-99999
-N00756,N00756,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP03ISSM-00002-METBK,Star Engineering,ASIMET,CP03ISSM-00002-METBK,,,,,TO BE DELETED and replaced by CGINS-METBKA-99999
-OL000006,OL000006,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,GA01SUMO-00001-MOPAK,,,,,
-OL000007,OL000007,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GA01SUMO-00001-HYDGN1,,,,,
-OL000008,OL000008,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GA01SUMO-00001-HYDGN2,,,,,
-OL000092,OL000092,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,GA01SUMO-00002-MOPAK,,,,,
-OL000093,OL000093,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GA01SUMO-00002-HYDGN1,,,,,
-OL000094,OL000094,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GA01SUMO-00002-HYDGN2,,,,,
 OL000198,OL000198,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00003-MOPAK,,,,,
 OL000199,OL000199,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00002-MOPAK,,,,,
 OL000200,OL000200,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00001-MOPAK,,,,,
 OL000207,OL000207,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00004-MOPAK,,,,,
 OL000214,OL000214,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE06ISSM-00002-MOPAK,,,,,
 OL000215,OL000215,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE06ISSM-00003-MOPAK,,,,,
-OL000223,OL000223,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP01CNSM-00005-MOPAK,,,,,
-OL000224,OL000224,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00005-HYDGN1,,,,,
-OL000225,OL000225,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00005-HYDGN2,,,,,
-OL000238,OL000238,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMCI-00005-MOPAK,,,,,
-OL000241,OL000241,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMCI-00006-MOPAK,,,,,
-OL000244,OL000244,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUI-00007-MOPAK,,,,,
-OL000254,OL000254,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP03ISSM-00005-MOPAK,,,,,
-OL000255,OL000255,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00004-HYDGN1,,,,,
-OL000256,OL000256,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00004-HYDGN2,,,,,
-OL000272,OL000272,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP04OSSM-00004-MOPAK,,,,,
-OL000273,OL000273,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-SBD11-HYDGN,,,,,
-OL000274,OL000274,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-SBD12-HYDGN,,,,,
 OL000292,OL000292,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00005-MOPAK,,,,,
 OL000299,OL000299,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE02SHSM-00001-HYDGN11,,,,,
 OL000300,OL000300,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE02SHSM-00001-HYDGN12,,,,,
 OL000307,OL000307,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE02SHSM-00002+MOPAK,,,,,
 OL000308,OL000308,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE02SHSM-00002-HYDGN11,,,,,
 OL000309,OL000309,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE02SHSM-00002-HYDGN12,,,,,
-OL000331,OL000331,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,PMUI-00001-MOPAK,,,,,
-OL000335,OL000335,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,PMUI-00003-MOPAK,,,,,
-OL000337,OL000337,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,PMUI-00005-MOPAK,,,,,
-OL000344,OL000344,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,OSPM-00002-MOPAK,,,,,
-OL000345,OL000345,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,OSPM-00003-MOPAK,,,,,
 OL000376,OL000376,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE04OSSM-00001+MOPAK,,,,,
 OL000377,OL000377,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE04OSSM-00001+HYDGN1102,,,,,
 OL000378,OL000378,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE04OSSM-00001+HYDGN1203,,,,,
@@ -2564,30 +2535,6 @@ OL000458,OL000458,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instrument
 OL000459,OL000459,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE09OSSM-00002-HYDGN12,,,,CE09OSSM-00002,
 OL000472,OL000472,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE09OSSM-00004+MOPAK,,,,CE09OSSM-00004,
 OL000473,OL000473,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,CE09OSSM-00004-DOSTA37-03,,,,CE09OSSM-00004,
-OL000480,OL000480,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP01CNSM-00001-MOPAK,,,,CP01CNSM-00001,
-OL000481,OL000481,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00001-HYDGN SBD11,,,,CP01CNSM-00001,
-OL000482,OL000482,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00001-HYDGN SBD12,,,,CP01CNSM-00001,
-OL000492,OL000492,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP01CNSM-00002-MOPAK,,,,,
-OL000493,OL000493,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00002-HYDGN1,,,,,
-OL000494,OL000494,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00002-HYDGN2,,,,,
-OL000506,OL000506,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP01CNSM-00003-MOPAK,,,,,
-OL000507,OL000507,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00003-HYDGN1,,,,,
-OL000508,OL000508,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00003-HYDGN2,,,,,
-OL000519,OL000519,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,2015-0009,,,,,
-OL000520,OL000520,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-SBD11-HYDGN,,,,,
-OL000521,OL000521,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-SBD12-HYDGN,,,,,
-OL000527,OL000527,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP04OSSM-00001-MOPAK,,,,,
-OL000528,OL000528,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-00001-SBD11HYDGN,,,,,
-OL000529,OL000529,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-00001-SBD12HYDGN,,,,,
-OL000539,OL000539,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP04OSSM-00002-MOPAK,,,,,
-OL000540,OL000540,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-SBD11-HYDGN,,,,,
-OL000541,OL000541,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-SBD12-HYDGN,,,,,
-OL000551,OL000551,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP04OSSM-00003-MOPAK,,,,CP04OSSM-00003-MOPAK,
-OL000552,OL000552,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-SBD11-HYDGN,,,,CP04OSSM-SBD11-HYDGN,
-OL000553,OL000553,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-SBD12-HYDGN,,,,CP04OSSM-SBD12-HYDGN,
-OL000563,OL000563,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP03ISSM-00001-MOPAK,,,,CP03ISSM-00001-MOPAK,
-OL000564,OL000564,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00001-SBD11-HYDGN,,,,CP03ISSM-00001-SBD11-HYDGN,
-OL000565,OL000565,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00001-SBD12-HYDGN,,,,CP03ISSM-00001-SBD12-HYDGN,
 PIRSN-AOABPA-00001,,Sensor,0,,,Wilcock,,1,,,,,
 PIRSN-CAMPIA-00001,,Sensor,0,,,MARUM,,1,,,,,
 PIRSN-COVISA-00001,,Sensor,0,Cabled Observatory Vent Imaging System,COVIS Series A,Bemis,,1,,,,,
@@ -2596,25 +2543,3 @@ PIRSN-OVRSRA-00001,,Sensor,0,Overview Sonar,OVRSR Series A,MARUM,R2 Sonic 2022,1
 PIRSN-QNTSRA-00001,,Sensor,0,Quantification Sonar,QNTSR Series A,MARUM,Kongsberg 1171-Series Scanning Sonar,1708062,,,,,
 PIRSN-SCPRAA-00001,,Sensor,0,Self-Calibrating Pressure Recorder,SCPR Series A,PI Zumberge and Sasagawa,,001/C,,,,,
 PIRSN-SCTAAA-00001,,Sensor,0,Self-Calibrating Triaxial Accelerometer,SCTA Series A,PI Wilcock,,1,,,,,
-R00007,R00007,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,,,,,,
-R00008,R00008,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUO-00002-MOPAK,,,,,
-R00012,R00012,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP03ISSM-00002-MOPAK,,,,CP03ISSM-00002-MOPAK,
-R00013,R00013,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00002-HYDGN1,,,,CP03ISSM-00002-HYDGN1,
-R00014,R00014,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00002-HYDGN2,,,,CP03ISSM-00002-HYDGN2,
-R00024,R00024,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,11,,,,,
-R00025,R00025,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00003-HYDGN1,,,,,
-R00026,R00026,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00003-HYDGN2,,,,,
-R00036,R00036,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,GI01SUMO-00001-MOPAK,,,,,
-R00037,R00037,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GI01SUMO-00001-HYDGN1,,,,,
-R00038,R00038,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GI01SUMO-00001-HYDGN2,,,,,
-R00045,R00045,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,GI01SUMO-00002-MOPAK,,,,,
-R00046,R00046,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GI01SUMO-00002-HYDGN1,,,,,
-R00047,R00047,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GI01SUMO-00002-HYDGN2,,,,,
-R00056,R00056,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GI01SUMO-00001-HYDGN1,,,,,
-R00057,R00057,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GI01SUMO-00001-HYDGN2,,,,,
-R00067,R00067,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUO-00001 MOPAK0000,,20130122,,,
-R00068,R00068,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUO-00003 MOPAK0000,,20130122,,,
-R00069,R00069,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUO-00004 MOPAK0000,,20130122,,,
-R00070,R00070,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUO-00005 MOPAK0000,,20130122,,,
-R00106,,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,GA01SUMO-00003-MOPAK,,,,,
-R00297,R00297,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,,,,,,
