@@ -238,6 +238,7 @@ CGCON-GWFPGX-99701,A00268.1,Sensor,0,Global Wire-Following Profiler Controller,W
 CGCON-MCPM03-00001,OL000181,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,1,,,,"CE01ISSM-0000(1,2)-CPM3",Oregon State University
 CGCON-MCPM03-00002,OL000485,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0002,,,,CP01CNSM-00001-CPM3,Woods Hole Oceanographic Institution
 CGCON-MCPM03-00003,,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3,,,,,
+CGCON-MCPM03-00004,OL000499,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,4,,,,,Oregon State University
 CGCON-MCPM03-00005,OL000442,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00275-0005,,,,CE07SHSM-00003-CPM3,Oregon State University
 CGCON-MCPM03-00006,OL000556 OL000568,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0006,,,,CP04OSSM-00003-CPM3,Woods Hole Oceanographic Institution
 CGCON-MCPM03-00007,OL000532,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0007,,,CP04OSSM-00001-CPM3,,Woods Hole Oceanographic Institution
@@ -323,6 +324,7 @@ CGCON-NCPM02-00004,OL000380 OL000498 OL000531,Sensor,0,Near Surface Instrument F
 CGCON-NCPM02-00005,OL000567,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0005,,,,CP03ISSM-00001-CPM2,Woods Hole Oceanographic Institution
 CGCON-NCPM02-00006,OL000555,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0006,,,,CP04OSSM-00003-CPM2,Woods Hole Oceanographic Institution
 CGCON-NCPM02-00007,OL000394,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00274-0007,,,,CE04OSSM-00002-RIC21,Oregon State University
+CGCON-NCPM02-00008,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,,WHOI,CPM,8,,,,,Oregon State University
 CGCON-NCPM02-00009,OL000543 R00028,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0009,,,,CP03ISSM-00003-CPM2,Woods Hole Oceanographic Institution
 CGCON-NCPM02-00010,,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,10,,,,CE04OSSM-00004-CPM02,Oregon State University
 CGCON-NCPM02-00011,R00016,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0011,,,,CP01CNSM-00007-CPM21,Woods Hole Oceanographic Institution
@@ -473,6 +475,12 @@ OL000306,OL000306,Sensor,0,Near Surface Instrument Frame Data Concentrator Logge
 OL000310,OL000310,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,,,,,CE02SHSM-00002-CPM11,Oregon State University
 OL000312,OL000312,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,,,,,CE02SHSM-00002-DCL11,Oregon State University
 OL000313,OL000313,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,,,,,CE02SHSM-00002-DCL12,Oregon State University
+OL000379,OL000379,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,,,,,,Oregon State University
+OL000380,OL000380,Sensor,0,Near Surface Instrument Frame Communications and Power Manager,Communications and Power Manager,WHOI,CPM,,,,,,Oregon State University
+OL000381,OL000381,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,,,,,,Oregon State University
+OL000382,OL000382,Sensor,0,Surface Buoy Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,,,,,,Oregon State University
+OL000383,OL000383,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,,,,,,Oregon State University
+OL000384,OL000384,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,,,,,,Oregon State University
 OL000395,OL000395,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00274-0007,,,,CE04OSSM-RID27-00-DCLENG000 - 2,Oregon State University
 OL000396,OL000396,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3703-00272-0025,,,,CE04OSSM-00002-RID26,Oregon State University
 OL000402,,Sensor,0,Multi-Function Node Communications and Power Manager,Communications and Power Manager,WHOI,CPM,3703-00275-0004,,,,CE06ISSM-00004,Oregon State University
