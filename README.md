@@ -1,5 +1,5 @@
 # Asset Management
-[![Build Status](https://travis-ci.org/oceanobservatories/asset-management.svg?branch=master)](https://travis-ci.org/oceanobservatories/asset-management)
+[![Build Status](https://github.com/oceanobservatories/asset-management/workflows/build/badge.svg)](https://github.com/oceanobservatories/asset-management/actions)
 A repository for Asset Management for OOI data.
 
 ## Folders
