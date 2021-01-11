@@ -2541,3 +2541,4 @@ PIRSN-OVRSRA-00001,,Sensor,0,Overview Sonar,OVRSR Series A,MARUM,R2 Sonic 2022,1
 PIRSN-QNTSRA-00001,,Sensor,0,Quantification Sonar,QNTSR Series A,MARUM,Kongsberg 1171-Series Scanning Sonar,1708062,,,,,
 PIRSN-SCPRAA-00001,,Sensor,0,Self-Calibrating Pressure Recorder,SCPR Series A,PI Zumberge and Sasagawa,,001/C,,,,,
 PIRSN-SCTAAA-00001,,Sensor,0,Self-Calibrating Triaxial Accelerometer,SCTA Series A,PI Wilcock,,1,,,,,
+R00007,R00007,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,,,,,,Oregon State University
