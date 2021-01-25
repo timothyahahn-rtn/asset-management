@@ -1,11 +1,11 @@
 serial,name,value,notes
-1466,CC_angular_resolution,1.076,source_file FLORT-K_BBFL2_SN_1466_Calibration_2019-06-17.zip > BBFL2-1466 Charsheet.pdf
-1466,CC_dark_counts_cdom,47,
-1466,CC_dark_counts_chlorophyll_a,48,
-1466,CC_dark_counts_volume_scatter,49,
+1466,CC_angular_resolution,1.076,source_file FLORT-K_BBFL2_SN_1466_Calibration_2020-07-15.zip > BBFL2-1466 Charsheets.pdf
+1466,CC_dark_counts_cdom,48,
+1466,CC_dark_counts_chlorophyll_a,47,
+1466,CC_dark_counts_volume_scatter,48,
 1466,CC_depolarization_ratio,0.039,
 1466,CC_measurement_wavelength,700,
-1466,CC_scale_factor_cdom,0.0811,
-1466,CC_scale_factor_chlorophyll_a,0.0139,
-1466,CC_scale_factor_volume_scatter,3.387E-06,
+1466,CC_scale_factor_cdom,0.0719,
+1466,CC_scale_factor_chlorophyll_a,0.0116,
+1466,CC_scale_factor_volume_scatter,3.039E-06,
 1466,CC_scattering_angle,124,
