@@ -105,16 +105,16 @@ CE02SHSP-SP001-06-SPKIRJ000,Coastal Endurance,Oregon Shelf Surface Piercing Prof
 CE02SHSP-SP001-07-FLORTJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,3-Wavelength Fluorometer,WET Labs,ECO Triplet-w,0,80
 CE02SHSP-SP001-08-CTDPFJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,CTD,Sea-Bird,FastCAT 49 CTD,0,80
 CE02SHSP-SP001-09-PARADJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Photosynthetically Available Radiation,WET Labs,ECO PAR,0,80
-CE02SHSP-SP002,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,,,,0,80
-CE02SHSP-SP002-00-SPPENG000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Profiler Controller,WET Labs,AMP,0,80
-CE02SHSP-SP002-01-DOSTAJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Dissolved Oxygen,Aanderaa,Optode 4831,0,80
-CE02SHSP-SP002-02-VELPTJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Single Point Velocity Meter,Nortek,Aquadopp HR,0,80
-CE02SHSP-SP002-04-OPTAAJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Spectrophotometer,WET Labs,AC-S,0,80
-CE02SHSP-SP002-05-NUTNRJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Nitrate,Satlantic,SUNA V2,0,80
-CE02SHSP-SP002-06-SPKIRJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Spectral Irradiance,Satlantic,OCR507 ICSW,0,80
-CE02SHSP-SP002-07-FLORTJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,3-Wavelength Fluorometer,WET Labs,ECO Triplet-w,0,80
-CE02SHSP-SP002-08-CTDPFJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,CTD,Sea-Bird,FastCAT 49 CTD,0,80
-CE02SHSP-SP002-09-PARADJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Photosynthetically Available Radiation,WET Labs,ECO PAR,0,80
+CE02SHSP-SP001,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,,,,0,80
+CE02SHSP-SP001-00-SPPENG000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Profiler Controller,WET Labs,AMP,0,80
+CE02SHSP-SP001-01-DOSTAJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Dissolved Oxygen,Aanderaa,Optode 4831,0,80
+CE02SHSP-SP001-02-VELPTJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Single Point Velocity Meter,Nortek,Aquadopp HR,0,80
+CE02SHSP-SP001-04-OPTAAJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Spectrophotometer,WET Labs,AC-S,0,80
+CE02SHSP-SP001-05-NUTNRJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Nitrate,Satlantic,SUNA V2,0,80
+CE02SHSP-SP001-06-SPKIRJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Spectral Irradiance,Satlantic,OCR507 ICSW,0,80
+CE02SHSP-SP001-07-FLORTJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,3-Wavelength Fluorometer,WET Labs,ECO Triplet-w,0,80
+CE02SHSP-SP001-08-CTDPFJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,CTD,Sea-Bird,FastCAT 49 CTD,0,80
+CE02SHSP-SP001-09-PARADJ000,Coastal Endurance,Oregon Shelf Surface Piercing Profiler Mooring,Surface Piercing Profiler,Photosynthetically Available Radiation,WET Labs,ECO PAR,0,80
 CE04OSBP,Coastal Endurance,Oregon Offshore Cabled Benthic Experiment Package,,,,,580,580
 CE04OSBP-LJ01C,Coastal Endurance,Oregon Offshore Cabled Benthic Experiment Package,Low-Power JBox (LJ01C),,,,580,580
 CE04OSBP-LJ01C-05-ADCPSI103,Coastal Endurance,Oregon Offshore Cabled Benthic Experiment Package,Low-Power JBox (LJ01C),Velocity Profiler (75 kHz),Teledyne RDI,WorkHorse LongRanger Monitor 75khz,580,580
