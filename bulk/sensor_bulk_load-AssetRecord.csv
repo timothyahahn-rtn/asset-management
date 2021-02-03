@@ -6,29 +6,6 @@ A00838,A00838,Sensor,0,FLUOROMETER,FLUOROMETER,WET Labs,FLCDRTD (CDOM),3400,,201
 A01061,A01061,Sensor,0,SONAR BIO ACOUSTIC,SONAR BIO ACOUSTIC,Kongsberg Underwater Technology Inc,CLIN 001,S/N 1,,20140423,173968,,
 A01062,A01062,Sensor,0,SONAR BIO ACOUSTIC,SONAR BIO ACOUSTIC,Kongsberg Underwater Technology Inc,CLIN 001,S/N 2,,20140423,173968,,
 A01073,A01073,Sensor,0,SONAR BIO ACOUSTIC,SONAR BIO ACOUSTIC,Kongsberg Underwater Technology Inc,CLIN 001,S/N 3,,20140423,173968,,
-A01330,A01330,Sensor,0,VELPT SERIES A (AQUADOPP 300M),VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,P21893-1,,20150402,8900,,
-A01331,A01331,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P28193-3,,20150402,9925,,
-A01347,A01347,Sensor,0,VELPT SERIES A (AQUADOPP 300M),VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,P28193-2,,20150527,8800,,
-A01348,A01348,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-1,,20140527,10135,SIO inventory claims AQD11669/A3L6884,
-A01349,A01349,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-2,,20140527,10135,SIO inventory claims AQD11964 / A3L6883,
-A01350,A01350,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-3,,20140527,10135,SIO inventory claims AQD11967 / A3L6863,
-A01351,A01351,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-4,,20140527,10135,SIO inventory claims AQD11970/A3L6862,
-A01352,A01352,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-5,,20140527,10135,SIO inventory claims 11973,
-A01353,A01353,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-6,,20140527,10135,SIO inventory claims 11974,
-A01354,A01354,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-7,,20140527,10135,SIO inventory claims 11976,
-A01355,A01355,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-8,,20140527,10135,SIO inventory claims 11981,
-A01356,A01356,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-9,,20140527,10135,SIO inventory claims P27135-9,
-A01357,A01357,Sensor,0,VELPT SERIES B (AQUADOPP 300M),VELPT SERIES B (AQUADOPP 300M),Nortek,Aquadopp,P27135-10,,20140527,10135,SIO inventory claims  P27135-5,
-A01359,A01359,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-1,,20150508,9925,,
-A01360,A01360,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-2,,20150508,9925,,
-A01361,A01361,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-3,,20150508,9925,,
-A01362,A01362,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-4,,20150508,9925,,
-A01363,A01363,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-5,,20150508,9925,,
-A01364,A01364,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-6,,20150508,9925,,
-A01365,A01365,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-7,,20150508,9925,,
-A01366,A01366,Sensor,0,VELPT SERIES B,VELPT SERIES B,Nortek,Aquadopp,28194-8,,20150508,9925,,
-A01634,A01634,Sensor,0,VELPT SERIES A,VELPT SERIES A,Nortek,Aquadopp,28484-1,,20150720,8900,,
-A01635,A01635,Sensor,0,VELPT SERIES A,VELPT SERIES A,Nortek,Aquadopp,28484-2,,20150720,8900,,
 ATAPL-58315-00001,ATAPL-58315-00001,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series D,ADCP D-WHM150-1500 Quartermaster (ADCPT-D),Teledyne RDI,WHM150-1500,18478,,20120928,35534,,University of Washington
 ATAPL-58315-00002,ATAPL-58315-00002,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series D,ADCP D-WHM150-1500 Quartermaster (ADCPT-D) (O&M),Teledyne RDI,WHM150-1500,18974,,20130118,35534,,University of Washington
 ATAPL-58315-00003,ATAPL-58315-00003,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series D,ADCP D-WHM150-1500 Quartermaster (ADCPT-D),Teledyne RDI,WHM150-1500,18980,,20130118,35534,,University of Washington
@@ -74,6 +51,7 @@ ATAPL-58322-00009,ATAPL-58322-00009,Sensor,0,3-Wavelength Fluorometer: FLORT Ser
 ATAPL-58322-00010,ATAPL-58322-00010,Sensor,0,3-Wavelength Fluorometer: FLORT Series D,ECO-triplet-w (3-wavelength fluorometer w/ wiper) (FLOR-D),WET Labs,ECO Triplet-w,1293,,20150423,13403.46,,University of Washington
 ATAPL-58322-00011,ATAPL-58322-00011,Sensor,0,2-Wavelength Fluorometer: FLORD Series D,ECO-triplet-w (3-wavelength fluorometer w/ wiper) (FLOR-D),WET Labs,ECO Triplet-w,1297,,20150423,13403.46,,University of Washington
 ATAPL-58322-00012,ATAPL-58322-00012,Sensor,0,2-Wavelength Fluorometer: FLORD Series D,ECO-triplet-w (3-wavelength fluorometer w/ wiper) (FLOR-D),WET Labs,ECO Triplet-w,1294,,20150430,13403.46,,University of Washington
+ATAPL-58322-00014,ATAPL-58322-00014,Sensor,0,2-Wavelength Fluorometer: FLORD Series D,ECO-triplet-w (3-wavelength fluorometer w/ wiper) (FLOR-D),WET Labs,ECO Triplet-w,5967,,,,,University of Washington
 ATAPL-58323-00001,ATAPL-58323-00001,Sensor,0,"Horizontal Electric Field, Pressure and Inverted Echo Sounder: HPIES Series A",HPIES for RSN,APL,Custom,1,,,,,University of Washington
 ATAPL-58323-00002,ATAPL-58323-00002,Sensor,0,"Horizontal Electric Field, Pressure and Inverted Echo Sounder: HPIES Series A",HPIES for RSN,APL,Custom,2,,,,,University of Washington
 ATAPL-58323-00003,ATAPL-58323-00003,Sensor,0,"Horizontal Electric Field, Pressure and Inverted Echo Sounder: HPIES Series A",HPIES for RSN,APL,Custom,3,,,,,University of Washington
@@ -157,9 +135,9 @@ ATAPL-58341-00003,ATAPL-58341-00003,Sensor,0,Spectral Irradiance: SPKIR Series A
 ATAPL-58341-00004,ATAPL-58341-00004,Sensor,0,Spectral Irradiance: SPKIR Series A,OCR507-ICSW (series A) w/ Midrange (500m) Bioshutter II (SPKIR-A),Satlantic,OCR507 ICSW,267,,20140516,13316.36,,University of Washington
 ATAPL-58341-00006,ATAPL-58341-00006,Sensor,0,Spectral Irradiance: SPKIR Series A,OCR507-ICSW (series A) w/ Midrange (500m) Bioshutter II (SPKIR-A),Satlantic,OCR507 ICSW,292,,20150527,13982.18,,University of Washington
 ATAPL-58341-00007,ATAPL-58341-00007,Sensor,0,Spectral Irradiance: SPKIR Series A,OCR507-ICSW (series A) w/ Midrange (500m) Bioshutter II (SPKIR-A),Satlantic,OCR507 ICSW,293,,20150527,13982.18,,University of Washington
-ATAPL-58342-00001,ATAPL-58342-00001,Sensor,0,Hydrothermal Vent Fluid In-situ Chemistry: THSPH Series A,Hydrothermal Vent Chemistry Instrument (THSPH),University of Minnesota,Custom,A,,20140314,35000,,University of Washington
-ATAPL-58342-00002,ATAPL-58342-00002,Sensor,0,Hydrothermal Vent Fluid In-situ Chemistry: THSPH Series A,Hydrothermal Vent Chemistry Instrument (THSPH),University of Minnesota,Custom,C,,20140620,35000,,University of Washington
-ATAPL-58342-00003,ATAPL-58342-00003,Sensor,0,Hydrothermal Vent Fluid In-situ Chemistry: THSPH Series A,Hydrothermal Vent Chemistry Instrument (THSPH),University of Minnesota,Custom,B,,20140710,35000,,University of Washington
+ATAPL-58342-00001,ATAPL-58342-00001,Sensor,0,Hydrothermal Vent Fluid In-situ Chemistry: THSPH Series A,Hydrothermal Vent Chemistry Instrument (THSPH),University of Minnesota,Custom,C_oldA,,20140314,35000,,University of Washington
+ATAPL-58342-00002,ATAPL-58342-00002,Sensor,0,Hydrothermal Vent Fluid In-situ Chemistry: THSPH Series A,Hydrothermal Vent Chemistry Instrument (THSPH),University of Minnesota,Custom,B_oldC,,20140620,35000,,University of Washington
+ATAPL-58342-00003,ATAPL-58342-00003,Sensor,0,Hydrothermal Vent Fluid In-situ Chemistry: THSPH Series A,Hydrothermal Vent Chemistry Instrument (THSPH),University of Minnesota,Custom,A_oldB,,20140710,35000,,University of Washington
 ATAPL-58343-00001,ATAPL-58343-00001,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger,RBR Global,XR-420-T24,21968,,20121113,15000,,University of Washington
 ATAPL-58343-00002,ATAPL-58343-00002,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger,RBR Global,XR-420-T24,21969,,20121113,15000,,University of Washington
 ATAPL-58343-00003,ATAPL-58343-00003,Sensor,0,Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,Underwater Thermistor Chain with Logger  (O&M),RBR Global,XR-420-T24,21964,,20130416,14902,,University of Washington
@@ -183,8 +161,8 @@ ATAPL-58693-00002,ATAPL-58693-00002,Sensor,0,Low Frequency Broadband Acoustic Re
 ATAPL-58693-00003,ATAPL-58693-00003,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299467,,20140106,19600,,University of Washington
 ATAPL-58693-00004,ATAPL-58693-00004,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299465,,20131113,19600,,University of Washington
 ATAPL-58693-00005,ATAPL-58693-00005,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299464,,20140106,19600,,University of Washington
-ATAPL-58693-00006,ATAPL-58693-00006,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299469,,20140724,19600,,University of Washington
-ATAPL-58693-00007,ATAPL-58693-00007,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299468,,20140724,19600,,University of Washington
+ATAPL-58693-00006,ATAPL-58693-00006,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299468,,20140724,19600,,University of Washington
+ATAPL-58693-00007,ATAPL-58693-00007,Sensor,0,Low Frequency Broadband Acoustic Receiver (Hydrophone): HYDLF Series A,Guralp Hydrophone (HYDLF),HTI,HTI-90-U,299469,,20140724,19600,,University of Washington
 ATAPL-58694-00001,ATAPL-58694-00001,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,Subsea CTD + Dissolved Oxygen Sensor,Sea-Bird Electronics,SBE 43,43-2463,,,,,University of Washington
 ATAPL-58694-00002,ATAPL-58694-00002,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,Subsea CTD + Dissolved Oxygen Sensor,Sea-Bird Electronics,SBE 43,43-2484,,,,,University of Washington
 ATAPL-58694-00003,ATAPL-58694-00003,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series A,DOFSTA for RSN,Sea-Bird Electronics,SBE 43,43-2891,,,,,University of Washington
@@ -289,9 +267,9 @@ ATAPL-70111-00003,ATAPL-70111-00003,Sensor,0,CDOM Fluorometer: FLCDR Series A,We
 ATAPL-70111-00004,ATAPL-70111-00004,Sensor,0,CDOM Fluorometer: FLCDR Series A,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD,FLCDRTD-3715,,20141222,13330,,University of Washington
 ATAPL-70111-00005,ATAPL-70111-00005,Sensor,0,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD (CDOM),FLCDRTD-3716,,20141222,13330,,University of Washington
 ATAPL-70113-00001,ATAPL-70113-00001,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,1,,,,,University of Washington
-ATAPL-70113-00002,ATAPL-70113-00002,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,4,,,,,University of Washington
+ATAPL-70113-00002,ATAPL-70113-00002,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,2,,,,,University of Washington
 ATAPL-70113-00003,ATAPL-70113-00003,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,3,,,,,University of Washington
-ATAPL-70113-00004,ATAPL-70113-00004,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,2,,,,,University of Washington
+ATAPL-70113-00004,ATAPL-70113-00004,Sensor,0,Benthic Fluid Flow: FLOBN Series M,RS01SUM2-MJ01B-00-FLOBNA101M,Solomon,Mosquito,4,,,,,University of Washington
 ATAPL-70114-00001,ATAPL-70114-00001,Sensor,0,Single Point Velocity Meter: VELPT Series D,"Aquadopp, 300m depth rating (P/C 901101) per attached quote (VELPT)",Nortek,Aquadopp,AQS-6031/AQD 8493,,20130425,9420,,University of Washington
 ATAPL-70114-00002,ATAPL-70114-00002,Sensor,0,Single Point Velocity Meter: VELPT Series D,"Aquadopp, 300m depth rating (P/C 901101) per attached quote (VELPT)",Nortek,Aquadopp,AQS 6334/AQD 11653,,20131211,9240,,University of Washington
 ATAPL-70114-00003,ATAPL-70114-00003,Sensor,0,Single Point Velocity Meter: VELPT Series D,"Aquadopp, 300m depth rating (P/C 901101) per attached quote (VELPT)",Nortek,Aquadopp,AQS-6389/AQD 11641,,20131211,9240,,University of Washington
@@ -306,11 +284,39 @@ ATAPL-70168-00002,ATAPL-70168-00002,Sensor,0,HD Digital Video Camera with Strobe
 ATAPL-70168-00003,ATAPL-70168-00003,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,"SUBC1CM01, SubC 1Cam Underwater Camera in titanium housing",APL,Custom,SUBC13114,,20130603,25600,,University of Washington
 ATAPL-70248-00001,ATAPL-70248-00001,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,Seafloor High Definition Video Camera,APL,Custom,P1-SUBC13115,,20130114,32177,,University of Washington
 ATAPL-70248-00002,ATAPL-70248-00002,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,Seafloor High Definition Video Camera,APL,Custom,P2-SUBC13114,,20130114,32177,,University of Washington
-ATAPL-71553-00005,OL000579,Sensor,0,Cabled Wire-Following Profiler Controller: Docking Station,Controller,APL,DP Docking Station,5,,,,RS03AXPD-DP03A-ENG-00001,University of Washington
-ATAPL-71553-00203,OL000575,Sensor,0,Cabled Wire-Following Profiler Controller: Docking Station,Controller,APL,DP Docking Station,203,,,,CE04OSPD-DP01B-ENG-00001,University of Washington
-ATAPL-71553-00204,OL000577,Sensor,0,Cabled Wire-Following Profiler Controller: Docking Station,Controller,APL,DP Docking Station,204,,,,RS01SBPD-DP01A-ENG-00001,University of Washington
+ATAPL-71444-00001,ATAPL-71444-00001,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00001,,,,,,University of Washington
+ATAPL-71444-00002,ATAPL-71444-00002,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00002,,,,,,University of Washington
+ATAPL-71444-00003,ATAPL-71444-00003,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00003,,,,,,University of Washington
+ATAPL-71444-00004,ATAPL-71444-00004,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00004,,,,,,University of Washington
+ATAPL-71444-00005,ATAPL-71444-00005,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00005,,,,,,University of Washington
+ATAPL-71444-00006,ATAPL-71444-00006,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00006,,,,,,University of Washington
+ATAPL-71444-00007,ATAPL-71444-00007,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00007,,,,,,University of Washington
+ATAPL-71532-00001,ATAPL-71532-00001,Sensor,0,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00001,,,,,,University of Washington
+ATAPL-71532-00002,ATAPL-71532-00002,Sensor,0,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00002,,,,,,University of Washington
+ATAPL-71532-00003,ATAPL-71532-00003,Sensor,0,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00003,,,,,,University of Washington
+ATAPL-71532-00004,ATAPL-71532-00004,Sensor,0,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00004,,,,,,University of Washington
+ATAPL-71532-00005,ATAPL-71532-00005,Sensor,0,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00005,,,,,,University of Washington
+ATAPL-78437-00001,ATAPL-78437-00001,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18830,,20180930,43237,,University of Washington
+ATAPL-78437-00002,ATAPL-78437-00002,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18831,,20180930,43237,,University of Washington
+ATAPL-78437-00003,ATAPL-78437-00003,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18832,,20180930,43237,,University of Washington
+ATAPL-78437-00004,ATAPL-78437-00004,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18833,,20180930,43237,,University of Washington
+ATAPL-78437-00005,ATAPL-78437-00005,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC19005,,,,,University of Washington
+ATAPL-78437-00006,ATAPL-78437-00006,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC19006,,,,,University of Washington
+ATAPL-78437-00007,ATAPL-78437-00007,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC19007,,,,,University of Washington
+ATAPL-78437-00008,ATAPL-78437-00008,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC19008,,,,,University of Washington
+ATAPL-78452-00001,ATAPL-78452-00001,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1399,,,,,University of Washington
+ATAPL-78452-00002,ATAPL-78452-00002,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1400,,,,,University of Washington
+ATAPL-78452-00003,ATAPL-78452-00003,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1401,,,,,University of Washington
+ATAPL-78452-00004,ATAPL-78452-00004,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1402,,,,,University of Washington
+ATAPL-78452-00005,ATAPL-78452-00005,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1403,,,,,University of Washington
+ATAPL-78452-00006,ATAPL-78452-00006,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1404,,,,,University of Washington
+ATAPL-78452-00007,ATAPL-78452-00007,Sensor,0,Photosynthetically Available Radiation: PARAD Series B,PARADB,Seabird,PAR-SER ICSW,1405,,,,,University of Washington
 ATCWK-67627-00006,,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 3500m,Sea-Bird Electronics,SBE 16plus V2,16-50209,3.1.8,20170401,16060,PI,University of Washington
 ATCWK-67627-00007,,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 3500m,Sea-Bird Electronics,SBE 16plus V2,16-50210,3.1.8,20170401,16060,PI,University of Washington
+ATCWK-67627-00008,,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 2000m,Sea-Bird Electronics,SBE 16plus V2,16-50321,3.1.8,,,PI,University of Washington
+ATCWK-67627-00009,,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 2000m,Sea-Bird Electronics,SBE 16plus V2,16-50325,3.1.8,,,PI,University of Washington
+ATCWK-67627-00010,,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 2000m,Sea-Bird Electronics,SBE 16plus V2,16-50326,3.1.8,,,PI,University of Washington
+ATCWK-67627-00011,,Sensor,0,CTD Profiler: CTDPF Series B,Seabird 16+V2 CTD 2000m,Sea-Bird Electronics,SBE 16plus V2,16-50327,3.1.8,,,PI,University of Washington
 ATOSU-58317-00007,ATOSU-58317-00007,Sensor,0,Underwater Digital Still Camera: CAMDS Series C,CAMDS-C,Kongsberg Underwater Technology Inc,Custom,100,,,,,
 ATOSU-58317-00008,ATOSU-58317-00008,Sensor,0,Underwater Digital Still Camera: CAMDS Series C,CAMDS-C,Kongsberg Underwater Technology Inc,Custom,105,,,,,
 ATOSU-58317-00012,ATOSU-58317-00012,Sensor,0,Underwater Digital Still Camera: CAMDS Series B,Underwater Digital Still Camera (CAMDS),Kongsberg Underwater Technology Inc,Custom,117,,,,,
@@ -338,18 +344,10 @@ ATOSU-58336-00005,ATOSU-58336-00005,Sensor,0,pCO2 Water: PCO2W Series A,PCO2W SE
 ATOSU-58336-00006,ATOSU-58336-00006,Sensor,0,pCO2 Water: PCO2W Series A,PCO2W SERIES A (SAMI-CO2),Sunburst Sensors,SAMI-pCO2,C0079,,20140127,17942.3,,
 ATOSU-58336-00007,ATOSU-58336-00007,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0116,,,18054,,
 ATOSU-58336-00008,ATOSU-58336-00008,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0117,,,18544.5,,
-ATOSU-58336-00011,ATOSU-58336-00011,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0064,,,18544.5,Using price from above co2 sensor,
-ATOSU-58336-00012,ATOSU-58336-00012,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0080,,,18544.5,,
-ATOSU-58336-00013,ATOSU-58336-00013,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0090,,,18544.5,,
-ATOSU-58336-00014,ATOSU-58336-00014,Sensor,0,pCO2 Water: PCO2W Series A,pCO2 sensor PCO2W-A,Sunburst Sensors,SAMI-pCO2,C0118,,,18544.5,,
 ATOSU-58337-00007,ATOSU-58337-00007,Sensor,0,Seawater pH: PHSEN Series A,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0115,,20140109,17479.95,,
 ATOSU-58337-00008,ATOSU-58337-00008,Sensor,0,Seawater pH: PHSEN Series A,PHSEN SERIES D (SAMI-PH),Sunburst Sensors,SAMI-pH,P0131,,20140425,18003.4,,
 ATOSU-58337-00011,ATOSU-58337-00011,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0153,,,18054,,
 ATOSU-58337-00012,ATOSU-58337-00012,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0154,,,18544.5,,
-ATOSU-58337-00015,ATOSU-58337-00015,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0116,,,18544.5,Assumed price from above sami,
-ATOSU-58337-00016,ATOSU-58337-00016,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0117,,,18544.5,Assumed price from above sami,
-ATOSU-58337-00017,ATOSU-58337-00017,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0159,,,18544.5,Assumed price from above sami,
-ATOSU-58337-00018,ATOSU-58337-00018,Sensor,0,Seawater pH: PHSEN Series A,"ph sensor, PHSEN-A",Sunburst Sensors,SAMI-pH,P0132,,,18544.5,Assumed price from above sami,
 ATOSU-58341-00005,CGINS-SPKIRB-00241,Sensor,0,Spectral Irradiance: SPKIR Series A,SPKIR-A,Satlantic,OCR507 ICSW,241,,,,,
 ATOSU-58341-00008,ATOSU-58341-00008,Sensor,0,Spectral Irradiance: SPKIR Series A,OCR507-ICSW (series A) w/ Midrange (500m) Bioshutter II (SPKIR-A),Satlantic,OCR507 ICSW,251,,,14000,,
 ATOSU-58346-00007,ATOSU-58346-00007,Sensor,0,3-D Single Point Velocity Meter: VEL3D Series A,"Falmouth Scientific 3D-ACM, with Impulse MCBH(WB)-5-FS-Ti connector (if available)",Falmouth Scientific,ACM-Plus-MP,1216,,20140128,10850,,
@@ -361,11 +359,6 @@ ATOSU-63259-00002,ATOSU-63259-00002,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,
 ATOSU-63259-00003,ATOSU-63259-00003,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 5 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,5,,,174000,,
 ATOSU-63259-00004,ATOSU-63259-00004,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,1,,,174000,,
 ATOSU-63259-00005,ATOSU-63259-00005,Sensor,0,Bio-acoustic Sonar: ZPLSC Series B,ZPLSC-B,Kongsberg Underwater Technology Inc,EK-60,2,,,,,
-ATOSU-63295-00001,ATOSU-63295-00001,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,3,,,174000,,
-ATOSU-63295-00002,ATOSU-63295-00002,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,4,,,174000,,
-ATOSU-63295-00003,ATOSU-63295-00003,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,5,,,174000,,
-ATOSU-63295-00004,N00760,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,1,,20140523,,,
-ATOSU-63295-00005,ATOSU-63295-00005,Sensor,1,Bio-acoustic Sonar: ZPLSC Series B,Zoo Plankton (ZPLSC-B) S/N: 1 OSU: PENDING,Kongsberg Underwater Technology Inc,EK-60,2,,,174000,,
 ATOSU-66645-00005,CGINS-PARADJ-00434,Sensor,0,Photosynthetically Available Radiation: PARAD Series A,PARAD,Satlantic,Satlantic digital PAR,434,,,,,
 ATOSU-66645-00008,ATOSU-66645-00008,Sensor,0,Photosynthetically Available Radiation: PARAD Series A,PARAD,Satlantic,Satlantic digital PAR,566,,,,,
 ATOSU-66662-00006,ATOSU-66662-00006,Sensor,0,CTD Profiler: CTDPF Series A,CTDPF-A,Sea-Bird Electronics,SBE 16plus V2,16-50018,,,,,
@@ -381,7 +374,7 @@ ATOSU-69825-00002,ATOSU-69825-00002,Sensor,0,ADCP Velocity Profiler (long range)
 ATOSU-69825-00003,CGINS-ADCPSI-18919,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series I,ADCP SERIES I (WHLM75-1500),Teledyne RDI,WHLM75-1500,18919,,,46795.5,,
 ATOSU-69826-00001,ATOSU-69826-00001,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series B,ADCP SERIES B (WHM600-500),Teledyne RDI,WHM300-500,18493,,20120826,22482,,
 ATOSU-69826-00002,ATOSU-69826-00002,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series B,ADCP SERIES B (WHM600-500),Teledyne RDI,WHM300-500,19003,,20121219,22482,,
-ATOSU-69826-00003,ATOSU-69826-00003,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series B,ADCP SERIES B (WHM600-500),Teledyne RDI,WHM300-500,19003,,20121219,22482,,
+ATOSU-69826-00003,ATOSU-69826-00003,Sensor,0,ADCP Velocity Profiler (short range): ADCPT Series B,ADCP SERIES B (WHM600-500),Teledyne RDI,WHM300-500,22115,,20121219,22482,,
 ATOSU-69827-00001,CGINS-CTDBPN-07230,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7230,,20121203,17500,OSU reports S/N 16P7116-7230,
 ATOSU-69827-00002,ATOSU-69827-00002,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-50114,,20150514,19135,,
 ATOSU-69827-00003,ATOSU-69827-00003,Sensor,0,CTD Pumped: CTDBP Series N,CTDBP SERIES N (N-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7248,,20130115,17550,,
@@ -428,11 +421,14 @@ CGINS-ADCPAM-43106,N00015,Sensor,1,ADCP Velocity Profiler (short range) for Glid
 CGINS-ADCPAM-43111,N00728,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,643111,,20130125,,,
 CGINS-ADCPAM-43473,N00320,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,643473,,20121228,,,
 CGINS-ADCPAM-43474,N00325,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,643474,,20121228,,,
+CGINS-ADCPAM-44067,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,644067,,,,,
 CGINS-ADCPAM-48292,N00335,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648292,,20130806,,,
 CGINS-ADCPAM-48875,N00031,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648875,,20130412,,,
 CGINS-ADCPAM-48877,N00117,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648877,,20130701,186935,,
+CGINS-ADCPAM-48878,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,648878,,,,,
 CGINS-ADCPAM-49015,N00146,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649015,,20130701,,,
 CGINS-ADCPAM-49016,N00141,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649016,,20130701,,,
+CGINS-ADCPAM-49653,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649653,,,,,
 CGINS-ADCPAM-49696,N00151,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649696,,20130806,,,
 CGINS-ADCPAM-49697,N00330,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649697,,20130806,,,
 CGINS-ADCPAM-49982,N00043,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,649982,,20130806,,,
@@ -443,9 +439,13 @@ CGINS-ADCPAM-52696,N00350,Sensor,1,ADCP Velocity Profiler (short range) for Glid
 CGINS-ADCPAM-54584,N00156,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,654584,,20131223,,,
 CGINS-ADCPAM-54585,N00161,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,654585,,20131223,,,
 CGINS-ADCPAM-54587,N00136,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,654587,,20131223,,,
+CGINS-ADCPAM-55731,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,655731,,,,went to TRDI for repair and came back with new SN.,
+CGINS-ADCPAM-55979,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,655979,,20200709,,,
 CGINS-ADCPAM-55980,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,655980,,,,From Teledyne Webb Research's OOI glider instrument pool,
 CGINS-ADCPAM-62598,N00131,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,62598,,20130301,,,
 CGINS-ADCPAM-72777,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,672777,,,,,
+CGINS-ADCPAM-73107,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,673107,,,,,
+CGINS-ADCPAM-99999,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,N/A,,,,Placeholder dummy sensor for when the transducer number of a DVL deployed on a slocum glider cannot be determined,
 CGINS-ADCPAN-22076,,Sensor,1,ADCP for AUV: ADCPA series N,ADCP for AUV,Teledyne RDI,Explorer DVL 600 kHz,22076,,,,,
 CGINS-ADCPAN-22077,,Sensor,1,ADCP for AUV: ADCPA series N,ADCP for AUV,Teledyne RDI,Explorer DVL 600 kHz,22077,,,,,
 CGINS-ADCPSI-18919,A00221,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series I,ADCP SERIES I (WHLM75-1500),Teledyne RDI,WHLM75-1500,18919,,20130122,49395.25,,
@@ -457,7 +457,7 @@ CGINS-ADCPSJ-22642,A01221,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Se
 CGINS-ADCPSJ-22649,A01243,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series J,ADCP SERIES J,Teledyne RDI,WHLS75-1500,22649,,20150127,55109.5,,
 CGINS-ADCPSL-13992,N00506,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP,Teledyne RDI,WHLS75-1500-I,13992,,,,,
 CGINS-ADCPSL-18260,A00075,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,18260,,20120925,51646.5,,
-CGINS-ADCPSL-18261,A00076,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,18261,,20120925,51646,Missing from SIO inventory,
+CGINS-ADCPSL-18261,A00076,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,18261,,20120925,51646,,
 CGINS-ADCPSL-18351,A00068,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,18351,50.4,20120928,51646.5,,
 CGINS-ADCPSL-18352,A00067,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,18352,,20120928,51646.5,,
 CGINS-ADCPSL-18353,A00077,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,18353,,20120925,51646.5,,
@@ -471,8 +471,8 @@ CGINS-ADCPSL-21393,A01503,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Se
 CGINS-ADCPSL-21446,A01505,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,21446,,20140530,53199,,
 CGINS-ADCPSL-21450,A01504,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,21450,,20140530,53199,,
 CGINS-ADCPSL-21497,A01506,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L (WHLS75-1500-I),Teledyne RDI,WHLS75-1500-I,21497,,20140530,53199,,
-CGINS-ADCPSL-22650,A01512,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L,Teledyne RDI,WHLS75-1500-I,22650,,20150623,57840.75,Missing from SIO inventory,
-CGINS-ADCPSL-22846,A01511,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES  L,Teledyne RDI,WHLS75-1500-I,22846,,20150623,57840.75,,
+CGINS-ADCPSL-22650,A01512,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L,Teledyne RDI,WHLS75-1500-I,22650,,20150623,57840.75,,
+CGINS-ADCPSL-22846,A01511,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L,Teledyne RDI,WHLS75-1500-I,22846,,20150623,57840.75,,
 CGINS-ADCPSL-23380,A01509,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L,Teledyne RDI,WHLS75-1500-I,23380,,20150622,59579.25,,
 CGINS-ADCPSL-23381,A01510,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L,Teledyne RDI,WHLS75-1500-I,23381,,20150622,59579.25,,
 CGINS-ADCPSL-23497,A01507,Sensor,0,ADCP Velocity Profiler (long range): ADCPS Series L,ADCP SERIES L,Teledyne RDI,WHLS75-1500-I,23497,,20150622,59579.25,,
@@ -534,8 +534,8 @@ CGINS-CTDAVN-00103,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Sea
 CGINS-CTDAVN-00104,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Sea-Bird Electronics,SBE AUV Payload CTD,104,,,,CGSN AUV Instrument Pool,
 CGINS-CTDAVN-00424,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Sea-Bird Electronics,SBE AUV Payload CTD,424,,,,CGSN AUV Instrument Pool,
 CGINS-CTDAVN-00425,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Sea-Bird Electronics,SBE AUV Payload CTD,425,,,,CGSN AUV Instrument Pool,
-CGINS-CTDBPC-06841,A00054,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-6841,,20150604,8970,,
-CGINS-CTDBPC-07208,A00082,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7208,2.5,20150604,11150,,
+CGINS-CTDBPC-06841,A00054,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16P64183-6841,,20150604,8970,,
+CGINS-CTDBPC-07208,A00082,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16P71174-7208,2.5,20150604,11150,,
 CGINS-CTDBPC-07240,A00126,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7240,,20121227,11150,,
 CGINS-CTDBPC-07241,A00127,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7241,2.5,20121227,11150,,
 CGINS-CTDBPC-07242,A00128,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7242,,20121227,11150,,
@@ -563,8 +563,8 @@ CGINS-CTDBPC-50153,A01758,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C,Sea
 CGINS-CTDBPC-50154,A01759,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C,Sea-Bird Electronics,SBE 16plus V2,16-50154,,20150831,13535,,
 CGINS-CTDBPC-50187,,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-50187,,,,,
 CGINS-CTDBPC-50188,,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-50188,,,,,
-CGINS-CTDBPD-07209,A00083,Sensor,0,CTD Pumped: CTDBP Series D,CTDBP SERIES D (D-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7209,2.5,20121102,11150,,
-CGINS-CTDBPD-07239,A00132,Sensor,0,CTD Pumped: CTDBP Series D,CTDBP SERIES D (D-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7239,2.5,20130108,11150,,
+CGINS-CTDBPD-07209,A00083,Sensor,0,CTD Pumped: CTDBP Series D,CTDBP SERIES D (D-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16P71174-7209,2.5,20121102,11150,,
+CGINS-CTDBPD-07239,A00132,Sensor,0,CTD Pumped: CTDBP Series D,CTDBP SERIES D (D-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16P71879-7239,2.5,20130108,11150,,
 CGINS-CTDBPD-50008,A00700,Sensor,0,CTD Pumped: CTDBP Series D,CTDBP SERIES D (D-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-50008,2.5.2,20150604,11500,,
 CGINS-CTDBPD-50058,A01106,Sensor,0,CTD Pumped: CTDBP Series D,CTDBP SERIES D (D-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-50058,,20150604,11835,,
 CGINS-CTDBPD-50110,A01335,Sensor,0,CTD Pumped: CTDBP Series D,CTDBP SERIES D,Sea-Bird Electronics,SBE 16plus V2,16-50110,,20150414,13535,,
@@ -650,7 +650,7 @@ CGINS-CTDGVM-09207,N00411,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Sloc
 CGINS-CTDGVM-09209,N00540,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9209,,20141120,171195,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09211,N00408,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9211,,20141120,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09214,N00402,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9214,,20141120,171195,CGSN Glider Instrument Pool,
-CGINS-CTDGVM-09222,,Sensor,1,CTD for Glider: CTDGV Series M,,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9222,,,,CGSN Glider Instrument Pool,
+CGINS-CTDGVM-09222,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9222,,,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09230,N00650,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9230,,20141223,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09231,N00653,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9231,,20141223,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09232,N00644,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9232,,20150326,,CGSN Glider Instrument Pool,
@@ -668,7 +668,7 @@ CGINS-CTDGVM-09286,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Gli
 CGINS-CTDGVM-09287,OL000168,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9287,,20121227,25000,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09288,OL000174,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9288,,20121227,25000,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09294,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9294,,,,CGSN Glider Instrument Pool,
-CGINS-CTDGVM-09295,,Sensor,1,CTD for Glider: CTDGV Series M,,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9295,,,,CGSN Glider Instrument Pool,
+CGINS-CTDGVM-09295,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9295,,,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09297,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9297,,,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09302,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9302,,,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09306,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9306,,,,CGSN Glider Instrument Pool,
@@ -686,6 +686,7 @@ CGINS-CTDGVM-09362,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Gli
 CGINS-CTDGVM-09363,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9363,,,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09364,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9364,,,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09453,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9453,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-CTDGVM-09658,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9658,,,,,
 CGINS-CTDMOG-10214,A00103,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-10214,,20121212,6400,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-10215,A00104,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-10215,,20121212,6400,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-10216,A00105,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-10216,,20121212,6400,,Woods Hole Oceanographic Institution
@@ -722,7 +723,7 @@ CGINS-CTDMOG-11604,A00675,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO
 CGINS-CTDMOG-11605,A00676,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11605,,20140128,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-11606,A00684,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11606,,20140128,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-11607,A00682,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11607,,20140128,6600,,Woods Hole Oceanographic Institution
-CGINS-CTDMOG-11608,A00681,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11608,,20140128,6600,duplicate ooi_barcode number; Missing from SIO inventory,Woods Hole Oceanographic Institution
+CGINS-CTDMOG-11608,A00681,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11608,,20140128,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-11609,A00667,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11609,,20140128,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-11610,A00668,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11610,,20140128,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-11611,A00673,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11611,,20140128,6600,,Woods Hole Oceanographic Institution
@@ -748,7 +749,7 @@ CGINS-CTDMOG-11653,A01405,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO
 CGINS-CTDMOG-11654,A01406,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-11654,,20140221,6600,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-12189,A00866,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12189,,20140604,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-12190,A00867,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12190,,20140604,6775,,Woods Hole Oceanographic Institution
-CGINS-CTDMOG-12308,A00908,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12308,,20140722,6775,Missing from SIO inventory,Woods Hole Oceanographic Institution
+CGINS-CTDMOG-12308,A00908,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12308,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-12309,A00909,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12309,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-12310,A00910,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12310,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-12311,A00911,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-12311,,20140722,6775,,Woods Hole Oceanographic Institution
@@ -878,11 +879,11 @@ CGINS-CTDMOH-12222,A00872,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO
 CGINS-CTDMOH-12223,A00873,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12223,,20140604,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12224,A00874,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12224,,20140604,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12225,A00875,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12225,,20140604,6775,,Woods Hole Oceanographic Institution
-CGINS-CTDMOH-12226,A00876,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12226,,20140604,6775,duplicate ooi_barcode number; Missing from SIO inventory,Woods Hole Oceanographic Institution
+CGINS-CTDMOH-12226,A00876,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12226,,20140604,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12227,A00877,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12227,,20140604,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12384,A00959,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12384,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12385,A00958,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12385,,20140722,6775,,Woods Hole Oceanographic Institution
-CGINS-CTDMOH-12386,A00912,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12386,,20140722,6775,Missing from inventory,Woods Hole Oceanographic Institution
+CGINS-CTDMOH-12386,A00912,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12386,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12387,A00913,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12387,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12388,A00914,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12388,,20140722,6775,,Woods Hole Oceanographic Institution
 CGINS-CTDMOH-12389,A00915,Sensor,0,CTD Mooring (Inductive): CTDMO Series H,CTDMO SERIES H (37IM),Sea-Bird Electronics,SBE 37-IM,37-12389,,20140722,6775,,Woods Hole Oceanographic Institution
@@ -1031,36 +1032,36 @@ CGINS-CTDPFL-00150,OL000039,Sensor,0,CTD Profiler: CTDPF Series L,CTDPF Series L
 CGINS-CTDPFL-00151,OL000043,Sensor,0,CTD Profiler: CTDPF Series L,CTDPF Series L,Sea-Bird Electronics,SBE 52-MP,151,,,,,
 CGINS-CTDPFL-00152,OL000051,Sensor,0,CTD Profiler: CTDPF Series L,CTDPF Series L,Sea-Bird Electronics,SBE 52-MP,152,,,,,
 CGINS-CTDPFL-00153,OL000055,Sensor,0,CTD Profiler: CTDPF Series L,CTDPF Series L,Sea-Bird Electronics,SBE 52-MP,153,,,,,
-CGINS-DOFSTK-00209,N00002,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12714-01,Sea-Bird Electronics,SBE 43F,43-0209,,20110617,,,
-CGINS-DOFSTK-02397,N00009,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML12936-01,Sea-Bird Electronics,SBE 43F,43-2397,,20130122,,,
-CGINS-DOFSTK-02496,N00051,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML12991-03,Sea-Bird Electronics,SBE 43F,43-2496,,20130426,,,
-CGINS-DOFSTK-02497,N00023,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML12991-01,Sea-Bird Electronics,SBE 43F,43-2497,,20150713,92259.49,,
-CGINS-DOFSTK-02498,N00065,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML12991-04,Sea-Bird Electronics,SBE 43F,43-2498,,20130510,,,
-CGINS-DOFSTK-02499,N00037,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML12991-02,Sea-Bird Electronics,SBE 43F,43-2499,,20150604,,,
-CGINS-DOFSTK-02500,N00072,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML12991-05,Sea-Bird Electronics,SBE 43F,43-2500,,20130510,,,
-CGINS-DOFSTK-02628,N00107,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML13103-05,Sea-Bird Electronics,SBE 43F,43-2628,,20140128,,,
-CGINS-DOFSTK-02708,N00079,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML13103-01,Sea-Bird Electronics,SBE 43F,43-2708,,20140128,,,
-CGINS-DOFSTK-02724,N00086,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML13103-02,Sea-Bird Electronics,SBE 43F,43-2724,,20140128,,,
-CGINS-DOFSTK-02725,N00093,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML13103-03,Sea-Bird Electronics,SBE 43F,43-2725,,20140128,,,
-CGINS-DOFSTK-02726,N00100,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML13103-04,Sea-Bird Electronics,SBE 43F,43-2726,3.35,20140128,,,
-CGINS-DOFSTK-02978,N00030,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML12991-01,Sea-Bird Electronics,SBE 43F,43-2978,,20150713,92259.49,,
-CGINS-DOFSTK-03370,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,,Sea-Bird Electronics,SBE 43F,43-3370,,,,,
-CGINS-DOFSTK-03506,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,,Sea-Bird Electronics,SBE 43F,43-3506,,20170627,,,Woods Hole Oceanographic Institution
-CGINS-DOFSTK-03523,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,,Sea-Bird Electronics,SBE 43F,43-3523,,20170627,,,Woods Hole Oceanographic Institution
-CGINS-DOFSTK-03535,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOSTA for WFP Coastal ML14378-01,Sea-Bird Electronics,SBE 43F,43-3535,,20170907,,,Oregon State University
-CGINS-DOSTAD-00126,A00176,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,126,,20130128,5258.25,,
-CGINS-DOSTAD-00127,A00169,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,127,,20130124,5258.25,,
-CGINS-DOSTAD-00128,A00170,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,128,,20130124,5258.25,,
-CGINS-DOSTAD-00129,A00177,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,129,,20130128,5258.25,,
-CGINS-DOSTAD-00130,A00166,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,130,4.5.7,20130124,5258.25,,
-CGINS-DOSTAD-00131,A00167,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,131,4.5.7,20130124,5258.25,,
-CGINS-DOSTAD-00132,A00168,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,132,4.5.7,20130124,5258.25,,
+CGINS-DOFSTK-00209,N00002,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12714-01,Sea-Bird Electronics,SBE 43F,43-0209,,20110617,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-02397,N00009,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12936-01,Sea-Bird Electronics,SBE 43F,43-2397,,20130122,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-02496,N00051,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12991-03,Sea-Bird Electronics,SBE 43F,43-2496,,20130426,,,Oregon State University
+CGINS-DOFSTK-02497,N00023,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12991-01,Sea-Bird Electronics,SBE 43F,43-2497,,20150713,92259.49,,Oregon State University
+CGINS-DOFSTK-02498,N00065,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12991-04,Sea-Bird Electronics,SBE 43F,43-2498,,20130510,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-02499,N00037,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12991-02,Sea-Bird Electronics,SBE 43F,43-2499,,20150604,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-02500,N00072,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12991-03,Sea-Bird Electronics,SBE 43F,43-2500,,20130510,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-02628,N00107,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML13103-05,Sea-Bird Electronics,SBE 43F,43-2628,,20140128,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-02708,N00079,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML13103-01,Sea-Bird Electronics,SBE 43F,43-2708,,20140128,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-02724,N00086,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML13103-02,Sea-Bird Electronics,SBE 43F,43-2724,,20140128,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-02725,N00093,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML13103-03,Sea-Bird Electronics,SBE 43F,43-2725,,20140128,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-02726,N00100,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML13103-04,Sea-Bird Electronics,SBE 43F,43-2726,3.35,20140128,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-02978,N00030,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12991-01,Sea-Bird Electronics,SBE 43F,43-2978,,20150713,92259.49,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-03370,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML12991-05,Sea-Bird Electronics,SBE 43F,43-3370,,,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-03506,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML14300-01,Sea-Bird Electronics,SBE 43F,43-3506,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-03523,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML14300-02,Sea-Bird Electronics,SBE 43F,43-3523,,20170627,,,Woods Hole Oceanographic Institution
+CGINS-DOFSTK-03535,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML14378-01,Sea-Bird Electronics,SBE 43F,43-3535,,20170907,,,Oregon State University
+CGINS-DOSTAD-00126,A00176,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,126,,20130128,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00127,A00169,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,127,,20130124,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00128,A00170,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,128,,20130124,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00129,A00177,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,129,,20130128,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00130,A00166,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,130,4.5.7,20130124,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00131,A00167,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,131,4.5.7,20130124,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00132,A00168,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,132,4.5.7,20130124,5258.25,,Woods Hole Oceanographic Institution
 CGINS-DOSTAD-00134,A00172,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,134,,20130124,5258.25,,
 CGINS-DOSTAD-00135,A00173,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,135,,20130124,5258.25,,
 CGINS-DOSTAD-00136,A00174,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,136,,20130124,5258.25,,
-CGINS-DOSTAD-00211,A00397,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,211,4.5.7,20130826,5258.25,,
-CGINS-DOSTAD-00212,A00396,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,212,4.5.7,20130826,5258.25,,
-CGINS-DOSTAD-00213,A00395,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,213,4.5.7,20130826,5258.25,,
+CGINS-DOSTAD-00211,A00397,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,211,4.5.7,20130826,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00212,A00396,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,212,4.5.7,20130826,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00213,A00395,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,213,4.5.7,20130826,5258.25,,Woods Hole Oceanographic Institution
 CGINS-DOSTAD-00217,A00427,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,217,,20130801,5258.25,,
 CGINS-DOSTAD-00218,A00428,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,218,,20130801,5258.25,,
 CGINS-DOSTAD-00219,A00429,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,219,,20130801,5258.25,,
@@ -1068,50 +1069,50 @@ CGINS-DOSTAD-00220,A00430,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Serie
 CGINS-DOSTAD-00221,A00431,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,221,,20130801,5258.25,,
 CGINS-DOSTAD-00222,A00432,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,222,,20130801,5258.25,,
 CGINS-DOSTAD-00223,A00433,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,223,,20130801,5258.25,,
-CGINS-DOSTAD-00224,A00413,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,224,,20130827,5258.25,,
-CGINS-DOSTAD-00225,A00398,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,225,4.5.7,20150604,5258.25,,
-CGINS-DOSTAD-00226,A00399,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,226,4.5.7,20130826,5258.25,,
-CGINS-DOSTAD-00227,A00400,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,227,4.5.7,20130826,5258.25,,
-CGINS-DOSTAD-00228,A00414,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,228,,20130827,5258.25,,
+CGINS-DOSTAD-00224,A00413,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,224,,20130827,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00225,A00398,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,225,4.5.7,20150604,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00226,A00399,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,226,4.5.7,20130826,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00227,A00400,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,227,4.5.7,20130826,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00228,A00414,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,228,,20130827,5258.25,,Woods Hole Oceanographic Institution
 CGINS-DOSTAD-00291,A00802,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,291,,20140130,5258.25,,
 CGINS-DOSTAD-00292,A00803,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,292,,20140130,5258.25,,
 CGINS-DOSTAD-00313,A00805,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,313,,20140130,5258.25,,
 CGINS-DOSTAD-00314,A00806,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,314,,20140130,5258.25,,
 CGINS-DOSTAD-00315,A00807,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,315,,20140130,5258.25,,
-CGINS-DOSTAD-00375,A00861,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,375,4.7.1,20150615,5258.25,,
-CGINS-DOSTAD-00376,A00862,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,376,4.7.1,20150604,5258.25,,
-CGINS-DOSTAD-00377,A00863,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,377,4.7.1,20140618,5258.25,,
-CGINS-DOSTAD-00378,A00864,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,378,4.7.1,20140618,5258.25,,
-CGINS-DOSTAD-00379,A00865,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,379,4.7.1,20140618,5258.25,,
-CGINS-DOSTAD-00382,A00890,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,382,4.7.1,20140701,5258.25,,
-CGINS-DOSTAD-00385,A00891,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,385,4.7.1,20150604,5258.25,,
-CGINS-DOSTAD-00386,A00892,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,386,4.7.1,20140701,5258.25,,
-CGINS-DOSTAD-00387,A00893,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,387,4.7.1,20150604,5258.25,,
-CGINS-DOSTAD-00388,A00894,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,388,4.7.1,20140701,5258.25,,
-CGINS-DOSTAD-00389,A00895,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,389,4.7.1,20140701,5258.25,,
-CGINS-DOSTAD-00390,A00896,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,390,4.7.1,20140701,5258.25,,
-CGINS-DOSTAD-00391,A00899,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,391,,20140711,5258.25,,
-CGINS-DOSTAD-00392,A00900,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,392,,20140711,5258.25,,
-CGINS-DOSTAD-00393,A00901,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,393,,20140711,5258.25,,
-CGINS-DOSTAD-00394,A00902,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,394,,20140711,5258.25,,
-CGINS-DOSTAD-00410,A01234,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,410,,20150604,5258.25,,
-CGINS-DOSTAD-00412,A01235,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,412,,20150604,5258.25,,
-CGINS-DOSTAD-00413,A01236,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,413,,20141027,5258.25,,
-CGINS-DOSTAD-00415,A01237,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,415,,20141027,5258.25,,
-CGINS-DOSTAD-00422,A01238,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,422,,20141027,5258.25,,
-CGINS-DOSTAD-00427,A01144,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,427,,20141105,5258.25,,
-CGINS-DOSTAD-00428,A01145,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,428,,20141105,5258.25,,
-CGINS-DOSTAD-00439,A01299,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,439,,20150320,5092.2,,
-CGINS-DOSTAD-00456,N00505,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,456,,20150320,5092.2,,
-CGINS-DOSTAD-00457,N00504,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,457,,20150320,5092.2,,
-CGINS-DOSTAD-00460,A01300,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,460,,20150320,5092.2,,
-CGINS-DOSTAD-00461,A01301,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,461,,20150320,5092.2,,
-CGINS-DOSTAD-00462,A01302,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,462,,20150320,5092.2,,
-CGINS-DOSTAD-00463,A01303,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,463,,20150320,5092.2,,
-CGINS-DOSTAD-00464,A01304,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,464,,20150320,5092.2,,
-CGINS-DOSTAD-00465,A01305,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,465,,20150320,5092.2,,
-CGINS-DOSTAD-00466,A01306,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,466,,20150320,5092.2,,
-CGINS-DOSTAD-00467,A01307,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,467,,20150320,5092.2,,
+CGINS-DOSTAD-00375,A00861,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,375,4.7.1,20150615,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00376,A00862,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,376,4.7.1,20150604,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00377,A00863,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,377,4.7.1,20140618,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00378,A00864,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,378,4.7.1,20140618,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00379,A00865,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,379,4.7.1,20140618,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00382,A00890,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,382,4.7.1,20140701,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00385,A00891,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,385,4.7.1,20150604,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00386,A00892,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,386,4.7.1,20140701,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00387,A00893,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,387,4.7.1,20150604,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00388,A00894,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,388,4.7.1,20140701,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00389,A00895,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,389,4.7.1,20140701,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00390,A00896,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,390,4.7.1,20140701,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00391,A00899,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,391,,20140711,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00392,A00900,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,392,,20140711,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00393,A00901,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,393,,20140711,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00394,A00902,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,394,,20140711,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00410,A01234,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,410,,20150604,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00412,A01235,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,412,,20150604,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00413,A01236,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,413,,20141027,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00415,A01237,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,415,,20141027,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00422,A01238,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,422,,20141027,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00427,A01144,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,427,,20141105,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00428,A01145,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,428,,20141105,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00439,A01299,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,439,,20150320,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00456,N00505,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,456,,20150320,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00457,N00504,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,457,,20150320,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00460,A01300,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,460,,20150320,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00461,A01301,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,461,,20150320,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00462,A01302,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,462,,20150320,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00463,A01303,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,463,,20150320,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00464,A01304,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,464,,20150320,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00465,A01305,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,465,,20150320,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00466,A01306,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,466,,20150320,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00467,A01307,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,467,,20150320,5092.2,,Woods Hole Oceanographic Institution
 CGINS-DOSTAD-00477,A01687,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,477,,20150603,5092.2,,
 CGINS-DOSTAD-00478,A01688,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,478,,20150603,5092.2,,
 CGINS-DOSTAD-00479,A01689,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,479,,20150603,5092.2,,
@@ -1120,43 +1121,43 @@ CGINS-DOSTAD-00482,A01691,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Serie
 CGINS-DOSTAD-00483,A01692,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,483,,20150603,5092.2,,
 CGINS-DOSTAD-00484,A01693,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,484,,20150603,5092.2,,
 CGINS-DOSTAD-00485,A01694,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,485,,20150603,5092.2,,
-CGINS-DOSTAD-00495,OL000069,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,495,,,,,
-CGINS-DOSTAD-00497,OL000070,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,497,,,,,
-CGINS-DOSTAD-00498,OL000036,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,498,,,,,
-CGINS-DOSTAD-00502,OL000084,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,502,,,,,
-CGINS-DOSTAD-00503,N00553,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,503,,,5092.2,,
-CGINS-DOSTAD-00507,N00549,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,507,,,5092.2,,
-CGINS-DOSTAD-00508,N00550,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,508,,,5092.2,,
-CGINS-DOSTAD-00512,N00554,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,512,,,5092.2,,
-CGINS-DOSTAD-00514,N00725,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,514,,,5092.2,,
-CGINS-DOSTAD-00515,OL000257,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,515,,,,,
-CGINS-DOSTAD-00516,OL000258,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,516,,,,,
-CGINS-DOSTAD-00517,OL000276,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,517,,,,,
-CGINS-DOSTAD-00518,OL000277,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,518,,,,,
-CGINS-DOSTAD-00519,,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,519,,,,,Woods Hole Oceanographic Institution
-CGINS-DOSTAD-00663,A02166,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D,Aanderaa,Optode 4831,663,4.9.1,20170403,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00495,OL000069,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,495,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00497,OL000070,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,497,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00498,OL000036,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,498,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00502,OL000084,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,502,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00503,N00553,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,503,,,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00507,N00549,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,507,,,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00508,N00550,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,508,,,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00512,N00554,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,512,,,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00514,N00725,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,514,,,5092.2,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00515,OL000257,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,515,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00516,OL000258,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,516,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00517,OL000276,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,517,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00518,OL000277,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,518,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00519,,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,519,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAD-00663,A02166,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,663,4.9.1,20170403,,,Woods Hole Oceanographic Institution
 CGINS-DOSTAJ-00209,N00588,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-001,Aanderaa,Optode 4831,209,,20130630,5258.25,,Oregon State University
 CGINS-DOSTAJ-00308,N00596,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-006,Aanderaa,Optode 4831,308,,20140929,5258.25,,Oregon State University
-CGINS-DOSTAJ-00350,N00564,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-004,Aanderaa,Optode 4831,350,,20140801,5258.25,,
-CGINS-DOSTAJ-00351,N00556,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-005,Aanderaa,Optode 4831,351,,20140801,5258.25,,
+CGINS-DOSTAJ-00350,N00564,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-004,Aanderaa,Optode 4831,350,,20140801,5258.25,,Woods Hole Oceanographic Institution
+CGINS-DOSTAJ-00351,N00556,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-005,Aanderaa,Optode 4831,351,,20140801,5258.25,,Woods Hole Oceanographic Institutionv
 CGINS-DOSTAJ-00352,N00580,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-002,Aanderaa,Optode 4831,352,,20140630,5258.25,,Oregon State University
 CGINS-DOSTAJ-00353,N00572,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-003,Aanderaa,Optode 4831,353,,20140616,5258.25,,Oregon State University
 CGINS-DOSTAJ-00646,,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-007,Aanderaa,Optode 4831,646,,20161230,,,Oregon State University
 CGINS-DOSTAJ-00672,,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series J,DOSTA for WLP-008,Aanderaa,Optode 4831,672,,20161230,,,Oregon State University
-CGINS-DOSTAL-01086,N00605,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for ML12936-02,Aanderaa,Optode 4330,1086,,20130320,,,
-CGINS-DOSTAL-01105,N00613,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for ML12997-01,Aanderaa,Optode 4330,1105,,20130320,,,
-CGINS-DOSTAL-01106,N00171,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,Dissolved Oxygen Stable Response,Aanderaa,Optode 4330,1106,,,,,
-CGINS-DOSTAL-01473,N00128,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Coastal ML13104-04,Aanderaa,Optode 4330,1473,,20140925,,,
-CGINS-DOSTAL-01475,N00167,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Coastal ML13104-06,Aanderaa,Optode 4330,1475,,20140925,,,
-CGINS-DOSTAL-01476,N00114,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Coastal ML13104-01,Aanderaa,Optode 4330,1476,,20140115,,,
-CGINS-DOSTAL-01477,N00657,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Coastal ML13104-05,Aanderaa,Optode 4330,1477,,20140402,,,
-CGINS-DOSTAL-01478,N00617,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for ML13104-03,Aanderaa,Optode 4330,1478,,20140115,,,
-CGINS-DOSTAL-01479,N00661,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Coastal ML13104-07,Aanderaa,Optode 4330,1479,,20140925,,,
-CGINS-DOSTAL-01480,N00609,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for ML13104-02,Aanderaa,Optode 4330,1480,,20140115,,,
-CGINS-DOSTAL-02195,OL000042,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA Series L,Aanderaa,Optode 4330,2195,,,,,
-CGINS-DOSTAL-02196,OL000054,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA Series L,Aanderaa,Optode 4330,2196,,,,,
-CGINS-DOSTAL-02197,OL000050,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA Series L,Aanderaa,Optode 4330,2197,,,,,
-CGINS-DOSTAL-02198,OL000038,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA Series L,Aanderaa,Optode 4330,2198,,,,,
+CGINS-DOSTAL-01086,N00605,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global ML12936-02,Aanderaa,Optode 4330,1086,,20130320,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-01105,N00613,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global ML12997-01,Aanderaa,Optode 4330,1105,,20130320,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-01106,N00171,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global ML12774-01,Aanderaa,Optode 4330,1106,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-01473,N00128,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global ML13104-04,Aanderaa,Optode 4330,1473,,20140925,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-01475,N00167,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global ML13104-06,Aanderaa,Optode 4330,1475,,20140925,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-01476,N00114,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global ML13104-01,Aanderaa,Optode 4330,1476,,20140115,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-01477,N00657,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global ML13104-05,Aanderaa,Optode 4330,1477,,20140402,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-01478,N00617,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global ML13104-03,Aanderaa,Optode 4330,1478,,20140115,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-01479,N00661,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global ML13104-07,Aanderaa,Optode 4330,1479,,20140925,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-01480,N00609,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global ML13104-02,Aanderaa,Optode 4330,1480,,20140115,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-02195,OL000042,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global ML13452-02,Aanderaa,Optode 4330,2195,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-02196,OL000054,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global13452-04,Aanderaa,Optode 4330,2196,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-02197,OL000050,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global13452-03,Aanderaa,Optode 4330,2197,,,,,Woods Hole Oceanographic Institution
+CGINS-DOSTAL-02198,OL000038,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series L,DOSTA for WFP Global13452-01,Aanderaa,Optode 4330,2198,,,,,Woods Hole Oceanographic Institution
 CGINS-DOSTAM-00012,N00621,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,12,,20120525,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00019,N00318,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,19,,20121206,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00026,N00303,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,26,,20121002,,CGSN Glider Instrument Pool,
@@ -1187,7 +1188,9 @@ CGINS-DOSTAM-00193,N00164,Sensor,1,Dissolved Oxygen Stable Response for Glider: 
 CGINS-DOSTAM-00194,N00343,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,194,,20130826,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00195,N00348,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,195,,20110628,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00213,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,213,,,,CGSN Glider Instrument Pool,
+CGINS-DOSTAM-00227,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,227,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-DOSTAM-00281,N00639,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,281,,20140422,,CGSN Glider Instrument Pool,
+CGINS-DOSTAM-00283,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,283,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-DOSTAM-00310,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,310,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00322,N00535,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,322,,20140813,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00323,N00665,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,323,,20140825,,CGSN Glider Instrument Pool,
@@ -1207,6 +1210,7 @@ CGINS-DOSTAM-00364,N00645,Sensor,1,Dissolved Oxygen Stable Response for Glider: 
 CGINS-DOSTAM-00398,OL000114,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,398,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00400,N00648,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,400,,20150522,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00401,N00544,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,401,,20150803,,CGSN Glider Instrument Pool,
+CGINS-DOSTAM-00404,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,404,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00406,OL000149,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,406,,20121227,25000,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00414,OL000175,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,414,,20121227,25000,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00418,OL000145,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,418,,,,CGSN Glider Instrument Pool,
@@ -1219,7 +1223,8 @@ CGINS-DOSTAM-00438,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA 
 CGINS-DOSTAM-00480,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,480,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00494,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,494,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00496,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,496,,,,CGSN Glider Instrument Pool,
-CGINS-DOSTAM-00499,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,,Aanderaa,Optode 4831,499,,,,CGSN Glider Instrument Pool,
+CGINS-DOSTAM-00499,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,499,,,,CGSN Glider Instrument Pool,
+CGINS-DOSTAM-00537,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,537,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00538,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,538,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00539,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,539,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00541,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,541,,,,CGSN Glider Instrument Pool,
@@ -1231,12 +1236,15 @@ CGINS-DOSTAM-00569,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA 
 CGINS-DOSTAM-00570,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,570,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00604,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,604,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00605,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,605,,,,CGSN Glider Instrument Pool,
+CGINS-DOSTAM-00662,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,662,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-DOSTAM-00864,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,864,,,,,
 CGINS-DOSTAM-01059,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,1059,,,,CGSN Glider Instrument Pool,
+CGINS-DOSTAM-99999,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,UNKNOWN,,,,Placeholder for unknown S/N,
 CGINS-DOSTAM-01407,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,1407,,,,CGSN Glider Instrument Pool,
-CGINS-DOSTAN-01519,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,1519,,,,CGSN AUV Instrument Pool,
-CGINS-DOSTAN-01520,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,1520,,,,CGSN AUV Instrument Pool,
-CGINS-DOSTAN-02901,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,2901,,,,CGSN AUV Instrument Pool,
-CGINS-DOSTAN-02909,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,2909,,,,CGSN AUV Instrument Pool,
+CGINS-DOSTAN-01519,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,1519,,,,CGSN AUV Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-DOSTAN-01520,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,1520,,,,CGSN AUV Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-DOSTAN-02901,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,2901,,,,CGSN AUV Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-DOSTAN-02909,,Sensor,1,Dissolved Oxygen for AUV: DOSTA Series N,DOSTA for Hydroid AUV,Aanderaa,Optode 4330,2909,,,,CGSN AUV Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-FDCHPA-00010,A01101,Sensor,0,Direct Covariance Flux: FDCHP Series A,FDCHP CONTROL MODULE,WHOI,DCFS,10,,20140924,24000,,Woods Hole Oceanographic Institution
 CGINS-FDCHPA-00012,A01098,Sensor,0,Direct Covariance Flux: FDCHP Series A,FDCHP CONTROL MODULE,WHOI,DCFS,12,,20140811,24000,multiple OSU institute tags,Oregon State University
 CGINS-FDCHPA-00014,A01099,Sensor,0,Direct Covariance Flux: FDCHP Series A,FDCHP CONTROL MODULE,WHOI,DCFS,14,,20140630,24000,,Woods Hole Oceanographic Institution
@@ -1301,25 +1309,27 @@ CGINS-FLORDL-04013,OL000037,Sensor,0,2-Wavelength Fluorometer: FLORD Series L,FL
 CGINS-FLORDL-04014,OL000041,Sensor,0,2-Wavelength Fluorometer: FLORD Series L,FLORD Series L,WET Labs,FLBBRTD,4014,,,,,
 CGINS-FLORDL-04015,OL000049,Sensor,0,2-Wavelength Fluorometer: FLORD Series L,FLORD Series L,WET Labs,FLBBRTD,4015,,,,,
 CGINS-FLORDL-04016,OL000052,Sensor,0,2-Wavelength Fluorometer: FLORD Series L,FLORD Series L,WET Labs,FLBBRTD,4016,,,,,
-CGINS-FLORDM-03061,N00625,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3061,,20130530,,,
-CGINS-FLORDM-03063,N00631,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3063,,20130530,,,
-CGINS-FLORDM-03064,N00628,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3064,,20130530,,,
-CGINS-FLORDM-03123,N00634,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3123,,20130530,,,
-CGINS-FLORDM-03124,N00637,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3124,,20130530,,,
-CGINS-FLORDM-03527,N00640,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3527,,20140422,,,
+CGINS-FLORDM-03061,N00625,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3061,,20130530,,,
+CGINS-FLORDM-03063,N00631,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3063,,20130530,,,
+CGINS-FLORDM-03064,N00628,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3064,,20130530,,,
+CGINS-FLORDM-03123,N00634,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3123,,20130530,,,
+CGINS-FLORDM-03124,N00637,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3124,,20130530,,,
+CGINS-FLORDM-03527,N00640,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3527,,20140422,,,
 CGINS-FLORDM-03528,N00527,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3528,,20140804,,,
 CGINS-FLORDM-03534,,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3534,,,,,
-CGINS-FLORDM-03536,,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3536,,,,,Woods Hole Oceanographic Institution
-CGINS-FLORDM-03540,N00539,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBCDSLC-3540,,20140804,,,
-CGINS-FLORDM-03549,N00536,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBCDSLC-3549,,20140813,,,
-CGINS-FLORDM-03550,N00530,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3550,,20140813,,,
+CGINS-FLORDM-03536,,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3536,,,,,
+CGINS-FLORDM-03540,N00539,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3540,,20140804,,,
+CGINS-FLORDM-03549,N00536,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3549,,20140813,,,
+CGINS-FLORDM-03550,N00530,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3550,,20140813,,,
 CGINS-FLORDM-03551,N00664,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3551,,20140825,,,
-CGINS-FLORDM-03552,N00533,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3552,,20140804,171901.09,,
+CGINS-FLORDM-03552,N00533,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3552,,20140804,171901.09,,
+CGINS-FLORDM-03553,,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3553,,,,CGSN Glider Instrument Pool,
+CGINS-FLORDM-03554,,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3554,,,,CGSN Glider Instrument Pool,
 CGINS-FLORDM-03577,N00410,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3577,,20141212,,,
-CGINS-FLORDM-03578,N00542,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBCDSLC-3578,,20141120,171195,,
-CGINS-FLORDM-03579,N00646,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3579,,20150326,,,
-CGINS-FLORDM-03580,N00643,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3580,,20150316,171195,,
-CGINS-FLORDM-03582,N00649,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,FLBBSLC-3582,,20150522,,,
+CGINS-FLORDM-03578,N00542,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3578,,20141120,171195,,
+CGINS-FLORDM-03579,N00646,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3579,,20150326,,,
+CGINS-FLORDM-03580,N00643,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3580,,20150316,171195,,
+CGINS-FLORDM-03582,N00649,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3582,,20150522,,,
 CGINS-FLORDM-03583,OL000113,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3583,,,,,
 CGINS-FLORDM-03769,OL000148,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3769,,,,,
 CGINS-FLORDM-03770,OL000141,Sensor,1,2-Wavelength Fluorometer for Glider: FLORD Series M,FLORD for Global Slocum Glider,WET Labs,ECO Puck FLBB-SLC,3770,,,,,
@@ -1382,7 +1392,7 @@ CGINS-FLORTD-01487,,Sensor,0,3-Wavelength Fluorometer: FLORT Series D,FLORT SERI
 CGINS-FLORTD-01488,,Sensor,0,3-Wavelength Fluorometer: FLORT Series D,FLORT SERIES D (ECO TRIPLET-W),WET Labs,ECO Triplet-w,1488,,20160812,,,
 CGINS-FLORTJ-01084,N00593,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-001,WET Labs,ECO Triplet-w,BBFL2W-1084,,20130630,13013.52,,Oregon State University
 CGINS-FLORTJ-01156,OL000612,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-006,WET Labs,ECO Triplet-w,BBFL2W-1156,,20140929,13013.52,also N00601,Oregon State University
-CGINS-FLORTJ-01205,N00561,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-005,WET Labs,ECO Triplet-w,1205,,20140801,13013.52,,
+CGINS-FLORTJ-01205,N00561,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-005,WET Labs,ECO Triplet-w,BBFL2W-1205,,20140801,13013.52,,
 CGINS-FLORTJ-01206,N00585,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-002,WET Labs,ECO Triplet-w,BBFL2W-1206,,20140630,13013.52,,Oregon State University
 CGINS-FLORTJ-01207,N00577,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-003,WET Labs,ECO Triplet-w,BBFL2W-1207,,20140616,13013.52,,Oregon State University
 CGINS-FLORTJ-01208,N00569,Sensor,0,3-Wavelength Fluorometer: FLORT Series J,FLORT for WLP-004,WET Labs,ECO Triplet-w,BBFL2W-1208,,20140801,13013.52,,
@@ -1404,6 +1414,7 @@ CGINS-FLORTK-01466,,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,,WET Labs,
 CGINS-FLORTK-01537,,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,,WET Labs,ECO Triplet,1537,,20170627,,,Woods Hole Oceanographic Institution
 CGINS-FLORTK-01538,,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,,WET Labs,ECO Triplet,1538,,20170627,,,Woods Hole Oceanographic Institution
 CGINS-FLORTK-01602,,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,FLOR for WFP Coastal ML14378-01,WET Labs,ECO Triplet,1602,,20170907,,,Oregon State University
+CGINS-FLORTK-01707,,Sensor,0,3-Wavelength Fluorometer: FLORT Series K,FLOR for WFP Coastal ML12991-03,WET Labs,ECO Triplet,1707,,,,,Oregon State University
 CGINS-FLORTM-02110,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,2110,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-02760,N00301,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,2760,,20121002,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-02761,N00306,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,2761,,20121002,,CGSN Glider Instrument Pool,
@@ -1418,6 +1429,7 @@ CGINS-FLORTM-02817,N00147,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Se
 CGINS-FLORTM-02818,N00142,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,2818,,20130701,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-02819,N00118,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,2819,,20130701,186935,CGSN Glider Instrument Pool,
 CGINS-FLORTM-02858,N00016,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,2858,,20130125,,CGSN Glider Instrument Pool,
+CGINS-FLORTM-03015,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,3015,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-FLORTM-03027,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,3027,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-FLORTM-03116,N00044,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,3116,,20130806,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-03130,N00152,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,3130,,20130806,,CGSN Glider Instrument Pool,
@@ -1452,11 +1464,14 @@ CGINS-FLORTM-04091,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M
 CGINS-FLORTM-04092,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,,WET Labs,ECO Puck FLBBCD-SLK,4092,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04093,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4093,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04100,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4100,,,,CGSN Glider Instrument Pool,
+CGINS-FLORTM-04101,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4101,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-FLORTM-04194,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4194,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04195,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLC,4195,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04196,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4196,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04197,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4197,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04198,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4198,,,,CGSN Glider Instrument Pool,
+CGINS-FLORTM-04201,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLC,4201,,,,CGSN Glider Instrument Pool,
+CGINS-FLORTM-04202,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4202,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-FLORTM-04220,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4220,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04221,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4221,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04251,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4251,,,,CGSN Glider Instrument Pool,
@@ -1472,6 +1487,7 @@ CGINS-FLORTM-04471,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M
 CGINS-FLORTM-04472,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLC,4472,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-04473,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4473,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-05133,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,5133,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-FLORTM-06168,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLC,6168,,,,,
 CGINS-FLORTN-01108,,Sensor,1,3-Wavelength Fluorometer for AUV: FLORT Series N,FLORT for AUV,WET Labs,ECO Triplet,1108,,,,CGSN AUV Instrument Pool,
 CGINS-FLORTN-01109,,Sensor,1,3-Wavelength Fluorometer for AUV: FLORT Series N,FLORT for AUV,WET Labs,ECO Triplet,1109,,,,CGSN AUV Instrument Pool,
 CGINS-FLORTN-01645,,Sensor,1,3-Wavelength Fluorometer for AUV: FLORT Series N,FLORT for AUV,WET Labs,ECO Triplet,1645,,,,CGSN AUV Instrument Pool,
@@ -1483,6 +1499,7 @@ CGINS-FLORTO-01330,OL000165,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT 
 CGINS-FLORTO-01331,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,,WET Labs,ECO Puck BB3,1331,,,,,
 CGINS-FLORTO-01332,OL000173,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,FLORTO for Glider 565,WET Labs,ECO Puck BB3,1332,,20130916,16392,,
 CGINS-FLORTO-01333,OL000179,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,FLORTO for Glider 566,WET Labs,ECO Puck BB3,1333,,20130916,16392,,
+CGINS-FLORTO-01342,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,,WET Labs,ECO Puck BB3,1342,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-FLORTO-01343,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,,WET Labs,ECO Puck BB3,1343,,,,,Woods Hole Oceanographic Institution
 CGINS-FLORTO-01344,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,,WET Labs,ECO Puck BB3,1344,,,,,Woods Hole Oceanographic Institution
 CGINS-FLORTO-01345,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series O,,WET Labs,ECO Puck BB3,1345,,,,,
@@ -1532,6 +1549,7 @@ CGINS-HYDGN0-49886,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instrume
 CGINS-HYDGN0-49887,OL000589,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A49887,,,,,
 CGINS-HYDGN0-49891,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A49891,,,,,
 CGINS-HYDGN0-51407,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A51407,,,,,
+CGINS-HYDGN0-99999,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,UNKNOWN,,,,Placeholder for unknown S/N,
 CGINS-HYDGN0-Z5971,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A6Z5971,,,,,Woods Hole Oceanographic Institution
 CGINS-METBPR-00237,A00185,Sensor,0,Bulk Meteorology Instrument Package: METBK BPR Module,METBK BPR MODULE,Star Engineering,ABS106-BPR,BPR237,,20150604,7200,,
 CGINS-METBPR-00238,A00192,Sensor,0,Bulk Meteorology Instrument Package: METBK BPR Module,METBK BPR MODULE,Star Engineering,ABS106-BPR,BPR238,,20150604,7200,,
@@ -1621,43 +1639,47 @@ CGINS-METHRH-00287,A01278,Sensor,0,Bulk Meteorology Instrument Package: METBK HR
 CGINS-METHRH-00288,A01279,Sensor,0,Bulk Meteorology Instrument Package: METBK HRH Module,METBK HRH MODULE,Star Engineering,ABS102-HRH,HRH288,,20150227,8050,,
 CGINS-METHRH-00360,A01718,Sensor,0,Bulk Meteorology Instrument Package: METBK HRH Module,METBK HRH MODULE,Star Engineering,ABS102-HRH,HRH360,,20150817,8050,,
 CGINS-METHRH-00361,A01719,Sensor,0,Bulk Meteorology Instrument Package: METBK HRH Module,METBK HRH MODULE,Star Engineering,ABS102-HRH,HRH361,,20150817,8050,,
-CGINS-METLGR-00001,N00745,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,"METBK for CP01CNSM-00001, CP04OSSM-00003",Star Engineering,ASIMET,LGR001,,,,,
-CGINS-METLGR-00002,N00746,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for CP01CNSM-00001,Star Engineering,ASIMET,LGR002,,,,,
-CGINS-METLGR-00003,N00739,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for CE09OSSM-00002,Star Engineering,ASIMET,LGR003,,,,,
-CGINS-METLGR-00004,N00741,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for GI01SUMO-00001,Star Engineering,ASIMET,LGR004,,,,,
-CGINS-METLGR-00005,N00742,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for GI01SUMO-00001,Star Engineering,ASIMET,LGR005,,,,,
-CGINS-METLGR-00006,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR006,,,,,
-CGINS-METLGR-00007,N00737,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for CE09OSSM-00001,Star Engineering,ASIMET,LGR007,,,,,
-CGINS-METLGR-00008,N00734,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,"METBK for CE02SHSM-00002, CE07SHSM-00001",Star Engineering,ASIMET,LGR008,,,,,
-CGINS-METLGR-00009,N00735,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for CE04OSSM-00001,Star Engineering,ASIMET,LGR009,,,,,
-CGINS-METLGR-00010,N00740,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for CE09OSSM-00002,Star Engineering,ASIMET,LGR010,,,,,
-CGINS-METLGR-00011,N00733,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for CE02SHSM-00001,Star Engineering,ASIMET,LGR011,,,,,
-CGINS-METLGR-00012,N00738,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for CE09OSSM-00002,Star Engineering,ASIMET,LGR012,,,,,
-CGINS-METLGR-00013,N00755,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,MTBK for CP031SSM-00001,Star Engineering,ASIMET,LGR013,,,,,
-CGINS-METLGR-00014,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR014,,,,,
-CGINS-METLGR-00015,OL000275,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK,Star Engineering,ASIMET,LGR015,,,,,
-CGINS-METLGR-00016,N00753,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,MTBK for CP04OSSM-00001,Star Engineering,ASIMET,LGR016,,,,,
-CGINS-METLGR-00017,R00059,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK Bulk Meteorology Instrument Package,Star Engineering,ASIMET,LGR017,,,,,
-CGINS-METLGR-00018,R00058,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK Bulk Meteorology Instrument Package,Star Engineering,ASIMET,LGR018,,,,,
-CGINS-METLGR-00019,N00744,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for GI01SUMO-00002,Star Engineering,ASIMET,LGR019,,,,,
-CGINS-METLGR-00021,N00743,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for GI01SUMO-00002,Star Engineering,ASIMET,LGR021,,,,,
-CGINS-METLGR-00022,OL000067,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,MTBK for GS01SUMO-00002,Star Engineering,ASIMET,LGR022,,,,,
-CGINS-METLGR-00023,N00757,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for CP031SSM-00003,Star Engineering,ASIMET,LGR023,,,,,
-CGINS-METLGR-00024,OL000061,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,GA01SUMO-00002-METBK,Star Engineering,ASIMET,LGR024,,,,,
-CGINS-METLGR-00025,OL000062,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,GA01SUMO-00002-METBK,Star Engineering,ASIMET,LGR025,,,,,
-CGINS-METLGR-00026,OL000068,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,MTBK for GS01SUMO-00002,Star Engineering,ASIMET,LGR026,,,,,
-CGINS-METLGR-00027,N00736,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK for CE07SHSM-00002,Star Engineering,ASIMET,LGR027,,,,,
-CGINS-METLGR-00028,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR028,,,,,
-CGINS-METLGR-00029,OL000319,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK,Star Engineering,ASIMET,LGR029,,,,,
-CGINS-METLGR-00030,OL000388,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,MTBK for CE04OSSM-00002,Star Engineering,ASIMET,LGR030,,,,MTBK for CE04OSSM-00002,
-CGINS-METLGR-00031,N00751,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,MTBK for CP01CNSM-00004,Star Engineering,ASIMET,LGR031,,,,MTBK for CP01CNSM-00004,
-CGINS-METLGR-00032,N00752,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,MTBK for CP01CNSM-00004,Star Engineering,ASIMET,LGR032,,,,,
-CGINS-METLGR-00033,OL000226,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,MTBK for CP01CNSM-00005,Star Engineering,ASIMET,LGR033,,,,TODO - LGR033 is missing,
-CGINS-METLGR-00034,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR034,,,,,
-CGINS-METLGR-00035,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR035,,,,,
-CGINS-METLGR-00036,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR036,,,,,
-CGINS-METLGR-00037,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR037,,,,,
-CGINS-METLGR-00038,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,,Star Engineering,ASIMET,LGR038,,,,,
+CGINS-METLGR-00001,N00745,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR001,,,,Destroyed on CP01CNSM-00001,Woods Hole Oceanographic Institution
+CGINS-METLGR-00002,N00746,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR002,,,,Destroyed on CP01CNSM-00001,Woods Hole Oceanographic Institution
+CGINS-METLGR-00003,N00739,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR003,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00004,N00741,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR004,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00005,N00742,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR005,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00006,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR006,,,,,Oregon State University
+CGINS-METLGR-00007,N00737,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR007,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00008,N00734,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR008,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00009,N00735,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR009,,,,,Oregon State University
+CGINS-METLGR-00010,N00740,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR010,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00011,N00733,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR011,,,,,Oregon State University
+CGINS-METLGR-00012,N00738,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR012,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00013,N00755,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR013,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00014,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR014,,,,,Oregon State University
+CGINS-METLGR-00015,OL000275,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR015,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00016,N00753,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR016,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00017,R00059,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR017,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00018,R00058,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR018,,,,,Oregon State University
+CGINS-METLGR-00019,N00744,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR019,,,,Lost at sea on GI01SUMO-0004,Woods Hole Oceanographic Institution
+CGINS-METLGR-00020,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR020,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00021,N00743,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR021,,,,Lost at sea on GI01SUMO-0004,Woods Hole Oceanographic Institution
+CGINS-METLGR-00022,OL000067,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR022,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00023,N00757,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR023,,,,,Oregon State University
+CGINS-METLGR-00024,OL000061,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR024,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00025,OL000062,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR025,,,,,Oregon State University
+CGINS-METLGR-00026,OL000068,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR026,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00027,N00736,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR027,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00028,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR028,,,,,Oregon State University
+CGINS-METLGR-00029,OL000319,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR029,,,,,Oregon State University
+CGINS-METLGR-00030,OL000388,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR030,,,,,Oregon State University
+CGINS-METLGR-00031,N00751,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR031,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00032,N00752,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR032,,,,,Oregon State University
+CGINS-METLGR-00033,OL000226,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR033,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00034,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR034,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00035,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR035,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00036,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR036,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00037,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR037,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-00038,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,LGR038,,,,,Woods Hole Oceanographic Institution
+CGINS-METLGR-99991,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,UNKNOWN,,,,Placeholder for unknown S/N (METBK 1), Woods Hole Oceanographic Institution
+CGINS-METLGR-99992,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,UNKNOWN,,,,Placeholder for unknown S/N (METBK 2), Woods Hole Oceanographic Institution
+CGINS-METLGR-99999,,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,METBK LGR MODULE,Star Engineering,ASIMET,UNKNOWN,,,,Placeholder for unknown S/N,
 CGINS-METLWR-00231,A00746,Sensor,0,Bulk Meteorology Instrument Package: METBK LWR Module,METBK LWR MODULE,Star Engineering,ABS104-LWR,LWR231,,20140312,11600,,
 CGINS-METLWR-00240,A00189,Sensor,0,Bulk Meteorology Instrument Package: METBK LWR Module,METBK LWR MODULE,Star Engineering,ABS104-LWR,LWR240,,20121226,11600,,
 CGINS-METLWR-00241,A00196,Sensor,0,Bulk Meteorology Instrument Package: METBK LWR Module,METBK LWR MODULE,Star Engineering,ABS104-LWR,LWR241,,20150604,11600,,
@@ -1786,14 +1808,17 @@ CGINS-METWND-00254,A01294,Sensor,0,Bulk Meteorology Instrument Package: METBK WN
 CGINS-METWND-00255,A01295,Sensor,0,Bulk Meteorology Instrument Package: METBK WND Module,METBK WND MODULE,Star Engineering,ABS101-SWND,SWND255,,20150227,12250,,
 CGINS-METWND-00266,A01473,Sensor,0,Bulk Meteorology Instrument Package: METBK WND Module,METBK WIND MODULE 98-ABS101,Star Engineering,ABS101-SWND,SWND266,,20150601,12634,,
 CGINS-MOPAK0-11343,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11343,,,,,
+CGINS-MOPAK0-11345,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11345,,,,,Woods Hole Oceanographic Institution
 CGINS-MOPAK0-11347,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11347,,,,,
 CGINS-MOPAK0-11351,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11351,,,,,
 CGINS-MOPAK0-11353,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11353,,,,,
+CGINS-MOPAK0-11355,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11355,,,,,
 CGINS-MOPAK0-11357,OL000342,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,6223-4220-11357,,,,,
 CGINS-MOPAK0-11358,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11358,,,,,
 CGINS-MOPAK0-11360,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11360,,,,,
 CGINS-MOPAK0-11363,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11363,,,,,
 CGINS-MOPAK0-11364,OL000339,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,6223-4220-11364,,,,,
+CGINS-MOPAK0-11366,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11366,,,,,Woods Hole Oceanographic Institution
 CGINS-MOPAK0-11838,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11838,,,,,
 CGINS-MOPAK0-11839,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11839,,,,,
 CGINS-MOPAK0-11843,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11843,,,,,
@@ -1805,8 +1830,10 @@ CGINS-MOPAK0-11848,,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pac
 CGINS-MOPAK0-11851,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11851,,,,,
 CGINS-MOPAK0-11854,OL000432,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,6223-4220-11854,,,,3DM-GX3-25,
 CGINS-MOPAK0-11856,OL000298,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,11856,,,,,
+CGINS-MOPAK0-11901,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11901,,,,,Woods Hole Oceanographic Institution
 CGINS-MOPAK0-11918,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11918,,,,,
 CGINS-MOPAK0-11923,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11923,,,,,
+CGINS-MOPAK0-11924,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11924,,,,,
 CGINS-MOPAK0-24112,N00025,Sensor,0,3-Axis Motion Pack: MOPAK,MOTION,MicroStrain,3DM-GX3-25,24112,,20150713,92259.49,,
 CGINS-MOPAK0-24436,OL000333,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,24436,,,,,
 CGINS-MOPAK0-27200,N00088,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,27200,,20140128,,,
@@ -1832,6 +1859,8 @@ CGINS-MOPAK0-44005,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6
 CGINS-MOPAK0-44016,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-44016,,,,,
 CGINS-MOPAK0-58478,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-58478,,,,,
 CGINS-MOPAK0-58481,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-58481,,,,,
+CGINS-MOPAK0-58484,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-58484,,,,,
+CGINS-MOPAK0-99999,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,99999,,,,Placeholder for unknown S/N,
 PICGN-NOCNIA-0N112,,Sensor,0,NOC CUSTARD Nitrate sensor,,NOC UK,LOC-Nitrate,N112,,,,,Woods Hole Oceanographic Institution
 PICGN-NOCSIA-Si009,,Sensor,0,NOC CUSTARD Silicate sensor,,NOC UK,LOC-Silicate,Si009,,,,,Woods Hole Oceanographic Institution
 CGINS-NUTNRA-00334,A00374,Sensor,0,Nitrate: NUTNR Series B,NUTNR SERIES A (SUNA),Satlantic,ISUS,334,,20130723,35812.15,,
@@ -1919,7 +1948,10 @@ CGINS-NUTNRM-00708,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,
 CGINS-NUTNRM-00709,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,709,,,,,
 CGINS-NUTNRM-00710,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,710,,,,,Woods Hole Oceanographic Institution
 CGINS-NUTNRM-00711,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,711,,,,,Woods Hole Oceanographic Institution
+CGINS-NUTNRM-00728,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,728,,,,,Woods Hole Oceanographic Institution
 CGINS-NUTNRM-00729,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,729,,,,,Woods Hole Oceanographic Institution
+CGINS-NUTNRM-00730,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,730,,,,,Woods Hole Oceanographic Institution
+CGINS-NUTNRM-00760,,Sensor,1,Nitrate for Glider: NUTNR Series M,,Satlantic,SUNA,760,,,,,Woods Hole Oceanographic Institution
 CGINS-NUTNRN-00366,,Sensor,1,Nitrate for AUV: NUTNR Series N,NUTNR for AUV ,Satlantic,SUNA,366,,,,CGSN AUV Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-NUTNRN-00367,,Sensor,1,Nitrate for AUV: NUTNR Series N,NUTNR for AUV ,Satlantic,SUNA,367,,,,CGSN AUV Instrument Pool,
 CGINS-NUTNRN-01109,,Sensor,1,Nitrate for AUV: NUTNR Series N,NUTNR for AUV ,Satlantic,SUNA,1109,,,,CGSN AUV Instrument Pool,
@@ -1975,6 +2007,7 @@ CGINS-OPTAAD-00259,N00673,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIE
 CGINS-OPTAAD-00260,N00678,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D,WET Labs,AC-S,ACS-260,,,40133.74,,
 CGINS-OPTAAD-00261,A01782,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D,WET Labs,AC-S,ACS-261,,20150930,40133.74,,
 CGINS-OPTAAD-00267,N00702,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D,WET Labs,AC-S,ACS-267,,,40133.74,,
+CGINS-OPTAAD-00315,,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D,WET Labs,AC-S,ACS-315,,,,,
 CGINS-OPTAAJ-00137,N00589,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-001,WET Labs,AC-S,ACS-137,,20130630,38969.75,,Oregon State University
 CGINS-OPTAAJ-00138,N00573,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-003,WET Labs,AC-S,ACS-138,,20140616,38969.75,,Oregon State University
 CGINS-OPTAAJ-00139,N00581,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-002,WET Labs,AC-S,ACS-139,,20140630,38969.75,,Oregon State University
@@ -2010,6 +2043,9 @@ CGINS-PARADK-20541,,Sensor,0,Photosynthetically Available Radiation: PARAD Serie
 CGINS-PARADK-20542,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20542,,20170627,,,Woods Hole Oceanographic Institution
 CGINS-PARADK-20555,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,PAR for WFP Coastal ML14378-01,Biospherical Instruments,QSP-2200,20555,,20170907,,,Oregon State University
 CGINS-PARADK-20582,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20582,,,,,Woods Hole Oceanographic Institution
+CGINS-PARADK-20608,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20608,,,,,Woods Hole Oceanographic Institution
+CGINS-PARADK-20609,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20609,,,,,Woods Hole Oceanographic Institution
+CGINS-PARADK-20610,,Sensor,0,Photosynthetically Available Radiation: PARAD Series K,,Biospherical Instruments,QSP-2200,20610,,,,,Woods Hole Oceanographic Institution
 CGINS-PARADM-50145,N00304,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50145,,20121002,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50146,N00309,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50146,,20121002,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50147,N00314,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50147,,20121206,,CGSN Glider Instrument Pool,
@@ -2066,6 +2102,9 @@ CGINS-PARADM-50244,,Sensor,1,Photosynthetically Available Radiation for Glider: 
 CGINS-PARADM-50245,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50245,1.2,,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50252,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50252,,,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50277,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50277,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
+CGINS-PARADM-50304,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50304,,,,CGSN Glider Instrument Pool,
+CGINS-PARADM-50319,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50319,1.2,,,,
+CGINS-PARADM-50324,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50324,,,,CGSN Glider Instrument Pool,
 CGINS-PARADN-50170,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50170,,,,CGSN AUV Instrument Pool,
 CGINS-PARADN-50180,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50180,,,,CGSN AUV Instrument Pool,
 CGINS-PARADN-50266,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50266,,,,CGSN AUV Instrument Pool,
@@ -2186,7 +2225,7 @@ CGINS-PHSEND-P0166,,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D (SAMI-PH
 CGINS-PHSEND-P0167,A01746,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D,Sunburst Sensors,SAMI-pH,P0167,,20150831,18504,,
 CGINS-PHSEND-P0168,OL000433,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D,Sunburst Sensors,SAMI-pH,P0168,,,,SAMI PH,
 CGINS-PHSEND-P0170,N00524,Sensor,0,Seawater pH: PHSEN Series D,PHSEN (SERIES E),Sunburst Sensors,SAMI-pH,P0170,,,19510.5,,
-CGINS-PHSEND-P0185,OL000322,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D,Sunburst Sensors,SAMI-pH,P00185,,,,,
+CGINS-PHSEND-P0185,OL000322,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D,Sunburst Sensors,SAMI-pH,P0185,,,,,
 CGINS-PHSEND-P0187,OL000435,Sensor,0,Seawater pH: PHSEN Series D,PHSEN SERIES D,Sunburst Sensors,SAMI-pH,P0187,,,,SAMI PH,
 CGINS-PHSENE-P0070,A00119,Sensor,0,Seawater pH: PHSEN Series E,PHSEN SERIES E (SAMI-PH),Sunburst Sensors,SAMI-pH,P0070,54,20121226,19655,,
 CGINS-PHSENE-P0071,A00118,Sensor,0,Seawater pH: PHSEN Series E,PHSEN SERIES E (SAMI-PH),Sunburst Sensors,SAMI-pH,P0071,54,20121226,19655,,
@@ -2334,22 +2373,22 @@ CGINS-VELPTA-06326,A00580,Sensor,0,Single Point Velocity Meter: VELPT Series A,V
 CGINS-VELPTA-06327,A00578,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 6327,,20130916,8500,,
 CGINS-VELPTA-08381,A00236,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8381,,20121217,8500,,
 CGINS-VELPTA-08399,A00238,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8399,,20121217,8500,,
-CGINS-VELPTA-08532,A00115,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8532,3.35,20121214,8500,,
+CGINS-VELPTA-08532,A00115,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8532,3.35,20121214,8500,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-08535,A00239,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8535,,20121217,8500,,
 CGINS-VELPTA-08539,A00237,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8539,,20121217,8500,,
-CGINS-VELPTA-08544,A00116,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8544,3.35,20121214,8500,,
-CGINS-VELPTA-08550,A00117,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD8550,3.35,20121204,8500,,
-CGINS-VELPTA-11377,A00410,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11377,3.35,20130916,8500,,
+CGINS-VELPTA-08544,A00116,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 8544,3.35,20121214,8500,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-08550,A00117,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD8550,3.35,20121204,8500,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-11377,A00410,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11377,3.35,20130916,8500,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-11380,N00414,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11380,,20130917,8500,,
-CGINS-VELPTA-11382,A00411,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11382,3.35,20150604,8500,,
-CGINS-VELPTA-11386,A00412,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11386,3.35,20150604,8500,,
-CGINS-VELPTA-11397,A00415,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11397,3.35,20130917,8500,,
+CGINS-VELPTA-11382,A00411,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11382,3.35,20150604,8500,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-11386,A00412,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11386,3.35,20150604,8500,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-11397,A00415,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11397,3.35,20130917,8500,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-11398,N00413,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11398,,20130917,8500,,
 CGINS-VELPTA-11401,OL000293,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11401,,,,,
-CGINS-VELPTA-11402,A00416,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11402,3.35,20130917,8500,,
+CGINS-VELPTA-11402,A00416,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11402,3.35,20130917,8500,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-11405,N00418,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11405,,20130917,8500,,
-CGINS-VELPTA-11412,A00417,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11412,3.35,20130917,8500,,
-CGINS-VELPTA-11417,A00418,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11417,3.35,20150604,8500,,
+CGINS-VELPTA-11412,A00417,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11412,3.35,20130917,8500,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-11417,A00418,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11417,3.35,20150604,8500,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-11748,A01021,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11748,,20130916,8650,,
 CGINS-VELPTA-11768,N00421,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 400M),Nortek,Aquadopp,AQD 11768,,20130917,8500,,
 CGINS-VELPTA-11774,A01015,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11774,,20130916,8650,,
@@ -2362,44 +2401,44 @@ CGINS-VELPTA-11790,A01022,Sensor,0,Single Point Velocity Meter: VELPT Series A,V
 CGINS-VELPTA-11814,A01023,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11814,,20130916,8650,,
 CGINS-VELPTA-11820,A01024,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11820,,20130916,8650,,
 CGINS-VELPTA-11823,A01025,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 11823,,20130916,8650,,
-CGINS-VELPTA-12198,N00503,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12198,,20150604,8650,,
-CGINS-VELPTA-12203,,Sensor,0,Single Point Velocity Meter: VELPT Series A,Single Point Velocity Meter,Nortek,Aquadopp,AQD 12203,,,,,
-CGINS-VELPTA-12224,A01071,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12224,,20140927,8650,,
-CGINS-VELPTA-12229,A01070,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12229,,20140926,8650,,
-CGINS-VELPTA-12230,A01072,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12230,,20150604,8650,,
-CGINS-VELPTA-12231,A01069,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12231,,20140927,8650,,
-CGINS-VELPTA-12234,A01068,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12234,,20150604,8650,,
+CGINS-VELPTA-12198,N00503/A01347,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12198,,20150604,8650,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-12203,,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12203,,,,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-12224,A01071,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12224,,20140927,8650,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-12229,A01070,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12229,,20140926,8650,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-12230,A01072/A01330,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12230,,20150604,8650,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-12231,A01069,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12231,,20140927,8650,,Woods Hole Oceanographic Institution
+CGINS-VELPTA-12234,A01068,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12234,,20150604,8650,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-12703,A01751,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12703,,20150831,9180,,
 CGINS-VELPTA-12707,A01747,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12707,,20150831,9180,,
-CGINS-VELPTA-12711,N00555,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12711,,20150831,9180,,
+CGINS-VELPTA-12711,N00555/A01635,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12711,,20150831,9180,,Woods Hole Oceanographic Institution
 CGINS-VELPTA-12712,A01753,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12712,,20150831,9180,,
 CGINS-VELPTA-12721,A01754,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12721,,20150831,9180,,
 CGINS-VELPTA-12732,A01748,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12732,,20150831,9180,,
 CGINS-VELPTA-12737,A01749,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12737,,20150831,9180,,
 CGINS-VELPTA-12742,A01750,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12742,,20150831,9180,,
 CGINS-VELPTA-12746,A01752,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12746,,20150831,9180,,
-CGINS-VELPTA-12747,N00551,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A,Nortek,Aquadopp,AQD 12747,,,9180,,
-CGINS-VELPTB-09952,A00048,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M,Nortek,Aquadopp,AQD 9952,,20150604,11150,,
-CGINS-VELPTB-09984,A00049,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M,Nortek,Aquadopp,AQD 9984,3.37,20150604,11150,,
-CGINS-VELPTB-11669,N00507,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11669,,,9240,,
-CGINS-VELPTB-11964,N00508,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11964,,,9240,,
-CGINS-VELPTB-11967,N00509,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11967,,,9240,,
-CGINS-VELPTB-11969,OL000602,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11969,,,,,
-CGINS-VELPTB-11970,N00510,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11970,,,9240,,
-CGINS-VELPTB-11973,N00516,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11973,,,9240,,
-CGINS-VELPTB-11974,N00517,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11974,,,9240,,
-CGINS-VELPTB-11976,N00518,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11976,,,9240,,
-CGINS-VELPTB-11981,N00519,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11981,,,9240,,
-CGINS-VELPTB-11986,,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 11986,,,,,
-CGINS-VELPTB-12095,N00521,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12095,,,9240,,
-CGINS-VELPTB-12195,N00511,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12195,,,9240,,
-CGINS-VELPTB-12197,N00523,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12197,,,9240,,
-CGINS-VELPTB-12233,,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12233,,,,,
-CGINS-VELPTB-12236,N00512,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12236,,,9240,,
-CGINS-VELPTB-12459,N00522,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12459,,,9240,,
-CGINS-VELPTB-12652,N00520,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12652,,,9240,,
-CGINS-VELPTB-12663,N00513,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12663,,,9240,,
-CGINS-VELPTB-12673,N00514,Sensor,0,Single Point Velocity Meter: VELPT Series B,Aquadopp,Nortek,Aquadopp,AQD 12673,,,9240,,
+CGINS-VELPTA-12747,N00551/A01634,Sensor,0,Single Point Velocity Meter: VELPT Series A,VELPT SERIES A (AQUADOPP 300M),Nortek,Aquadopp,AQD 12747,,,9180,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-09952,A00048,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 9952,,20150604,11150,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-09984,A00049,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 9984,3.37,20150604,11150,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11669,N00507,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11669,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11964,N00508/A01353,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11964,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11967,N00509/A01349,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11967,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11969,OL000602/A01352,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11969,,,,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11970,N00510/A01348,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11970,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11973,N00516/A01351,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11973,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11974,N00517/A01357,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11974,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11976,N00518/A01350,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11976,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11981,N00519/A01355,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11981,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-11986,A01356,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 11986,,,,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12095,N00521/A01360,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12095,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12195,N00511/A01364,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12195,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12197,N00523/A01361,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12197,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12233,A01331,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12233,,,,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12236,N00512/A01365,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12236,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12459,N00522/A01359,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12459,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12652,N00520/A01366,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12652,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12663,N00513/A01363,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12663,,,9240,,Woods Hole Oceanographic Institution
+CGINS-VELPTB-12673,N00514/A01362,Sensor,0,Single Point Velocity Meter: VELPT Series B,VELPT SERIES B (AQUADOPP 3000M),Nortek,Aquadopp,AQD 12673,,,9240,,Woods Hole Oceanographic Institution
 CGINS-VELPTJ-11259,N00590,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-001,Nortek,Aquadopp,AQD 11259,,20130630,9240,,Oregon State University
 CGINS-VELPTJ-11779,N00598,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-006,Nortek,Aquadopp,AQD 11779,,20140929,9240,,Oregon State University
 CGINS-VELPTJ-11900,N00574,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-003,Nortek,Aquadopp,AQD 11900,,20140616,9240,,Oregon State University
@@ -2408,105 +2447,81 @@ CGINS-VELPTJ-11915,N00558,Sensor,0,Single Point Velocity Meter: VELPT Series J,V
 CGINS-VELPTJ-11916,N00566,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-004,Nortek,Aquadopp,AQD 11916,,20140801,9240,,
 CGINS-VELPTJ-12876,,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-007,Nortek,Aquadopp,AQD 12876,,20161230,,,Oregon State University
 CGINS-VELPTJ-12886,,Sensor,0,Single Point Velocity Meter: VELPT Series J,VELPT for WLP-008,Nortek,Aquadopp,AQD 12886,,20161230,,,Oregon State University
-CGINS-WAVSSA-04571,A00080,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,4571,1.01.0682,20121031,22000,,
-CGINS-WAVSSA-04581,A00081,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,4581,1.01.0682,20130726,22000,Missing from inventory,
-CGINS-WAVSSA-05271,A00793,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SER A,AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05271,,20140130,22660,,
-CGINS-WAVSSA-05281,A00794,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SER A,AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05281,,20140130,22660,,
-CGINS-WAVSSA-05291,A00795,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SER A,AXYS Technologies,TRIAXYS Directional Wave Sensor,5291,,20140130,22660,,
-CGINS-WAVSSA-05301,A00796,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SER A,AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05301,,20140130,22660,,
-CGINS-WAVSSA-05311,A00656,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,5311,1.05.0002,20140204,22660,,
-CGINS-WAVSSA-05321,A00657,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,5321,1.05.0002,20140204,22660,,
-CGINS-WAVSSA-05771,A01026,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NM),AXYS Technologies,TRIAXYS Directional Wave Sensor,5771,,20140204,22660,,
-CGINS-WAVSSA-05781,A00968,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SER A,AXYS Technologies,TRIAXYS Directional Wave Sensor,5781,,20140812,22660,,
-CGINS-WAVSSA-05791,A00969,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SER A,AXYS Technologies,TRIAXYS Directional Wave Sensor,5791,1.05.0002,20140812,22660,,
-CGINS-WAVSSA-05971,A01150,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A,AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05971,,20141029,23340,,
-CGINS-WAVSSA-05981,A01149,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A,AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05981,,20141110,23340,,
-CGINS-WAVSSA-06271,A01435,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A,AXYS Technologies,TRIAXYS Directional Wave Sensor,6271,,20150528,24039.99,,
-CGINS-WAVSSA-06281,A01670,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A,AXYS Technologies,TRIAXYS Directional Wave Sensor,6281,,20150521,24039.99,,
-CGINS-WAVSSA-06291,A01669,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A,AXYS Technologies,TRIAXYS Directional Wave Sensor,6291,,20150521,24039.99,,
-CGINS-WAVSSA-06301,A01436,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A,AXYS Technologies,TRIAXYS Directional Wave Sensor,6301,,20150528,24039.99,,
-CGINS-WAVSSA-06311,A01671,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A,AXYS Technologies,TRIAXYS Directional Wave Sensor,6311,,20150521,24039.99,,
-CGINS-WAVSSA-06321,A01672,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A,AXYS Technologies,TRIAXYS Directional Wave Sensor,6321,,20150521,24039.99,,
-CGINS-WAVSSA-06421,,Sensor,0,Surface Wave Spectra: WAVSS Series A,Surface Wave Spectra,AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS06421,,20150715,24039.99,,
-CGINS-WAVSSA-06431,A01626,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A,AXYS Technologies,TRIAXYS Directional Wave Sensor,6431,,20150715,24039.99,,
-CGINS-ZPLSCC-55074,A01107,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,SONAR BIOACOUSTIC AZFP,ASL Environmental,AZFP,55074,,20141007,46964,,
-CGINS-ZPLSCC-55075,A01151,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,SONAR BIOACOUSTIC AZFP,ASL Environmental,AZFP,55075,,20141104,46964,,
-CGINS-ZPLSCC-55076,A01152,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,SONAR BIOACOUSTIC AZFP,ASL Environmental,AZFP,55076,,20141104,46964,,
-CGINS-ZPLSCC-55077,A01108,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,SONAR BIOACOUSTIC AZFP,ASL Environmental,AZFP,55077,,20141007,46964,,
-CGINS-ZPLSCC-55078,A01153,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,SONAR BIOACOUSTIC AZFP,ASL Environmental,AZFP,55078,,20141104,46964,,
-CGINS-ZPLSCC-55079,A01154,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,SONAR BIOACOUSTIC AZFP,ASL Environmental,AZFP,55079,,20141104,46964,,
-CGINS-ZPLSCC-55080,A01109,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,SONAR BIOACOUSTIC AZFP,ASL Environmental,AZFP,55080,,20141007,46964,,
-CGINS-ZPLSCC-55096,A01783,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,SONAR BIOACOUSTIC AZFP,ASL Environmental,AZFP,55096,,20150909,47627,,
-CGINS-ZPLSCC-55097,N00675,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSG SERIES A,ASL Environmental,AZFP,55097,,,92685,,
-CGINS-ZPLSCC-55098,N00681,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C,ASL Environmental,AZFP,55098,,,92685,,
-CGINS-ZPLSCC-55099,A01784,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,SONAR BIOACOUSTIC AZFP,ASL Environmental,AZFP,55099,,20150909,47627,,
-CGINS-ZPLSCC-55100,A01768,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C,ASL Environmental,AZFP,55100,,20150914,47627,,
-CGINS-ZPLSCC-55101,A01769,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C,ASL Environmental,AZFP,55101,,20150914,47627,,
-CGINS-ZPLSCC-55102,A01770,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C,ASL Environmental,AZFP,55102,,20150914,47627,,
-CGINS-ZPLSCC-55103,A01771,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C,ASL Environmental,AZFP,55103,,20150914,47627,,
-CGINS-ZPLSCC-55132,,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C,ASL Environmental,AZFP,55132,,20170210,,,
-CGINS-ZPLSGA-55067,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55067,,,,,Woods Hole Oceanographic Institution
-CGINS-ZPLSGA-55068,A01829,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55068,,,,,Woods Hole Oceanographic Institution
-CGINS-ZPLSGA-55073,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55073,,,,,Woods Hole Oceanographic Institution
-CGINS-ZPLSGA-55092,A01766,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55092,,20150914,92685,,
-CGINS-ZPLSGA-55093,A01767,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55093,,20150914,92685,,
-CGINS-ZPLSGA-55094,OL000598,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55094,,,,,
-CGINS-ZPLSGA-55095,OL000599,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55095,,,,,
-CGINS-ZPLSGA-55104,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55104,,,,,Woods Hole Oceanographic Institution
-CGINS-ZPLSGA-55105,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55105,,20160316,46342.5,,
-CGINS-ZPLSGA-55106,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55106,,20160316,46342.5,,
-CGINS-ZPLSGA-55107,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55107,,,,,Woods Hole Oceanographic Institution
-CGINS-ZPLSGA-55108,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55108,,,,,Woods Hole Oceanographic Institution
-CGINS-ZPLSGA-55109,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55109,,,,,Woods Hole Oceanographic Institution
-CGINS-ZPLSGA-55110,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55110,,,,,Woods Hole Oceanographic Institution
-CGINS-ZPLSGA-55111,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A,ASL Environmental,AZFP,55111,,,,,Woods Hole Oceanographic Institution
+CGINS-WAVSSA-04571,A00080,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS04571,1.01.0682,20121031,22000,,Woods Hole Oceanographic Institution
+CGINS-WAVSSA-04581,A00081,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS04581,1.01.0682,20130726,22000,Destroyed on CP01CNSM-00001,Woods Hole Oceanographic Institution
+CGINS-WAVSSA-05271,A00793,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05271,,20140130,22660,,
+CGINS-WAVSSA-05281,A00794,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05281,,20140130,22660,,
+CGINS-WAVSSA-05291,A00795,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05291,,20140130,22660,,
+CGINS-WAVSSA-05301,A00796,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05301,,20140130,22660,,
+CGINS-WAVSSA-05311,A00656,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05311,1.05.0002,20140204,22660,,Woods Hole Oceanographic Institution
+CGINS-WAVSSA-05321,A00657,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05321,1.05.0002,20140204,22660,,Woods Hole Oceanographic Institution
+CGINS-WAVSSA-05771,A01026,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NM),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05771,,20140204,22660,,
+CGINS-WAVSSA-05781,A00968,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05781,,20140812,22660,,Woods Hole Oceanographic Institution
+CGINS-WAVSSA-05791,A00969,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05791,1.05.0002,20140812,22660,,Woods Hole Oceanographic Institution
+CGINS-WAVSSA-05971,A01150,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05971,,20141029,23340,,Woods Hole Oceanographic Institution
+CGINS-WAVSSA-05981,A01149,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS05981,,20141110,23340,,Woods Hole Oceanographic Institution
+CGINS-WAVSSA-06271,A01435,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS06271,,20150528,24039.99,,Woods Hole Oceanographic Institution
+CGINS-WAVSSA-06281,A01670,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS06281,,20150521,24039.99,,
+CGINS-WAVSSA-06291,A01669,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS06291,,20150521,24039.99,,
+CGINS-WAVSSA-06301,A01436,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS06301,,20150528,24039.99,,Woods Hole Oceanographic Institution
+CGINS-WAVSSA-06311,A01671,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS06311,,20150521,24039.99,,
+CGINS-WAVSSA-06321,A01672,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS06321,,20150521,24039.99,,
+CGINS-WAVSSA-06421,,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS06421,,20150715,24039.99,,Woods Hole Oceanographic Institution
+CGINS-WAVSSA-06431,A01626,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,TAS06431,,20150715,24039.99,Lost at sea on GI01SUMO-00004,Woods Hole Oceanographic Institution
+CGINS-ZPLSCC-55074,A01107,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55074,,20141007,46964,,Woods Hole Oceanographic Institution
+CGINS-ZPLSCC-55075,A01151,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55075,,20141104,46964,,
+CGINS-ZPLSCC-55076,A01152,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55076,,20141104,46964,,
+CGINS-ZPLSCC-55077,A01108,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55077,,20141007,46964,,Woods Hole Oceanographic Institution
+CGINS-ZPLSCC-55078,A01153,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55078,,20141104,46964,,
+CGINS-ZPLSCC-55079,A01154,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55079,,20141104,46964,,
+CGINS-ZPLSCC-55080,A01109,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55080,,20141007,46964,,Woods Hole Oceanographic Institution
+CGINS-ZPLSCC-55096,A01783,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55096,,20150909,47627,,
+CGINS-ZPLSCC-55097,N00675,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55097,,,92685,,
+CGINS-ZPLSCC-55098,N00681,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55098,,,92685,,
+CGINS-ZPLSCC-55099,A01784,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55099,,20150909,47627,,
+CGINS-ZPLSCC-55100,A01768,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55100,,20150914,47627,,Woods Hole Oceanographic Institution
+CGINS-ZPLSCC-55101,A01769,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55101,,20150914,47627,,Woods Hole Oceanographic Institution
+CGINS-ZPLSCC-55102,A01770,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55102,,20150914,47627,,Woods Hole Oceanographic Institution
+CGINS-ZPLSCC-55103,A01771,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55103,,20150914,47627,,Woods Hole Oceanographic Institution
+CGINS-ZPLSCC-55132,,Sensor,0,Bio-acoustic Sonar: ZPLSC Series C,ZPLSC SERIES C (AZFP),ASL Environmental,AZFP,55132,,20170210,,,
+CGINS-ZPLSGA-55066,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55066,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55067,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55067,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55068,A01829,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55068,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55069,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55069,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55070,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55070,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55071,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55071,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55072,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55072,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55073,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55073,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55092,A01766,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55092,,20150914,92685,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55093,A01767,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55093,,20150914,92685,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55094,OL000598,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55094,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55095,OL000599,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55095,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55104,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55104,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55105,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55105,,20160316,46342.5,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55106,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55106,,20160316,46342.5,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55107,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55107,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55108,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55108,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55109,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55109,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55110,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55110,,,,,Woods Hole Oceanographic Institution
+CGINS-ZPLSGA-55111,,Sensor,0,Bio-acoustic Sonar: ZPLSG Series A,ZPLSG SERIES A (AZFP),ASL Environmental,AZFP,55111,,,,,Woods Hole Oceanographic Institution
 N00074,N00074,Sensor,0,MOTION,MOTION,,,,,20130510,,,
 N00417,N00417,Sensor,0,"Camera, Uncabled","Camera, Uncabled",Kongsberg Underwater Technology Inc,0484-6102,113,,20140918,92768,,
 N00419,N00419,Sensor,0,"Camera, Uncabled","Camera, Uncabled",Kongsberg Underwater Technology Inc,0484-6102,109,,20140802,92768,,
 N00687,N00687,Sensor,0,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,Wetlabs FLCDRTD with Impulse MCBH(WB)-6-MP-Ti connector,WET Labs,FLCDRTD (CDOM),3400/TAG#:116120,,20140128,6665,,
 N00697,N00697,Sensor,0,CAMDS,CAMDS,Kongsberg Underwater Technology Inc,Custom,0484-6002-0108,,,,,
 N00708,N00708,Sensor,0,Guralp Hydrophone (HYDLF),Guralp Hydrophone (HYDLF),HTI,HTI-90-U/Diff,299470,,20140724,19600,,
-N00747,N00747,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP01CNSM-00002-METBK1,Star Engineering,ASIMET,CP01CNSM-00002-METBK1,,,,,
-N00748,N00748,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP01CNSM-00002-METBK2,Star Engineering,ASIMET,CP01CNSM-00002-METBK2,,,,,
-N00749,N00749,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP01CNSM-00003-METBK1,Star Engineering,ASIMET,CP01CNSM-00003-METBK1,,,,,
-N00750,N00750,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP01CNSM-00003-METBK2,Star Engineering,ASIMET,CP01CNSM-00003-METBK2,,,,,
-N00754,N00754,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP04OSSM-00002-METBK,Star Engineering,ASIMET,CP04OSSM-00002-METBK,,,,,
-N00756,N00756,Sensor,0,Bulk Meteorology Instrument Package: METBK LGR Module,CP03ISSM-00002-METBK,Star Engineering,ASIMET,CP03ISSM-00002-METBK,,,,,
-OL000006,OL000006,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,GA01SUMO-00001-MOPAK,,,,,
-OL000007,OL000007,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GA01SUMO-00001-HYDGN1,,,,,
-OL000008,OL000008,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GA01SUMO-00001-HYDGN2,,,,,
-OL000092,OL000092,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,GA01SUMO-00002-MOPAK,,,,,
-OL000093,OL000093,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GA01SUMO-00002-HYDGN1,,,,,
-OL000094,OL000094,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GA01SUMO-00002-HYDGN2,,,,,
 OL000198,OL000198,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00003-MOPAK,,,,,
 OL000199,OL000199,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00002-MOPAK,,,,,
 OL000200,OL000200,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00001-MOPAK,,,,,
 OL000207,OL000207,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00004-MOPAK,,,,,
 OL000214,OL000214,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE06ISSM-00002-MOPAK,,,,,
 OL000215,OL000215,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE06ISSM-00003-MOPAK,,,,,
-OL000223,OL000223,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP01CNSM-00005-MOPAK,,,,,
-OL000224,OL000224,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00005-HYDGN1,,,,,
-OL000225,OL000225,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00005-HYDGN2,,,,,
-OL000238,OL000238,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMCI-00005-MOPAK,,,,,
-OL000241,OL000241,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMCI-00006-MOPAK,,,,,
-OL000244,OL000244,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUI-00007-MOPAK,,,,,
-OL000254,OL000254,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP03ISSM-00005-MOPAK,,,,,
-OL000255,OL000255,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00004-HYDGN1,,,,,
-OL000256,OL000256,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00004-HYDGN2,,,,,
-OL000272,OL000272,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP04OSSM-00004-MOPAK,,,,,
-OL000273,OL000273,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-SBD11-HYDGN,,,,,
-OL000274,OL000274,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-SBD12-HYDGN,,,,,
 OL000292,OL000292,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE01ISSM-00005-MOPAK,,,,,
 OL000299,OL000299,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE02SHSM-00001-HYDGN11,,,,,
 OL000300,OL000300,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE02SHSM-00001-HYDGN12,,,,,
 OL000307,OL000307,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE02SHSM-00002+MOPAK,,,,,
 OL000308,OL000308,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE02SHSM-00002-HYDGN11,,,,,
 OL000309,OL000309,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE02SHSM-00002-HYDGN12,,,,,
-OL000331,OL000331,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,PMUI-00001-MOPAK,,,,,
-OL000335,OL000335,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,PMUI-00003-MOPAK,,,,,
-OL000337,OL000337,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,PMUI-00005-MOPAK,,,,,
-OL000344,OL000344,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,OSPM-00002-MOPAK,,,,,
-OL000345,OL000345,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,OSPM-00003-MOPAK,,,,,
 OL000376,OL000376,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE04OSSM-00001+MOPAK,,,,,
 OL000377,OL000377,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE04OSSM-00001+HYDGN1102,,,,,
 OL000378,OL000378,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE04OSSM-00001+HYDGN1203,,,,,
@@ -2524,57 +2539,12 @@ OL000458,OL000458,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instrument
 OL000459,OL000459,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CE09OSSM-00002-HYDGN12,,,,CE09OSSM-00002,
 OL000472,OL000472,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CE09OSSM-00004+MOPAK,,,,CE09OSSM-00004,
 OL000473,OL000473,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,CE09OSSM-00004-DOSTA37-03,,,,CE09OSSM-00004,
-OL000480,OL000480,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP01CNSM-00001-MOPAK,,,,CP01CNSM-00001,
-OL000481,OL000481,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00001-HYDGN SBD11,,,,CP01CNSM-00001,
-OL000482,OL000482,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00001-HYDGN SBD12,,,,CP01CNSM-00001,
-OL000492,OL000492,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP01CNSM-00002-MOPAK,,,,,
-OL000493,OL000493,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00002-HYDGN1,,,,,
-OL000494,OL000494,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00002-HYDGN2,,,,,
-OL000495,OL000495,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,CP01CNSM-00002-WAVSS,,,,,
-OL000506,OL000506,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP01CNSM-00003-MOPAK,,,,,
-OL000507,OL000507,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00003-HYDGN1,,,,,
-OL000508,OL000508,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-00003-HYDGN2,,,,,
-OL000509,OL000509,Sensor,0,Surface Wave Spectra: WAVSS Series A,WAVSS SERIES A (TRIAXYS NW),AXYS Technologies,TRIAXYS Directional Wave Sensor,CP01CNSM-00003-WAVSS,,,,,
-OL000519,OL000519,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,2015-0009,,,,,
-OL000520,OL000520,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-SBD11-HYDGN,,,,,
-OL000521,OL000521,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP01CNSM-SBD12-HYDGN,,,,,
-OL000527,OL000527,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP04OSSM-00001-MOPAK,,,,,
-OL000528,OL000528,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-00001-SBD11HYDGN,,,,,
-OL000529,OL000529,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-00001-SBD12HYDGN,,,,,
-OL000539,OL000539,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP04OSSM-00002-MOPAK,,,,,
-OL000540,OL000540,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-SBD11-HYDGN,,,,,
-OL000541,OL000541,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-SBD12-HYDGN,,,,,
-OL000551,OL000551,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP04OSSM-00003-MOPAK,,,,CP04OSSM-00003-MOPAK,
-OL000552,OL000552,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-SBD11-HYDGN,,,,CP04OSSM-SBD11-HYDGN,
-OL000553,OL000553,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP04OSSM-SBD12-HYDGN,,,,CP04OSSM-SBD12-HYDGN,
-OL000563,OL000563,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP03ISSM-00001-MOPAK,,,,CP03ISSM-00001-MOPAK,
-OL000564,OL000564,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00001-SBD11-HYDGN,,,,CP03ISSM-00001-SBD11-HYDGN,
-OL000565,OL000565,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00001-SBD12-HYDGN,,,,CP03ISSM-00001-SBD12-HYDGN,
+PIRSN-AOABPA-00001,,Sensor,0,,,Wilcock,,1,,,,,
+PIRSN-CAMPIA-00001,,Sensor,0,,,MARUM,,1,,,,,
 PIRSN-COVISA-00001,,Sensor,0,Cabled Observatory Vent Imaging System,COVIS Series A,Bemis,,1,,,,,
 PIRSN-CTDPFA-10001,,Sensor,0,CTD with optode,CTDPFA Series A wth optode,MARUM,16plusV2 with SBE 63 optode,16-50216,,,,,
 PIRSN-OVRSRA-00001,,Sensor,0,Overview Sonar,OVRSR Series A,MARUM,R2 Sonic 2022,101409,,,,,
 PIRSN-QNTSRA-00001,,Sensor,0,Quantification Sonar,QNTSR Series A,MARUM,Kongsberg 1171-Series Scanning Sonar,1708062,,,,,
 PIRSN-SCPRAA-00001,,Sensor,0,Self-Calibrating Pressure Recorder,SCPR Series A,PI Zumberge and Sasagawa,,001/C,,,,,
 PIRSN-SCTAAA-00001,,Sensor,0,Self-Calibrating Triaxial Accelerometer,SCTA Series A,PI Wilcock,,1,,,,,
-R00007,R00007,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,,,,,,
-R00008,R00008,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUO-00002-MOPAK,,,,,
-R00012,R00012,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP03ISSM-00002-MOPAK,,,,CP03ISSM-00002-MOPAK,
-R00013,R00013,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00002-HYDGN1,,,,CP03ISSM-00002-HYDGN1,
-R00014,R00014,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00002-HYDGN2,,,,CP03ISSM-00002-HYDGN2,
-R00024,R00024,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,11,,,,,
-R00025,R00025,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00003-HYDGN1,,,,,
-R00026,R00026,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,CP03ISSM-00003-HYDGN2,,,,,
-R00036,R00036,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,GI01SUMO-00001-MOPAK,,,,,
-R00037,R00037,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GI01SUMO-00001-HYDGN1,,,,,
-R00038,R00038,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GI01SUMO-00001-HYDGN2,,,,,
-R00045,R00045,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,GI01SUMO-00002-MOPAK,,,,,
-R00046,R00046,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GI01SUMO-00002-HYDGN1,,,,,
-R00047,R00047,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GI01SUMO-00002-HYDGN2,,,,,
-R00056,R00056,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GI01SUMO-00001-HYDGN1,,,,,
-R00057,R00057,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,GI01SUMO-00001-HYDGN2,,,,,
-R00067,R00067,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUO-00001 MOPAK0000,,20130122,,,
-R00068,R00068,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUO-00003 MOPAK0000,,20130122,,,
-R00069,R00069,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUO-00004 MOPAK0000,,20130122,,,
-R00070,R00070,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,CP02PMUO-00005 MOPAK0000,,20130122,,,
-R00106,,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,GA01SUMO-00003-MOPAK,,,,,
-R00297,R00297,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,,,,,,
+R00007,R00007,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,,,,,,Oregon State University

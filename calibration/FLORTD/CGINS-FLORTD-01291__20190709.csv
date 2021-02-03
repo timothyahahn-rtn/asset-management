@@ -1,0 +1,11 @@
+serial,name,value,notes
+1291,CC_dark_counts_cdom,43,date in filename comes from dev file
+1291,CC_scale_factor_cdom,0.0795,
+1291,CC_dark_counts_chlorophyll_a,50,
+1291,CC_scale_factor_chlorophyll_a,.0120,
+1291,CC_dark_counts_volume_scatter,48,
+1291,CC_scale_factor_volume_scatter,2.198e-06,
+1291,CC_depolarization_ratio,0.039,Constant
+1291,CC_measurement_wavelength,700,[nm]; Constant
+1291,CC_scattering_angle,124,[degrees]; Constant
+1291,CC_angular_resolution,1.076,Erroneously named constant; this coefficient scales the particulate scattering at 124 degrees to total backscatter from particles

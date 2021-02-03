@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-2499,CC_frequency_offset,-8.356636e+002,source_file DOFST-K_SBE43F_SN_2499_Calibration_2020-07-18.zip > 2499.cal and SBE 43F O2499 SOCAdjusted 30Jul20.pdf
+43-2499,CC_oxygen_signal_slope,3.4847e-004,use adjusted Soc
+43-2499,CC_residual_temperature_correction_factor_a,-3.279468e-003,
+43-2499,CC_residual_temperature_correction_factor_b,1.862367e-004,
+43-2499,CC_residual_temperature_correction_factor_c,-2.807828e-006,
+43-2499,CC_residual_temperature_correction_factor_e,3.600000e-002,

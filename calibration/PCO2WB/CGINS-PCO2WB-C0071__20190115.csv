@@ -1,0 +1,9 @@
+serial,name,value,notes
+C0071,CC_cala,0.0595,
+C0071,CC_calb,0.5589,
+C0071,CC_calc,-1.4561,
+C0071,CC_calt,15.5526,
+C0071,CC_ea434,19706,constant
+C0071,CC_ea620,34,constant
+C0071,CC_eb434,3073,constant
+C0071,CC_eb620,44327,constant

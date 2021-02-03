@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-2726,CC_frequency_offset,-8.252448e+002,
+43-2726,CC_oxygen_signal_slope,3.052015e-004,
+43-2726,CC_residual_temperature_correction_factor_a,-5.080387e-003,
+43-2726,CC_residual_temperature_correction_factor_b,1.874707e-004,
+43-2726,CC_residual_temperature_correction_factor_c,-2.479378e-006,
+43-2726,CC_residual_temperature_correction_factor_e,3.600000e-002,
