@@ -11,6 +11,55 @@ ATAPL-71533-00002,ATAPL-71533-00002,Node,0,Cabled Deep Profiler Mooring Docking 
 ATAPL-71533-00003,ATAPL-71533-00003,Node,0,Cabled Deep Profiler Mooring Docking Station,DP Docking Station,UW-APL,71533,SN00003,,,,,University of Washington
 ATAPL-71533-00004,ATAPL-71533-00004,Node,0,Cabled Deep Profiler Mooring Docking Station,DP Docking Station,UW-APL,71533,SN00004,,,,,University of Washington
 ATAPL-71533-00005,ATAPL-71533-00005,Node,0,Cabled Deep Profiler Mooring Docking Station,DP Docking Station,UW-APL,71533,SN00005,,,,,University of Washington
+ATAPL-65244-00023,ATAPL-65244-00023,Node,0,Cabled Oregon Slope Base Seafloor: Medium Power Junction Box,MOORING RSN,UW-APL,RS01SLBS-MJ01A,SN0023,,,,,University of Washington
+ATAPL-65244-00024,N00299,Node,0,Cabled Southern Hydrate Summit 1 Seafloor: Medium Power Junction Box,MOORING RSN,UW-APL,RS01SUM2-MJ01B,SN0024,,,,,University of Washington
+ATAPL-65244-00025,ATAPL-65244-00025,Node,0,Coastal Endurance Oregon Shelf Cabled Benthic Experiment Package: Medium Power Junction Box,MOORING ENDURANCE OS,WHOI,CE02SHBP-MJ01C,SN0025,,,,,University of Washington
+ATAPL-65244-00026,ATAPL-65244-00026,Node,0,Cabled Axial Base Seafloor: Medium Power Junction Box,MOORING RSN,UW-APL,RS03AXBS-MJ03A,SN0026,,,,,University of Washington
+ATAPL-65244-00027,ATAPL-65244-00027,Node,0,Cabled ASHES Vent Field: Medium Power Junction Box,MOORING RSN,UW-APL,RS03ASHS-MJ03B,SN0027,,,,,University of Washington
+ATAPL-65244-00028,ATAPL-65244-00028,Node,0,Cabled International District Vent Field 1: Medium Power Junction Box,MOORING RSN,UW-APL,RS03INT1-MJ03C,SN0028,,,,,University of Washington
+ATAPL-65244-00029,ATAPL-65244-00029,Node,0,Cabled International District Vent Field 2: Medium Power Junction Box,MOORING RSN,UW-APL,RS03INT2-MJ03D,SN0029,,,,,University of Washington
+ATAPL-65244-00030,ATAPL-65244-00030,Node,0,Cabled Eastern Caldera: Medium Power Junction Box,MOORING RSN,UW-APL,RS03ECAL-MJ03E,SN0030,,,,,University of Washington
+ATAPL-65244-00031,ATAPL-65244-00031,Node,0,Cabled Central Caldera: Medium Power Junction Box,MOORING RSN,UW-APL,RS03CCAL-MJ03F,SN0031,,,,,University of Washington
+ATAPL-65244-00032,ATAPL-65244-00032,Node,0,Cabled Oregon Slope Base Seafloor: Medium Power Junction Box,MOORING RSN,UW-APL,RS01SLBS-MJ01A,SN0032,,,,,University of Washington
+ATAPL-65244-00033,ATAPL-65244-00033,Node,0,Cabled ASHES Vent Field: Medium Power Junction Box,MOORING RSN,UW-APL,RS03ASHS-MJ03B,SN0033,,,,,University of Washington
+ATAPL-65244-00034,ATAPL-65244-00034,Node,0,Cabled Southern Hydrate Summit 1 Seafloor: Medium Power Junction Box,MOORING RSN,UW-APL,RS01SUM2-MJ01B,SN0034,,,,,University of Washington
+ATAPL-65244-00035,ATAPL-65244-00035,Node,0,Cabled Axial Base Seafloor: Medium Power Junction Box,Medium Power Junction Box,UW-APL,RS03AXBS-MJ03A,SN0035,,,,,University of Washington
+ATAPL-65244-00036,ATAPL-65244-00036,Node,0,Cabled International District Vent Field 1: Medium Power Junction Box,MOORING RSN,UW-APL,RS03INT1-MJ03C,SN0036,,,,,University of Washington
+ATAPL-65291-00043,ATAPL-65291-00043,Node,0,Cabled Oregon Slope Base Seafloor: Low Voltage Node,MOORING RSN,UW-APL,RS01SLBS-LV01A,SN0043,,,,,University of Washington
+ATAPL-65291-00044,N00298,Node,0,Cabled Southern Hydrate Summit 1 Seafloor: Low Voltage Node,MOORING RSN,UW-APL,RS01SUM1-PN01B,SN0044,,,,,University of Washington
+ATAPL-65291-00045,ATAPL-65291-00045,Node,0,Coastal Endurance Oregon Offshore Cabled Benthic Experiment Package: Low Voltage Node,MOORING ENDURANCE OS,WHOI,CE04OSBP-LV01C,SN0045,,,,,University of Washington
+ATAPL-65291-00046,ATAPL-65291-00046,Node,0,Cabled Axial Base Seafloor: Low Voltage Node,MOORING RSN,UW-APL,RS03AXBS-LV03A,SN0046,,,,,University of Washington
+ATAPL-65291-00047,ATAPL-65291-00047,Node,0,Cabled Southern Hydrate Summit 1 Seafloor: Low Voltage Node,MOORING RSN,UW-APL,RS01SUM1-LV01B,SN0047,,,,,University of Washington
+ATAPL-65291-00048,ATAPL-65291-00048,Node,0,Coastal Endurance Oregon Offshore Cabled Benthic Experiment Package: Low Voltage Node,MOORING ENDURANCE OS,WHOI,CE04OSBP-LV01C,SN0048,,,,,University of Washington
+ATAPL-65310-00003,ATAPL-65310-00003,Node,0,Cabled Oregon Slope Base Seafloor: Low Power Junction Box,MOORING RSN,UW-APL,RS01SLBS-LJ01A,SN0003,,,,,University of Washington
+ATAPL-65310-00004,ATAPL-65310-00004,Node,0,Cabled Southern Hydrate Summit 1 Seafloor: Low Power Junction Box,MOORING RSN,UW-APL,RS01SUM1-LJ01B,SN0004,,,,,University of Washington
+ATAPL-65310-00005,ATAPL-65310-00005,Node,0,Coastal Endurance Oregon Offshore Cabled Benthic Experiment Package: Low Power Junction Box,MOORING ENDURANCE OS,WHOI,CE04OSBP-LJ01C,SN0005,,,,,University of Washington
+ATAPL-65310-00006,ATAPL-65310-00006,Node,0,Coastal Endurance Oregon Shelf Cabled Benthic Experiment Package: Low Power Junction Box,MOORING ENDURANCE OS,WHOI,CE02SHBP-LJ01D,SN0006,,,,,University of Washington
+ATAPL-65310-00007,ATAPL-65310-00007,Node,0,Cabled Axial Base Seafloor: Low Power Junction Box,MOORING RSN,UW-APL,RS03AXBS-LJ03A,SN0007,,,,,University of Washington
+ATAPL-65310-00008,N00281,Node,0,Coastal Endurance Oregon Offshore Cabled Benthic Experiment Package: Low Power Junction Box,MOORING ENDURANCE OS,WHOI,CE04OSBP-LJ01C,SN0008,,,,,University of Washington
+ATAPL-65310-00009,ATAPL-65310-00009,Node,0,Coastal Endurance Oregon Shelf Cabled Benthic Experiment Package: Low Power Junction Box,MOORING ENDURANCE OS,WHOI,CE02SHBP-LJ01D,SN0009,,,,,University of Washington
+ATAPL-65310-00010,ATAPL-65310-00010,Node,0,Cabled Oregon Slope Base Seafloor: Low Power Junction Box,MOORING RSN,UW-APL,RS01SLBS-LJ01A,SN0010,,,,,University of Washington
+ATAPL-65310-00011,ATAPL-65310-00011,Node,0,Cabled Axial Base Seafloor: Low Power Junction Box,MOORING RSN,UW-APL,RS03AXBS-LJ03A,SN0011,,,,,University of Washington
+ATAPL-65310-00012,ATAPL-65310-00012,Node,0,Cabled Southern Hydrate Summit 1 Seafloor: Low Power Junction Box,Low Voltage Junction Box,UW-APL,RS01SUM1-LJ01B,SN0012,,,,,University of Washington
+ATAPL-68870-00140,ATAPL-68870-00140,Node,0,Cabled Oregon Slope Base Shallow Profiler Mooring: Science Pod,MOORING RSN,UW-APL,RS01SBPS-SF01A,SN0140,,,,,University of Washington
+ATAPL-68870-00142,ATAPL-68870-00142,Node,0,Cabled Axial Base Shallow Profiler Mooring: Science Pod,MOORING RSN,UW-APL,RS03AXPS-SF03A,SN0142,,,,,University of Washington
+ATAPL-68870-00143,ATAPL-68870-00143,Node,0,Cabled Oregon Slope Base Shallow Profiler Mooring: Science Pod,MOORING RSN,UW-APL,RS01SBPS-SF01A,SN0143,,,,,University of Washington
+ATAPL-68870-00145,ATAPL-68870-00145,Node,0,Cabled Axial Base Shallow Profiler Mooring: Science Pod,MOORING RSN,UW-APL,RS03AXPS-SF03A,SN0145,,,,,University of Washington
+ATAPL-68870-00141,ATAPL-68870-00141,Node,0,Coastal Endurance Oregon Offshore Cabled Shallow Profiler Mooring: Science Pod,MOORING ENDURANCE OS,WHOI,CE04OSPS-SF01B,SN0141,,,,,University of Washington
+ATAPL-68870-00144,ATAPL-68870-00144,Node,0,Coastal Endurance Oregon Offshore Cabled Shallow Profiler Mooring: Science Pod,MOORING ENDURANCE OS,WHOI,CE04OSPS-SF01B,SN0144,,,,,University of Washington
+ATAPL-69140-00120,ATAPL-69140-00120,Node,0,Cabled Oregon Slope Base Shallow Profiler Mooring: Winch Controller,MOORING RSN,UW-APL,RS01SBPS-SC01A,SN0120,,,,,University of Washington
+ATAPL-69140-00121,ATAPL-69140-00121,Node,0,Coastal Endurance Oregon Offshore Cabled Shallow Profiler Mooring: Winch Controller,MOORING RSN,UW-APL,CE04OSPS-SC01B,SN0121,,,,,University of Washington
+ATAPL-69140-00122,ATAPL-69140-00122,Node,0,Cabled Axial Base Shallow Profiler Mooring: Winch Controller,MOORING RSN,UW-APL,RS03AXPS-SC03A,SN0122,,,,,University of Washington
+ATAPL-69140-00123,ATAPL-69140-00123,Node,0,Cabled Oregon Slope Base Shallow Profiler Mooring: Winch Controller,MOORING RSN,UW-APL,RS01SBPS-SC01A,SN0123,,,,,University of Washington
+ATAPL-69140-00124,ATAPL-69140-00124,Node,0,Coastal Endurance Oregon Offshore Cabled Shallow Profiler Mooring: Winch Controller,MOORING RSN,UW-APL,CE04OSPS-SC01B,SN0124,,,,,University of Washington
+ATAPL-69140-00125,ATAPL-69140-00125,Node,0,Cabled Axial Base Shallow Profiler Mooring: Winch Controller,MOORING RSN,UW-APL,RS03AXPS-SC03A,SN0125,,,,,University of Washington
+ATAPL-69839-00101,ATAPL-69839-00101,Node,0,Cabled Oregon Slope Base Shallow Profiler Mooring: Platform Interface Controller,MOORING RSN,UW-APL,RS01SBPS-PC01A,SN0101,,,,,University of Washington
+ATAPL-69839-00103,ATAPL-69839-00103,Node,0,Cabled Axial Base Shallow Profiler Mooring: Platform Interface Controller,MOORING RSN,UW-APL,RS03AXPS-PC03A,SN0103,,,,,University of Washington
+ATAPL-69839-00104,ATAPL-69839-00104,Node,0,Cabled Oregon Slope Base Shallow Profiler Mooring: Platform Interface Controller,MOORING RSN,UW-APL,RS01SBPS-PC01A,SN0104,,,,,University of Washington
+ATAPL-69839-00106,ATAPL-69839-00106,Node,0,Cabled Axial Base Shallow Profiler Mooring: Platform Interface Controller,MOORING RSN,UW-APL,RS03AXPS-PC03A,SN0106,,,,,University of Washington
+ATAPL-69839-00102,ATAPL-69839-00102,Node,0,Coastal Endurance Oregon Offshore Cabled Shallow Profiler Mooring: Platform Interface Controller,MOORING ENDURANCE OS,WHOI,CE04OSPS-PC01B,SN0102,,,,,University of Washington
+ATAPL-69839-00105,ATAPL-69839-00105,Node,0,Coastal Endurance Oregon Offshore Cabled Shallow Profiler Mooring: Platform Interface Controller,MOORING ENDURANCE OS,WHOI,CE04OSPS-PC01B,SN0105,,,,,University of Washington
+ATSOO-70232-01H3B,N00356,Node,0,Cabled ASHES Vent Field: Primary Node,MOORING RSN,UW-APL,RS03ASHS-PN03B,RS03ASHS-PN03B-00001,,,,,University of Washington
 CGVEH-AUVPNR-06263,,Node,1,Coastal Pioneer AUV 06263,Coastal AUV,Hydroid,REMUS 600,6263,,,,,Woods Hole Oceanographic Institution
 CGVEH-AUVPNR-06264,,Node,1,Coastal Pioneer AUV 06264,Coastal AUV,Hydroid,REMUS 600,6264,,,,,Woods Hole Oceanographic Institution
 CGVEH-CSPPCE-00001,N00121,Node,0,Coastal Surface Piercing Profiler Controller,"Profiler, Coastal Surface Piercing",WET Labs,AMP-FAS-540601,WLP-001,,20130630,147880.86,,Oregon State University
