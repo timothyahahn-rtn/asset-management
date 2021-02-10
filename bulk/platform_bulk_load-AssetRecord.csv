@@ -1,35 +1,35 @@
 ASSET_UID,LEGACY_ASSET_UID,TYPE,Mobile,DESCRIPTION OF EQUIPMENT,MIO_Inventory_Description,Manufacturer,Model,Manufacturer's Serial No./Other Identifier,Firmware Version,ACQUISITION DATE,ORIGINAL COST,comments,MIO
-ATAPL-69543-00001,ATAPL-69543-00001,Platform,0,Cabled Deep Profiler Mooring: RS01SBPD,MOORING,UW-APL,RS01SBPD-PD01A,SN00001,,,,,University of Washington
-ATAPL-69544-00001,ATAPL-69544-00001,Platform,0,Cabled Deep Profiler Mooring: CE04OSPD,MOORING,UW-APL,CE04OSPD-PD01B,SN00001,,,,,University of Washington
-ATAPL-69545-00001,ATAPL-69545-00001,Platform,0,Cabled Deep Profiler Mooring: RS03AXPD,MOORING,UW-APL,RS03AXPD-PD03A,SN00001,,,,,University of Washington
-CE02SHBP-LJ01D-0000,CE02SHBP-LJ01D-0000,Platform,0,Coastal Endurance Oregon Shelf Cabled Benthic Experiment Package: Low Power Junction Box,,UW-APL,,,,,,,University of Washington
-CE02SHBP-MJ01C-0000,CE02SHBP-MJ01C-0000,Platform,0,Coastal Endurance Oregon Shelf Cabled Benthic Experiment Package: Medium Power Junction Box,,UW-APL,,,,,,,University of Washington
-CE04OSBP-LJ01C-0000,CE04OSBP-LJ01C-0000,Platform,0,Coastal Endurance Oregon Offshore Cabled Benthic Experiment Package: Low Power Junction Box,,UW-APL,,,,,,,University of Washington
-CE04OSBP-LV01C-0000,CE04OSBP-LV01C-0000,Platform,0,Coastal Endurance Oregon Offshore Cabled Benthic Experiment Package: Low Voltage Node,,UW-APL,,,,,,,University of Washington
-CE04OSBP-PN01C-0000,CE04OSBP-PN01C-0000,Platform,0,Coastal Endurance Oregon Offshore Cabled Benthic Experiment Package: Primary Node,,UW-APL,,,,,,,University of Washington
-ATAPL-67762-10001,ATAPL-67762-10001,Platform,0,Cabled Shallow Profiler Mooring: CE04OSPS,,UW-APL,,,,,,,University of Washington
-CE02SHBP-PN01D-0000,CE02SHBP-PN01D-0000,Platform,0,Coastal Endurance Oregon Shelf: Primary Node,,UW-APL,,,,,,,University of Washington
-RS01SBPS-LV01A-0000,RS01SBPS-LV01A-0000,Platform,0,Cabled Oregon Slope Base Seafloor: Low Voltage Node,,UW-APL,,,,,,,University of Washington
-ATAPL-67762-20001,ATAPL-67762-20001,Platform,0,Cabled Shallow Profiler Mooring: RS01SBPS,,UW-APL,,,,,,,University of Washington
-RS01SLBS-LJ01A-0000,RS01SLBS-LJ01A-0000,Platform,0,Cabled Oregon Slope Base Seafloor: Low Power Junction Box,,UW-APL,,,,,,,University of Washington
-RS01SLBS-MJ01A-0000,RS01SLBS-MJ01A-0000,Platform,0,Cabled Oregon Slope Base Seafloor: Medium Power Junction Box,,UW-APL,,,,,,,University of Washington
-RS01SLBS-P0N1A-0000,RS01SLBS-P0N1A-0000,Platform,0,Cabled Oregon Slope Base Seafloor: Primary Node,,UW-APL,,,,,,,University of Washington
-RS01SUM1-LJ01B-0000,RS01SUM1-LJ01B-0000,Platform,0,Cabled Southern Hydrate Summit 1 Seafloor: Low Power Junction Box,,UW-APL,,,,,,,University of Washington
-RS01SUM1-LV01B-0000,RS01SUM1-LV01B-0000,Platform,0,Cabled Southern Hydrate Summit 1 Seafloor: Low Voltage Node,,UW-APL,,,,,,,University of Washington
-RS01SUM1-PN01B-0000,RS01SUM1-PN01B-0000,Platform,0,Cabled Southern Hydrate Summit 1 Seafloor: Low Voltage Node,,UW-APL,,,,,,,University of Washington
-RS01SUM2-MJ01B-0000,RS01SUM2-MJ01B-0000,Platform,0,Cabled Southern Hydrate Summit 1 Seafloor: Medium Power Junction Box,,UW-APL,,,,,,,University of Washington
-RS03ASHS-MJ03B-0000,RS03ASHS-MJ03B-0000,Platform,0,Cabled ASHES Vent Field: Medium Power Junction Box,,UW-APL,,,,,,,University of Washington
-RS03ASHS-PN03B-0000,RS03ASHS-PN03B-0000,Platform,0,Cabled ASHES Vent Field: Primary Node,,UW-APL,,,,,,,University of Washington
-RS03AXBS-LJ03A-0000,RS03AXBS-LJ03A-0000,Platform,0,Cabled Axial Base Seafloor: Low Power Junction Box,,UW-APL,,,,,,,University of Washington
-RS03AXBS-MJ03A-0000,RS03AXBS-MJ03A-0000,Platform,0,Cabled Axial Base Seafloor: Medium Power Junction Box,,UW-APL,,,,,,,University of Washington
-RS03AXBS-PN03A-0000,RS03AXBS-PN03A-0000,Platform,0,Cabled Axial Base Seafloor: Primary Node,,UW-APL,,,,,,,University of Washington
-RS03AXPS-LV03A-0000,RS03AXPS-LV03A-0000,Platform,0,Cabled Axial Base Seafloor: Low Voltage Node,,UW-APL,,,,,,,University of Washington
-ATAPL-67762-30001,ATAPL-67762-30001,Platform,0,Cabled Shallow Profiler Mooring: RS03AXPS,,UW-APL,,,,,,,University of Washington
-RS03CCAL-MJ03F-0000,RS03CCAL-MJ03F-0000,Platform,0,Cabled Central Caldera: Medium Power Junction Box,,UW-APL,,,,,,,University of Washington
-RS03ECAL-MJ03E-0000,RS03ECAL-MJ03E-0000,Platform,0,Cabled Eastern Caldera: Medium Power Junction Box,,UW-APL,,,,,,,University of Washington
-RS03INT1-MJ03C-0000,RS03INT1-MJ03C-0000,Platform,0,Cabled International District Vent Field 1: Medium Power Junction Box,,UW-APL,,,,,,,University of Washington
-RS03INT2-MJ03D-0000,RS03INT2-MJ03D-0000,Platform,0,Cabled International District Vent Field 2: Medium Power Junction Box,,UW-APL,,,,,,,University of Washington
-RS05MDPL-PN05A-0000,RS05MDPL-PN05A-0000,Platform,0,Cabled Mid-Plate: Primary Node,,UW-APL,,,,,,,University of Washington
+ATAPL-67762-10001,ATAPL-67762-10001,Platform,0,Cabled Coastal Endurance Oregon Offshore Shallow Profiler Mooring,MOORING CABLED,UW-APL,CE04OSPS,,,,,,University of Washington
+ATAPL-67762-20001,ATAPL-67762-20001,Platform,0,Cabled Oregon Slope Base Shallow Profiler Mooring,MOORING CABLED,UW-APL,RS01SBPS,,,,,,University of Washington
+ATAPL-67762-30001,ATAPL-67762-30001,Platform,0,Cabled Axial Base Shallow Profiler Mooring,MOORING CABLED,UW-APL,RS03AXPS,,,,,,University of Washington
+ATAPL-69543-00001,ATAPL-69543-00001,Platform,0,Cabled Oregon Slope Base Deep Profiler Mooring,MOORING CABLED,UW-APL,RS01SBPD,,,,,,University of Washington
+ATAPL-69544-00001,ATAPL-69544-00001,Platform,0,Cabled Coastal Endurance Oregon Offshore Cabled Deep Profiler Mooring,MOORING CABLED,UW-APL,CE04OSPD,,,,,,University of Washington
+ATAPL-69545-00001,ATAPL-69545-00001,Platform,0,Cabled Axial Base Deep Profiler Mooring,MOORING CABLED,UW-APL,RS03AXPD,,,,,,University of Washington
+CE02SHBP-LJ01D-0000,CE02SHBP-LJ01D-0000,Platform,0,Cabled Coastal Endurance Oregon Shelf Benthic Experiment Package Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+CE02SHBP-MJ01C-0000,CE02SHBP-MJ01C-0000,Platform,0,Cabled Coastal Endurance Oregon Shelf Benthic Experiment Package Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+CE02SHBP-PN01D-0000,CE02SHBP-PN01D-0000,Platform,0,Cabled Coastal Endurance Oregon Shelf Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+CE04OSBP-LJ01C-0000,CE04OSBP-LJ01C-0000,Platform,0,Cabled Coastal Endurance Oregon Offshore Benthic Experiment Package Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+CE04OSBP-LV01C-0000,CE04OSBP-LV01C-0000,Platform,0,Cabled Coastal Endurance Oregon Offshore Benthic Experiment Package Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+CE04OSBP-PN01C-0000,CE04OSBP-PN01C-0000,Platform,0,Cabled Coastal Endurance Oregon Offshore Benthic Experiment Package Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS01SBPS-LV01A-0000,RS01SBPS-LV01A-0000,Platform,0,Cabled Oregon Slope Base Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS01SHDR-PN01B-0000,RS01SHDR-PN01B-0000,Platform,0,Cabled Southern Hydrate Summit 1 Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS01SLBS-LJ01A-0000,RS01SLBS-LJ01A-0000,Platform,0,Cabled Oregon Slope Base Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS01SLBS-MJ01A-0000,RS01SLBS-MJ01A-0000,Platform,0,Cabled Oregon Slope Base Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS01SLBS-PN01A-0000,RS01SLBS-PN01A-0000,Platform,0,Cabled Oregon Slope Base Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS01SUM1-LJ01B-0000,RS01SUM1-LJ01B-0000,Platform,0,Cabled Southern Hydrate Summit 1 Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS01SUM1-LV01B-0000,RS01SUM1-LV01B-0000,Platform,0,Cabled Southern Hydrate Summit 1 Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS01SUM2-MJ01B-0000,RS01SUM2-MJ01B-0000,Platform,0,Cabled Southern Hydrate Summit 1 Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS03ASHS-MJ03B-0000,RS03ASHS-MJ03B-0000,Platform,0,Cabled ASHES Vent Field Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS03AXBS-LJ03A-0000,RS03AXBS-LJ03A-0000,Platform,0,Cabled Axial Base Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS03AXBS-MJ03A-0000,RS03AXBS-MJ03A-0000,Platform,0,Cabled Axial Base Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS03AXBS-PN03A-0000,RS03AXBS-PN03A-0000,Platform,0,Cabled Axial Base Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS03AXPS-LV03A-0000,RS03AXPS-LV03A-0000,Platform,0,Cabled Axial Base Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS03AXSM-PN03B-0000,RS03AXSM-PN03B-0000,Platform,0,Cabled Axial Summit Vent Field Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS03CCAL-MJ03F-0000,RS03CCAL-MJ03F-0000,Platform,0,Cabled Central Caldera Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS03ECAL-MJ03E-0000,RS03ECAL-MJ03E-0000,Platform,0,Cabled Eastern Caldera Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS03INT1-MJ03C-0000,RS03INT1-MJ03C-0000,Platform,0,Cabled International District Vent Field 1 Seafloor ,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS03INT2-MJ03D-0000,RS03INT2-MJ03D-0000,Platform,0,Cabled International District Vent Field 2 Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
+RS05MDPL-PN05A-0000,RS05MDPL-PN05A-0000,Platform,0,Cabled Mid-Plate Seafloor,SEAFLOOR,UW-APL,,,,,,,University of Washington
 CGMCE-01ISSM-00001,A00227,Platform,0,Coastal Endurance Oregon Inshore Surface Mooring,MOORING ENDURANCE OR LP,WHOI,CE01ISSM,CE01ISSM-00001,,20130218,318795.53,,Oregon State University
 CGMCE-01ISSM-00002,A01158,Platform,0,Coastal Endurance Oregon Inshore Surface Mooring,MOORING ENDURANCE OR LP,WHOI,CE01ISSM,CE01ISSM-00002,,20130218,318785.53,,Oregon State University
 CGMCE-01ISSM-00003,N00260,Platform,0,Coastal Endurance Oregon Inshore Surface Mooring,MOORING ENDURANCE OR LP,WHOI,CE01ISSM,CE01ISSM-00003,,,318785.53,,Oregon State University
