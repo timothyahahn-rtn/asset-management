@@ -1,6 +1,4 @@
 ASSET_UID,LEGACY_ASSET_UID,TYPE,Mobile,DESCRIPTION OF EQUIPMENT,MIO_Inventory_Description,Manufacturer,Model,Manufacturer's Serial No./Other Identifier,Firmware Version,ACQUISITION DATE,ORIGINAL COST,comments,MIO
-#ATAPL-69140-001-120-1,ATAPL-69140-001-120-1,Sensor,0,Shallow Profiler Winch Controller,Winch Controller,APL,Winch Controller,120,,,,RS01SBPS-SC01A-00-WINCH,University of Washington
-#ATAPL-69140-001-120-2,ATAPL-69140-001-120-2,Sensor,0,Shallow Profiler Winch Controller Node Controller,Node Controller,APL,Node Controller,120,,,,RS01SBPS-SC01A-00-ENG,University of Washington
 A00835,A00835,Sensor,0,SENSOR CTD,SENSOR CTD,Sea-Bird Electronics,SBE 52-MP,138,,20140128,9966,,
 A00838,A00838,Sensor,0,FLUOROMETER,FLUOROMETER,WET Labs,FLCDRTD (CDOM),3400,,20140128,6665,UW Claims they have asset,
 A01061,A01061,Sensor,0,SONAR BIO ACOUSTIC,SONAR BIO ACOUSTIC,Kongsberg Underwater Technology Inc,CLIN 001,S/N 1,,20140423,173968,,
