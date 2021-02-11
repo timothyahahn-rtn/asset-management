@@ -144,7 +144,6 @@ CE04OSPS-PC01B-4A-CTDPFA109,Coastal Endurance,Oregon Offshore Cabled Shallow Pro
 CE04OSPS-PC01B-4A-DOSTAD109,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,200m Platform (PC01B),Dissolved Oxygen,Aanderaa,Optode 4831,200,200
 CE04OSPS-PC01B-4B-PHSENA106,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,200m Platform (PC01B),Seawater pH,Sunburst,SAMI-pH,200,200
 CE04OSPS-PC01B-4D-PCO2WA105,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,200m Platform (PC01B),pCO2 Water,Sunburst,SAMI-pCO2,200,200
-CE04OSPS-SC01B,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Winch Controller (SC01B),,,,,
 CE04OSPS-SF01B,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),,,,20,200
 CE04OSPS-SF01B-2A-CTDPFA107,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),CTD,Sea-Bird,SBE 16plusV2,20,200
 CE04OSPS-SF01B-2A-DOFSTA107,Coastal Endurance,Oregon Offshore Cabled Shallow Profiler Mooring,Shallow Profiler (SF01B),Dissolved Oxygen,Sea-Bird,SBE 43,20,200
@@ -1585,9 +1584,6 @@ RS01SBPS-PC01A-4A-CTDPFA103,Cabled Continental Margin,Oregon Slope Base Shallow 
 RS01SBPS-PC01A-4A-DOSTAD103,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,200m Platform (PC01A),Dissolved Oxygen,Aanderaa,Optode 4831,200,200
 RS01SBPS-PC01A-4B-PHSENA102,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,200m Platform (PC01A),Seawater pH,Sunburst,SAMI-pH,200,200
 RS01SBPS-PC01A-4C-FLORDD103,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,200m Platform (PC01A),2-Wavelength Fluorometer,WET Labs,ECO Triplet-w,200,200
-RS01SBPS-SC01A,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Winch Controller (SC01A),,,,200,200
-#RS01SBPS-SC01A-00-WINCH,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Winch Controller (SC01A),,APL,,200,200
-#RS01SBPS-SC01A-00-ENG,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Winch Controller (SC01A),,APL,,200,200
 RS01SBPS-SF01A,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Shallow Profiler (SF01A),,,,5,200
 RS01SBPS-SF01A-2A-CTDPFA102,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Shallow Profiler (SF01A),CTD,Sea-Bird,SBE 16plusV2,5,200
 RS01SBPS-SF01A-2A-DOFSTA102,Cabled Continental Margin,Oregon Slope Base Shallow Profiler Mooring,Shallow Profiler (SF01A),Dissolved Oxygen,Sea-Bird,SBE 43,5,200
@@ -1683,7 +1679,6 @@ RS03AXPS-PC03A-4A-CTDPFA303,Cabled Axial Seamount,Axial Base Shallow Profiler Mo
 RS03AXPS-PC03A-4A-DOSTAD303,Cabled Axial Seamount,Axial Base Shallow Profiler Mooring,200m Platform (PC03A),Dissolved Oxygen,Aanderaa,Optode 4831,200,200
 RS03AXPS-PC03A-4B-PHSENA302,Cabled Axial Seamount,Axial Base Shallow Profiler Mooring,200m Platform (PC03A),Seawater pH,Sunburst,SAMI-pH,200,200
 RS03AXPS-PC03A-4C-FLORDD303,Cabled Axial Seamount,Axial Base Shallow Profiler Mooring,200m Platform (PC03A),2-Wavelength Fluorometer,WET Labs,ECO Triplet-w,200,200
-RS03AXPS-SC03A,Cabled Axial Seamount,Axial Base Shallow Profiler Mooring,Winch Controller (SC03A),,,,200,200
 RS03AXPS-SF03A,Cabled Axial Seamount,Axial Base Shallow Profiler Mooring,Shallow Profiler (SF03A),,,,5,200
 RS03AXPS-SF03A-2A-CTDPFA302,Cabled Axial Seamount,Axial Base Shallow Profiler Mooring,Shallow Profiler (SF03A),CTD,Sea-Bird,SBE 16plusV2,5,200
 RS03AXPS-SF03A-2A-DOFSTA302,Cabled Axial Seamount,Axial Base Shallow Profiler Mooring,Shallow Profiler (SF03A),Dissolved Oxygen,Sea-Bird,SBE 43,5,200
