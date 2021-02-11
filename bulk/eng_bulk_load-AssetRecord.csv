@@ -1,9 +1,4 @@
 ASSET_UID,LEGACY_ASSET_UID,TYPE,Mobile,DESCRIPTION OF EQUIPMENT,MIO_Inventory_Description,Manufacturer,Model,Manufacturer's Serial No./Other Identifier,Firmware Version,ACQUISITION DATE,ORIGINAL COST,comments,MIO
-CE02SHBP-MJ01C-00-ENG,,Sensor,0,Engineering Data,Engineering Data,,,,,,,CE02SHBP-MJ01C-00-ENG,University of Washington
-CE02SHBP-MJ01C-05-IP1,,Sensor,0,JBox Port J05 (LJ01D),JBox Port J05 (LJ01D),,,,,,,CE02SHBP-MJ01C-05-IP1 (LJ01D),University of Washington
-CE02SHBP-MJ01C-06-IP2,,Sensor,0,JBox Port J06,JBox Port J06,,,,,,,CE02SHBP-MJ01C-06-IP2,University of Washington
-CE02SHBP-MJ01C-07-IP3,,Sensor,0,JBox Port J07 (ZPLSCB101),JBox Port J07 (ZPLSCB101),,,,,,,CE02SHBP-MJ01C-07-IP3 (ZPLSCB101),University of Washington
-CE02SHBP-MJ01C-08-IP4,,Sensor,0,JBox Port J08 (CAMDSB107),JBox Port J08 (CAMDSB107),,,,,,,CE02SHBP-MJ01C-08-IP4 (CAMDSB107),University of Washington
 CGCON-AUVPNR-06263,,Sensor,1,Mobile Asset Controller for Coastal AUV,A6263 Controller,Hydroid,AUV,6263,,,,,Woods Hole Oceanographic Institution
 CGCON-AUVPNR-06264,,Sensor,1,Mobile Asset Controller for Coastal AUV,A6264 Controller,Hydroid,AUV,6264,,,,,Woods Hole Oceanographic Institution
 CGCON-BCPM01-00001,OL000483,Sensor,0,Surface Buoy Communications and Power Manager,Communications and Power Manager,WHOI,CPM,0001,,,,CP01CNSM-00001-CPM1,Woods Hole Oceanographic Institution
