@@ -1,4 +1,4 @@
-CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,,
+CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,electrical.uid,assembly_template_revision
 AR24,,AR28,,CP03ISPM-RII01-02-ADCPTG010,1,1,2017-11-12T03:26:00,2018-04-11T19:06:00,CGMCP-03ISPM-00001,,CGINS-ADCPTG-20496,40.36473333,-70.88816667,,68,91,,,
 AR24,,AR28,,CP03ISPM-SBS01-00-STCENG000,1,1,2017-11-12T03:26:00,2018-04-11T19:06:00,CGMCP-03ISPM-00001,,CGCON-BSTC01-00018,40.36473333,-70.88816667,,0,91,,,
 AR24,,AR28,,CP03ISPM-SBS01-01-MOPAK0000,1,1,2017-11-12T03:26:00,2018-04-11T19:06:00,CGMCP-03ISPM-00001,,CGINS-MOPAK0-58481,40.36473333,-70.88816667,,0,91,,,

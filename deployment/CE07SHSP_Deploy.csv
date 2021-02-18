@@ -1,4 +1,4 @@
-deploymentNumber,Reference Designator,sensor.uid,startDateTime,stopDateTime,lat,lon,mooring.uid,CUID_Deploy,node.uid,versionNumber,deployedBy,CUID_Recover,recoveredBy,orbit,deployment_depth,water_depth,notes,,
+deploymentNumber,Reference Designator,sensor.uid,startDateTime,stopDateTime,lat,lon,mooring.uid,CUID_Deploy,node.uid,versionNumber,deployedBy,CUID_Recover,recoveredBy,orbit,deployment_depth,water_depth,notes,electrical.uid,assembly_template_revision
 1,CE07SHSP-SP001-00-SPPENG000,CGCON-CSPPCE-00001,2015-04-09T23:15:00,2015-07-08T00:00:00,46.9818,-124.56432,CGMCE-07SHSP-00001,OC1503D,CGVEH-CSPPCE-00001,1,,,,,87,87,nominal_depth,,
 1,CE07SHSP-SP001-01-DOSTAJ000,CGINS-DOSTAJ-00209,2015-04-09T23:15:00,2015-07-08T00:00:00,46.9818,-124.56432,CGMCE-07SHSP-00001,OC1503D,CGVEH-CSPPCE-00001,1,,,,,87,87,nominal_depth,,
 1,CE07SHSP-SP001-02-VELPTJ000,CGINS-VELPTJ-11259,2015-04-09T23:15:00,2015-07-08T00:00:00,46.9818,-124.56432,CGMCE-07SHSP-00001,OC1503D,CGVEH-CSPPCE-00001,1,,,,,87,87,nominal_depth,,

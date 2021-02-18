@@ -1,4 +1,4 @@
-CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,,
+CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,electrical.uid,assembly_template_revision
 TN299,,,,RS01SUM2-MJ01B-00-FLOBNC101,1,1,2013-07-17T18:27:00,2014-09-02T16:00:00,RS01SUM2-MJ01B-0000,ATAPL-65244-00024,ATAPL-58334-00001,44.57,-125.14681,,775,775,,,
 TN299,,,,RS01SUM2-MJ01B-00-FLOBNM101,1,1,2013-07-17T19:00:00,2014-09-02T15:34:00,RS01SUM2-MJ01B-0000,ATAPL-65244-00024,ATAPL-70113-00001,44.57,-125.1468,,774,774,,,
 TN313,,,,RS01SUM2-MJ01B-12-ADCPSK101,1,1,2014-08-29T07:24:46,2018-06-25T19:30:00,RS01SUM2-MJ01B-0000,ATAPL-65244-00024,ATAPL-58419-00002,44.56984,-125.14682,,773,773,,,

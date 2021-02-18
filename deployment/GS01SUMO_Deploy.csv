@@ -1,4 +1,4 @@
-CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,,
+CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,electrical.uid,assembly_template_revision
 AT26-29,,NBP1511,,GS01SUMO-RID16-00-DCLENG000,1,1,2015-02-18T21:06:00,2015-12-27T11:20:00,CGMGS-01SUMO-00001,,CGCON-NDCL16-00012,-54.4082,-89.3576,,12,4611,,,
 AT26-29,,NBP1511,,GS01SUMO-RID16-01-OPTAAD000,1,1,2015-02-18T21:06:00,2015-12-27T11:20:00,CGMGS-01SUMO-00001,,CGINS-OPTAAD-00206,-54.4082,-89.3576,,12,4611,,,
 AT26-29,,NBP1511,,GS01SUMO-RID16-02-FLORTD000,1,1,2015-02-18T21:06:00,2015-12-27T11:20:00,CGMGS-01SUMO-00001,,CGINS-FLORTD-01218,-54.4082,-89.3576,,12,4611,,,

@@ -1,4 +1,4 @@
-CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,,
+CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,electrical.uid,assembly_template_revision
 TN313,,,,RS03AXPD-DP03A-00-ENG000000,1,1,2014-08-09T21:00:00,2015-07-26T14:11:08,ATAPL-69545-00001,ATAPL-71403-00003,ATAPL-71444-00003,45.82972,-129.75904,,,2901,,,
 TN313,,,,RS03AXPD-DP03A-01-CTDPFL304,1,1,2014-08-09T21:00:00,2015-07-26T14:11:08,ATAPL-69545-00001,ATAPL-71403-00003,ATAPL-67977-00002,45.82972,-129.75904,,,2901,,,
 TN313,,,,RS03AXPD-DP03A-02-VEL3DA303,1,1,2014-08-09T21:00:00,2015-07-26T14:11:08,ATAPL-69545-00001,ATAPL-71403-00003,ATAPL-58346-00003,45.82972,-129.75904,,,2901,,,

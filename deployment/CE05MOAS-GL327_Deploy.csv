@@ -1,4 +1,4 @@
-CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,,
+CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,electrical.uid,assembly_template_revision
 PS1506A,,,,CE05MOAS-GL327-00-ENG000000,1,1,2015-06-03T00:00:00,2015-08-21T00:00:00,CGVCE-05MOAS-00000,CGVEH-GLDRCE-00327,CGCON-GLDRCE-00327,47.13667,-124.27428,,200,200,,,
 PS1506A,,,,CE05MOAS-GL327-01-PARADM000,1,1,2015-06-03T00:00:00,2015-08-21T00:00:00,CGVCE-05MOAS-00000,CGVEH-GLDRCE-00327,CGINS-PARADM-50150,47.13667,-124.27428,,200,200,,,
 PS1506A,,,,CE05MOAS-GL327-02-FLORTM000,1,1,2015-06-03T00:00:00,2015-08-21T00:00:00,CGVCE-05MOAS-00000,CGVEH-GLDRCE-00327,CGINS-FLORTM-02807,47.13667,-124.27428,,200,200,,,

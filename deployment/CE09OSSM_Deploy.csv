@@ -1,4 +1,4 @@
-deploymentNumber,Reference Designator,sensor.uid,startDateTime,stopDateTime,lat,lon,mooring.uid,CUID_Deploy,node.uid,versionNumber,deployedBy,CUID_Recover,recoveredBy,orbit,deployment_depth,water_depth,notes,,
+deploymentNumber,Reference Designator,sensor.uid,startDateTime,stopDateTime,lat,lon,mooring.uid,CUID_Deploy,node.uid,versionNumber,deployedBy,CUID_Recover,recoveredBy,orbit,deployment_depth,water_depth,notes,electrical.uid,assembly_template_revision
 1,CE09OSSM-MFC31-00-CPMENG000,OL000450,2015-04-09T17:30:00,2015-09-25T18:00:00,46.85385,-124.95838,CGMCE-09OSSM-00001,OC1503D,,1,,,,,542,542,nominal_depth,,
 1,CE09OSSM-MFD35-00-DCLENG000,OL000455,2015-04-09T17:30:00,2015-09-25T18:00:00,46.85385,-124.95838,CGMCE-09OSSM-00001,OC1503D,,1,,,,,542,542,nominal_depth,,
 1,CE09OSSM-MFD35-01-VEL3DD000,CGINS-VEL3DD-11710,2015-04-09T17:30:00,2015-09-25T18:00:00,46.85385,-124.95838,CGMCE-09OSSM-00001,OC1503D,,1,,,,,542,542,nominal_depth,,

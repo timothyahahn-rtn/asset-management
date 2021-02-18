@@ -1,4 +1,4 @@
-CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,,
+CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,electrical.uid,assembly_template_revision
 SI20150110,,UNRECOVERED,,CP05MOAS-GL375-00-ENG000000,1,1,2015-01-11T19:47:00,2015-02-13T00:00:00,CGVCP-05MOAS-00000,CGVEH-GLDRCP-00375,CGCON-GLDRCP-00375,40.01988,-70.39292,,1000,1000,FZ-1;glider lost at sea,,
 SI20150110,,UNRECOVERED,,CP05MOAS-GL375-01-ADCPAM000,1,1,2015-01-11T19:47:00,2015-02-13T00:00:00,CGVCP-05MOAS-00000,CGVEH-GLDRCP-00375,CGINS-ADCPAM-49015,40.01988,-70.39292,,1000,1000,FZ-1;glider lost at sea,,
 SI20150110,,UNRECOVERED,,CP05MOAS-GL375-02-FLORTM000,1,1,2015-01-11T19:47:00,2015-02-13T00:00:00,CGVCP-05MOAS-00000,CGVEH-GLDRCP-00375,CGINS-FLORTM-02817,40.01988,-70.39292,,1000,1000,FZ-1;glider lost at sea,,

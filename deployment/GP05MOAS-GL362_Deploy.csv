@@ -1,4 +1,4 @@
-CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,,
+CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,electrical.uid,assembly_template_revision
 TY-1408,,UNRECOVERED,,GP05MOAS-GL362-00-ENG000000,1,1,2014-08-30T02:40:00,2014-09-04T09:26:00,CGVGP-05MOAS-00000,CGVEH-GLDROO-00362,CGCON-GLDROO-00362,50.03833,-144.81633,,1000,1000,Glider lost at sea,,
 TY-1408,,UNRECOVERED,,GP05MOAS-GL362-01-FLORDM000,1,1,2014-08-30T02:40:00,2014-09-04T09:26:00,CGVGP-05MOAS-00000,CGVEH-GLDROO-00362,CGINS-FLORDM-03064,50.03833,-144.81633,,1000,1000,Glider lost at sea,,
 TY-1408,,UNRECOVERED,,GP05MOAS-GL362-02-DOSTAM000,1,1,2014-08-30T02:40:00,2014-09-04T09:26:00,CGVGP-05MOAS-00000,CGVEH-GLDROO-00362,CGINS-DOSTAM-00159,50.03833,-144.81633,,1000,1000,Glider lost at sea,,

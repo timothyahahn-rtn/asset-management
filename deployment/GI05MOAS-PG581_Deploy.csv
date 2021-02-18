@@ -1,4 +1,4 @@
-CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,,
+CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,electrical.uid,assembly_template_revision
 AR21,,AR21,,GI05MOAS-PG581-00-ENG000000,1,1,2017-08-09T10:04:00,2017-08-09T17:34:00,CGVGI-05MOAS-00000,CGVEH-GLDRGP-00581,CGCON-GLDRGP-00581,59.8603,-39.1488,,200,200,Aft leak. No data expected,,
 AR21,,AR21,,GI05MOAS-PG581-01-CTDGVM000,1,1,2017-08-09T10:04:00,2017-08-09T17:34:00,CGVGI-05MOAS-00000,CGVEH-GLDRGP-00581,CGINS-CTDGVM-09306,59.8603,-39.1488,,200,200,Aft leak. No data expected,,
 AR21,,AR21,,GI05MOAS-PG581-02-DOSTAM000,1,1,2017-08-09T10:04:00,2017-08-09T17:34:00,CGVGI-05MOAS-00000,CGVEH-GLDRGP-00581,CGINS-DOSTAM-00538,59.8603,-39.1488,,200,200,Aft leak. No data expected,,

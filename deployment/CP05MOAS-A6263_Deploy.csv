@@ -1,4 +1,4 @@
-CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,,
+CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,electrical.uid,assembly_template_revision
 AT31,,AT31,,CP05MOAS-A6263-00-ENG000000,1,1,2015-10-31T00:00:00,2015-10-31T23:59:00,CGVCP-05MOAS-00000,CGVEH-AUVPNR-06263,CGCON-AUVPNR-06263,39.9,-70.7,,,,docking trials and test data only; no data to be ingested,,
 AT31,,AT31,,CP05MOAS-A6263-01-FLORTN000,1,1,2015-10-31T00:00:00,2015-10-31T23:59:00,CGVCP-05MOAS-00000,CGVEH-AUVPNR-06263,CGINS-FLORTN-01109,39.9,-70.7,,,,docking trials and test data only; no data to be ingested,,
 AT31,,AT31,,CP05MOAS-A6263-02-DOSTAN000,1,1,2015-10-31T00:00:00,2015-10-31T23:59:00,CGVCP-05MOAS-00000,CGVEH-AUVPNR-06263,CGINS-DOSTAN-01519,39.9,-70.7,,,,docking trials and test data only; no data to be ingested,,

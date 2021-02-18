@@ -1,4 +1,4 @@
-CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,,
+CUID_Deploy,deployedBy,CUID_Recover,recoveredBy,Reference Designator,deploymentNumber,versionNumber,startDateTime,stopDateTime,mooring.uid,node.uid,sensor.uid,lat,lon,orbit,deployment_depth,water_depth,notes,electrical.uid,assembly_template_revision
 KN221-04,,AT30-01,,GI03FLMA-RI000-00-CTDMOH000,1,1,2014-09-12T20:11:00,2015-08-18T10:41:00,CGMGI-03FLMA-00001,,CGINS-CTDMOH-12225,59.76683,-39.8425,,1700,2700,,,
 KN221-04,,AT30-01,,GI03FLMA-RI000-00-CTDMOH100,1,1,2014-09-12T20:11:00,2015-08-18T10:41:00,CGMGI-03FLMA-00001,,CGINS-CTDMOH-12227,59.76683,-39.8425,,2600,2700,,,
 KN221-04,,AT30-01,,GI03FLMA-RI000-00-CTDMOH400,1,1,2014-09-12T20:11:00,2015-08-18T10:41:00,CGMGI-03FLMA-00001,,CGINS-CTDMOH-12389,59.76683,-39.8425,,2300,2700,,,
