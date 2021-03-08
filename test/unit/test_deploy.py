@@ -27,7 +27,7 @@ class DeploymentFilesUnitTest(AssetManagementUnitTest):
         'mooring.uid',
         'sensor.uid',
         'lat',
-        'lon',
+        'lon'
     }
 
     optional_ids = {
@@ -38,7 +38,9 @@ class DeploymentFilesUnitTest(AssetManagementUnitTest):
         'stopDateTime',
         'node.uid',  # only required for profilers
         'orbit',
-        'depth'
+        'depth',
+        'electrical.uid',
+        'assembly_template_revision'
     }
 
     def setUp(self):
