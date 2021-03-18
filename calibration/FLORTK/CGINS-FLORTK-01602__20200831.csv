@@ -4,7 +4,7 @@ serial,name,value,notes
 1602,CC_dark_counts_chlorophyll_a,45,
 1602,CC_scale_factor_chlorophyll_a,0.0121,
 1602,CC_dark_counts_volume_scatter,48,
-1602,CC_scale_factor_volume_scatter,3.3440e-06,
+1602,CC_scale_factor_volume_scatter,3.440e-06,
 1602,CC_depolarization_ratio,0.039,Constant
 1602,CC_measurement_wavelength,700,[nm]; Constant
 1602,CC_scattering_angle,124,[degrees]; Constant
