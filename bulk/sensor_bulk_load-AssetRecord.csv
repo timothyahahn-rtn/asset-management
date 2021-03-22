@@ -1858,6 +1858,7 @@ CGINS-MOPAK0-44016,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6
 CGINS-MOPAK0-58478,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-58478,,,,,
 CGINS-MOPAK0-58481,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-58481,,,,,
 CGINS-MOPAK0-58484,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-58484,,,,,
+CGINS-MOPAK0-70027,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-70027,,,,,
 CGINS-MOPAK0-99999,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,99999,,,,Placeholder for unknown S/N,
 PICGN-NOCNIA-0N112,,Sensor,0,NOC CUSTARD Nitrate sensor,,NOC UK,LOC-Nitrate,N112,,,,,Woods Hole Oceanographic Institution
 PICGN-NOCSIA-Si009,,Sensor,0,NOC CUSTARD Silicate sensor,,NOC UK,LOC-Silicate,Si009,,,,,Woods Hole Oceanographic Institution
@@ -2006,6 +2007,7 @@ CGINS-OPTAAD-00260,N00678,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIE
 CGINS-OPTAAD-00261,A01782,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D,WET Labs,AC-S,ACS-261,,20150930,40133.74,,
 CGINS-OPTAAD-00267,N00702,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D,WET Labs,AC-S,ACS-267,,,40133.74,,
 CGINS-OPTAAD-00315,,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D,WET Labs,AC-S,ACS-315,,,,,
+CGINS-OPTAAD-00344,,Sensor,0,Spectrophotometer: OPTAA Series D,OPTAA SERIES D,WET Labs,AC-S,ACS-344,,,,,
 CGINS-OPTAAJ-00137,N00589,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-001,WET Labs,AC-S,ACS-137,,20130630,38969.75,,Oregon State University
 CGINS-OPTAAJ-00138,N00573,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-003,WET Labs,AC-S,ACS-138,,20140616,38969.75,,Oregon State University
 CGINS-OPTAAJ-00139,N00581,Sensor,0,Spectrophotometer: OPTAA Series J,OPTAA for WLP-002,WET Labs,AC-S,ACS-139,,20140630,38969.75,,Oregon State University
