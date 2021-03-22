@@ -668,6 +668,7 @@ CGINS-CTDGVM-09288,OL000174,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Sl
 CGINS-CTDGVM-09294,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9294,,,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09295,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9295,,,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09297,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9297,,,,CGSN Glider Instrument Pool,
+CGINS-CTDGVM-09301,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9301,,,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09302,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9302,,,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09306,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9306,,,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09307,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9307,,,,CGSN Glider Instrument Pool,
@@ -1273,6 +1274,7 @@ CGINS-FDCHPA-70601,,Sensor,0,Direct Covariance Flux: FDCHP Series A,ANEMOMETER W
 CGINS-FDCHPA-71403,,Sensor,0,Direct Covariance Flux: FDCHP Series A,ANEMOMETER WINDMASTER PRO,Gill,WINDMASTER PRO,171403,,20170505,,,Woods Hole Oceanographic Institution
 CGINS-FDCHPA-74102,,Sensor,0,Direct Covariance Flux: FDCHP Series A,ANEMOMETER WINDMASTER PRO,Gill,WINDMASTER PRO,174102,,20180109,,,Woods Hole Oceanographic Institution
 CGINS-FDCHPA-75008,,Sensor,0,Direct Covariance Flux: FDCHP Series A,ANEMOMETER WINDMASTER PRO,Gill,WINDMASTER PRO,175008,,,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-03902,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER WINDMASTER PRO,Gill,WINDMASTER PRO R3-50,203902,,,,,Woods Hole Oceanographic Institution
 CGINS-FLORDG-03286,A01001,Sensor,0,2-Wavelength Fluorometer: FLORD Series G,FLORD SERIES G,WET Labs,ECO FLBB-SB,3286,,20140917,9554.5,,
 CGINS-FLORDG-03292,A01002,Sensor,0,2-Wavelength Fluorometer: FLORD Series G,FLORD SERIES G,WET Labs,ECO FLBB-SB,3292,,20140917,9554.5,,
 CGINS-FLORDG-03304,A01003,Sensor,0,2-Wavelength Fluorometer: FLORD Series G,FLORD SERIES G,WET Labs,ECO FLBB-SB,3304,,20140917,9554.5,,
@@ -2085,6 +2087,7 @@ CGINS-PARADM-50208,,Sensor,1,Photosynthetically Available Radiation for Glider: 
 CGINS-PARADM-50210,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50210,,,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50215,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50215,,,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50216,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50216,,,,CGSN Glider Instrument Pool,
+CGINS-PARADM-50217,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50217,,,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50218,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50218,,,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50220,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50220,,,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50221,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50221,,,,CGSN Glider Instrument Pool,
