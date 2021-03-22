@@ -289,7 +289,9 @@ CGCON-MDCL36-00016,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data C
 CGCON-MDCL36-00020,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,20,,,,,
 CGCON-MDCL36-00021,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,21,,,,,
 CGCON-MDCL36-00025,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,25,,,,,
+CGCON-MDCL36-00026,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,26,,,,,
 CGCON-MDCL36-00029,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,29,,,,,
+CGCON-MDCL36-00032,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,32,,,,,
 CGCON-MDCL36-00035,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,35,,,,,
 CGCON-MDCL36-00037,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,37,,,,,
 CGCON-MDCL36-00038,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,38,,,,,
@@ -297,6 +299,7 @@ CGCON-MDCL36-00042,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data C
 CGCON-MDCL36-00043,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,43,,,,,
 CGCON-MDCL36-00048,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,48,,,,,
 CGCON-MDCL36-00051,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,51,,,,,
+CGCON-MDCL36-00055,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,55,,,,,
 CGCON-MDCL37-00001,OL000185,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,1,,,,CE01ISSM-00001-DCL37 CE01ISSM-00002-DCL37,Oregon State University
 CGCON-MDCL37-00002,OL000491,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0002,,,,CP01CNSM-00001-DCL37,Woods Hole Oceanographic Institution
 CGCON-MDCL37-00003,,Sensor,0,Multi-Function Node Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,3,,,,,
@@ -357,6 +360,7 @@ CGCON-NDCL16-00020,,Sensor,0,Near Surface Instrument Frame Data Concentrator Log
 CGCON-NDCL16-00021,OL000101,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0021,,,,,Woods Hole Oceanographic Institution
 CGCON-NDCL16-00022,OL000079,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0022,,,,,Woods Hole Oceanographic Institution
 CGCON-NDCL16-00026,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,26,,,,,
+CGCON-NDCL16-00029,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,29,,,,,
 CGCON-NDCL16-00030,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0030,,,,,Woods Hole Oceanographic Institution
 CGCON-NDCL16-00033,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,0033,,,,,Woods Hole Oceanographic Institution
 CGCON-NDCL16-00035,,Sensor,0,Near Surface Instrument Frame Data Concentrator Logger,Data Concentrator Logger,WHOI,DCL,35,,,,,
