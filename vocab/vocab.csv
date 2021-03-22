@@ -671,7 +671,7 @@ CP04OSSM-SBD11-00-DCLENG000,Coastal Pioneer,Offshore Surface Mooring,Surface Buo
 CP04OSSM-SBD11-01-MOPAK0000,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,3-Axis Motion Pack,MicroStrain,3DM-GX3-25,0,0
 CP04OSSM-SBD11-02-HYDGN0000,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,Hydrogen Sensor,RKI Instruments,M2A transmitters,0,0
 CP04OSSM-SBD11-06-METBKA000,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,Bulk Meteorology Instrument Package,Star Engineering,ASIMET,-3,-3
-CP04OSSM-SBD11-08-FDCHPB000,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,Direct Covariance Flux,WHOI,DCFS R3-50,0,0
+CP04OSSM-SBD11-08-FDCHPB000,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,Direct Covariance Flux,WHOI,DCFS with R3-50 anemometer,0,0
 CP04OSSM-SBD12,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,,,,0,0
 CP04OSSM-SBD12-00-DCLENG000,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,Data Concentrator Logger (DCL),WHOI,Data Concentrator Logger,0,0
 CP04OSSM-SBD12-03-HYDGN0000,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,Hydrogen Sensor,RKI Instruments,M2A transmitters,0,0
