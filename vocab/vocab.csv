@@ -675,8 +675,8 @@ CP04OSSM-SBD11-08-FDCHPB000,Coastal Pioneer,Offshore Surface Mooring,Surface Buo
 CP04OSSM-SBD12,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,,,,0,0
 CP04OSSM-SBD12-00-DCLENG000,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,Data Concentrator Logger (DCL),WHOI,Data Concentrator Logger,0,0
 CP04OSSM-SBD12-03-HYDGN0000,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,Hydrogen Sensor,RKI Instruments,M2A transmitters,0,0
-CP04OSSM-SBD12-08-FDCHPA000,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,Direct Covariance Flux,WHOI,DCFS,0,0
 CP04OSSM-SBD12-04-PCO2AA000,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,pCO2 Air-Sea,Pro-Oceanus,pCO2-pro,0,0
+CP04OSSM-SBD12-08-FDCHPA000,Coastal Pioneer,Offshore Surface Mooring,Surface Buoy,Direct Covariance Flux,WHOI,DCFS,0,0
 CP05MOAS,Coastal Pioneer,Mobile Assets,,,,,0,1000
 CP05MOAS-A6263,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,,,,0,600
 CP05MOAS-A6263-00-ENG000000,Coastal Pioneer,Mobile Assets,Coastal AUV 6263,Mobile Asset Controller,Hydroid,AUV,0,600
