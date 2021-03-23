@@ -69,6 +69,7 @@ CTD Pumped: CTDBP Series O,Sea-Bird Electronics,SBE 16plus V2
 CTD Pumped: CTDBP Series P,Sea-Bird Electronics,SBE 16plus-IM V2
 Diffuse Vent Fluid 3-D Temperature Array: TMPSF Series A,RBR Global,XR-420-T24
 Direct Covariance Flux: FDCHP Series A,WHOI,DCFS
+Direct Covariance Flux: FDCHP Series B,WHOI,DCFS with R3-50 anemometer
 Dissolved Oxygen Fast Response: DOFST Series A,Sea-Bird Electronics,SBE 43
 Dissolved Oxygen Fast Response: DOFST Series K,Sea-Bird Electronics,SBE 43F
 Dissolved Oxygen Stable Response for Glider: DOSTA Series M,Aanderaa,Optode 4831
