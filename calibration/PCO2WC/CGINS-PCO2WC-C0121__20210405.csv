@@ -1,0 +1,9 @@
+serial,name,value,notes
+C0121,CC_cala,0.0771,source_file PCO2W-C_SAMI-CO2_SN_C0121_Calibration_Files_2021-04-05.zip > c121_033121E_CalCert.pdf
+C0121,CC_calb,0.4652,
+C0121,CC_calc,-1.2960,
+C0121,CC_calt,11.0278,
+C0121,CC_ea434,19706,constant
+C0121,CC_ea620,34,constant
+C0121,CC_eb434,3073,constant
+C0121,CC_eb620,44327,constant

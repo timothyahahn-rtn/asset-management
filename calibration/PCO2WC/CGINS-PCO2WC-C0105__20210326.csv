@@ -1,0 +1,9 @@
+serial,name,value,notes
+C0105,CC_cala,0.0892,source_file PCO2W-C_SAMI-CO2_SN_C0105_Calibration_Certificate_2021-03-26.pdf
+C0105,CC_calb,0.4068,
+C0105,CC_calc,-1.2582,
+C0105,CC_calt,10.7716,
+C0105,CC_ea434,19706,constant
+C0105,CC_ea620,34,constant
+C0105,CC_eb434,3073,constant
+C0105,CC_eb620,44327,constant
