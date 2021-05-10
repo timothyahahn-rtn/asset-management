@@ -1,0 +1,8 @@
+serial,name,value,notes
+P0142,CC_ea434,17372.0,source_file PHSEN-F_SAMI-pH_SN_P0142_Validation_Files_2021-03-16.zip > SAMI_P0142_160321t_ValCert.pdf
+P0142,CC_ea578,94.1,
+P0142,CC_eb434,2284.0,
+P0142,CC_eb578,38676.0,
+P0142,CC_ind_off,0,
+P0142,CC_ind_slp,1,
+P0142,CC_psal,35,Constant
