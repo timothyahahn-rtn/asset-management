@@ -1,0 +1,2 @@
+serial,name,value,notes
+170,CC_calibration_date,1607558400000,sensor calibration date (milliseconds since 1970-01-01); source_file DOSTA-M_Optode-4831_SN_170_Calibration_2017-03-15.pdf
