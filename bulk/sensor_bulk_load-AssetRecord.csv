@@ -443,6 +443,7 @@ CGINS-ADCPAM-55980,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: AD
 CGINS-ADCPAM-62598,N00131,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,62598,,20130301,,,
 CGINS-ADCPAM-72777,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,672777,,,,,
 CGINS-ADCPAM-73107,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,673107,,,,,
+CGINS-ADCPAM-73245,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,673245,,,,,
 CGINS-ADCPAM-99999,,Sensor,1,ADCP Velocity Profiler (short range) for Glider: ADCPA Series M,ADCP for Slocum Glider,Teledyne RDI,Explorer DVL 600 kHz,N/A,,,,Placeholder dummy sensor for when the transducer number of a DVL deployed on a slocum glider cannot be determined,
 CGINS-ADCPAN-22076,,Sensor,1,ADCP for AUV: ADCPA series N,ADCP for AUV,Teledyne RDI,Explorer DVL 600 kHz,22076,,,,,
 CGINS-ADCPAN-22077,,Sensor,1,ADCP for AUV: ADCPA series N,ADCP for AUV,Teledyne RDI,Explorer DVL 600 kHz,22077,,,,,
@@ -530,8 +531,10 @@ CGINS-CAMDSA-00122,,Sensor,0,Underwater Digital Still Camera: CAMDS Series A,CAM
 CGINS-CAMDSB-00100,N00694,Sensor,0,Underwater Digital Still Camera: CAMDS Series B,CAMDS,Kongsberg Underwater Technology Inc,Custom,0484-6002-0100,,,,,
 CGINS-CTDAVN-00103,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Sea-Bird Electronics,SBE AUV Payload CTD,103,,,,CGSN AUV Instrument Pool,
 CGINS-CTDAVN-00104,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Sea-Bird Electronics,SBE AUV Payload CTD,104,,,,CGSN AUV Instrument Pool,
-CGINS-CTDAVN-00424,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Sea-Bird Electronics,SBE AUV Payload CTD,424,,,,CGSN AUV Instrument Pool,
-CGINS-CTDAVN-00425,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Sea-Bird Electronics,SBE AUV Payload CTD,425,,,,CGSN AUV Instrument Pool,
+CGINS-CTDAVN-00424,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Neil Brown Ocean Sensors Inc,NBOSI AUV Payload CTD,424,,,,CGSN AUV Instrument Pool,
+CGINS-CTDAVN-00425,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Neil Brown Ocean Sensors Inc,NBOSI AUV Payload CTD,425,,,,CGSN AUV Instrument Pool,
+CGINS-CTDAVN-00526,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Neil Brown Ocean Sensors Inc,NBOSI AUV Payload CTD,526,,,,CGSN AUV Instrument Pool,
+CGINS-CTDAVN-00527,,Sensor,1,CTD for AUV: CTD Series N,CTDGV for Hydroid AUV,Neil Brown Ocean Sensors Inc,NBOSI AUV Payload CTD,527,,,,CGSN AUV Instrument Pool,
 CGINS-CTDBPC-06841,A00054,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16P64183-6841,,20150604,8970,,
 CGINS-CTDBPC-07208,A00082,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16P71174-7208,2.5,20150604,11150,,
 CGINS-CTDBPC-07240,A00126,Sensor,0,CTD Pumped: CTDBP Series C,CTDBP SERIES C (C-16PLUSV2),Sea-Bird Electronics,SBE 16plus V2,16-7240,,20121227,11150,,
@@ -686,6 +689,7 @@ CGINS-CTDGVM-09363,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Gli
 CGINS-CTDGVM-09364,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9364,,,,CGSN Glider Instrument Pool,
 CGINS-CTDGVM-09453,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9453,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-CTDGVM-09658,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9658,,,,,
+CGINS-CTDGVM-09690,,Sensor,1,CTD for Glider: CTDGV Series M,CTDGV for Slocum Glider,Sea-Bird Electronics,SBE Slocum Glider Payload CTD (GP-CTD),9690,,,,,
 CGINS-CTDMOG-10214,A00103,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-10214,,20121212,6400,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-10215,A00104,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-10215,,20121212,6400,,Woods Hole Oceanographic Institution
 CGINS-CTDMOG-10216,A00105,Sensor,0,CTD Mooring (Inductive): CTDMO Series G,CTDMO SERIES G (37IM),Sea-Bird Electronics,SBE 37-IM,37-10216,,20121212,6400,,Woods Hole Oceanographic Institution
@@ -1220,6 +1224,7 @@ CGINS-DOSTAM-00436,OL000609,Sensor,1,Dissolved Oxygen Stable Response for Glider
 CGINS-DOSTAM-00437,OL000169,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,437,,20121227,25000,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00438,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,438,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00480,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,480,,,,CGSN Glider Instrument Pool,
+CGINS-DOSTAM-00489,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,489,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00494,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,494,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00496,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,496,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00499,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,499,,,,CGSN Glider Instrument Pool,
@@ -1237,6 +1242,7 @@ CGINS-DOSTAM-00604,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA 
 CGINS-DOSTAM-00605,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,605,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-00662,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,662,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-DOSTAM-00864,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,864,,,,,
+CGINS-DOSTAM-00909,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,909,,,,,
 CGINS-DOSTAM-01059,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,1059,,,,CGSN Glider Instrument Pool,
 CGINS-DOSTAM-99999,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,UNKNOWN,,,,Placeholder for unknown S/N,
 CGINS-DOSTAM-01407,,Sensor,1,Dissolved Oxygen Stable Response for Glider: DOSTA Series M,DOSTA for Slocum Glider,Aanderaa,Optode 4831,1407,,,,CGSN Glider Instrument Pool,
@@ -1488,6 +1494,7 @@ CGINS-FLORTM-04472,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M
 CGINS-FLORTM-04473,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,4473,,,,CGSN Glider Instrument Pool,
 CGINS-FLORTM-05133,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLK,5133,,,,CGSN Glider Instrument Pool,Woods Hole Oceanographic Institution
 CGINS-FLORTM-06168,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLC,6168,,,,,
+CGINS-FLORTM-06642,,Sensor,1,3-Wavelength Fluorometer for Glider: FLORT Series M,FLORT for Coastal Slocum Glider,WET Labs,ECO Puck FLBBCD-SLC,6642,,,,,
 CGINS-FLORTN-01108,,Sensor,1,3-Wavelength Fluorometer for AUV: FLORT Series N,FLORT for AUV,WET Labs,ECO Triplet,1108,,,,CGSN AUV Instrument Pool,
 CGINS-FLORTN-01109,,Sensor,1,3-Wavelength Fluorometer for AUV: FLORT Series N,FLORT for AUV,WET Labs,ECO Triplet,1109,,,,CGSN AUV Instrument Pool,
 CGINS-FLORTN-01645,,Sensor,1,3-Wavelength Fluorometer for AUV: FLORT Series N,FLORT for AUV,WET Labs,ECO Triplet,1645,,,,CGSN AUV Instrument Pool,
@@ -2108,6 +2115,7 @@ CGINS-PARADM-50277,,Sensor,1,Photosynthetically Available Radiation for Glider: 
 CGINS-PARADM-50304,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50304,,,,CGSN Glider Instrument Pool,
 CGINS-PARADM-50319,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50319,1.2,,,,
 CGINS-PARADM-50324,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50324,,,,CGSN Glider Instrument Pool,
+CGINS-PARADM-50333,,Sensor,1,Photosynthetically Available Radiation for Glider: PARAD Series M,PARAD for Slocum Glider,Biospherical Instruments,QSP-2155,50333,,,,CGSN Glider Instrument Pool,
 CGINS-PARADN-50170,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50170,,,,CGSN AUV Instrument Pool,
 CGINS-PARADN-50180,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50180,,,,CGSN AUV Instrument Pool,
 CGINS-PARADN-50266,,Sensor,1,Photosynthetically Available Radiation for AUV: PARAD Series N,PARAD for Hydroid AUV,Biospherical Instruments,QSP-2155,50266,,,,CGSN AUV Instrument Pool,
