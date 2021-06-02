@@ -38,8 +38,14 @@ class FLORCalibration(Calibration):
                     serial = parts[1].split('-')
                     self.serial = serial[-1]
                 elif 'Created' == parts[0]:
-                    self.date = datetime.datetime.strptime(
-                        parts[-1], '%m/%d/%y').strftime('%Y%m%d')
+		    try:
+                        self.date = datetime.datetime.strptime(parts[-1], '%m/%d/%y').strftime('%Y%m%d')
+		    except ValueError:
+		        try:
+			    self.date = datetime.datetime.strptime(parts[-1], '%m/%d/%Y').strftime('%Y%m%d')
+                        except ValueError:
+                            print('Unanticipated Date Format: ', parts[-1])
+                            sys.exit(1)  
                 deconstruct = parts[0].upper().split('=')
                 if deconstruct[0] == 'LAMBDA':
                     self.vol = (parts[1], parts[2])
