@@ -4,9 +4,9 @@ Coastal Wire-Following Profiler Controller,McLane,MMP-7
 Communications and Power Manager,WHOI,CPM
 Data Concentrator Logger,WHOI,DCL
 Global Wire-Following Profiler Controller,McLane,MMP 210-3512
-Mobile Asset Controller for Coastal Glider,Teledyne Webb,G2 Slocum Gliders
-Mobile Asset Controller for Profiling Glider,Teledyne Webb,G2 Slocum Gliders
-Mobile Asset Controller for Open Ocean Glider,Teledyne Webb,G2 Slocum Gliders
+Mobile Asset Controller for Coastal Glider,Teledyne Webb,G2 or G3 Slocum Gliders
+Mobile Asset Controller for Profiling Glider,Teledyne Webb,G2 or G3 Slocum Gliders
+Mobile Asset Controller for Open Ocean Glider,Teledyne Webb,G2 or G3 Slocum Gliders
 Multi-Function Node Communications and Power Manager,WHOI,CPM
 Multi-Function Node Data Concentrator Logger,WHOI,DCL
 Near Surface Instrument Frame Communications and Power Manager,WHOI,CPM
