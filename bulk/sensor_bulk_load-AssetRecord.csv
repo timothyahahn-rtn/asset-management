@@ -1059,6 +1059,8 @@ CGINS-DOFSTK-03370,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFS
 CGINS-DOFSTK-03506,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML14300-01,Sea-Bird Electronics,SBE 43F,43-3506,,20170627,,,Woods Hole Oceanographic Institution
 CGINS-DOFSTK-03523,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML14300-02,Sea-Bird Electronics,SBE 43F,43-3523,,20170627,,,Woods Hole Oceanographic Institution
 CGINS-DOFSTK-03535,,Sensor,0,Dissolved Oxygen Fast Response: DOFST Series K,DOFST for WFP Coastal ML14378-01,Sea-Bird Electronics,SBE 43F,43-3535,,20170907,,,Oregon State University
+CGINS-DOSTAD-00030,N00323,Sensor,0,Dissolved Oxygen Stable Response bought for Glider deployed on a surface mooring: DOSTA Series D,DOSTA for Slocum Glider,Aanderaa,Optode 4831,30,,20121228,,,
+CGINS-DOSTAD-00100,N00328,Sensor,0,Dissolved Oxygen Stable Response bought for Glider deployed on a surface mooring: DOSTA Series D,DOSTA for Slocum Glider,Aanderaa,Optode 4831,100,,20121228,,,
 CGINS-DOSTAD-00126,A00176,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,126,,20130128,5258.25,,Woods Hole Oceanographic Institution
 CGINS-DOSTAD-00127,A00169,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,127,,20130124,5258.25,,Woods Hole Oceanographic Institution
 CGINS-DOSTAD-00128,A00170,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,128,,20130124,5258.25,,Woods Hole Oceanographic Institution
@@ -1069,6 +1071,7 @@ CGINS-DOSTAD-00132,A00168,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Serie
 CGINS-DOSTAD-00134,A00172,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,134,,20130124,5258.25,,
 CGINS-DOSTAD-00135,A00173,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,135,,20130124,5258.25,,
 CGINS-DOSTAD-00136,A00174,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,136,,20130124,5258.25,,
+CGINS-DOSTAD-00178,N00046,Sensor,0,Dissolved Oxygen Stable Response bought for Glider deployed on a surface mooring: DOSTA Series D,DOSTA for Slocum Glider,Aanderaa,Optode 4831,178,,20130806,,,
 CGINS-DOSTAD-00211,A00397,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,211,4.5.7,20130826,5258.25,,Woods Hole Oceanographic Institution
 CGINS-DOSTAD-00212,A00396,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,212,4.5.7,20130826,5258.25,,Woods Hole Oceanographic Institution
 CGINS-DOSTAD-00213,A00395,Sensor,0,Dissolved Oxygen Stable Response: DOSTA Series D,DOSTA SERIES D (AADI 4831),Aanderaa,Optode 4831,213,4.5.7,20130826,5258.25,,Woods Hole Oceanographic Institution
