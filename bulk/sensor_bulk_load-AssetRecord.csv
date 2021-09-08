@@ -282,18 +282,18 @@ ATAPL-70168-00002,ATAPL-70168-00002,Sensor,0,HD Digital Video Camera with Strobe
 ATAPL-70168-00003,ATAPL-70168-00003,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,"SUBC1CM01, SubC 1Cam Underwater Camera in titanium housing",APL,Custom,SUBC13114,,20130603,25600,,University of Washington
 ATAPL-70248-00001,ATAPL-70248-00001,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,Seafloor High Definition Video Camera,APL,Custom,P1-SUBC13115,,20130114,32177,,University of Washington
 ATAPL-70248-00002,ATAPL-70248-00002,Sensor,0,HD Digital Video Camera with Strobes: CAMHD Series A,Seafloor High Definition Video Camera,APL,Custom,P2-SUBC13114,,20130114,32177,,University of Washington
-ATAPL-71444-00001,ATAPL-71444-00001,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00001,,,,,,University of Washington
-ATAPL-71444-00002,ATAPL-71444-00002,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00002,,,,,,University of Washington
-ATAPL-71444-00003,ATAPL-71444-00003,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00003,,,,,,University of Washington
-ATAPL-71444-00004,ATAPL-71444-00004,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00004,,,,,,University of Washington
-ATAPL-71444-00005,ATAPL-71444-00005,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00005,,,,,,University of Washington
-ATAPL-71444-00006,ATAPL-71444-00006,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00006,,,,,,University of Washington
-ATAPL-71444-00007,ATAPL-71444-00007,Sensor,0,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00007,,,,,,University of Washington
-ATAPL-71532-00001,ATAPL-71532-00001,Sensor,0,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00001,,,,,,University of Washington
-ATAPL-71532-00002,ATAPL-71532-00002,Sensor,0,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00002,,,,,,University of Washington
-ATAPL-71532-00003,ATAPL-71532-00003,Sensor,0,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00003,,,,,,University of Washington
-ATAPL-71532-00004,ATAPL-71532-00004,Sensor,0,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00004,,,,,,University of Washington
-ATAPL-71532-00005,ATAPL-71532-00005,Sensor,0,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00005,,,,,,University of Washington
+ATAPL-71444-00001,ATAPL-71444-00001,Sensor,0,Deep Profiler Vehicle Electronics Assembly,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00001,,,,,University of Washington
+ATAPL-71444-00002,ATAPL-71444-00002,Sensor,0,Deep Profiler Vehicle Electronics Assembly,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00002,,,,,University of Washington
+ATAPL-71444-00003,ATAPL-71444-00003,Sensor,0,Deep Profiler Vehicle Electronics Assembly,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00003,,,,,University of Washington
+ATAPL-71444-00004,ATAPL-71444-00004,Sensor,0,Deep Profiler Vehicle Electronics Assembly,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00004,,,,,University of Washington
+ATAPL-71444-00005,ATAPL-71444-00005,Sensor,0,Deep Profiler Vehicle Electronics Assembly,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00005,,,,,University of Washington
+ATAPL-71444-00006,ATAPL-71444-00006,Sensor,0,Deep Profiler Vehicle Electronics Assembly,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00006,,,,,University of Washington
+ATAPL-71444-00007,ATAPL-71444-00007,Sensor,0,Deep Profiler Vehicle Electronics Assembly,Deep Profiler Vehicle Electronics Assembly,APL,Custom,SN00007,,,,,University of Washington
+ATAPL-71532-00001,ATAPL-71532-00001,Sensor,0,Deep Profiler Dock Electronics Assembly,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00001,,,,,University of Washington
+ATAPL-71532-00002,ATAPL-71532-00002,Sensor,0,Deep Profiler Dock Electronics Assembly,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00002,,,,,University of Washington
+ATAPL-71532-00003,ATAPL-71532-00003,Sensor,0,Deep Profiler Dock Electronics Assembly,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00003,,,,,University of Washington
+ATAPL-71532-00004,ATAPL-71532-00004,Sensor,0,Deep Profiler Dock Electronics Assembly,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00004,,,,,University of Washington
+ATAPL-71532-00005,ATAPL-71532-00005,Sensor,0,Deep Profiler Dock Electronics Assembly,Deep Profiler Dock Electronics Assembly,APL,Custom,SN00005,,,,,University of Washington
 ATAPL-78437-00001,ATAPL-78437-00001,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18830,,20180930,43237,,University of Washington
 ATAPL-78437-00002,ATAPL-78437-00002,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18831,,20180930,43237,,University of Washington
 ATAPL-78437-00003,ATAPL-78437-00003,Sensor,0,Underwater Digital Camera,Underwater Digital Camera,SubC,Rayfin,SUBC18832,,20180930,43237,,University of Washington
