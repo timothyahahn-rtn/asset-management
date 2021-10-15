@@ -1291,7 +1291,12 @@ CGINS-FDCHPA-70601,,Sensor,0,Direct Covariance Flux: FDCHP Series A,ANEMOMETER W
 CGINS-FDCHPA-71403,,Sensor,0,Direct Covariance Flux: FDCHP Series A,ANEMOMETER WINDMASTER PRO,Gill,WINDMASTER PRO,171403,,20170505,,,Woods Hole Oceanographic Institution
 CGINS-FDCHPA-74102,,Sensor,0,Direct Covariance Flux: FDCHP Series A,ANEMOMETER WINDMASTER PRO,Gill,WINDMASTER PRO,174102,,20180109,,,Woods Hole Oceanographic Institution
 CGINS-FDCHPA-75008,,Sensor,0,Direct Covariance Flux: FDCHP Series A,ANEMOMETER WINDMASTER PRO,Gill,WINDMASTER PRO,175008,,,,,Woods Hole Oceanographic Institution
-CGINS-FDCHPB-03902,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,203902,,,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-03902,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,203902,,20200924,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-03903,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,203903,,20201020,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-03904,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,203904,,20201020,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-11802,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,211802,,20210824,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-12802,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,212802,,20210824,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-12803,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,212803,,20210824,,,Woods Hole Oceanographic Institution
 CGINS-FLORDG-03286,A01001,Sensor,0,2-Wavelength Fluorometer: FLORD Series G,FLORD SERIES G,WET Labs,ECO FLBB-SB,3286,,20140917,9554.5,,
 CGINS-FLORDG-03292,A01002,Sensor,0,2-Wavelength Fluorometer: FLORD Series G,FLORD SERIES G,WET Labs,ECO FLBB-SB,3292,,20140917,9554.5,,
 CGINS-FLORDG-03304,A01003,Sensor,0,2-Wavelength Fluorometer: FLORD Series G,FLORD SERIES G,WET Labs,ECO FLBB-SB,3304,,20140917,9554.5,,
@@ -1570,6 +1575,8 @@ CGINS-HYDGN0-49891,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instrume
 CGINS-HYDGN0-51407,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A51407,,,,,
 CGINS-HYDGN0-99999,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,UNKNOWN,,,,Placeholder for unknown S/N,
 CGINS-HYDGN0-Z5971,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A6Z5971,,,,,Woods Hole Oceanographic Institution
+CGINS-HYDGN0-Z5974,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A6Z5974,,,,,Woods Hole Oceanographic Institution
+CGINS-HYDGN0-Z5975,,Sensor,0,Hydrogen Sensor: HYDGN,Hydrogen Sensor,RKI Instruments,M2A transmitters,M2A6Z5975,,,,,Woods Hole Oceanographic Institution
 CGINS-METBPR-00237,A00185,Sensor,0,Bulk Meteorology Instrument Package: METBK BPR Module,METBK BPR MODULE,Star Engineering,ABS106-BPR,BPR237,,20150604,7200,,
 CGINS-METBPR-00238,A00192,Sensor,0,Bulk Meteorology Instrument Package: METBK BPR Module,METBK BPR MODULE,Star Engineering,ABS106-BPR,BPR238,,20150604,7200,,
 CGINS-METBPR-00239,A00199,Sensor,0,Bulk Meteorology Instrument Package: METBK BPR Module,METBK BPR MODULE,Star Engineering,ABS106-BPR,BPR239,,20150604,7200,,
@@ -1840,6 +1847,7 @@ CGINS-MOPAK0-11364,OL000339,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Mo
 CGINS-MOPAK0-11366,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11366,,,,,Woods Hole Oceanographic Institution
 CGINS-MOPAK0-11838,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11838,,,,,
 CGINS-MOPAK0-11839,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11839,,,,,
+CGINS-MOPAK0-11841,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11841,,,,,Woods Hole Oceanographic Institution
 CGINS-MOPAK0-11843,,Sensor,0,3-Axis Motion Pack: MOPAK,,MicroStrain,3DM-GX3-25,6223-4220-11843,,,,,
 CGINS-MOPAK0-11844,R00055,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,6223-4220-11844,,,,,
 CGINS-MOPAK0-11845,R00055,Sensor,0,3-Axis Motion Pack: MOPAK,MOPAK - 3-Axis Motion Pack,MicroStrain,3DM-GX3-25,6223-4220-11845,,,,,
