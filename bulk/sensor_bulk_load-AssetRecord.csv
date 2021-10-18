@@ -1291,12 +1291,12 @@ CGINS-FDCHPA-70601,,Sensor,0,Direct Covariance Flux: FDCHP Series A,ANEMOMETER W
 CGINS-FDCHPA-71403,,Sensor,0,Direct Covariance Flux: FDCHP Series A,ANEMOMETER WINDMASTER PRO,Gill,WINDMASTER PRO,171403,,20170505,,,Woods Hole Oceanographic Institution
 CGINS-FDCHPA-74102,,Sensor,0,Direct Covariance Flux: FDCHP Series A,ANEMOMETER WINDMASTER PRO,Gill,WINDMASTER PRO,174102,,20180109,,,Woods Hole Oceanographic Institution
 CGINS-FDCHPA-75008,,Sensor,0,Direct Covariance Flux: FDCHP Series A,ANEMOMETER WINDMASTER PRO,Gill,WINDMASTER PRO,175008,,,,,Woods Hole Oceanographic Institution
-CGINS-FDCHPB-03902,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,203902,,20200924,,,Woods Hole Oceanographic Institution
-CGINS-FDCHPB-03903,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,203903,,20201020,,,Woods Hole Oceanographic Institution
-CGINS-FDCHPB-03904,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,203904,,20201020,,,Woods Hole Oceanographic Institution
-CGINS-FDCHPB-11802,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,211802,,20210824,,,Woods Hole Oceanographic Institution
-CGINS-FDCHPB-12802,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,212802,,20210824,,,Woods Hole Oceanographic Institution
-CGINS-FDCHPB-12803,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,212803,,20210824,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-03902,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,203902,,20201103,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-03903,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,203903,,20201103,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-03904,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,203904,,20201103,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-11802,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,211802,,20210901,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-12802,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,212802,,20210901,,,Woods Hole Oceanographic Institution
+CGINS-FDCHPB-12803,,Sensor,0,Direct Covariance Flux: FDCHP Series B,ANEMOMETER R3-50,Gill,R3-50,212803,,20210901,,,Woods Hole Oceanographic Institution
 CGINS-FLORDG-03286,A01001,Sensor,0,2-Wavelength Fluorometer: FLORD Series G,FLORD SERIES G,WET Labs,ECO FLBB-SB,3286,,20140917,9554.5,,
 CGINS-FLORDG-03292,A01002,Sensor,0,2-Wavelength Fluorometer: FLORD Series G,FLORD SERIES G,WET Labs,ECO FLBB-SB,3292,,20140917,9554.5,,
 CGINS-FLORDG-03304,A01003,Sensor,0,2-Wavelength Fluorometer: FLORD Series G,FLORD SERIES G,WET Labs,ECO FLBB-SB,3304,,20140917,9554.5,,
