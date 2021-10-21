@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-2724,CC_frequency_offset,-7.827791e+002, source_file DOFST-K_SBE43F_SN_2724_Calibration_2021-06-22.zip > 2724.cal
+43-2724,CC_oxygen_signal_slope,2.765636e-004,no adjusted Soc; use SOC on 2724.cal
+43-2724,CC_residual_temperature_correction_factor_a,-4.666823e-003,
+43-2724,CC_residual_temperature_correction_factor_b,1.620229e-004,
+43-2724,CC_residual_temperature_correction_factor_c,-1.810448e-006,
+43-2724,CC_residual_temperature_correction_factor_e,3.600000e-002,
