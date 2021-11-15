@@ -57,7 +57,6 @@ fid = fopen(dev);
 %.. of spaces and tabs, so:
 C = textscan(fid, '%s%s%s%s%s', 'delimiter', {' ', '\t'}, ...
     'MultipleDelimsAsOne', 1);
-
 fclose(fid);
 %.. C is a 1x5 cell array of strings:
 %..     column 1 has the sensor identifier strings 
@@ -66,15 +65,15 @@ fclose(fid);
 
 %.. parse serial number from first line of devfile
 %.. .. some files have 'BBFL2W-', some have 'BBFL2-'
-idx = find(~cellfun(@isempty, strfind(C{1},'BBFL2W-')), 1)
+idx = find(~cellfun(@isempty, strfind(C{2},'BBFL2W-')), 1);
 if ~isempty(idx)
-    idx_ch = strfind(C{1}{idx}, 'BBFL2W-');
-    sernum = str2double(C{1}{idx}(idx_ch+7:end));
+    idx_ch = strfind(C{2}{idx}, 'BBFL2W-');
+    sernum = str2double(C2}{idx}(idx_ch+7:end));
 else
     idx = find(~cellfun(@isempty, strfind(C{1},'BBFL2-')), 1);
     if ~isempty(idx)
-        idx_ch = strfind(C{1}{idx}, 'BBFL2-');
-        sernum = str2double(C{1}{idx}(idx_ch+6:end));
+        idx_ch = strfind(C{2}{idx}, 'BBFL2-');
+        sernum = str2double(C{2}{idx}(idx_ch+6:end));
     else
         error('Cannot parse serial number from within infile');
     end
