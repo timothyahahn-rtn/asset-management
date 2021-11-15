@@ -3,6 +3,8 @@ function csvfilename = write_flort_dev_to_csv(dev)
 %.. desiderio 18-oct-2017 removed 'BBFL2W-' from serial numbers 
 %..                       in 1st column of calfile.
 %.. desiderio 28-nov-2017 seriesJ serial numbers WILL use 'BBFL2W-'
+%.. desiderio 28-jul-2021 some devfiles now omit 'ECO' in 1st row;
+%..                       code now parses serial number regardless.
 
 %*****************************************************************
 %      USE THIS PROGRAM IN PREFERENCE TO write_flort_qct_to_csv 
@@ -37,7 +39,7 @@ seriesD = [ 995  996 1121 1123   1151 1152 1153 1154  ...
            1155 1197 1290 1291   1302 1303 1487 1488]; 
 seriesJ = [1084 1156 1206 1207   1518 1519];
 
-seriesK = [1030 1032 1602];  % McLane profilers CE09OSPM
+seriesK = [1030 1032 1602 1707];  % McLane profilers CE09OSPM
 
 caldate_provenance = 'date in filename comes from dev file';
 
@@ -63,20 +65,19 @@ fclose(fid);
 %..     column 2 has the scale coeffs
 %..     column 3 has the caldate and dark counts
 
-%.. parse serial number from first line of devfile
+%.. parse serial number from first line of devfile:
 %.. .. some files have 'BBFL2W-', some have 'BBFL2-'
-idx = find(~cellfun(@isempty, strfind(C{2},'BBFL2W-')), 1);
+%.. 2021-07-28: dev file encountered that did NOT have 'ECO' preceding BBFL
+
+%.. condense the first line to get the serial number
+sss = ''; for ii=1:length(C), sss = [sss C{ii}{1}]; end
+sss = strrep(upper(sss), 'W', '');
+
+idx = strfind(sss, 'BBFL2-');
 if ~isempty(idx)
-    idx_ch = strfind(C{2}{idx}, 'BBFL2W-');
-    sernum = str2double(C2}{idx}(idx_ch+7:end));
+    sernum = str2double(sss(idx+6:end));
 else
-    idx = find(~cellfun(@isempty, strfind(C{1},'BBFL2-')), 1);
-    if ~isempty(idx)
-        idx_ch = strfind(C{2}{idx}, 'BBFL2-');
-        sernum = str2double(C{2}{idx}(idx_ch+6:end));
-    else
-        error('Cannot parse serial number from within infile');
-    end
+    error('Cannot parse serial number from within infile');
 end
 
 
@@ -96,7 +97,7 @@ end
 sn_str = num2str(sernum, '%5.5u');
 
 %.. find date of cal
-idx = find(~cellfun(@isempty, strfind(lower(C{1}),'created')), 1);
+idx = find(contains(lower(C{1}),'created'), 1);
 calstring = C{3}{idx};  % generalize read for permutations of m/d/yy
 D = textscan(calstring,'%u%c%u%c%u');
 yyyy = num2str(D{5}, '%4.4u');
@@ -151,6 +152,5 @@ fprintf(fid, '%s,%s,%s,%s\r\n', ...
     sn_str, 'CC_angular_resolution', '1.076', bug);
 
 fclose(fid);
-
 
 end
