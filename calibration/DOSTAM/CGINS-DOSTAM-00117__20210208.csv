@@ -1,3 +1,2 @@
 serial,name,value,notes
 117,CC_calibration_date,1612742400000,sensor calibration date (milliseconds since 1970-01-01)
-117,CC_ref_salinity,0.0,
