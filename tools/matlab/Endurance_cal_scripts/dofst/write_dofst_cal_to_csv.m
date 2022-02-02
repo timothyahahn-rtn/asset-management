@@ -11,8 +11,8 @@ function write_dofst_cal_to_csv(calfilename)
 %***********************************************************************
 %***********************************************************************
 %         USE SOC ***ADJUSTED***
-%   which is only listed in a certain PDF file,
-%   not in the following calfile.
+%   which is only listed in a certain PDF file, not in the following
+%   calfile. (9/27/2019: it *is* in this turn's calfile).
 %***********************************************************************
 %***********************************************************************
 %***********************************************************************
