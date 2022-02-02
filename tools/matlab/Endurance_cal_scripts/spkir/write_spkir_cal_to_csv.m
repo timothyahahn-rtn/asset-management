@@ -8,6 +8,8 @@ function csvfilename = write_spkir_cal_to_csv(calfilename)
 %
 %.. FUNCTION CALLS:
 %.. [cal] = rad_read_spkir_cal(calfilename)
+%
+%.. desiderio 24-aug-2021: added screen output at end
 
 clear template
 
@@ -67,5 +69,9 @@ for ii = 2:3
     fprintf(fid, '%i,%s,"%s",\r\n', template{ii,1:3});
 end
 fclose(fid);
+
+%. for output to screen to check OOI calfile coeffs in export code ...
+cal.date = {cal.date};  % so that transpose doesn't convert date to column vector
+disp(structfun(@transpose, cal, 'uni', 0));
 
 end

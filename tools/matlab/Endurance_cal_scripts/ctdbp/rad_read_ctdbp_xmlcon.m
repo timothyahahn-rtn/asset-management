@@ -1,5 +1,12 @@
 function [con] = rad_read_ctdbp_xmlcon(filename)
 %.. desiderio 17-sep-2015
+%..           26-feb-2020: changed fieldnames CPcor and CTcor to
+%..                        CPCOR and CTCOR to be consistent with
+%..                        qct cap and cal files.
+%..
+%..                        also updated code to use 'contains'
+%..                        
+%
 %.. read in calcoeffs from the input Seabird xmlcon file into the
 %.. output structure con.
 %
@@ -27,7 +34,8 @@ fclose(fid);
 C = C{1};
 
 %.. parse serial number into con data structure
-idx_sn = find(~cellfun(@isempty, strfind(C,'<SerialNumber>')), 1);
+%idx_sn = find(~cellfun(@isempty, strfind(C,'<SerialNumber>')), 1);
+idx_sn = contains(C, '<SerialNumber>');
 str = C{idx_sn};
 idx_ket = strfind(str, '>');  % two of these in this xml line
 idx_bra = strfind(str, '<');  % two of these in this xml line
@@ -40,7 +48,8 @@ caldate{nsensors} = nan;
 for ii = 1:nsensors
     %.. caldate is listed 2 rows after the row match
     match = [sensors{ii} 'Sensor SensorID'];
-    idx = 2 + find(~cellfun(@isempty, strfind(C, match)), 1);
+    %idx = 2 + find(~cellfun(@isempty, strfind(C, match)), 1);
+    idx = 2 + find(contains(C, match));
     str = C{idx};
     idx_ket = strfind(str, '>');  % two of these in this xml line
     idx_bra = strfind(str, '<');  % two of these in this xml line
@@ -53,12 +62,13 @@ con.caldate_pressure = caldate{3};
 
 %.. use this same algorithm to populate the structure fields
 for ii=1:length(coeff_name)
-    idx = find(~cellfun(@isempty, strfind(C,['<' coeff_name{ii} '>'])), 1);
+    %idx = find(~cellfun(@isempty, strfind(C,['<' coeff_name{ii} '>'])), 1);
+    idx = contains(C, ['<' coeff_name{ii} '>']);
     str = C{idx};
     idx_ket = strfind(str, '>');  % two of these in this xml line
     idx_bra = strfind(str, '<');  % two of these in this xml line
     idx_range = (idx_ket(1)+1):(idx_bra(2)-1);
-    con.(coeff_name{ii}) = sscanf(str(idx_range), '%s');
+    con.(upper(coeff_name{ii})) = sscanf(str(idx_range), '%s');
 end
 
 % clear C
