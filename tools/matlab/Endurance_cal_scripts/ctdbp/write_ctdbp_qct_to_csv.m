@@ -11,6 +11,7 @@ function csvfilename = write_ctdbp_qct_to_csv(capfilename)
 %.. ..        that the SBE-supplied pdf calfiles are sometimes not 
 %.. ..        current with respect to the data in the CTD's firmware.
 %.. desiderio 01-apr-2017
+%.. desiderio 27-jul-2020 re-orients fields at end for on-screen checks
 %
 %.. reads in the SBE cap file information from a QCT and writes out
 %.. the calcoeffs into csv files for uploading to the appropriate
@@ -94,5 +95,12 @@ for ii = 2:length(template)
     fprintf(fid, '%s,%s,%s,\r\n', template{ii, 1:3});
 end
 fclose(fid);
+
+%.. for on-screen checking of calcoeffs, especially if this routine
+%.. has been called by the version of the 'export' code which has 
+%.. been modified to open up the OOI csv file just written out in 
+%.. notepad.
+P = [1:8 25 26 21:24 18:20 12:17 9:11];
+disp(orderfields(con, P));  % to match order in OOI csv calfile
 
 end
