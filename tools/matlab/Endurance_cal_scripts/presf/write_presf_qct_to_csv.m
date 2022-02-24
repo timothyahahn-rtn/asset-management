@@ -9,6 +9,12 @@ function csvfilename = write_presf_qct_to_csv(txtfilename)
 %.. (because the calcoeffs in both are listed in the same way
 %.. enabling a common read mechanism).
 %
+%.. note that the pressure offset adjustment value is normally not in
+%.. the *.cal or *.psa file, rather a vendor pdf file is dedicated to 
+%.. reporting this value. also, the slope value when these instruments
+%.. come back from refurb is always 1. The QCT is always current on
+%.. the cal coeff values.
+%
 %.. filename must include the full path of the infile unless
 %.. the file is located in the working directory.
 %
@@ -106,6 +112,12 @@ for ii = 2:length(template)
 end
 fclose(fid);
 
+%.. for comparison with OOI csv file, need to add two fields:
+cal.offsetFactor = '0';
+cal.slopeFactor  = '1';
+P = [1:3 18 4:8 19 24 9 25 10:17 20:23];
+disp(orderfields(cal, P));
+
 end
 
 function date_char = parse_date(str)
@@ -121,7 +133,7 @@ function date_char = parse_date(str)
 
 %.. the only commonality is that the delimiter is a hyphen. So.
 
-if isempty(strfind(str, '-'))
+if ~contains(str, '-')
     disp(['sensor date is ' str]);
     error('PRESF sensordates inside qct files no longer contain hyphens.');
 end
@@ -147,8 +159,8 @@ if all(isletter(mid))
         error('Unparseable presf sensor caldate inside cap file.');
     end
 elseif all(~isletter(mid))  %  no letters, so month then day then year
-    mm = num2str( str2num(D{1}), '%2.2u');
-    dd = num2str( str2num(mid), '%2.2u');
+    mm = num2str( str2num(D{1}), '%2.2u');  %#ok
+    dd = num2str( str2num(mid), '%2.2u');   %#ok
 else
     disp(['sensor date is ' str]);
     error('Unparseable presf sensor caldate inside cap file.');

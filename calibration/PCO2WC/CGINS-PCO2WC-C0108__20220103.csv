@@ -1,0 +1,9 @@
+serial,name,value,notes
+C0108,CC_cala,0.0642,source_file PCO2W-C_SAMI-CO2_SN_C0108_Calibration_Files_2022-01-03.zip
+C0108,CC_calb,0.5191,
+C0108,CC_calc,-1.3970,
+C0108,CC_calt,14.3639,
+C0108,CC_ea434,19706,constant
+C0108,CC_ea620,34,constant
+C0108,CC_eb434,3073,constant
+C0108,CC_eb620,44327,constant
