@@ -9,6 +9,10 @@ function csvfilename = write_pco2w_qct_to_csv(qct)
 %.. figures written out from the instrument's firmware than are
 %.. displayed on the calibration certificate.
 %
+%..****************************************************
+%.. AFTER GENERATING CSV FILE, ADD SIGFIGS TO CAL TEMP.
+%..****************************************************
+%
 %..    All instruments are assumed to be series 'B' (Endurance)
 %
 %..    APPEND THE CALDATE FROM THE CAL CERTIFICATE TO THE QCT 
@@ -37,7 +41,8 @@ function csvfilename = write_pco2w_qct_to_csv(qct)
 % Cal6: 0.8973
 % :ConfigHex
 
-pwd
+disp(pwd)
+disp('Check sigfigs for CalT and add by hand if necessary.');
 
 %.. calcoeff order as in the QCTs above and Sunburst cal certificates:
 match = { 'cala'   'calb'   'calc'   'calt' };
@@ -57,7 +62,7 @@ C = strrep(C, char(9), ' ');  % replace tabs by spaces
 %.. delete everything after the 1st execution of :SAMIinfo;
 %.. first remove :SAMIinfoHex
 C = strrep(C, ':SAMIinfoHex', 'ZZTop');
-tf_SAMIinfo = ~cellfun('isempty', strfind(C, ':SAMIinfo'));
+tf_SAMIinfo = contains(C, ':SAMIinfo');
 if sum(tf_SAMIinfo)==0
     error('No '':SAMIinfo'' calcoeffs in the qct file.');
 end
