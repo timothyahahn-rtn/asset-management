@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-3535,CC_frequency_offset,-8.519096e+002,date in filename comes from Soc-adjusted caldate
+43-3535,CC_oxygen_signal_slope,3.5742e-004,this is the adjusted Soc (O2 signal slope) value
+43-3535,CC_residual_temperature_correction_factor_a,-4.487651e-003,
+43-3535,CC_residual_temperature_correction_factor_b,9.081310e-005,
+43-3535,CC_residual_temperature_correction_factor_c,-9.915820e-007,
+43-3535,CC_residual_temperature_correction_factor_e,3.600000e-002,
