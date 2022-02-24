@@ -41,7 +41,7 @@ C = C{1};
 C = strtrim(C);
 
 %.. parse serial number into cal data structure.
-idx = find(~cellfun(@isempty, strfind(C, 'SN')), 1);
+idx = find(contains(C, 'SN'), 1);
 if isempty(idx)
     error('Could not find serial number');
 end
@@ -52,7 +52,7 @@ cal.sernum = sscanf(str(idx+3:idx+7), '%u');
 
 %.. find the pressure sensor caldate
 match = 'Pressure coefficients:';
-idx = find(~cellfun(@isempty, strfind(C, match)), 1);
+idx = find(contains(C, match), 1);
 if isempty(idx)
     error('Could not find Pressure coefficients');
 end
@@ -64,7 +64,7 @@ cal.Pcal = str;
 
 %.. find the temperature sensor caldate
 match = 'Temperature coefficients:';
-idx = find(~cellfun(@isempty, strfind(C, match)), 1);
+idx = find(contains(C, match), 1);
 if isempty(idx)
     error('Could not find Temperature coefficients');
 end
@@ -76,7 +76,7 @@ cal.Tcal = str;
 
 %.. populate the structure fields
 for ii=1:length(coeff_name)
-    idx = find(~cellfun(@isempty, strfind(C,[coeff_name{ii} ' = '])));
+    idx = find(contains(C,[coeff_name{ii} ' = ']));
     if isempty(idx)
         cal.(coeff_name{ii}) = '';
     else

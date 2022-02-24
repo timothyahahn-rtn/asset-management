@@ -32,7 +32,7 @@ function csvfilename = write_phsen_qct_to_csv(qct)
 % Cal6: 3
 % :ConfigHex
 
-pwd
+disp(pwd)
 
 %.. calcoeff order as in the QCTs above and Sunburst cal certificates:
 match = {'Ea_434' 'Eb_434' 'Ea_578' 'Eb_578'};
