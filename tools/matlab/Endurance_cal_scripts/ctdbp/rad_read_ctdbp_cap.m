@@ -1,5 +1,18 @@
 function [con] = rad_read_ctdbp_cap(capfilename)
 %.. desiderio 30-sep-2017
+%.. desiderio 01-aug-2019: modified to work with QCT logs which were turned 
+%                          into pdfs so that I had to back-convert into txt.
+%.. desiderio 11-sep-2019: the above 'fix' introduced a bug where the PA0
+%                          coeff was incorrectly set to the PTEMPA0 value,
+%                          same for PA1, PA2 (mutatis mutandis).
+%.. desiderio 28-apr-2021: appended two spaces to the line containing the
+%                          serial number so that 3 and 4 digit serial 
+%                          could be read (for sbe49 on cspp).
+%.. In any case, all calfiles on asset management were checked, none were
+%.. contaminated.
+%
+%
+%
 %.. .. rad_read_ctdbp_cap operates on captured files from a SBE16+ CTD.
 %.. .. created by modifying rad_read_presf_cap.m (SBE26+)
 %
@@ -39,63 +52,70 @@ fclose(fid);
 C = C{1};
 
 %.. parse serial number into cal data structure.
-idx = find(~cellfun(@isempty, strfind(C, 'SERIAL NO.')), 1);
+idx = find(contains(C, 'SERIAL NO.'), 1);
 if isempty(idx)
     error('Could not find serial number');
 end
-str = C{idx};
+str = [C{idx} '  '];
 %.. read serial number from characters after 'NO.' 
 idx = strfind(str, 'NO.');
 con.sernum = sscanf(str(idx+4:idx+8), '%u');
 
 %.. find the temperature sensor caldate
 match = 'temperature: ';
-idx = find(~cellfun(@isempty, strfind(C, match)), 1);
+idx = find(contains(C, match), 1);
 if isempty(idx)
     error('Could not find Temperature coefficients');
 end
 str = C{idx};
 %.. read caldate from characters after ':'
 idx = strfind(str, ':');
-con.caldate_temperature = str(idx+3:idx+11);
+con.caldate_temperature = strtrim(str(idx+1:end));
 
 %.. find the conductivity sensor caldate
 match = 'conductivity: ';
-idx = find(~cellfun(@isempty, strfind(C, match)), 1);
+idx = find(contains(C, match), 1);
 if isempty(idx)
     error('Could not find Conductivity coefficients');
 end
 str = C{idx};
 %.. read caldate from characters after ':'
 idx = strfind(str, ':');
-con.caldate_conductivity = str(idx+3:idx+11);
+con.caldate_conductivity = strtrim(str(idx+1:end));
 
 %.. find the pressure sensor caldate
 match = 'pressure S/N = ';
-idx = find(~cellfun(@isempty, strfind(C, match)), 1);
+idx = find(contains(C, match), 1);
 if isempty(idx)
     error('Could not find Pressure coefficients');
 end
 str = C{idx};
 %.. read caldate from characters after ':'
 idx = strfind(str, ':');
-con.caldate_pressure = str(idx+3:idx+11);
+con.caldate_pressure = strtrim(str(idx+1:end));
 
-%.. populate the structure fields
-%.. prepend a space to coeff_name in the strfind statement so that
-%.. 'PA# = ' can be differentiated from 'PTEMPA# = ', #=1,2,3
+%.. populate the structure fields.
+%
+%.. USE EXACT MATCHES TO PREVENT THE POSSIBILITY OF CONFUSING
+%.. 'PA#' WITH 'PTEMPA# = ' FOR #=1,2,3.
+%
+%.. so, do not use 'contains'
+%
+%.. also, be extra careful because of the coeff name 'I' and:
+%.. .. (a) assume upper case
+%.. .. (b) use ' = ' in the match
 for ii=1:length(coeff_name)
-    idx = find(~cellfun(@isempty, strfind(C,[' ' coeff_name{ii} ' = '])));
+    idx = find(strncmp(strtrim(C), ...
+        [coeff_name{ii} ' = '], 3 + length(coeff_name{ii})));
     if isempty(idx)
         con.(coeff_name{ii}) = '';
+        disp([capfilename ' warning: '''' entry for ' coeff_name{ii}]);
     else
         %.. some of the cap files have coeffs written out twice;
         %.. just in case they could have been changed during the
         %.. SBE procedure, use last one.
         str = C{idx(end)};
         idx_eq = strfind(str, '=');
-        con.(field_name{ii}) = str(idx_eq+2:end);
+        con.(field_name{ii}) = strtrim(str(idx_eq+2:end));
     end
 end
-
-clear C
