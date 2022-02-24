@@ -1,6 +1,14 @@
 function [cal, fit] = rad_read_nutnr_calfile(calfilename, wvl_range)
+%.. desiderio 16-nov-2020  commented out warning, no T_CAL_SWA found.
+%..                        added datenumber field.
+%.. desiderio 13-nov-2020  renamed the 'factory_' fields to 'ISS_' fields.
+%.. desiderio 10-nov-2020  adapted for code to tabulate processing offsets
+%..                        (a) added filename field
+%..                        (b) added factory_caldate field
+%..                        (c) added factory_calname field
 %.. desiderio 29-sep-2017  added T_Cal_Swa to parsed values
 %.. desiderio 16-sep-2015
+%
 %.. reads in calcoeffs from the input Satlantic comma-delimited ISUS or
 %.. SUNA cal file.
 %
@@ -30,6 +38,10 @@ fclose(fid);
 %.. get rid of wrapping cell array
 C = C{1};
 
+%.. write out filename to structure
+[~, name, ~] = fileparts(calfilename);
+cal.filename = name;  % don't bother with extension
+
 %.. determine whether the instrument is an isus or suna.
 %.. this info is on the first line.
 cal.instrument = C{1}(3:6);
@@ -41,6 +53,8 @@ cal.sernum = sscanf(C{1}(8:11), '%u');  % instrument serial number
 %.. ISUSCom both have the relevant caldate and time on the 4th row
 %.. of the calfile. So, directly read it out.
 cal.date = C{4}(22:32);  % dd-mmm-yyyy
+%.. also add serial datenumber including time
+cal.datenumber = datenum(C{4}(22:41));  % dd-mmm-yyyy hh:mm:ss
 %.. find factory cal temperature
 %.. NOTE: the factory value in any ISUS or SUNA cal file should NEVER be
 %..       changed by the user; the fitting extinction coeffs in the cal
@@ -70,7 +84,7 @@ end
 
 tf_tcal_swa = strncmpi('H,T_CAL_SWA',C,11);
 if sum(tf_tcal_swa)==0
-    disp(['No T_CAL_SWA line in ' calfilename]);
+    %disp(['No T_CAL_SWA line in ' calfilename]);
     cal.tcal_swa = [];
 elseif sum(tf_tcal_swa)>1
     error(['Too many T_CAL_SWA lines in ' calfilename]);
@@ -83,7 +97,6 @@ else
     %.. round to the millidegree
     cal.tcal_swa = round(1000*cal.tcal_swa) * 0.001;
 end
-
 
 %.. find header row just before the caldata to be read in
 tf_row0 = strcmpi('H,Wavelength,NO3,SWA,TSWA,Reference',C);
@@ -101,6 +114,21 @@ cal.eno3 = data(:,2);   % ext coeffs for nitrate
 cal.eswa = data(:,3);   % ext coeffs for seawater
 cal.tswa = data(:,4);   % ext coeffs for seawater, temperature dependent
 cal.ref  = data(:,5);   % cal purewater reference spectrum
+
+%.. the most recent factory calibration name (letter) is not 
+%.. always encoded in the first row. Initialize as empty set. 
+%.. The programs to figure re-processing offsets will deal
+%.. with this.
+cal.ISS_calname = '';
+
+%.. write factory caldate, which will be contained in the last 
+%.. File creation time row. This cal will have been created by
+%.. the "Internal Software Suite" and not SUNA.com. Even if the
+%.. factory does a SUNA cal after the ISS cal I want the ISS caldate
+%.. because that is the one which writes in all the column coeffs 
+%.. (SUNAcom cals just replace the DI Reference column values).
+fileCreationTimeRows = C(contains(C, 'File creation time')); 
+cal.ISS_caldate  = fileCreationTimeRows{end}(22:32);
 
 clear C
 
