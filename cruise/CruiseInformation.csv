@@ -1,0 +1,411 @@
+CUID,ShipName,cruiseStartDateTime,cruiseStopDateTime,notes
+UNRECOVERED,N/A,2009-09-01T00:00:00,2040-09-30T00:00:00,this is a placeholder for platforms/instruments that are not recovered
+TN299,Thomas G. Thompson,2013-06-30T00:00:00,2013-08-23T23:59:59,Cabled (rvdata)
+MV1309,Melville,2013-07-15T19:00:00,2013-07-30T23:00:00,Papa 1
+KN214,Knorr,2013-11-20T18:00:00,2013-11-26T14:00:00,Pioneer 1
+TY-1402,John P. Tully,2014-02-20T00:00:00,2014-02-20T00:00:00,Papa Glider Operations
+KN217,Knorr,2014-04-11T17:00:00,2014-04-19T10:30:00,Pioneer 2
+OC1404B,Oceanus,2014-04-15T00:00:00,2014-04-21T23:59:59,Endurance 1 (rvdata)
+KN218,Knorr,2014-05-01T00:00:00,2014-05-12T23:59:59,Pioneer glider cp_387 recovery
+MV1404,Melville,2014-06-10T16:00:00,2014-06-29T16:00:00,Papa 2
+CT20140711,Connecticut,2014-07-11T00:00:00,2014-07-11T23:59:59,Pioneer 2a
+TN313,Thomas G. Thompson,2014-07-13T00:00:00,2014-10-06T23:59:59,Cabled (rvdata)
+EK20140807,Elakha,2014-08-07T00:00:00,2014-08-07T00:00:00,Endurance Glider Deployment
+TY-1408,John P. Tully,2014-08-29T00:00:00,2014-08-29T00:00:00,Papa Glider Operations
+KN221-04,Knorr,2014-09-07T09:00:00,2014-09-28T23:59:59,Irminger 1
+KN222,Knorr,2014-10-03T22:00:00,2014-10-11T11:00:00,Pioneer 3 Leg 1
+OC1410A,Oceanus,2014-10-06T00:00:00,2014-10-10T23:59:59,Endurance 2 (rvdata)
+AQ20141030,Aquila,2014-10-30T00:00:00,2014-10-31T23:59:59,Papa Glider gp_453 recovery
+KN224,Knorr,2014-12-11T19:08:00,2014-12-16T15:45:00,Pioneer 3 leg 2
+WJ20141230,Warren Jr.,2014-12-30T13:30:00,2014-12-31T12:00:00,Pioneer ISSM-1 buoy recovery
+SI20150110,Scarlett Isabella,2015-01-10T00:00:00,2015-01-13T23:59:59,Pioneer 3a
+PS1501,Pacific Storm,2015-01-21T20:28:00,2015-01-21T22:02:00,Endurance GL info
+AT26-29,Atlantis,2015-02-12T15:00:00,2015-03-04T23:59:59,Southern Ocean 1
+EN552,Endeavor,2015-03-01T00:00:00,2015-03-05T23:59:59,Pioneer glider cp_387 recovery
+AT26-30,Atlantis,2015-03-08T12:00:00,2015-03-26T23:59:59,Argentine Basin 1
+EK-1503,Elakha,2015-03-18T00:00:00,2015-03-18T23:59:59,Endurance CE02SHSP
+MM20150327,Maria S. Merian,2015-03-27T00:00:00,2015-03-27T23:59:59,Pioneer glider cp_336 recovery
+OC1503D,Oceanus,2015-04-02T00:00:00,2015-04-12T23:59:59,Endurance 3a (rvdata)
+AT27,Atlantis,2015-04-28T16:00:00,2015-05-14T12:26:00,Pioneer 4
+TN323,Thomas G. Thompson,2015-05-29T16:00:00,2015-06-13T04:00:00,Papa 3
+PS1506A,Pacific Storm,2015-06-03T00:00:00,2015-06-03T23:59:59,Endurance 3b
+EK20150603,Elakha,2015-06-03T00:00:00,2015-06-03T23:59:59,Endurance 3b
+CT20150612,Connecticut,2015-06-12T00:00:00,2015-06-12T23:59:59,Pioneer ISSP recovery
+EK-1506,Elakha,2015-06-23T00:00:00,2015-06-23T23:59:59,Endurance CE01ISSP
+MH20150702,Matthew Hughes,2015-07-02T00:00:00,2015-07-02T23:59:59,Pioneer glider cp_340 recovery
+TN326,Thomas G. Thompson,2015-07-04T00:00:00,2015-08-07T23:59:59,Cabled (rvdata)
+ML-1507,Miss Linda,2015-07-08T00:00:00,2015-07-08T23:59:59,Endurance CE06ISSP
+EK-1507,Elakha,2015-07-17T00:00:00,2015-07-17T23:59:59,Endurance CE01ISSP
+SI20150722,Scarlett Isabella,2015-07-22T00:00:00,2015-07-26T23:59:59,Pioneer 4a
+MGL1512,Marcus G. Langseth,2015-07-30T00:00:00,2015-08-28T23:59:59,Pioneer CNSP recovery
+AT30-01,Atlantis,2015-08-05T18:30:00,2015-09-01T23:59:59,Irminger 2
+PS1508,Pacific Storm,2015-08-13T21:09:00,2015-08-13T21:09:00,Endurance GL info
+OC1508C,Oceanus,2015-08-13T21:38:00,2015-08-22T21:38:00,Endurance GL info (rvdata)
+EK-1508,Elakha,2015-08-21T00:00:00,2015-08-22T23:59:59,Endurance CE06ISSP CE07SHSP
+TN330,Thomas G. Thompson,2015-09-22T00:00:00,2015-09-27T23:59:59,Endurance 4a - recover (rvdata)
+OC1510A,Oceanus,2015-10-07T00:00:00,2015-10-18T23:59:59,Endurance 4b (rvdata)
+AT31,Atlantis,2015-10-11T14:30:00,2015-11-01T11:30:00,Pioneer 5
+AT32,Atlantis,2015-11-06T00:00:00,2015-12-01T23:59:59,Pioneer glider cp_387 recovery
+NBP1510,Nathaniel B. Palmer,2015-11-07T22:20:00,2015-12-03T06:00:00,Argentine Basin 2
+SKQ201513T,Sikuliaq,2015-11-11T00:00:00,2015-11-22T23:59:59,Papa Glider gp_514 recovery
+SI20151116,Scarlett Isabella,2015-11-16T00:00:00,2015-11-17T23:59:59,Pioneer glider cp_335 recovery
+NBP1511,Nathaniel B. Palmer,2015-12-06T16:00:00,2016-01-02T23:59:59,Southern Ocean 2
+SI20151207,Scarlett Isabella,2015-12-07T00:00:00,2015-12-08T23:59:59,Pioneer glider cp_376 recovery
+PS1601,Pacific Storm,2016-01-21T01:30:00,2016-01-21T01:30:00,
+SI20160122,Scarlett Isabella,2016-01-22T00:00:00,2016-01-28T23:59:59,Pioneer 5a
+OC1601,Oceanus,2016-01-22T20:45:00,2016-01-22T21:40:00,Endurance GL info (...rvdata)
+SI20160202,Scarlett Isabella,2016-02-02T00:00:00,2016-02-03T23:59:59,Pioneer glider cp_340 recovery
+OC1602,Oceanus,2016-02-17T16:55:00,2016-02-17T16:55:00,Endurance GL info (...rvdata)
+JCR15006,James Clark Ross,2016-03-31T00:00:00,2016-04-26T23:59:59,Argentine Glider ga_563 recovery
+AR1-07,Neil Armstrong,2016-04-02T17:17:00,2016-04-06T13:00:00,Pioneer Glider & Mooring Ops - Armstrong Science Verification Cruise III
+KA20160418,Karoline Marie,2016-04-18T00:00:00,2016-04-18T23:59:59,Pioneer glider cp_335 recovery
+WOO20160420,Wahoo,2016-04-20T00:00:00,2016-04-20T23:59:59,Pioneer glider cp_339 recovery
+AR3,Neil Armstrong ,2016-05-02T17:28:00,2016-05-09T13:01:00,Pioneer Dock Recovery - Armstrong Science Verification Cruise IV
+TN342,Thomas G. Thompson,2016-05-04T00:00:00,2016-05-18T23:59:59,Endurance 5 (rvdata)
+AR4,Neil Armstrong,2016-05-12T19:00:00,2016-06-01T07:30:00,Pioneer 6
+PS1605,Pacific Storm,2016-05-27T20:50:00,2016-05-27T20:50:00,
+AM-1601,Amundsen,2016-06-03T00:00:00,2016-06-23T23:59:00,Irminger glider gi_528 recovery
+PS1606,Pacific Storm,2016-06-16T00:00:00,2016-06-16T23:59:59,Endurance CE01ISSP
+RB1605,Ronald H. Brown,2016-06-23T22:30:00,2016-07-09T23:59:59,Papa 4
+TS20160627,Tenacious II,2016-06-27T00:00:00,2016-06-28T23:59:00,Pioneer glider cp_335 recovery
+AR7-01,Neil Armstrong,2016-06-30T23:00:00,2016-07-26T08:30:00,Irminger 3 & Pioneer
+SKQ201610S,Sikuliaq,2016-07-12T00:00:00,2016-08-09T23:59:59,Cabled (rvdata)
+JR-1607,Jack Robertson,2016-07-20T00:00:00,2016-07-20T23:59:59,Endurance CE06ISSP
+DL20160728,Dauntless,2016-07-28T00:00:00,2016-07-29T23:59:59,Pioneer glider cp_387 recovery
+CT20160808,Connecticut,2016-08-08T00:00:00,2016-08-10T23:59:59,Pioneer 6a
+TS20160818,Tenacious II,2016-08-18T00:00:00,2016-08-18T23:59:59,Pioneer glider cp_336 recovery
+EK-1608,Elakha,2016-08-23T00:00:00,2016-08-23T23:59:59,Endurance CE02SHSP
+AQ20160827,Aquila,2016-08-27T00:00:00,2016-08-28T23:59:59,Papa Glider gp_523 recovery
+NBP1608,Nathaniel B. Palmer,2016-09-07T00:00:00,2016-10-14T23:59:59,Southern Ocean glider gs_566 recovery
+AT37-03,Atlantis,2016-09-18T20:15:00,2016-10-03T09:30:00,Endurance 6
+AR8,Neil Armstrong ,2016-09-28T00:15:00,2016-10-16T15:15:00,Pioneer 7
+PS1610A,Pacific Storm,2016-10-11T16:00:00,2016-10-12T02:00:00,Endurance CE02SHSP
+NBP1609,Nathaniel B. Palmer,2016-10-21T10:35:00,2016-11-15T19:00:00,Argentine Basin 3
+NBP1610,Nathaniel B. Palmer,2016-11-20T11:14:00,2016-12-16T09:55:00,Southern Ocean 3
+PS1612,Pacific Storm,2016-12-15T00:00:00,2016-12-15T00:00:00,Endurance Gliders
+TS20161219,Tenacious II,2016-12-19T00:00:00,2016-12-19T23:59:59,Pioneer glider cp_336 recovery
+PS1701A,Pacific Storm,2017-01-05T00:15:00,2017-01-07T00:30:00,Endurance CE02SHSP and Gliders
+WJ20170115,Warren Jr.,2017-01-15T00:00:00,2017-01-19T23:59:59,Pioneer 7a
+EK-1701,Elakha,2017-01-31T18:30:00,2017-01-31T22:40:00,Endurance GL info
+PS1702A,Pacific Storm,2017-02-13T17:29:00,2017-02-13T23:20:00,deployed CE02SHSP-00005 and Glider 381
+TS20170306,Tenacious II,2017-03-06T00:00:00,2017-03-06T23:59:00,Pioneer glider cp_335 recovery
+DS17-03A,Discovery,2017-03-08T07:05:00,2017-03-08T14:00:00,Glider recovery.
+PS1703C,Pacific Storm,2017-03-31T00:00:00,2017-03-31T00:00:00,Glider recovery.
+SKQ201704S,Sikuliaq,2017-04-09T19:20:00,2017-04-23T19:30:00,Endurance 7.  times added from 4\9 report and QuickLook document.
+SI20170418,Scarlett Isabella,2017-04-18T00:00:00,2017-04-22T23:59:59,Pioneer 7b glider deployment/recovery
+TS20170423,Tenacious II,2017-04-23T00:00:00,2017-04-23T23:59:59,Pioneer glider cp_340 recovery
+EK-1704,Elakha,2017-04-26T12:00:00,2017-04-26T23:59:59,CE02SHSP_00006 recovery
+SKQ201706T,Sikuliaq,2017-05-01T00:00:00,2017-05-25T23:59:59,Papa glider gp_365 recovery
+Charter_20170510,Mach 1,2017-05-10T00:00:00,2017-05-10T00:00:00,Glider Recovery
+PS1705D,Pacific Storm,2017-05-17T16:52:00,2017-05-19T18:01:00,CSPP and Glider operations
+DS1705A,Discovery,2017-05-22T13:00:00,2017-05-23T01:32:00,Glider recovery.
+PS1705E,Pacific Storm,2017-05-26T00:00:00,2017-05-31T00:00:00,Glider recovery.
+AR18,Neil Armstrong ,2017-05-30T19:00:00,2017-06-20T11:30:00,Pioneer 8
+AJ20170618,Adolf Jensen,2017-06-18T00:00:00,2017-06-18T23:59:59,Irminger Glider Recovery - went adrift from Irminger 3
+ML-1706A,Miss Linda,2017-06-27T15:00:00,2017-06-28T09:30:00,Endurance CSPPs & Gliders
+TS20170702,Tenacious II,2017-07-02T00:00:00,2017-07-02T23:59:59,Pioneer Glider Recovery
+SR1710,Sally Ride,2017-07-07T23:00:00,2017-07-22T19:45:00,Papa 5
+ML-1707,Miss Linda,2017-07-18T14:37:00,2017-07-20T00:30:00,Endurance CE01ISSP_00008
+CE-1707,Centennial,2017-07-23T12:30:00,2017-07-26T02:30:00,Endurance CE06ISSP_00008
+TS20170727,Tenacious II,2017-07-27T00:00:00,2017-07-27T23:59:59,Pioneer glider cp_339 recovery
+RR1713,Roger Revelle,2017-07-27T10:28:00,2017-08-07T13:00:00,Cabled (rvdata) Visions 17 Leg 1
+AR21,Neil Armstrong,2017-07-28T12:28:00,2017-08-24T17:23:00,Irminger 4
+RR1714,Roger Revelle,2017-08-09T17:30:00,2017-08-19T12:00:00,Cabled (rvdata) Visions 17 Leg 2
+WJ20170815,Warren Jr.,2017-08-15T00:00:00,2017-08-18T23:59:59,Pioneer 8a glider deployment/recovery
+RR1715,Roger Revelle,2017-08-20T17:30:00,2017-08-27T17:00:00,Cabled (rvdata) Visions 17 Leg 3
+EK-1708A,Elakha,2017-08-25T15:46:00,2017-08-25T20:59:00,CE02SHSP_00007 deployment
+PS1708A,Pacific Storm,2017-08-27T17:30:00,2017-08-31T21:30:00,Anchor ROV and Glider operations
+RR1717,Roger Revelle,2017-09-09T16:30:00,2017-09-09T23:30:00,Cabled (rvdata) Visions 17 Leg 4
+SKQ201715S,Sikuliaq,2017-10-02T23:42:17,2017-10-17T01:59:43,Endurance 8.  times from QuickLook Cruise Report Table 3
+TA20171007,Tioga,2017-10-07T00:00:00,2017-10-07T23:59:59,Pioneer glider cp_564 recovery
+AR24,Neil Armstrong,2017-10-22T17:00:00,2017-11-12T15:11:00,Pioneer 9
+PS1711A,Pacific Storm,2017-11-17T00:00:00,2017-11-17T00:00:00,Glider Recovery
+NBP1709,Nathaniel B. Palmer,2017-11-23T15:30:00,2017-12-08T23:23:00,Southern Ocean 4
+TS20171124,Tenacious II,2017-11-24T00:00:00,2017-11-24T23:59:59,Pioneer glider cp_380 recovery
+PS1712A,Pacific Storm,2017-12-07T15:30:00,2017-12-09T16:00:00,CSPP and Glider operations
+Charter_20171218,Gracie Lynn,2017-12-18T00:00:00,2017-12-18T00:00:00,Glider Deployment
+EK-1801A,Elakha,2018-01-03T00:00:00,2018-01-03T00:00:00,CSPP and Glider operations
+TS20180103,Tenacious II,2018-01-03T00:00:00,2018-01-03T23:59:59,Pioneer glider cp_387 recovery
+AT39-03,Atlantis,2018-01-05T22:16:00,2018-01-19T11:30:00,Argentine Basin 4
+SI20180126,Scarlett Isabella,2018-01-26T00:00:00,2018-01-31T23:59:00,Pioneer 9a
+EN608,Endeavor,2018-01-31T00:00:00,2018-02-05T23:59:59,Pioneer glider cp_380 recovery
+Charter_20180203,Sea Legend,2018-02-03T00:00:00,2018-02-03T00:00:00,Glider Recovery
+EK201803A,Elakha,2018-03-06T16:00:00,2018-03-06T23:00:00,Endurance Glider Recoveries and Deployment
+EK201803B,Elakha,2018-03-09T17:20:00,2018-03-10T00:37:00,Endurance Glider recovery
+STD20180403,SeaTow Delmarva,2018-04-03T00:00:00,2018-04-03T23:59:59,Pioneer glider cp_336 recovery
+AR28,Neil Armstrong,2018-03-23T20:00:00,2018-04-13T14:00:00,Pioneer 10
+SKQ201808S,Sikuliaq,2018-03-25T02:30:00,2018-04-05T00:00:00,Endurance 9
+PS201804A,Pacific Storm,2018-04-20T15:25:00,2018-04-20T22:30:00,ce01issp_00009 and ce02shsp_00009 deployments
+STD20180423,SeaTow Delmarva,2018-04-23T00:00:00,2018-04-23T23:59:00,Pioneer glider cp_339 recovery
+WJ20180423,Warren Jr.,2018-04-23T00:00:00,2018-04-28T23:59:00,Pioneer 10a AUV deploy/recover
+PS201805A,Pacific Storm,2018-05-03T15:30:00,2018-05-03T20:00:00,Endurance  CSPP and Glider
+ML201805B,Miss Linda,2018-05-09T16:30:00,2018-05-11T00:10:00,Endurance CSPPs & Gliders
+PS201805C,Pacific Storm,2018-05-23T14:30:00,2018-05-23T20:15:00, ce02shsp_00010 deployment
+ML201805D,Miss Linda,2018-05-31T21:30:00,2018-06-02T11:15:00,Endurance Glider Recoveries
+AR30-03,Neil Armstrong,2018-06-05T13:30:00,2018-06-24T09:03:00,Irminger 5
+PS201806A,Pacific Storm,2018-06-19T16:05:00,2018-06-22T04:00:00,Endurance ce06issp_00009 and ce07shsp_00006 deployments and Glider ops
+RR1809,Roger Revelle,2018-06-23T10:00:00,2018-06-30T16:00:00,Cabled (rvdata) Visions 18 Leg 1
+RR1810,Roger Revelle,2018-07-01T10:00:00,2018-07-12T16:00:00,Cabled (rvdata) Visions 18 Leg 2
+EK201807A,Elakha,2018-07-05T15:10:00,2018-07-05T22:42:00,Endurance Glider Deployments
+RR1811,Roger Revelle,2018-07-13T10:00:00,2018-07-18T16:00:00,Cabled (rvdata) Visions 18 Leg 3
+EK201807B,Elakha,2018-07-16T16:00:00,2018-07-16T21:00:00,Endurance Glider Deployment and CSPP Recovery
+SR1811,Sally Ride,2018-07-17T23:00:00,2018-08-04T04:30:00,Papa 6
+RR1812,Roger Revelle,2018-07-20T10:00:00,2018-08-03T16:00:00,Cabled (rvdata) Visions 18 Leg 4
+CT20180724,Connecticut,2018-07-24T03:00:00,2018-07-25T09:00:00,Pioneer 10b Gliders and AUVs
+EK201807D,Elakha,2018-07-27T15:00:00,2018-07-27T23:30:00,Endurance CSPP Deployment CE01ISSP_00011
+EK201808B,Elakha,2018-08-02T17:26:00,2018-08-03T01:21:00,Endurance Glider and CSPP recoveries
+SR1812,Sally Ride,2018-08-09T00:00:00,2018-09-13T00:00:00,Papa Glider Deploy - NASA EXPORTS cruise
+EK20180824,Elakha,2018-08-24T15:45:00,2018-08-24T19:38:00,Endurance Glider deployment 319-00007
+ML20180907,Miss Linda,2018-09-07T13:29:00,2018-09-07T17:24:00,Endurance Glider Deployment 382-00004
+SR1813,Sally Ride,2018-09-17T11:30:00,2018-10-02T14:20:00,Endurance 10 and cspps and gliders
+TS20181001,Tenacious II,2018-10-01T00:00:00,2018-10-01T23:59:59,Pioneer glider cp_376 recovery
+EK20181017,Elakha,2018-10-17T15:15:00,2018-10-17T21:20:00,Endurance Glider operations
+AR31,Neil Armstrong,2018-10-20T18:00:00,2018-11-09T16:30:00,Pioneer 11
+EK20181022,Elakha,2018-10-22T11:49:00,2018-10-22T15:00:00,Endurance Glider recovery
+SU20181101,Pacific Surveyor,2018-11-01T15:10:00,2018-11-01T18:22:00,Endurance Glider Deployment
+MR20181116,Miss Raven,2018-11-16T16:14:00,2018-11-16T18:54:00,Endurance Glider Recovery
+DY096,Discovery,2018-11-28T09:00:00,2018-12-14T11:10:00,Southern Ocean 5 (CUSTARD)
+TS20181130,Tenacious II,2018-11-30T08:00:00,2018-11-30T23:59:00,Pioneer Glider Deploy - 339 deploy 8 by Eric Hesse
+ML20181203,Miss Linda,2018-12-03T16:15:00,2018-12-03T18:42:00,Endurance Glider Recovery
+RC20181203,Rachel Carson,2018-12-03T18:00:00,2018-12-08T21:00:00,Endurance Profiler Recovery and Glider Deployment
+TS20181209,Tenacious II,2018-12-09T05:00:00,2018-12-09T23:59:00,Glider 339 deploy 9 by Eric Hesse
+OC1901A,Oceanus,2019-01-11T00:00:00,2019-01-15T00:00:00,Endurance opportunity glider recovery by Oceanus martech
+SU20190125,Pacific Surveyor,2019-01-25T16:30:00,2019-01-26T04:26:00,Endurance Glider Deployments
+WJ20190203,Warren Jr.,2019-02-03T09:00:00,2019-02-04T21:00:00,"Pioneer 11a, OSSM D9 buoy recovery, GL388 D7 recovery"
+TS20190205,Tenacious II,2019-02-05T00:30:00,2019-02-06T01:00:00,"Pioneer 11b, glider deployments"
+TY-1902,John P. Tully,2019-02-05T12:00:00,2019-02-23T12:00:00,Papa Glider gp_276 recovery on the Line P 2019-002 cruise
+WJ20190228,Warren Jr.,2019-02-28T17:00:00,2019-03-02T13:00:00,"Pioneer 11c, AUV deployments, glider cp_339 recovery"
+SKQ201905S,Sikuliaq,2019-03-24T00:00:00,2019-03-24T00:00:00,Endurance opportunistic glider ce_383 recovery
+EK20190403,Elakha,2019-04-03T15:00:00,2019-04-03T22:00:00,Endurance ce01issp_00012 and ce02shsp_00012 deployments
+AR34,Neil Armstrong,2019-04-04T15:10:00,2019-04-24T11:36:00,Pioneer 12
+ML20190417,Miss Linda,2019-04-07T15:07:00,2019-04-17T22:00:00,Endurance glider ce_327 recovery
+SKQ201910S,Sikuliaq,2019-04-19T20:00:00,2019-04-28T15:46:47,Endurance 11A
+OC1905C,Oceanus,2019-05-03T20:00:00,2019-05-08T00:00:00,Endurance 11B
+BK20190504,Blackhawk,2019-05-04T09:00:00,2019-05-04T20:00:00,Pioneer cp_340 recovery
+SKQ201913T,Sikuliaq,2019-05-14T00:00:00,2019-05-27T00:00:00,Papa Glider gp_469 recovery on the San Diego - Seward transit
+EK20190515,Elakha,2019-05-15T15:30:00,2019-05-15T22:00:00,Endurance glider deployment and CSPP anchor recovery
+TS20190516,Tenacious II,2019-05-16T12:00:00,2019-05-17T12:00:00,Pioneer 12a glider deployment
+AR35-03,Neil Armstrong,2019-05-27T00:00:00,2019-06-20T23:59:59,Irminger Glider gi_363 Recovery - Niskine Process Cruise
+EK20190529,Elakha,2019-05-29T16:22:00,2019-05-29T19:33:00,Endurance ce01issp_00013 deployment
+AT42-12,Atlantis,2019-06-02T00:00:00,2019-07-09T00:00:00,Cabled (rvdata) Visions 19
+ML20190612,Miss Linda,2019-06-12T13:00:00,2019-06-13T18:00:00,Endurance glider recovery
+WJ20190617,Warren Jr.,2019-06-17T18:00:00,2019-06-20T00:04:00,Pioneer 12b glider and AUV deployment
+EK20190624,Elakha,2019-06-24T14:55:00,2019-06-24T19:00:00,Endurance ce02shsp_00013 deployment
+MZ20190626,Mattanza,2019-06-26T00:00:00,2019-06-26T23:59:59,Pioneer glider cp_376 recovery
+EK20190703,Elakha,2019-07-03T15:17:00,2019-07-03T21:00:00,Endurance ce02shsp_00014 glider deployment
+WJ20190709,Warren Jr.,2019-07-09T09:00:00,2019-07-12T19:00:00,Pioneer 12c AUV deployment
+MZ20190727,Mattanza,2019-07-27T04:00:00,2019-07-27T23:00:00,Pioneer glider cp_379 recovery
+AR35-05,Neil Armstrong,2019-08-02T14:00:00,2019-08-24T14:25:00,Irminger 6
+KP20190808,Kalipi,2019-08-08T13:00:00,2019-08-08T23:14:00,Endurance glider recoveries and deployment
+EK20190813,Elakha,2019-08-13T15:00:00,2019-08-13T23:00:00,Endurance ce02shsp_00015 deployment
+EK20190822,Elakha,2019-08-22T12:00:00,2019-08-22T20:00:00,Endurance ce01issp_00014 and glider deployment
+RC20190827,Rachel Carson,2019-08-27T12:00:00,2019-08-27T19:00:00,Endurance ce06issp_00011 deployment
+SKQ201920S,Sikuliaq,2019-09-19T16:10:00,2019-10-05T00:28:00,Papa 7
+AR38,Neil Armstrong,2019-09-20T14:00:00,2019-09-22T15:15:00,Pioneer glider recovery
+AR39,Neil Armstrong,2019-09-25T16:55:00,2019-10-15T16:26:00,Pioneer 13
+SKQ201921S,Sikuliaq,2019-10-10T05:00:00,2019-10-24T00:00:00,Endurance 12
+AR40,Neil Armstrong,2019-10-20T12:00:00,2019-11-06T16:00:00,Pioneer glider cp_340 recovery
+AR41,Neil Armstrong,2019-11-18T00:00:00,2019-11-22T23:59:59,Pioneer glider cp_379 recovery
+EK20191121,Elakha,2019-11-21T16:14:00,2019-11-22T00:08:00,Endurance CSPP and glider operations
+TS20191212,Tenacious II,2019-12-12T15:00:00,2019-12-13T23:59:00,Pioneer 13a glider deployment
+DY112,Discovery,2020-01-16T09:10:00,2020-01-25T10:35:00,Southern Ocean 6 (CUSTARD)
+EK20200212,Elakha,2020-02-12T16:00:00,2020-02-12T21:30:00,Endurance ce02shsp_00017 deployment
+SU20200220,Pacific Surveyor,2020-02-20T14:50:00,2020-02-20T22:55:00,Endurance Glider Deployment ce_383_00009
+AR42-02,Neil Armstrong,2020-02-24T12:00:00,2020-03-04T23:59:00,Pioneer glider cp_340 recovery
+TS20200301,Tenacious II,2020-03-01T20:00:00,2020-03-02T15:00:00,Pioneer 13b glider deployments
+WJ20200323,Warren Jr.,2020-03-23T00:00:00,2020-03-27T23:59:00,Pioneer 13c AUV deployments
+AJ20200506,Adolf Jensen,2020-05-06T12:00:00,2020-05-08T12:00:00,Irminger glider gi_525 recovery
+TS20200522,Tenacious II,2020-05-22T06:00:00,2020-05-22T23:59:59,Pioneer 13b glider recoveries
+ZP20200604,Zephyr,2020-06-04T08:00:00,2020-06-08T23:59:59,Papa Glider gp_537 and gp_575 recoveries
+AR44,Neil Armstrong,2020-06-07T16:26:00,2020-06-16T16:32:00,Pioneer 14
+EK20200612,Elakha,2020-06-12T16:06:00,2020-06-12T23:00:00,Endurance Glider deployment 320_00006
+TS20200613,Tenacious II,2020-06-13T11:00:00,2020-06-14T04:00:00,Pioneer 14a Glider deployments
+TS20200629,Tenacious II,2020-06-29T17:00:00,2020-06-30T09:00:00,Pioneer glider cp_380 recovery
+TN380,Thomas G. Thompson,2020-07-04T00:00:00,2020-07-16T19:00:00,Endurance 13 moorings profilers and gliders
+MZ20200731,Mattanza,2020-07-31T03:00:00,2020-07-31T23:59:59,Pioneer gliders cp_339 and cp_583 recoveries
+TN382,Thomas G. Thompson,2020-08-02T00:00:00,2020-08-28T23:59:59,Cabled (rvdata)
+AR46,Neil Armstrong,2020-08-08T12:18:00,2020-09-04T17:02:00,Irminger 7
+EK20200814,Elakha,2020-08-14T14:15:00,2020-08-14T18:50:00,Endurance CSPP deployment CE02SHSP-00018
+TS20200819,Tenacious II,2020-08-19T07:30:00,2020-08-20T06:30:00,Pioneer 14b Glider deployments and recoveries
+PS20200917,Pacific Storm,2020-09-17T17:30:00,2020-09-20T17:30:00,Endurance CSPP and glider operations
+TS20200925,Tenacious II,2020-09-25T21:00:00,2020-09-26T15:00:00,Pioneer 14c Glider deployments
+ZP20200930,Zephyr,2020-09-30T17:00:00,2020-10-03T23:59:59,Papa 7a Glider deployments
+EN657,Endeavor,2020-10-13T13:00:00,2020-10-18T16:00:00,Pioneer glider cp_340 recovery
+AR48,Neil Armstrong,2020-10-28T13:34:00,2020-11-11T16:36:00,Pioneer 15
+PS20201120,Pacific Storm,2020-11-20T16:30:00,2020-11-20T23:30:00,Endurance glider deployments
+TS20201121,Tenacious II,2020-11-21T09:00:00,2020-11-22T06:00:00,Pioneer 15a glider deployments
+PS20201204,Pacific Storm,2020-12-04T14:45:00,2020-12-05T15:45:00,Endurance glider recoveries
+SI20201212,Scarlett Isabella,2020-12-12T01:00:00,2020-12-12T21:30:00,Pioneer PMUI-15 recovery
+EK20210120,Elakha,2021-01-20T16:40:00,2021-01-20T23:50:00,Endurance glider deployments
+TS20210131,Tenacious II,2021-01-31T08:00:00,2021-02-01T03:00:00,Pioneer 15b glider deployments
+WJ20210209,Warren Jr.,2021-02-09T22:00:00,2021-02-11T13:00:00,Pioneer glider cp_340 recovery
+EK20210210,Elakha,2021-02-10T17:15:00,2021-02-11T01:00:00,Endurance glider recoveries
+SKQ202104S,Sikuliaq,2021-03-24T16:10:00,2021-04-07T18:00:00,Endurance 14 moorings profilers and gliders
+AR52,Neil Armstrong,2021-03-29T20:19:00,2021-04-17T11:37:00,Pioneer 16
+TS20210419,Tenacious II,2021-04-19T05:00:00,2021-04-20T04:00:00,Pioneer 16a glider recoveries
+EK20210419,Elakha,2021-04-19T14:50:00,2021-04-19T20:38:00,Endurance CE01ISSP-00017 and CE05MOAS-GL383-00010
+EK20210429,Elakha,2021-04-29T15:25:00,2021-04-29T22:17:00,Endurance CSPP and glider operations
+TS20210517,Tenacious II,2021-05-17T11:00:00,2021-05-18T11:00:00,Pioneer 16b glider deployments
+AR56,Neil Armstrong,2021-05-22T00:00:00,2021-06-03T23:59:00,Pioneer glider cp_913 recovery
+EK20210526,Elakha,2021-05-26T14:40:00,2021-05-26T22:00:00,Endurance ce02shsp r00020 d00021
+PS20210613,Pacific Storm,2021-06-13T16:36:00,2021-06-15T07:30:00,Endurance CSPP and glider operations
+TS20210620,Tenacious II,2021-06-20T09:00:00,2021-06-21T04:00:00,Pioneer 16c glider deployments
+EK20210629,Elakha,2021-06-29T15:20:00,2021-06-29T17:30:00,Endurance ce01issp d00018
+TS20210704,Tenacious II,2021-07-04T08:00:00,2021-07-04T23:30:00,Pioneer gliders cp_388 and cp_583 recoveries
+EK20210714,Elakha,2021-07-14T15:12:00,2021-07-14T23:48:00,Endurance Glider operations
+EK20210715,Elakha,2021-07-15T15:30:00,2021-07-15T21:30:00,Endurance ce02shsp r00021 d00022 and O2 samples ce01 ce02
+SKQ202111S,Sikuliaq,2021-07-18T16:44:00,2021-08-02T16:21:00,Papa 8
+WJ20210721,Warren Jr.,2021-07-21T21:00:00,2021-07-23T09:00:00,Pioneer glider cp_379 recovery
+EK20210730,Elakha,2021-07-30T15:39:00,2021-07-30T18:37:00,Endurance glider deployment ce_917-00001
+AR60-01,Neil Armstrong,2021-08-03T16:06:00,2021-08-26T08:05:00,Irminger 8
+TN393,Thomas G. Thompson,2021-08-01T00:00:00,2021-09-02T23:59:59,Cabled (rvdata)
+TS20210809,Tenacious II,2021-08-09T01:00:00,2021-08-09T23:59:59,Pioneer gliders cp_559 and cp_564 recoveries
+TS20210903,Tenacious II,2021-09-03T14:00:00,2021-09-04T10:00:00,Pioneer 16d glider deployments
+TN394,Thomas G. Thompson,2021-09-08T21:00:00,2021-09-22T21:50:00,Endurance 15 moorings profilers and gliders
+WJ20211020,Warren Jr.,2021-10-20T15:00:00,2021-10-22T09:00:00,Pioneer glider cp_564 recovery
+AR61,Neil Armstrong,2021-10-29T14:45:00,2021-11-15T12:45:00,Pioneer 17
+SU20211112,Pacific Surveyor,2021-11-12T23:00:00,2021-11-13T16:00:00,Papa 8a Glider Deployments
+PS20211129,Pacific Storm,2021-11-29T14:15:00,2021-11-30T04:10:00,Endurance glider operations and CE02SHSP recovery
+PS20211207,Pacific Storm,2021-12-07T12:06:00,2021-12-07T20:30:00,Endurance glider 917-00003 recovery
+TS20211214,Tenacious II,2021-12-14T21:00:00,2021-12-15T20:00:00,Pioneer 17a glider deployments
+TS20220104,Tenacious II,2022-01-04T11:00:00,2022-01-05T09:00:00,Pioneer 17b glider deployments
+EK20220125,Elakha,2022-01-25T16:25:00,2022-01-25T22:12:00,Endurance glider deployments
+TS20220221,Tenacious II,2022-02-21T19:00:00,2022-02-22T16:00:00,Pioneer gliders cp_380 and cp_388 recoveries
+EK20220225,Elakha,2022-02-25T13:45:00,2022-02-26T00:50:00,Endurance gliders 311 & 319 recoveries
+SKQ202205S,Sikuliaq,2022-03-21T23:20:00,2022-04-06T00:00:00,Endurance 16 moorings profilers and gliders
+AR66,Neil Armstrong,2022-04-08T13:00:00,2022-04-28T14:05:00,Pioneer 18
+EK20220415,Elakha,2022-04-15T14:40:00,2022-04-15T23:30:00,CSPP deployment
+SU20220427,Pacific Surveyor,2022-04-27T12:46:00,2022-04-28T00:51:00,Endurance glider and CSPP ops
+SU20220428,Pacific Surveyor,2022-04-28T12:58:00,2022-04-28T21:27:00,Endurance CSPP ops
+EK20220428,Elakha,2022-04-28T16:11:00,2022-04-28T19:00:00,Endurance glider recovery
+AR67,Neil Armstrong,2022-05-06T00:00:00,2022-06-07T23:59:00,Pioneer glider cp_339 recovery
+EK20220510,Elakha,2022-05-10T16:30:00,2022-05-10T22:04:00,Endurance glider and CSPP deployments
+SKQ202208S,Sikuliaq,2022-05-12T16:25:00,2022-05-30T17:01:00,Papa 9
+TS20220518,Tenacious II,2022-05-18T11:00:00,2022-05-19T03:00:00,Pioneer 18a glider deployments
+TS20220526,Tenacious II,2022-05-26T01:00:00,2022-05-26T23:00:00,Pioneer 18b test glider deployments and cp_379 recovery
+EK20220526,Elakha,2022-05-26T16:02:00,2022-05-26T22:22:00,Endurance CE02SHSP turn
+EK20220611,Elakha,2022-06-11T13:40:00,2022-06-11T23:30:00,Endurance glider recoveries
+EK20220617,Elakha,2022-06-17T17:50:00,2022-06-17T23:00:00,Endurance glider deployments
+AR69-01,Neil Armstrong,2022-06-20T20:00:00,2022-07-16T08:35:00,Irminger 9
+EK20220629,Elakha,2022-06-29T15:18:00,2022-06-29T21:44:00,Endurance CSPP turn
+ZP20220702,Zephyr,2022-07-02T11:00:00,2022-07-04T23:00:00,Papa 9a Glider Deployments
+EK20220708,Elakha,2022-07-08T15:11:00,2022-07-08T22:03:00,Endurance CSPP turn and recovery
+TS20220714,Tenacious II,2022-07-14T02:00:00,2022-07-15T04:00:00,Pioneer 18c glider deployments
+EK20220715,Elakha,2022-07-15T15:13:00,2022-07-15T20:09:00,Endurance CE01ISSP CE02SHSP and glider ce_311 deployments
+PS20220720,Pacific Storm,2022-07-20T02:00:00,2022-07-21T23:40:00,Endurance CSPP and glider operations
+EK20220801,Elakha,2022-08-01T16:50:00,2022-08-01T20:45:00,Endurance CSPP and glider operations
+TN407,Thomas G. Thompson,2022-08-08T00:00:00,2022-09-16T23:59:59,Cabled (rvdata)
+TS20220822,Tenacious II,2022-08-22T08:00:00,2022-08-23T04:00:00,Pioneer 18d glider deployments
+TS20220911,Tenacious II,2022-09-11T08:00:00,2022-09-12T04:00:00,Pioneer glider cp_376 recovery
+WJ20220920,Warren Jr.,2022-09-20T09:00:00,2022-09-22T13:00:00,Pioneer 18e AUV deployment and test glider deployments
+TN408,Thomas G. Thompson,2022-09-21T19:05:00,2022-10-04T15:30:00,Endurance 17 moorings profilers and gliders
+TS20221006,Tenacious II,2022-10-06T10:00:00,2022-10-07T02:00:00,Pioneer glider cp_340 recovery
+EK20221017,Elakha,2022-10-17T15:10:00,2022-10-17T20:41:00,Endurance glider recovery and deployment
+AR70,Neil Armstrong,2022-11-09T15:50:00,2022-11-22T13:55:00,Pioneer 19
+EK20221205,Elakha,2022-12-05T16:21:00,2022-12-05T22:41:00,Endurance CSPP turn and glider recovery
+EK20221206,Elakha,2022-12-06T00:00:00,2022-12-06T00:00:00,Endurance Vessel of Opportunity for recovery of ce_917-4
+EK20221213,Elakha,2022-12-13T16:15:00,2022-12-13T21:30:00,"Endurance glider deployments 320-11 & 383-15, & CSPP recovery"
+SU20230126,Pacific Surveyor,2023-01-26T16:55:00,2023-01-26T23:12:00,Endurance glider deployments
+EK20230131,Elakha,2023-01-31T16:29:00,2023-01-31T22:10:00,Endurance CSPP deployment
+AR71-04,Neil Armstrong,2023-02-21T15:08:00,2023-03-01T13:26:00,AST3 test mooring deployments at Pioneer MAB
+SKQ202304S,Sikuliaq,2023-03-07T20:10:00,2023-03-21T21:00:00,Endurance 18 moorings profilers and gliders
+TS20230310,Tenacious II,2023-03-10T10:00:00,2023-03-10T23:00:00,ASMAT1 test glider deployments
+OD20230409,Oscar Dyson,2023-04-09T00:00:00,2023-04-16T23:59:00,Papa glider gp_363 recovery
+EK20230428,Elakha,2023-04-28T16:02:00,2023-04-28T23:30:00,Endurance glider 386-16 recovery and CSPP antenna testing
+AJ20230507,Adolf Jensen,2023-05-07T00:00:00,2023-05-11T23:59:59,Irminger glider gi_538 recovery
+MC20230508,Monte Carlo,2023-05-08T14:32:00,2023-05-08T20:58:00,Endurance GHS glider deployment 382-13
+EK20230510,Elakha,2023-05-10T16:00:00,2023-05-10T21:22:00,Endurance ce01issp-00021 CSPP deployment and glider recovery.
+SKQ202308S,Sikuliaq,2023-05-13T16:46:00,2023-05-27T15:48:00,Papa 10
+EK20230525,Elakha,2023-05-25T15:30:00,2023-05-25T18:55:00,Endurance ce02shsp-00031 CSPP recovery
+KH20230608,Kahuna,2023-06-08T11:00:00,2023-06-08T23:00:00,ASMAT2 test glider deployments
+EK20230608,Elakha,2023-06-08T15:49:00,2023-06-08T22:08:00,Endurance glider recovery 1012-1
+EK20230615,Elakha,2023-06-15T15:32:00,2023-06-15T23:45:00,Endurance glider deployments
+EK20230616,Elakha,2023-06-16T15:35:00,2023-06-16T20:55:00,Endurance glider and CSPP deployments
+STP20230711,Storm Petrel,2023-07-11T14:00:00,2023-07-12T23:45:00,"Endurance ROV ops, CE06ISSP-17 deployment, and glider operations"
+SW20230724,Shearwater,2023-07-24T14:00:00,2023-07-25T12:00:00,ASMAT3 test AUV deployments
+EK20230728,Elakha,2023-07-28T17:00:00,2023-07-28T21:45:00,Endurance ce02shsp-00032 CSPP deployment
+VA20230731,Virginia,2023-07-31T20:00:00,2023-08-02T07:30:00,Pioneer AST3a AS03CPPM-00001 recovery
+EK20230810,Elakha,2023-08-10T15:50:00,2023-08-10T21:14:00,Endurance glider operations and recovery of CE01ISSP-00021
+TN422,Thomas G. Thompson,2023-08-13T00:00:00,2023-09-18T23:59:59,Cabled (rvdata)
+EK20230823,Elakha,2023-08-23T16:19:00,2023-08-23T20:09:00,Endurance cspp deployment CE01ISSP-00022
+AR76-03,Neil Armstrong,2023-08-28T10:00:00,2023-09-21T12:08:00,Irminger 10
+AT50-16,Atlantis,2023-09-21T15:40:00,2023-10-07T17:00:00,Endurance 19 moorings profilers and gliders
+TS20231004,Tenacious II,2023-10-04T12:00:00,2023-10-05T04:00:00,ASMAT2a test glider deployments
+SU20231023,Pacific Surveyor,2023-10-23T14:00:00,2023-10-24T12:00:00,Papa 10a glider deployments
+AR78,Neil Armstrong,2023-10-23T14:29:00,2023-11-04T13:11:00,AST3 PM anchor and SM recoveries and AST4 SWM deployment
+EK20231026,Elakha,2023-10-26T16:01:00,2023-10-26T20:48:00,Endurance glider deployment 384-00014
+TS20231106,Tenacious II,2023-11-06T04:00:00,2023-11-07T02:00:00,ASMAT2b test glider deployments
+TS20231206,Tenacious II,2023-12-06T14:00:00,2023-12-07T03:00:00,ASMAT2b test glider recoveries
+EK20231213,Elakha,2023-12-13T15:53:00,2023-12-13T22:01:00,Endurance glider and CSPP deployments
+EK20231218,Elakha,2023-12-18T15:30:00,2023-12-18T21:09:00,Endurance glider recovery and attempted glider recovery
+SU20240213,Pacific Surveyor,2024-02-13T17:46:00,2024-02-14T00:31:00,Endurance glider deployments 320-14 & 381-13
+EK20240308,Elakha,2024-03-08T17:20:00,2024-03-08T22:00:00,Endurance ce02shsp-00034 CSPP deployment
+SKQ202405S,Sikuliaq,2024-03-29T23:00:00,2024-04-12T00:00:00,Endurance 20
+AR82,Neil Armstrong,2024-04-01T13:20:00,2024-04-21T14:02:00,Pioneer 20 (MAB)
+EK20240501,Elakha,2024-05-01T15:45:00,2024-05-01T23:56:00,Endurance glider recovery and deployments
+EK20240502,Elakha,2024-05-02T16:21:00,2024-05-02T22:59:00,Endurance CSPP Deployment
+KH20240516,Kahuna,2024-05-16T09:00:00,2024-05-16T18:00:00,Pioneer glider cp_387 recovery
+KH20240523,Kahuna,2024-05-23T10:00:00,2024-05-23T20:00:00,Pioneer 20a glider deployments
+SKQ202408S,Sikuliaq,2024-05-29T16:01:00,2024-06-15T16:24:00,Papa 11
+ME20240528,Megalopa,2024-05-28T16:07:00,2024-05-29T06:03:00,Endurance glider 917-6 recovery
+AR84-01,Neil Armstrong,2024-06-02T16:02:00,2024-07-02T08:50:00,Irminger 11
+KH20240609,Kahuna,2024-06-09T09:00:00,2024-06-09T23:59:00,Pioneer glider cp_379 recovery
+AT50-25,Atlantis,2024-06-10T00:00:00,2024-06-15T23:59:00,Papa glider gp_515 recovery
+KH20240616,Kahuna,2024-06-16T09:00:00,2024-06-16T23:59:00,Pioneer glider cp_387 recovery
+STP20240618,Storm Petrel,2024-06-18T14:49:00,2024-06-19T20:44:00,Endurance CSPP operations and glider deployment
+PH20240630,Phideaux,2024-06-30T10:00:00,2024-06-30T21:00:00,Pioneer 20b glider deployments
+PS20240716,Pacific Storm,2024-07-16T22:00:00,2024-07-17T10:00:00,Endurance glider 1136 recovery
+KH20240805,Kahuna,2024-08-05T14:00:00,2024-08-05T22:00:00,Pioneer gliders cp_387 and cp_913 recoveries
+EK20240806,Elakha,2024-08-06T15:29:00,2024-08-06T23:52:00,Endurance glider deployments and CSPP operations
+AT50-29,Atlantis,2024-08-08T00:00:00,2024-09-09T00:00:00,Cabled (rvdata) Visions 24
+EK20240814,Elakha,2024-08-14T15:00:00,2024-08-14T23:30:00,Endurance glider 1153-1 recovery and ROV operations
+EK20240815,Elakha,2024-08-15T15:00:00,2024-08-15T18:00:00,Endurance CSPP deployment
+KH20240821,Kahuna,2024-08-21T10:00:00,2024-08-22T19:30:00,Pioneer 20c glider deployments
+EK20240830,Elakha,2024-08-30T15:52:00,2024-08-30T19:47:00,Elakha CSPP deployment CE02SHSP-00037
+KH20240917,Kahuna,2024-09-17T14:00:00,2024-09-18T18:00:00,Pioneer glider cp_564 recovery
+SKQ202415S,Sikuliaq,2024-10-04T20:40:00,2024-10-18T21:30:00,Endurance 21
+KH20241008,Kahuna,2024-10-08T09:00:00,2024-10-08T20:00:00,Pioneer glider cp_339 recovery
+VA20241012,Virginia,2024-10-12T06:00:00,2024-10-14T06:00:00,Pioneer 20d AUV deployment
+PH20241119,Phideaux,2024-11-19T17:00:00,2024-11-20T22:00:00,Pioneer 20e glider deployments
+EK20241126,Elakha,2024-11-26T16:55:00,2024-11-26T21:27:00,Endurance glider deployment 384-17
+EK20241204,Elakha,2024-12-04T16:38:00,2024-12-04T21:00:00,Endurance CSPP Deployment CE02SHSP-00038
+PH20241223,Phideaux,2024-12-23T10:00:00,2024-12-23T20:00:00,Pioneer glider cp_335 recovery
+EK20250123,Elakha,2025-01-23T16:04:00,2025-01-23T22:01:00,Endurance CSPP recovery and glider deployment
+SU20250128,Pacific Surveyor,2025-01-28T16:38:00,2025-01-28T23:06:00,Endurance glider deployments
+KH20250215,Kahuna,2025-02-15T08:00:00,2025-02-15T16:00:00,Pioneer glider cp_388 recovery
+VA20250222,Virginia,2025-02-22T01:00:00,2025-02-25T13:00:00,Pioneer 20f AUV deployments and cp_379 recovery
+AE2505,Atlantic Explorer,2025-03-25T00:00:00,2025-04-01T23:59:00,Pioneer SEPM-1 buoy and sphere recovery
+AR87,Neil Armstrong,2025-03-28T13:49:00,2025-04-20T13:17:00,Pioneer 21 (MAB)
+EK20250404,Elakha,2025-04-04T16:34:00,2025-04-04T21:07:00,Endurance glider deployment ce_1136-2
+KH20250429,Kahuna,2025-04-29T09:00:00,2025-04-29T18:00:00,Pioneer glider cp_339 recovery
+SR2511,Sally Ride,2025-05-16T21:05:00,2025-05-30T04:30:00,Endurance 22
+SKQ202511S,Sikuliaq,2025-05-19T16:35:00,2025-06-04T16:33:00,Papa 12
+KH20250523,Kahuna,2025-05-23T08:00:00,2025-05-23T23:59:00,Pioneer glider cp_564 recovery
+KH20250525,Kahuna,2025-05-25T08:00:00,2025-05-25T23:59:00,Pioneer glider cp_376 recovery
+RR2504,Roger Revelle,2025-06-07T00:00:00,2025-07-09T23:59:00,Irminger gliders gi_538 and gi_566 recoveries
+KH20250623,Kahuna,2025-06-23T10:00:00,2025-06-23T20:00:00,Pioneer 21a glider deployments
+KH20250624,Kahuna,2025-06-24T10:00:00,2025-06-24T21:30:00,Pioneer glider cp_564 recovery
+STP20250708,Storm Petrel,2025-07-08T15:00:00,2025-07-09T00:28:00,Endurance CSPP CE07SHSP-00017 Recovery
+RR2505,Roger Revelle,2025-07-18T12:00:00,2025-08-08T23:59:00,Irminger 12
+EK20250728,Elakha,2025-07-28T15:22:00,2025-07-28T22:06:00,Endurance glider recoveries 1135-1 & 1136-2
+KH20250729,Kahuna,2025-07-29T10:00:00,2025-07-29T19:00:00,Pioneer glider cp_1145 recovery
+AT50-41,Atlantis,2025-08-04T00:00:00,2025-08-30T00:00:00,Cabled (rvdata) Visions 25
+EK20250804,Elakha,2025-08-04T15:15:00,2025-08-04T18:23:00,Endurance Recovery CE01ISSP-00025
+KH20250814,Kahuna,2025-08-14T10:00:00,2025-08-14T20:00:00,Pioneer 21b glider deployments
+AR93,Neil Armstrong,2025-08-23T15:29:00,2025-08-30T11:46:00,SEPM-2 adrift buoy recovery
+SR2520,Sally Ride,2025-09-16T17:00:00,2025-09-25T22:55:00,Endurance 23
+AR98,Neil Armstrong,2025-10-30T14:20:00,2025-11-19T15:08:00,Pioneer 22 (MAB)
+EK20260226,Elakha,2026-02-26T17:19:00,2026-02-26T23:44:00,Endurance Glider deployment 1153-4
+AR100,Neil Armstrong,2026-04-25T14:36:00,2026-05-12T11:26:00,Pioneer 23 (MAB)
+KH20260511,Kahuna,2026-05-11T08:00:00,2026-05-11T14:00:00,Pioneer glider cp_564 recovery
+SU20260527,Pacific Surveyor,2026-05-27T13:00:00,2026-05-28T20:00:00,Papa 12 glider recoveries
+SR2611,Sally Ride,2026-06-16T14:50:00,2026-06-18T00:15:00,Endurance 24
+AR102-01B,Neil Armstrong,2026-06-17T14:35:00,2026-07-16T08:36:00,Irminger 12a FLMA/B mooring turns and glider 486 recovery
+EK20260702,Elakha,2026-07-02T15:43:00,2026-07-02T20:37:00,Endurance NHS glider deployment 384-18
+KH20260713,Kahuna,2026-07-13T11:00:00,2026-07-13T18:00:00,Pioneer glider cp_1161 recovery
+KH20260717,Kahuna,2026-07-17T10:00:00,2026-07-17T17:00:00,Pioneer glider cp_340 recovery
+EK20260727,Elakha,2026-07-27T15:48:00,2026-07-27T20:44:00,Endurance GHD glider deployment 1137-2
+SH26-06,Bell M. Shimada,2026-07-21T15:00:00,2026-07-31T16:00:00,NOAA-PMEL PA1-26-SH with OOI FDCHP on PMEL surface mooring PA020
+RR2607,Roger Revelle,2026-08-09T00:00:00,2026-08-18T00:00:00,Cabled (rvdata) Visions 26
+KH20260813,Kahuna,2026-08-13T10:30:00,2026-08-13T16:00:00,Pioneer glider cp_1155 recovery
+SR2614,Sally Ride,2026-10-03T14:00:00,2026-10-05T19:00:00,Endurance 25

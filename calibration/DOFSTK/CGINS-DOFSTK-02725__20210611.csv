@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-2725,CC_frequency_offset,-7.827570e+002, source_file DOFST-K_SBE43F_SN_2725_Calibration_2021-06-11.zip > 2725.cal
+43-2725,CC_oxygen_signal_slope,3.1518e-004,use Soc(adj) on SOCAdjusted pdf
+43-2725,CC_residual_temperature_correction_factor_a,-5.154147e-003,
+43-2725,CC_residual_temperature_correction_factor_b,1.811362e-004,
+43-2725,CC_residual_temperature_correction_factor_c,-2.395553e-006,
+43-2725,CC_residual_temperature_correction_factor_e,3.600000e-002,

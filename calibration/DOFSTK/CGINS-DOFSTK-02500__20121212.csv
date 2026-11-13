@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-2500,CC_frequency_offset,-8.214350e+002,source_file DOFST-K_SBE43F_SN_2500_Calibration_2012-12-12.zip > 2500.cal
+43-2500,CC_oxygen_signal_slope,2.679903e-004,no SOC adj performed per SeaBird tech; cal coeff is SOC
+43-2500,CC_residual_temperature_correction_factor_a,-2.947897e-003,
+43-2500,CC_residual_temperature_correction_factor_b,1.882251e-004,
+43-2500,CC_residual_temperature_correction_factor_c,-3.229479e-006,
+43-2500,CC_residual_temperature_correction_factor_e,3.600000e-002,

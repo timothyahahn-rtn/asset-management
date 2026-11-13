@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-2397,CC_frequency_offset,-820.6,date in filename comes from Soc-adjusted caldate; source_file DOFST-K_SBE43F_SN_2397_Calibration_2012-07-18.pdf
+43-2397,CC_oxygen_signal_slope,0.00026937,adjusted Soc (O2 signal slope) value
+43-2397,CC_residual_temperature_correction_factor_a,-0.0038349,
+43-2397,CC_residual_temperature_correction_factor_b,0.0001771,
+43-2397,CC_residual_temperature_correction_factor_c,-2.7946e-06,
+43-2397,CC_residual_temperature_correction_factor_e,0.036,

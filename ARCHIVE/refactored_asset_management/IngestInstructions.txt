@@ -1,0 +1,15 @@
+All files are copied to the {$edex_home}/data/ooi/xasset_spreadsheet folder for ingest.
+
+Order of ingest.
+
+The calibration data are associated with asset entries in the bulk load, so the bulk-load
+file must be ingested before any may be processed.
+The information in the CruiseInformation file is used, but not mandatory, for ingesting deployment
+data. If the cruise information is not available, the cruise information entries in deployments
+will be left blank. They may be added at a later time by editing the deployment after the cruise information
+has been added.
+
+  The bulk_load-AssetRecord.csv or CruiseInformation.xlsx files may be added in any order.
+
+  The *_Deploy.xlsx and *_Cal_Info.xlsx files may then be added.
+

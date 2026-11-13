@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-3370,CC_frequency_offset,-8.277713e+002,source_file DOFST-K_SBE43F_SN_3370_Calibration_2019-07-09.zip > 3370.cal and SBE 43F O3370 SOCAdjusted 10Jul19.pdf
+43-3370,CC_oxygen_signal_slope,3.2196e-004,use adjusted Soc
+43-3370,CC_residual_temperature_correction_factor_a,-5.009995e-003,
+43-3370,CC_residual_temperature_correction_factor_b,2.214015e-004,
+43-3370,CC_residual_temperature_correction_factor_c,-3.170532e-006,
+43-3370,CC_residual_temperature_correction_factor_e,0.036,

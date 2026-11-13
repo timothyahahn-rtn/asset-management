@@ -1,0 +1,3 @@
+serial,name,value,notes
+133,CC_conc_coef,"[0,1.0419865]",recalculated after erroneous vendor calibration
+133,CC_csv,"[2.74096e-03,1.13723e-04,2.20487e-06,234.989,-0.293115,-49.5627,4.57938]",2013 multi-point calibration

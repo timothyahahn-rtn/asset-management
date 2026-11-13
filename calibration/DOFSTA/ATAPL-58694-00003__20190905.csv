@@ -1,0 +1,8 @@
+serial,name,value,notes
+43-2891,CC_frequency_offset,-4.979948e-001,
+43-2891,CC_oxygen_signal_slope,4.536496e-001,
+43-2891,CC_residual_temperature_correction_factor_a,-2.466442e-003,
+43-2891,CC_residual_temperature_correction_factor_b,1.271578e-004,
+43-2891,CC_residual_temperature_correction_factor_c,-2.191256e-006,
+43-2891,CC_residual_temperature_correction_factor_e,3.600000e-002,
+43-2891,CC_voltage_offset,-4.979948e-001,

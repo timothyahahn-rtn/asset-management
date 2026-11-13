@@ -1,0 +1,6 @@
+serial,name,value,notes
+5,CC_frequency,120,kHz
+5,CC_sound_speed,1493.9,m s-1
+5,CC_seawater_density,1026.6,km m3
+5,CC_absorption,0.0374,dB m-1
+5,CC_theoretical_target_strength,-39.45,dB

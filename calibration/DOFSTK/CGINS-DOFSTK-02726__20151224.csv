@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-2726,CC_frequency_offset,-8.012258e+002,date in filename comes from Soc-adjusted caldate; source_file DOFST-K_SBE43F_SN_2726_Calibration_2015-12-24.zip > SBE 43F O2726 SOCAdjusted.pdf and 2726.cal
+43-2726,CC_oxygen_signal_slope,3.0809e-004,adjusted Soc (O2 signal slope) value
+43-2726,CC_residual_temperature_correction_factor_a,-3.264675e-003,
+43-2726,CC_residual_temperature_correction_factor_b,1.871381e-004,
+43-2726,CC_residual_temperature_correction_factor_c,-3.154411e-006,
+43-2726,CC_residual_temperature_correction_factor_e,0.036,

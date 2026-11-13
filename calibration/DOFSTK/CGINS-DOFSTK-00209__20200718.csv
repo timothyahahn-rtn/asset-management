@@ -1,0 +1,7 @@
+serial,name,value,notes
+43-0209,CC_frequency_offset,-7.876420e+002,source_file DOFST-K_SBE43F_SN_0209_Calibration_2020-07-18.zip > 0209.cal and SBE 43F O0209 SOCAdjusted 23Jul20.pdf
+43-0209,CC_oxygen_signal_slope,2.9150e-004,use adjusted Soc
+43-0209,CC_residual_temperature_correction_factor_a,-4.054863e-003,
+43-0209,CC_residual_temperature_correction_factor_b,2.382280e-004,
+43-0209,CC_residual_temperature_correction_factor_c,-3.440008e-006,
+43-0209,CC_residual_temperature_correction_factor_e,3.600000e-002,
